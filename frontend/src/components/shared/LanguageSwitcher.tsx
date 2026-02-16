@@ -18,6 +18,7 @@ interface Language {
 
 // Available languages - defined outside component to avoid recreation
 const LANGUAGES: Language[] = [
+  { value: 'el', label: 'Ελληνικά', shortLabel: 'EL' }, // Greek added
   { value: 'en', label: 'English', shortLabel: 'EN' },
   { value: 'fr', label: 'Français', shortLabel: 'FR' },
   { value: 'de', label: 'Deutsch', shortLabel: 'DE' },
@@ -33,19 +34,19 @@ const SUPPORTED_LANGUAGE_CODES = LANGUAGES.map(l => l.value);
  * Handles locale codes (e.g., 'en-US' -> 'en') and validates against supported languages.
  */
 const normalizeLanguage = (lang: string): string => {
-  if (!lang) return 'en';
+  if (!lang) return 'el'; //Set Greek as the default language
 
   // Extract primary language code (e.g., 'en-US' -> 'en')
   const primaryLang = lang.split('-')[0].toLowerCase();
 
   // Return the primary language if supported, otherwise fallback to 'en'
-  return SUPPORTED_LANGUAGE_CODES.includes(primaryLang) ? primaryLang : 'en';
+  return SUPPORTED_LANGUAGE_CODES.includes(primaryLang) ? primaryLang : 'el'; //Fallback to greek
 };
 
 /**
  * LanguageSwitcher - Component for switching application language
  *
- * Displays available languages (EN/FR/DE/ES)
+ * Displays available languages (EL/EN/FR/DE/ES)
  * Uses local state for immediate UI feedback and syncs with i18next
  */
 const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
@@ -62,13 +63,13 @@ const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
   // Local state for immediate UI feedback
   // This ensures the Select always shows the correct value even during async operations
   const [selectedLanguage, setSelectedLanguage] = useState(() =>
-    normalizeLanguage(i18n.language)
+    normalizeLanguage(i18n.language || 'el') // Use Greek as default if no language is set
   );
 
   // Sync local state with i18n.language when it changes externally
   useEffect(() => {
     if (!isChangingRef.current) {
-      const normalizedLang = normalizeLanguage(i18n.language);
+      const normalizedLang = normalizeLanguage(i18n.language || 'el');
       setSelectedLanguage(normalizedLang);
     }
   }, [i18n.language]);
@@ -90,7 +91,7 @@ const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
     setSelectedLanguage(normalizedValue);
 
     try {
-      await i18n.changeLanguage(normalizedValue);
+      await i18n.changeLanguage(normalizedValue || 'el'); // Ensure the default is Greek
 
       logger.info('language_changed', 'User changed language', {
         component: 'LanguageSwitcher',
