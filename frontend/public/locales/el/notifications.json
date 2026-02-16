@@ -1,0 +1,414 @@
+{
+  "title": "Ρυθμίσεις Ειδοποιήσεων",
+  "description": "Διαμορφώστε τον τρόπο με τον οποίο λαμβάνετε ειδοποιήσεις για σημαντικά συμβάντα",
+  "loading": "Φόρτωση ρυθμίσεων ειδοποιήσεων...",
+  "error": "Αποτυχία φόρτωσης ρυθμίσεων ειδοποιήσεων",
+
+  "channels": {
+    "title": "Κανάλια Ειδοποιήσεων",
+    "description": "Προσθέστε και διαχειριστείτε τα κανάλια παράδοσης των ειδοποιήσεών σας",
+    "add": "Προσθήκη Καναλιού",
+    "edit": "Επεξεργασία Καναλιού",
+    "delete": "Διαγραφή Καναλιού",
+    "test": "Δοκιμή",
+    "testing": "Δοκιμή...",
+    "testSuccess": "Η δοκιμαστική ειδοποίηση στάλθηκε επιτυχώς!",
+    "testFailed": "Η δοκιμαστική ειδοποίηση απέτυχε",
+    "noChannels": "Δεν έχουν ρυθμιστεί κανάλια ειδοποιήσεων",
+    "noChannelsHint": "Προσθέστε ένα κανάλι για να ξεκινήσετε να λαμβάνετε ειδοποιήσεις",
+    "verified": "Επαληθευμένο",
+    "enabled": "Ενεργοποιημένο",
+    "disabled": "Απενεργοποιημένο",
+    "lastUsed": "Τελευταία χρήση",
+    "notificationsSent": "Στάλθηκαν {{count}} ειδοποιήσεις",
+    "confirmDelete": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το κανάλι;",
+    "deleteSuccess": "Το κανάλι διαγράφηκε επιτυχώς",
+    "deleteFailed": "Αποτυχία διαγραφής καναλιού",
+    "createSuccess": "Το κανάλι δημιουργήθηκε επιτυχώς",
+    "createFailed": "Αποτυχία δημιουργίας καναλιού",
+    "updateSuccess": "Το κανάλι ενημερώθηκε επιτυχώς",
+    "updateFailed": "Αποτυχία ενημέρωσης καναλιού",
+    "types": {
+      "discord": "Discord",
+      "email": "Email",
+      "gotify": "Gotify",
+      "webhook": "Webhook"
+    },
+    "form": {
+      "title": "Λεπτομέρειες Καναλιού",
+      "name": {
+        "label": "Όνομα Καναλιού",
+        "placeholder": "π.χ. Διακομιστής Discord",
+        "description": "Ένα φιλικό όνομα για την αναγνώριση αυτού του καναλιού"
+      },
+      "type": {
+        "label": "Τύπος Καναλιού",
+        "placeholder": "Επιλέξτε τύπο καναλιού",
+        "description": "Η υπηρεσία μέσω της οποίας θα αποστέλλονται οι ειδοποιήσεις"
+      },
+      "enabled": {
+        "label": "Ενεργοποίηση Καναλιού",
+        "description": "Λήψη ειδοποιήσεων μέσω αυτού του καναλιού"
+      },
+      "configSection": "Διαμόρφωση Καναλιού"
+    },
+    "discord": {
+      "webhookUrl": {
+        "label": "URL Webhook",
+        "placeholder": "https://discord.com/api/webhooks/...",
+        "description": "Δημιουργήστε ένα webhook στις ρυθμίσεις του διακομιστή σας στο Discord"
+      },
+      "username": {
+        "label": "Όνομα Bot (Προαιρετικό)",
+        "placeholder": "MediKeep",
+        "description": "Προσαρμοσμένο όνομα για το bot ειδοποιήσεων"
+      },
+      "avatarUrl": {
+        "label": "URL Avatar (Προαιρετικό)",
+        "placeholder": "https://example.com/avatar.png",
+        "description": "Προσαρμοσμένο εικονίδιο για το bot ειδοποιήσεων"
+      }
+    },
+    "email": {
+      "smtpHost": {
+        "label": "Διακομιστής SMTP",
+        "placeholder": "smtp.gmail.com",
+        "description": "Ο διακομιστής SMTP του παρόχου email σας"
+      },
+      "smtpPort": {
+        "label": "Θύρα SMTP",
+        "placeholder": "587",
+        "description": "Συνήθως 587 (TLS) ή 465 (SSL)"
+      },
+      "smtpUser": {
+        "label": "Όνομα Χρήστη SMTP",
+        "placeholder": "your-email@gmail.com",
+        "description": "Η διεύθυνση email ή το όνομα χρήστη σας"
+      },
+      "smtpPassword": {
+        "label": "Κωδικός Πρόσβασης SMTP",
+        "placeholder": "Κωδικός εφαρμογής ή κωδικός email",
+        "description": "Για Gmail, χρησιμοποιήστε έναν Κωδικό Πρόσβασης Εφαρμογής"
+      },
+      "fromEmail": {
+        "label": "Email Αποστολέα",
+        "placeholder": "notifications@example.com",
+        "description": "Η διεύθυνση email που θα φαίνεται ως αποστολέας"
+      },
+      "toEmail": {
+        "label": "Email Παραλήπτη",
+        "placeholder": "your-email@example.com",
+        "description": "Η διεύθυνση όπου θα λαμβάνετε τις ειδοποιήσεις"
+      },
+      "useTls": {
+        "label": "Χρήση TLS",
+        "description": "Ενεργοποίηση κρυπτογράφησης TLS (συνιστάται)"
+      }
+    },
+    "gotify": {
+      "serverUrl": {
+        "label": "URL Διακομιστή",
+        "placeholder": "https://gotify.example.com",
+        "description": "Το URL του δικού σας διακομιστή Gotify"
+      },
+      "appToken": {
+        "label": "Token Εφαρμογής",
+        "placeholder": "Token εφαρμογής από το Gotify",
+        "description": "Δημιουργήστε μια εφαρμογή στο Gotify για να λάβετε ένα token"
+      },
+      "priority": {
+        "label": "Προτεραιότητα",
+        "placeholder": "5",
+        "description": "Προτεραιότητα μηνύματος (1-10, προεπιλογή 5)"
+      }
+    },
+    "webhook": {
+      "url": {
+        "label": "URL Webhook",
+        "placeholder": "https://api.example.com/webhook",
+        "description": "URL για τη λήψη των δεδομένων (payload) της ειδοποίησης"
+      },
+      "method": {
+        "label": "Μέθοδος HTTP",
+        "description": "Η μέθοδος HTTP για το αίτημα του webhook"
+      },
+      "headers": {
+        "label": "Προσαρμοσμένες Κεφαλίδες (Προαιρετικό)",
+        "placeholder": "{\"Authorization\": \"Bearer token\"}",
+        "description": "Αντικείμενο JSON με προσαρμοσμένες κεφαλίδες"
+      },
+      "authToken": {
+        "label": "Token Εξουσιοδότησης (Προαιρετικό)",
+        "placeholder": "Bearer token ή API key",
+        "description": "Token εξουσιοδότησης για το webhook"
+      }
+    }
+  },
+
+  "preferences": {
+    "title": "Ειδοποιήσεις Συμβάντων",
+    "description": "Επιλέξτε ποια συμβάντα θα ενεργοποιούν ειδοποιήσεις σε κάθε κανάλι",
+    "loading": "Φόρτωση προτιμήσεων...",
+    "noChannels": "Προσθέστε πρώτα ένα κανάλι ειδοποιήσεων για να ρυθμίσετε τις προτιμήσεις συμβάντων",
+    "saveSuccess": "Η προτίμηση αποθηκεύτηκε",
+    "saveFailed": "Αποτυχία αποθήκευσης προτίμησης",
+    "eventHeader": "Συμβάν",
+    "comingSoon": "Σύντομα Διαθέσιμο",
+    "categories": {
+      "system": "Συμβάντα Συστήματος",
+      "medical": "Ιατρικά Συμβάντα",
+      "collaboration": "Διαμοιρασμός & Συνεργασία",
+      "sharing": "Κοινοποίηση & Προσκλήσεις",
+      "security": "Ειδοποιήσεις Ασφαλείας",
+      "other": "Λοιπά Συμβάντα"
+    }
+  },
+
+  "events": {
+    "test_notification": {
+      "name": "Δοκιμαστική Ειδοποίηση",
+      "description": "Χειροκίνητη δοκιμή ειδοποίησης"
+    },
+    "backup_completed": {
+      "name": "Το Αντίγραφο Ασφαλείας Ολοκληρώθηκε",
+      "description": "Όταν ένα αντίγραφο ασφαλείας ολοκληρώνεται με επιτυχία"
+    },
+    "backup_failed": {
+      "name": "Αποτυχία Αντιγράφου Ασφαλείας",
+      "description": "Όταν η δημιουργία αντιγράφου ασφαλείας αποτυγχάνει"
+    },
+    "lab_result_available": {
+      "name": "Διαθέσιμα Εργαστηριακά Αποτελέσματα",
+      "description": "Όταν προστίθενται νέα εργαστηριακά αποτελέσματα"
+    },
+    "lab_result_abnormal": {
+      "name": "Μη Φυσιολογικά Αποτελέσματα",
+      "description": "Όταν τα αποτελέσματα είναι εκτός των φυσιολογικών ορίων"
+    },
+    "immunization_due": {
+      "name": "Προγραμματισμένος Εμβολιασμός",
+      "description": "Όταν πλησιάζει η ημερομηνία ενός εμβολιασμού"
+    },
+    "immunization_overdue": {
+      "name": "Εκπρόθεσμος Εμβολιασμός",
+      "description": "Όταν έχει παρέλθει η ημερομηνία ενός εμβολιασμού"
+    },
+    "invitation_received": {
+      "name": "Λήψη Πρόσκλησης",
+      "description": "Όταν κάποιος μοιράζεται ιατρικά αρχεία μαζί σας"
+    },
+    "invitation_accepted": {
+      "name": "Αποδοχή Πρόσκλησης",
+      "description": "Όταν η πρόσκληση διαμοιρασμού που στείλατε γίνεται αποδεκτή"
+    },
+    "share_revoked": {
+      "name": "Ανάκληση Πρόσβασης",
+      "description": "Όταν ανακαλείται η πρόσβαση σε κοινόχρηστα αρχεία"
+    },
+    "login_from_new_device": {
+      "name": "Σύνδεση από Νέα Συσκευή",
+      "description": "Όταν γίνεται είσοδος στον λογαριασμό σας από μια νέα συσκευή"
+    },
+    "password_changed": {
+      "name": "Αλλαγή Κωδικού Πρόσβασης",
+      "description": "Όταν αλλάζει ο κωδικός πρόσβασής σας"
+    }
+  },
+
+  "history": {
+    "title": "Ιστορικό Ειδοποιήσεων",
+    "description": "Πρόσφατες ειδοποιήσεις που στάλθηκαν μέσω των καναλιών σας",
+    "loading": "Φόρτωση ιστορικού...",
+    "noHistory": "Δεν έχουν σταλεί ειδοποιήσεις ακόμα",
+    "noHistoryHint": "Οι ειδοποιήσεις θα εμφανίζονται εδώ μόλις αποστέλλονται",
+    "showMore": "Εμφάνιση Περισσότερων",
+    "showLess": "Εμφάνιση Λιγότερων",
+    "page": "Σελίδα {{current}} από {{total}}",
+    "status": {
+      "sent": "Στάλθηκε",
+      "failed": "Απέτυχε",
+      "pending": "Σε εκκρεμότητα"
+    },
+    "fields": {
+      "event": "Συμβάν",
+      "channel": "Κανάλι",
+      "time": "Ώρα",
+      "status": "Κατάσταση",
+      "error": "Σφάλμα"
+    }
+  },
+
+  "validation": {
+    "nameRequired": "Το όνομα του καναλιού είναι υποχρεωτικό",
+    "nameTooLong": "Το όνομα δεν μπορεί να υπερβαίνει τους 100 χαρακτήρες",
+    "typeRequired": "Ο τύπος του καναλιού είναι υποχρεωτικός",
+    "webhookUrlRequired": "Το URL Webhook είναι υποχρεωτικό",
+    "webhookUrlInvalid": "Μη έγκυρη μορφή URL Webhook",
+    "smtpHostRequired": "Ο διακομιστής SMTP είναι υποχρεωτικός",
+    "smtpPortRequired": "Η θύρα SMTP είναι υποχρεωτική",
+    "smtpPortInvalid": "Η θύρα πρέπει να είναι μεταξύ 1 και 65535",
+    "smtpUserRequired": "Το όνομα χρήστη SMTP είναι υποχρεωτικό",
+    "smtpPasswordRequired": "Ο κωδικός SMTP είναι υποχρεωτικός",
+    "fromEmailRequired": "Το email αποστολέα είναι υποχρεωτικό",
+    "fromEmailInvalid": "Μη έγκυρη μορφή email",
+    "toEmailRequired": "Το email παραλήπτη είναι υποχρεωτικό",
+    "toEmailInvalid": "Μη έγκυρη μορφή email",
+    "serverUrlRequired": "Το URL διακομιστή είναι υποχρεωτικό",
+    "serverUrlInvalid": "Μη έγκυρη μορφή URL",
+    "appTokenRequired": "Το token εφαρμογής είναι υποχρεωτικό",
+    "urlRequired": "Το URL Webhook είναι υποχρεωτικό",
+    "urlInvalid": "Μη έγκυρη μορφή URL",
+    "headersInvalid": "Οι κεφαλίδες πρέπει να είναι έγκυρο JSON"
+  },
+
+  "toasts": {
+    "auth": {
+      "sessionExpired": "Η συνεδρία έληξε λόγω αδράνειας",
+      "sessionExpiredLogin": "Η συνεδρία έληξε. Παρακαλούμε συνδεθείτε ξανά.",
+      "loginSuccess": "Επιτυχής σύνδεση!",
+      "loginFailed": "Αποτυχία σύνδεσης",
+      "logoutSuccess": "Αποσυνδεθήκατε επιτυχώς",
+      "ssoFailed": "Αποτυχία έναρξης σύνδεσης μέσω SSO",
+      "accessDeniedAdmin": "Δεν επιτρέπεται η πρόσβαση: Απαιτούνται δικαιώματα διαχειριστή",
+      "accessDeniedRole": "Δεν επιτρέπεται η πρόσβαση: Απαιτείται ο ρόλος {{role}}",
+      "accessDeniedRoles": "Δεν επιτρέπεται η πρόσβαση: Απαιτείται ένας από τους ρόλους: {{roles}}",
+      "loginRequired": "Παρακαλούμε συνδεθείτε για να έχετε πρόσβαση σε αυτή τη σελίδα",
+      "userCreatedSuccess": "Ο λογαριασμός χρήστη δημιουργήθηκε επιτυχώς!",
+      "accountCreatedSuccess": "Ο λογαριασμός δημιουργήθηκε επιτυχώς! Γίνεται σύνδεση..."
+    },
+    "patient": {
+      "nowViewing": "Προβολή: {{name}}",
+      "switchFailed": "Αποτυχία αλλαγής: {{message}}",
+      "deleteOwnOnly": "Μπορείτε να διαγράψετε μόνο ασθενείς που σας ανήκουν",
+      "deletedSwitched": "Ο ασθενής {{name}} διαγράφηκε επιτυχώς. Έγινε μετάβαση στον {{fallbackName}}.",
+      "deletedNoOthers": "Ο ασθενής {{name}} διαγράφηκε επιτυχώς. Δεν υπάρχουν άλλοι διαθέσιμοι ασθενείς.",
+      "deletedSuccess": "Ο ασθενής {{name}} διαγράφηκε επιτυχώς",
+      "deleteFailed": "Αποτυχία διαγραφής: {{message}}",
+      "removeOwnOnly": "Δεν μπορείτε να αφαιρέσετε την πρόσβαση σε ασθενείς που σας ανήκουν",
+      "removedAccess": "Αφαιρέθηκε η πρόσβαση στον ασθενή {{name}}",
+      "removeAccessFailed": "Αποτυχία αφαίρεσης πρόσβασης: {{message}}",
+      "updatedSuccess": "Επιτυχής ενημέρωση του ασθενή {{name}}",
+      "createdSuccess": "Επιτυχής δημιουργία του ασθενή {{name}}"
+    },
+    "sharing": {
+      "invalidJson": "Μη έγκυρη μορφή JSON στο πεδίο {{fieldName}}. Ελέγξτε τη σύνταξή σας.",
+      "invitationCancelled": "Η πρόσκληση ακυρώθηκε επιτυχώς",
+      "cancelFailed": "Αποτυχία ακύρωσης πρόσκλησης: {{message}}",
+      "invitationSent": "Η πρόσκληση στάλθηκε επιτυχώς στον παραλήπτη {{recipient}}",
+      "invitationFailed": "Αποτυχία πρόσκλησης: {{message}}",
+      "shareUpdated": "Ο διαμοιρασμός του ασθενή ενημερώθηκε επιτυχώς",
+      "updateFailed": "Αποτυχία ενημέρωσης: {{message}}",
+      "accessRevoked": "Η πρόσβαση ανακλήθηκε για τον χρήστη {{userId}}",
+      "revokeFailed": "Αποτυχία ανάκλησης: {{message}}"
+    },
+    "vitals": {
+      "formErrors": "Παρακαλούμε διορθώστε τα σφάλματα στη φόρμα",
+      "savedSuccess": "Τα ζωτικά σημεία {{action}} επιτυχώς!",
+      "saveFailed": "Αποτυχία {{action}} ζωτικών σημείων",
+      "deleteSuccess": "Η καταγραφή ζωτικών σημείων διαγράφηκε επιτυχώς",
+      "deleteFailed": "Αποτυχία διαγραφής καταγραφής ζωτικών σημείων"
+    },
+    "settings": {
+      "sessionTimeoutUpdated": "Το χρονικό όριο συνεδρίας ενημερώθηκε σε {{minutes}} λεπτά. Η συνεδρία σας ανανεώθηκε.",
+      "cleanupComplete": "Η εκκαθάριση ολοκληρώθηκε: {{cleaned}} αρχεία καθαρίστηκαν, {{deleted}} αρχεία διαγράφηκαν",
+      "noOutOfSync": "Δεν βρέθηκαν αρχεία εκτός συγχρονισμού για καθαρισμό",
+      "cleanupFailed": "Αποτυχία καθαρισμού αρχείων. Δοκιμάστε ξανά αργότερα."
+    },
+    "files": {
+      "downloadFailed": "Η λήψη του αρχείου απέτυχε"
+    },
+    "tagSearch": {
+      "loadFailed": "Αποτυχία φόρτωσης δημοφιλών ετικετών",
+      "noTagsSelected": "Παρακαλούμε επιλέξτε τουλάχιστον μία ετικέτα για αναζήτηση",
+      "noTagsSelectedTitle": "Δεν επιλέχθηκαν ετικέτες",
+      "searchFailed": "Αποτυχία αναζήτησης εγγραφών βάσει ετικετών"
+    },
+    "invitations": {
+      "respondFailed": "Αποτυχία απάντησης στην πρόσκληση",
+      "cancelled": "Η πρόσκληση ακυρώθηκε",
+      "cancelledMessage": "Η πρόσκληση έχει ακυρωθεί.",
+      "cancelFailed": "Αποτυχία ακύρωσης πρόσκλησης",
+      "accessRevoked": "Η πρόσβαση ανακλήθηκε",
+      "accessRevokedMessage": "Η πρόσβαση έχει ανακληθεί.",
+      "revokeFailed": "Αποτυχία ανάκλησης πρόσβασης",
+      "alreadyRevoked": "Έχει ήδη ανακληθεί",
+      "alreadyRevokedMessage": "Αυτή η πρόσκληση έχει ήδη ανακληθεί."
+    },
+    "photo": {
+      "pleaseWait": "Παρακαλούμε Περιμένετε",
+      "photoBeingUploaded": "Μια φωτογραφία ανεβαίνει αυτή τη στιγμή. Περιμένετε να ολοκληρωθεί.",
+      "uploadSuccess": "Η φωτογραφία ανέβηκε επιτυχώς",
+      "uploadFailed": "Η μεταφόρτωση απέτυχε",
+      "deleteFailed": "Η διαγραφή απέτυχε"
+    },
+    "reports": {
+      "noRecordsSelected": "Δεν επιλέχθηκαν εγγραφές",
+      "noRecordsMessage": "Επιλέξτε τουλάχιστον μία εγγραφή από τις παρακάτω κατηγορίες για να δημιουργήσετε μια αναφορά.",
+      "validationError": "Σφάλμα Επικύρωσης",
+      "templateNameRequired": "Το όνομα του προτύπου είναι υποχρεωτικό",
+      "templateSaved": "Το πρότυπο αποθηκεύτηκε επιτυχώς",
+      "templateSaveFailed": "Αποτυχία αποθήκευσης προτύπου",
+      "templateDeleted": "Το πρότυπο διαγράφηκε επιτυχώς",
+      "templateDeleteFailed": "Αποτυχία διαγραφής προτύπου",
+      "templateLoaded": "Το πρότυπο \"{{name}}\" φορτώθηκε"
+    },
+    "labResults": {
+      "parseWarning": "Ορισμένες γραμμές δεν μπόρεσαν να αναλυθούν",
+      "noTextToParse": "Δεν υπάρχει κείμενο προς ανάλυση",
+      "noTextMessage": "Παρακαλούμε επικολλήστε το κείμενο των αποτελεσμάτων στο πεδίο εισαγωγής.",
+      "textParsed": "Το κείμενο αναλύθηκε",
+      "parsedCount": "Βρέθηκαν {{count}} στοιχεία εξετάσεων. Ελέγξτε τα στην καρτέλα Προεπισκόπηση.",
+      "addedSuccess": "Επιτυχία!",
+      "addedMessage": "Προστέθηκαν {{count}} στοιχεία εξετάσεων στο εργαστηριακό αποτέλεσμα.",
+      "addFailed": "Αποτυχία προσθήκης στοιχείων εξέτασης",
+      "deletedSuccess": "Το στοιχείο διαγράφηκε",
+      "deletedMessage": "Το στοιχείο {{name}} διαγράφηκε",
+      "updateFailed": "Αποτυχία ενημέρωσης στοιχείου",
+      "templateApplied": "Το πρότυπο εφαρμόστηκε",
+      "templateAppliedMessage": "Προστέθηκαν {{count}} στοιχεία από το πρότυπο \"{{name}}\".",
+      "trendExportSuccess": "Το γράφημα εξήχθη επιτυχώς",
+      "trendExportFailed": "Αποτυχία εξαγωγής γραφήματος"
+    },
+    "documents": {
+      "uploadFailed": "Η μεταφόρτωση απέτυχε",
+      "deleteFailed": "Η διαγραφή απέτυχε",
+      "linkSuccess": "Το έγγραφο συνδέθηκε επιτυχώς",
+      "linkFailed": "Αποτυχία σύνδεσης εγγράφου",
+      "unlinkSuccess": "Το έγγραφο αποσυνδέθηκε επιτυχώς",
+      "unlinkFailed": "Αποτυχία αποσύνδεσης εγγράφου"
+    },
+    "familySharing": {
+      "loadFailed": "Αποτυχία φόρτωσης πληροφοριών διαμοιρασμού",
+      "invitationSent": "Η πρόσκληση στάλθηκε επιτυχώς!",
+      "invitationFailed": "Αποτυχία αποστολής πρόσκλησης",
+      "accessRevoked": "Η πρόσβαση ανακλήθηκε",
+      "revokeFailed": "Αποτυχία ανάκλησης πρόσβασης"
+    },
+    "upload": {
+      "failed": "Η μεταφόρτωση απέτυχε",
+      "completedWithErrors": "Η μεταφόρτωση ολοκληρώθηκε με σφάλματα",
+      "partialSuccess": "{{completed}}/{{total}} αρχεία ανέβηκαν επιτυχώς. {{failed}} απέτυχαν.",
+      "documentAdded": "Το έγγραφο προστέθηκε στο Paperless",
+      "fileUploadedSuccess": "Το αρχείο \"{{fileName}}\" ανέβηκε επιτυχώς στο Paperless!",
+      "backgroundProcessing": "Το αρχείο \"{{fileName}}\" επεξεργάζεται στο παρασκήνιο. Θα ειδοποιηθείτε όταν ολοκληρωθεί.",
+      "duplicateDocument": "Διπλότυπο έγγραφο",
+      "paperlessUploadFailed": "Αποτυχία μεταφόρτωσης στο Paperless",
+      "fileUploadFailed": "Αποτυχία μεταφόρτωσης αρχείου"
+    },
+    "generic": {
+      "operationFailed": "Η ενέργεια απέτυχε",
+      "saveFailed": "Αποτυχία αποθήκευσης",
+      "deleteFailed": "Αποτυχία διαγραφής",
+      "downloadFailed": "Αποτυχία λήψης",
+      "success": "Επιτυχία!",
+      "warning": "Προειδοποίηση",
+      "error": "Σφάλμα",
+      "operationSuccess": "Η ενέργεια {{operation}} ολοκληρώθηκε επιτυχώς!",
+      "allOperationsSuccess": "Όλες οι ενέργειες ({{total}}) ολοκληρώθηκαν επιτυχώς!",
+      "operationPartial": "{{success}}/{{total}} ενέργειες ολοκληρώθηκαν επιτυχώς. {{failed}} απέτυχαν.",
+      "operationPartialTitle": "Η ενέργεια ολοκληρώθηκε με σφάλματα",
+      "allOperationsFailed": "Όλες οι ενέργειες απέτυχαν. Παρακαλούμε δοκιμάστε ξανά.",
+      "operationFailedTitle": "Η ενέργεια απέτυχε"
+    }
+  }
+}
