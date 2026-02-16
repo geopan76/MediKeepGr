@@ -1,0 +1,2427 @@
+{
+  "buttons": {
+    "save": "Αποθήκευση",
+    "cancel": "Ακύρωση",
+    "delete": "Διαγραφή",
+    "edit": "Επεξεργασία",
+    "close": "Κλείσιμο",
+    "submit": "Υποβολή",
+    "add": "Προσθήκη",
+    "addNew": "Προσθήκη Νέου",
+    "create": "Δημιουργία",
+    "update": "Ενημέρωση",
+    "remove": "Αφαίρεση",
+    "confirm": "Επιβεβαίωση",
+    "back": "Πίσω",
+    "next": "Επόμενο",
+    "finish": "Ολοκλήρωση",
+    "upload": "Μεταφόρτωση",
+    "download": "Λήψη",
+    "export": "Εξαγωγή",
+    "import": "Εισαγωγή",
+    "search": "Αναζήτηση",
+    "filter": "Φίλτρο",
+    "clear": "Καθαρισμός",
+    "clearAll": "Καθαρισμός Όλων",
+    "reset": "Επαναφορά",
+    "apply": "Εφαρμογή",
+    "view": "Προβολή",
+    "print": "Εκτύπωση",
+    "refresh": "Ανανέωση",
+    "retry": "Επανάληψη",
+    "continue": "Συνέχεια",
+    "skip": "Παράλειψη",
+    "done": "Τέλος",
+    "linkMedication": "Σύνδεση Φαρμάκου",
+    "linkMedications": "Σύνδεση Φαρμάκων",
+    "linkCondition": "Σύνδεση Πάθησης",
+    "saveChanges": "Αποθήκευση Αλλαγών"
+  },
+  "labels": {
+    "loading": "Φόρτωση...",
+    "noData": "Δεν υπάρχουν διαθέσιμα δεδομένα",
+    "noResults": "Δεν βρέθηκαν αποτελέσματα",
+    "search": "Αναζήτηση",
+    "filter": "Φίλτρο",
+    "sort": "Ταξινόμηση",
+    "actions": "Ενέργειες",
+    "status": "Κατάσταση",
+    "active": "Ενεργό",
+    "inactive": "Ανενεργό",
+    "all": "Όλα",
+    "none": "Κανένα",
+    "other": "Άλλο",
+    "optional": "Προαιρετικό",
+    "required": "Απαιτείται",
+    "yes": "Ναι",
+    "no": "Όχι",
+    "unknown": "Άγνωστο",
+    "notSpecified": "Δεν καθορίστηκε",
+    "notCompleted": "Δεν ολοκληρώθηκε",
+    "pending": "Σε εκκρεμότητα",
+    "error": "Σφάλμα",
+    "success": "Επιτυχία",
+    "viewPractitionerDetails": "Προβολή στοιχείων ιατρού",
+    "viewPharmacyDetails": "Προβολή στοιχείων φαρμακείου",
+    "startDate": "Ημερομηνία Έναρξης",
+    "endDate": "Ημερομηνία Λήξης",
+    "duration": "Διάρκεια",
+    "notes": "Σημειώσεις",
+    "tags": "Ετικέτες",
+    "location": "Τοποθεσία",
+    "name": "Όνομα",
+    "date": "Ημερομηνία",
+    "time": "Ώρα",
+    "description": "Περιγραφή",
+    "details": "Λεπτομέρειες",
+    "settings": "Ρυθμίσεις",
+    "preferences": "Προτιμήσεις",
+    "profile": "Προφίλ",
+    "account": "Λογαριασμός",
+    "help": "Βοήθεια",
+    "support": "Υποστήριξη",
+    "loadingOption": "Φόρτωση {{option}}...",
+    "addCustom": "+ Προσθήκη \"{{value}}\"",
+    "ratingStars": "{{count}}/5 αστέρια",
+    "noRating": "Χωρίς βαθμολογία",
+    "noMedicationsLinked": "Δεν υπάρχουν φάρμακα συνδεδεμένα με αυτή την πάθηση",
+    "noConditionsLinked": "Δεν υπάρχουν παθήσεις συνδεδεμένες με αυτό το εργαστηριακό αποτέλεσμα",
+    "medicationsAvailableToLink": "{{count}} φάρμακα διαθέσιμα για σύνδεση",
+    "conditionsAvailableToLink": "{{count}} παθήσεις διαθέσιμες για σύνδεση",
+    "linkedMedications": "Συνδεδεμένα Φάρμακα",
+    "visitWebsite": "Επίσκεψη Ιστοσελίδας ↗",
+    "severity": "Σοβαρότητα",
+    "onsetDate": "Ημερομηνία Έναρξης Συμπτωμάτων",
+    "facility": "Εγκατάσταση/Μονάδα",
+    "phoneNumber": "Αριθμός Τηλεφώνου",
+    "website": "Ιστοσελίδα",
+    "fullName": "Ονοματεπώνυμο",
+    "relationship": "Σχέση",
+    "email": "Διεύθυνση Email",
+    "address": "Διεύθυνση",
+    "patientRecord": "Ιατρικός Φάκελος Ασθενούς",
+    "medicalHistory": "Ιατρικό Ιστορικό",
+    "practitioner": "Επαγγελματίας Υγείας"
+  },
+  "fields": {
+    "notes": {
+      "label": "Σημειώσεις",
+      "placeholder": "Πρόσθετες πληροφορίες...",
+      "description": "Οποιεσδήποτε επιπλέον λεπτομέρειες ή σημειώσεις"
+    },
+    "tags": {
+      "label": "Ετικέτες",
+      "placeholder": "Προσθέστε ετικέτες για οργάνωση και εύρεση",
+      "description": "Προσθέστε ετικέτες για βοήθεια στην οργάνωση και αναζήτηση"
+    },
+    "status": {
+      "label": "Κατάσταση",
+      "description": "Τρέχουσα κατάσταση",
+      "placeholder": "Επιλέξτε κατάσταση"
+    },
+    "severity": {
+      "label": "Σοβαρότητα",
+      "placeholder": "Επιλέξτε επίπεδο σοβαρότητας",
+      "description": "Επίπεδο σοβαρότητας"
+    },
+    "startDate": {
+      "label": "Ημερομηνία Έναρξης",
+      "placeholder": "Επιλέξτε ημερομηνία έναρξης",
+      "description": "Πότε ξεκίνησε"
+    },
+    "endDate": {
+      "label": "Ημερομηνία Λήξης",
+      "placeholder": "Επιλέξτε ημερομηνία λήξης",
+      "description": "Πότε έληξε (εάν ισχύει)"
+    },
+    "onsetDate": {
+      "label": "Ημερομηνία Εμφάνισης",
+      "placeholder": "Πότε εμφανίστηκε για πρώτη φορά",
+      "description": "Πότε ανακαλύφθηκε για πρώτη φορά"
+    },
+    "phoneNumber": {
+      "label": "Αριθμός Τηλεφώνου",
+      "placeholder": "210 1234567",
+      "description": "Βασικός αριθμός επικοινωνίας"
+    },
+    "website": {
+      "label": "Ιστοσελίδα",
+      "placeholder": "https://www.example.com",
+      "description": "URL Ιστοσελίδας"
+    },
+    "fullName": {
+      "label": "Ονοματεπώνυμο",
+      "placeholder": "Εισάγετε ονοματεπώνυμο",
+      "description": "Πλήρες όνομα"
+    },
+    "email": {
+      "label": "Διεύθυνση Email",
+      "placeholder": "π.χ. name@email.com",
+      "description": "Διεύθυνση ηλεκτρονικού ταχυδρομείου"
+    },
+    "address": {
+      "label": "Διεύθυνση",
+      "placeholder": "Εισάγετε διεύθυνση",
+      "description": "Φυσική διεύθυνση"
+    }
+  },
+  "severity": {
+    "mild": "Ήπια - Μικρή ενόχληση",
+    "moderate": "Μέτρια - Αισθητά συμπτώματα",
+    "severe": "Σοβαρή - Σημαντική αντίδραση",
+    "lifeThreatening": "Απειλητική για τη ζωή - Κίνδυνος αναφυλαξίας",
+    "critical": "Κρίσιμη - Απειλητική για τη ζωή",
+    "mildImpact": "Ήπια - Μικρή επίδραση",
+    "moderateImpact": "Μέτρια - Αισθητή επίδραση",
+    "severeImpact": "Σοβαρή - Σημαντική επίδραση"
+  },
+  "status": {
+    "active": "Ενεργό",
+    "inactive": "Ανενεργό",
+    "resolved": "Επιλύθηκε",
+    "stopped": "Διακόπηκε",
+    "onHold": "Σε αναμονή",
+    "completed": "Ολοκληρώθηκε",
+    "planned": "Προγραμματισμένο",
+    "cancelled": "Ακυρώθηκε",
+    "pending": "Σε εκκρεμότητα",
+    "expired": "Έληξε"
+  },
+  "statusDescriptions": {
+    "activeAllergic": "Ενεργό - Επί του παρόντος αλλεργικός",
+    "inactiveAllergic": "Ανενεργό - Δεν είναι πλέον αλλεργικός",
+    "resolvedAllergy": "Επιλύθηκε - Ξεπέρασε την αλλεργία",
+    "activeCondition": "Ενεργό - Εξελισσόμενη πάθηση",
+    "resolvedCondition": "Επιλύθηκε - Δεν υφίσταται πλέον",
+    "chronicCondition": "Χρόνιο - Μακροχρόνια πάθηση",
+    "activeExperiencing": "Ενεργό - Βιώνεται επί του παρόντος",
+    "resolvedExperiencing": "Επιλύθηκε - Δεν βιώνεται πλέον",
+    "recurring": "Υποτροπιάζον - Έρχεται και παρέρχεται"
+  },
+  "viewToggle": {
+    "cards": "Κάρτες",
+    "table": "Πίνακας"
+  },
+  "filters": {
+    "title": "Φίλτρα & Αναζήτηση",
+    "itemCount": "{{filtered}} από {{total}} στοιχεία",
+    "moreFilters": "{{count}} επιπλέον φίλτρα",
+    "active": "Ενεργό",
+    "clear": "Καθαρισμός"
+  },
+  "vitals": {
+    "form": {
+      "selectDate": "Επιλέξτε ημερομηνία",
+      "selectDateTime": "Επιλέξτε ημερομηνία και ώρα",
+      "pasteDateTime": "Επικολλήστε ή πληκτρολογήστε ημερομηνία/ώρα",
+      "pasteDateTimePlaceholder": "π.χ., 29/07/2015 23:58:21",
+      "dateTimePlaceholder": "π.χ., 29/07/2015 23:58",
+      "dateTimePlaceholder_dmy": "π.χ., 29/07/2015 23:58",
+      "dateTimePlaceholder_ymd": "π.χ., 2015-07-29 23:58",
+      "pasteDateTimeDescription": "Πληκτρολογήστε ή επικολλήστε ημερομηνία/ώρα, ή κάντε κλικ στο ημερολόγιο",
+      "openCalendar": "Άνοιγμα ημερολογίου",
+      "selectTime": "Ώρα",
+      "validation": {
+        "bloodGlucoseMin": "Η γλυκόζη αίματος πρέπει να είναι τουλάχιστον 20 mg/dL",
+        "bloodGlucoseMax": "Η γλυκόζη αίματος δεν μπορεί να υπερβαίνει τα 800 mg/dL",
+        "a1cMin": "Το A1C πρέπει να είναι τουλάχιστον 0%",
+        "a1cMax": "Το A1C δεν μπορεί να υπερβαίνει το 20%",
+        "dateInFuture": "Η ημερομηνία δεν μπορεί να είναι στο μέλλον",
+        "timeInFuture": "Η επιλεγμένη ώρα δεν μπορεί να είναι στο μέλλον",
+        "dateRequired": "Η ημερομηνία και η ώρα μέτρησης είναι υποχρεωτικές",
+        "systolicMin": "Η συστολική πίεση πρέπει να είναι τουλάχιστον 50 mmHg",
+        "systolicMax": "Η συστολική πίεση δεν μπορεί να υπερβαίνει τα 300 mmHg",
+        "diastolicMin": "Η διαστολική πίεση πρέπει να είναι τουλάχιστον 30 mmHg",
+        "diastolicMax": "Η διαστολική πίεση δεν μπορεί να υπερβαίνει τα 200 mmHg",
+        "heartRateMin": "Οι καρδιακοί παλμοί πρέπει να είναι τουλάχιστον 30 BPM",
+        "heartRateMax": "Οι καρδιακοί παλμοί δεν μπορούν να υπερβαίνουν τα 250 BPM",
+        "temperatureMin": "Η θερμοκρασία πρέπει να είναι τουλάχιστον {{min}}{{unit}}",
+        "temperatureMax": "Η θερμοκρασία δεν μπορεί να υπερβαίνει τους {{max}}{{unit}}",
+        "weightMin": "Το βάρος πρέπει να είναι τουλάχιστον {{min}} {{unit}}",
+        "weightMax": "Το βάρος δεν μπορεί να υπερβαίνει τα {{max}} {{unit}}",
+        "respiratoryRateMin": "Ο ρυθμός αναπνοής πρέπει να είναι τουλάχιστον 5/λεπτό",
+        "respiratoryRateMax": "Ο ρυθμός αναπνοής δεν μπορεί να υπερβαίνει τους 100/λεπτό",
+        "oxygenMin": "Ο κορεσμός οξυγόνου πρέπει να είναι τουλάχιστον 50%",
+        "oxygenMax": "Ο κορεσμός οξυγόνου δεν μπορεί να υπερβαίνει το 100%",
+        "painScaleMin": "Η κλίμακα πόνου πρέπει να είναι τουλάχιστον 0",
+        "painScaleMax": "Η κλίμακα πόνου δεν μπορεί να υπερβαίνει το 10",
+        "deviceMaxLength": "Το όνομα της συσκευής δεν μπορεί να υπερβαίνει τους 100 χαρακτήρες",
+        "notesMaxLength": "Οι σημειώσεις δεν μπορούν να υπερβαίνουν τους 1000 χαρακτήρες"
+      },
+      "sections": {
+        "basicInfo": "Βασικές Πληροφορίες",
+        "physicalMeasurements": "Σωματικές Μετρήσεις",
+        "recordingInfo": "Πληροφορίες Καταγραφής",
+        "additionalInfo": "Πρόσθετες Πληροφορίες"
+      },
+      "bloodPressureDesc": "Μετρημένη σε mmHg",
+      "weightDesc": "Βάρος σε {{unit}}",
+      "vitalSignsDesc": "Βασικές φυσιολογικές μετρήσεις",
+      "additionalMeasurementsDesc": "Συμπληρωματικοί δείκτες υγείας",
+      "contextDesc": "Πλαίσιο σχετικά με τις μετρήσεις",
+      "recordedDateTime": "Ημερομηνία & Ώρα Μέτρησης",
+      "systolicBP": "Συστολική Πίεση",
+      "diastolicBP": "Διαστολική Πίεση",
+      "measurementLocation": "Τοποθεσία Μέτρησης",
+      "locationPlaceholder": "Πού έγιναν αυτές οι μετρήσεις;",
+      "deviceUsed": "Συσκευή/Εξοπλισμός που χρησιμοποιήθηκε",
+      "devicePlaceholder": "π.χ., Ψηφιακό πιεσόμετρο, Μοντέλο θερμομέτρου...",
+      "notesPlaceholder": "Πρόσθετες σημειώσεις για τη μέτρηση των ζωτικών σημείων...",
+      "painScaleUnit": "(0-10)",
+      "timezoneInfo": "Πληροφορίες Ζώνης Ώρας",
+      "timesShownIn": "Οι ώρες εμφανίζονται σε {{timezone}}",
+      "healthAlerts": "Ειδοποιήσεις Υγείας",
+      "patientInfo": "Πληροφορίες Ασθενούς",
+      "patientHeight": "Ύψος ασθενούς: {{height}} ίντσες (από το προφίλ)",
+      "missingPatientInfo": "Λείπουν Πληροφορίες Ασθενούς",
+      "heightNotSet": "Το ύψος δεν έχει οριστεί στο προφίλ - Ο υπολογισμός BMI δεν είναι διαθέσιμος",
+      "calculatedValues": "Υπολογισμένες Τιμές",
+      "updateVitals": "Ενημέρωση Ζωτικών Σημείων",
+      "saveVitals": "Αποθήκευση Ζωτικών Σημείων",
+      "locations": {
+        "home": "Σπίτι",
+        "clinic": "Κλινική",
+        "hospital": "Νοσοκομείο",
+        "urgentCare": "Επείγοντα",
+        "pharmacy": "Φαρμακείο",
+        "ambulatory": "Εξωτερικά Ιατρεία",
+        "other": "Άλλο"
+      }
+    },
+    "modal": {
+      "bloodGlucose": "Γλυκόζη Αίματος",
+      "a1c": "A1C",
+      "title": "Λεπτομέρειες Ζωτικών Σημείων",
+      "basicInfo": "Βασικές Πληροφορίες",
+      "vitalSigns": "Ζωτικά Σημεία",
+      "physicalMeasurements": "Σωματικές Μετρήσεις",
+      "additionalMeasurements": "Πρόσθετες Μετρήσεις",
+      "recordedDate": "Ημερομηνία Καταγραφής",
+      "deviceUsed": "Συσκευή που χρησιμοποιήθηκε",
+      "respiratoryRate": "Ρυθμός Αναπνοής",
+      "height": "Ύψος",
+      "painScale": "Κλίμακα Πόνου",
+      "notes": "Σημειώσεις",
+      "recordedBy": "Καταγράφηκε από",
+      "practitionerId": "ID Ιατρού"
+    },
+    "units": {
+      "mgdl": "mg/dL",
+      "mmHg": "mmHg",
+      "bpm": "BPM",
+      "fahrenheit": "°F",
+      "celsius": "°C",
+      "lbs": "lbs",
+      "kg": "kg",
+      "inches": "ίντσες",
+      "cm": "cm",
+      "perMin": "/λεπτό"
+    },
+    "stats": {
+      "bloodGlucoseDesc": "Κάντε κλικ για φιλτράρισμα εγγραφών με γλυκόζη αίματος",
+      "a1cDesc": "Κάντε κλικ για φιλτράρισμα εγγραφών με A1C",
+      "bloodPressure": "Αρτηριακή Πίεση",
+      "bloodPressureDesc": "Κάντε κλικ για φιλτράρισμα εγγραφών με αρτηριακή πίεση",
+      "heartRate": "Καρδιακοί Παλμοί",
+      "heartRateDesc": "Κάντε κλικ για φιλτράρισμα εγγραφών με καρδιακούς παλμούς",
+      "temperature": "Τελευταία Θερμοκρασία",
+      "temperatureDesc": "Κάντε κλικ για φιλτράρισμα εγγραφών με θερμοκρασία",
+      "weight": "Τελευταίο Βάρος",
+      "weightDesc": "Κάντε κλικ για φιλτράρισμα εγγραφών με βάρος",
+      "bmi": "ΔΜΣ (BMI)",
+      "bmiDesc": "Δείκτης Μάζας Σώματος"
+    },
+    "categories": {
+      "prediabetes": "Προ-διαβήτης",
+      "diabetes": "Διαβήτης",
+      "low": "Χαμηλό",
+      "high": "Υψηλό",
+      "normal": "Φυσιολογικό"
+    },
+    "title": "Ζωτικά Σημεία",
+    "loading": "Φόρτωση ζωτικών σημείων...",
+    "noPatientSelected": "Δεν έχει επιλεγεί ασθενής",
+    "selectPatientPrompt": "Παρακαλώ επιλέξτε έναν ασθενή για να δείτε και να διαχειριστείτε τα ζωτικά σημεία.",
+    "addNew": "Προσθήκη Νέων Ζωτικών Σημείων",
+    "addTitle": "Προσθήκη Ζωτικών Σημείων",
+    "editTitle": "Επεξεργασία Ζωτικών Σημείων",
+    "healthSummary": "Σύνοψη Υγείας",
+    "summaryDescription": "Τελευταίες μετρήσεις και μέσοι όροι - Κάντε κλικ σε μια κάρτα για φιλτράρισμα του πίνακα",
+    "loadingStats": "Φόρτωση στατιστικών υγείας...",
+    "statsLoadError": "Αδυναμία φόρτωσης στατιστικών υγείας",
+    "filteredBy": "Φιλτράρισμα κατά",
+    "clearFilter": "Καθαρισμός φίλτρου",
+    "noDataAvailable": "Δεν υπάρχουν διαθέσιμα δεδομένα ζωτικών σημείων",
+    "recordVitalsPrompt": "Καταγράψτε την πρώτη σας μέτρηση ζωτικών σημείων για να ξεκινήσετε την παρακολούθηση.",
+    "card": {
+      "recordedDate": "Ημερομηνία Καταγραφής",
+      "location": "Τοποθεσία",
+      "recordedBy": "Καταγράφηκε από",
+      "oxygenSaturation": "Κορεσμός Οξυγόνου",
+      "notRecorded": "Δεν καταγράφηκε",
+      "title": "Αρχείο Ζωτικών Σημείων"
+    },
+    "table": {
+      "date": "Ημερομηνία",
+      "oxygenSat": "Κορεσμός O2",
+      "errorLoading": "Σφάλμα κατά τη φόρτωση ζωτικών σημείων",
+      "noRecords": "Δεν βρέθηκαν αρχεία ζωτικών σημείων",
+      "noRecordsDesc": "Τα ζωτικά σημεία θα εμφανιστούν εδώ μόλις καταγραφούν"
+    }
+  },
+  "medications": {
+    "title": "Φάρμακα",
+    "addNew": "Προσθήκη Νέου Φαρμάκου",
+    "quickFilter": "Γρήγορο Φίλτρο",
+    "allTypes": "Όλοι οι Τύποι",
+    "types": {
+      "prescription": "Συνταγογραφούμενο",
+      "otc": "Μη συνταγογραφούμενο (OTC)",
+      "supplement": "Συμπλήρωμα/Βιταμίνη",
+      "herbal": "Βοτανικό/Φυσικό"
+    },
+    "treatments": {
+      "treatmentPlan": "Θεραπευτικό Πλάνο"
+    },
+    "loading": "Φόρτωση φαρμάκων...",
+    "error": "Σφάλμα",
+    "success": "Επιτυχία",
+    "noMedications": "Δεν βρέθηκαν φάρμακα ή συμπληρώματα",
+    "tryAdjustingFilters": "Δοκιμάστε να προσαρμόσετε την αναζήτηση ή τα φίλτρα σας.",
+    "clickToStart": "Κάντε κλικ στο \"Προσθήκη Νέου Φαρμάκου\" για να ξεκινήσετε.",
+    "fields": {
+      "frequency": "Συχνότητα",
+      "route": "Οδός Χορήγησης",
+      "purpose": "Σκοπός",
+      "prescriber": "Συνταγογραφών Ιατρός",
+      "pharmacy": "Φαρμακείο",
+      "startDate": "Ημερομηνία Έναρξης",
+      "endDate": "Ημερομηνία Λήξης",
+      "noIndication": "Δεν καθορίστηκε ένδειξη",
+      "viewPractitioner": "Προβολή στοιχείων ιατρού",
+      "viewPharmacy": "Προβολή στοιχείων φαρμακείου"
+    },
+    "modal": {
+      "details": "Λεπτομέρειες",
+      "tabs": {
+        "overview": "Επισκόπηση",
+        "dosageRefills": "Δοσολογία & Επαναλήψεις",
+        "notes": "Σημειώσεις",
+        "documents": "Έγγραφα"
+      },
+      "sections": {
+        "basicInfo": "Βασικές Πληροφορίες",
+        "timeline": "Χρονοδιάγραμμα",
+        "prescriberPharmacy": "Ιατρός & Φαρμακείο",
+        "tags": "Ετικέτες",
+        "dosageInfo": "Πληροφορίες Δοσολογίας",
+        "additionalNotes": "Πρόσθετες Σημειώσεις",
+        "sideEffects": "Παρενέργειες",
+        "attachedDocuments": "Συνημμένα Έγγραφα"
+      },
+      "labels": {
+        "medicationName": "Όνομα Φαρμάκου",
+        "purposeIndication": "Σκοπός/Ένδειξη",
+        "medicationType": "Τύπος Φαρμάκου",
+        "dosage": "Δοσολογία",
+        "form": "Μορφή"
+      },
+      "notSpecified": "Δεν καθορίστηκε",
+      "ongoing": "Σε εξέλιξη",
+      "noNotes": "Δεν υπάρχουν διαθέσιμες σημειώσεις",
+      "noSideEffects": "Δεν έχουν αναφερθεί παρενέργειες",
+      "editMedication": "Επεξεργασία Φαρμάκου"
+    }
+  },
+  "searchPlaceholders": {
+    "conditions": "Αναζήτηση παθήσεων, σημειώσεων, ετικετών...",
+    "insurance": "Αναζήτηση ασφαλιστικών εταιρειών, ονομάτων μελών...",
+    "medications": "Αναζήτηση φαρμάκων, ενδείξεων, δοσολογιών, ετικετών...",
+    "procedures": "Αναζήτηση επεμβάσεων, σημειώσεων, ετικετών...",
+    "treatments": "Αναζήτηση θεραπειών, σημειώσεων, ετικετών...",
+    "visits": "Αναζήτηση επισκέψεων, αιτιών, σημειώσεων, ετικετών...",
+    "immunizations": "Αναζήτηση εμβολιασμών, εμβολίων, ετικετών...",
+    "allergies": "Αναζήτηση αλλεργιών, αντιδράσεων, ετικετών...",
+    "symptoms": "Αναζήτηση συμπτωμάτων, περιγραφών, ετικετών...",
+    "practitioners": "Αναζήτηση ιατρών...",
+    "pharmacies": "Αναζήτηση φαρμακείων...",
+    "labResults": "Αναζήτηση εργαστηριακών αποτελεσμάτων, κωδικών, μονάδων, ιατρών...",
+    "vitals": "Αναζήτηση σημειώσεων ζωτικών σημείων...",
+    "emergencyContacts": "Αναζήτηση επαφών, σχέσεων, τηλεφώνων, email...",
+    "familyHistory": "Αναζήτηση μελών οικογένειας, παθήσεων, σημειώσεων...",
+    "injuries": "Αναζήτηση τραυματισμών, σημείων σώματος, σημειώσεων...",
+    "generic": "Αναζήτηση..."
+  },
+  "messages": {
+    "confirmDelete": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το στοιχείο;",
+    "confirmDeleteMultiple": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτά τα {{count}} στοιχεία;",
+    "unsavedChanges": "Έχετε μη αποθηκευμένες αλλαγές. Είστε βέβαιοι ότι θέλετε να αποχωρήσετε;",
+    "saveSuccess": "Αποθηκεύτηκε επιτυχώς",
+    "deleteSuccess": "Διαγράφηκε επιτυχώς",
+    "updateSuccess": "Ενημερώθηκε επιτυχώς",
+    "createSuccess": "Δημιουργήθηκε επιτυχώς",
+    "operationSuccess": "Η ενέργεια ολοκληρώθηκε επιτυχώς",
+    "operationFailed": "Η ενέργεια απέτυχε. Παρακαλώ δοκιμάστε ξανά.",
+    "pleaseWait": "Παρακαλώ περιμένετε...",
+    "processing": "Επεξεργασία...",
+    "confirmRemoveMedicationRelationship": "Είστε βέβαιοι ότι θέλετε να αφαιρέσετε αυτή τη συσχέτιση φαρμάκου;",
+    "confirmRemoveConditionRelationship": "Είστε βέβαιοι ότι θέλετε να αφαιρέσετε αυτή τη συσχέτιση πάθησης;"
+  },
+  "modals": {
+    "linkMedicationToCondition": "Σύνδεση Φαρμάκου με Πάθηση",
+    "linkMedicationsToCondition": "Σύνδεση Φαρμάκων με Πάθηση",
+    "linkConditionToLabResult": "Σύνδεση Πάθησης με Εργαστηριακό Αποτέλεσμα",
+    "selectMedication": "Επιλογή Φαρμάκου",
+    "selectMedications": "Επιλογή Φαρμάκων",
+    "selectCondition": "Επιλογή Πάθησης",
+    "chooseMedicationToLink": "Επιλέξτε φάρμακα για σύνδεση",
+    "chooseConditionToLink": "Επιλέξτε μια πάθηση για σύνδεση",
+    "relevanceNoteOptional": "Σημείωση συνάφειας (προαιρετικό)",
+    "noRelevanceNoteProvided": "Δεν δόθηκε σημείωση συνάφειας",
+    "relevanceNote": "Σημείωση Συνάφειας",
+    "describeConditionRelevance": "Περιγράψτε πώς αυτή η πάθηση σχετίζεται με το εργαστηριακό αποτέλεσμα (προαιρετικό)",
+    "describeMedicationRelevance": "Περιγράψτε πώς αυτά τα φάρμακα σχετίζονται με την πάθηση (προαιρετικό)"
+  },
+  "time": {
+    "today": "Σήμερα",
+    "yesterday": "Χθες",
+    "tomorrow": "Αύριο",
+    "thisWeek": "Αυτή την εβδομάδα",
+    "lastWeek": "Προηγούμενη εβδομάδα",
+    "thisMonth": "Αυτόν το μήνα",
+    "lastMonth": "Προηγούμενο μήνα",
+    "thisYear": "Φέτος",
+    "lastYear": "Πέρυσι",
+    "custom": "Προσαρμοσμένο",
+    "morning": "Πρωί",
+    "afternoon": "Απόγευμα",
+    "evening": "Βράδυ",
+    "night": "Νύχτα",
+    "day": "ημέρα",
+    "days": "ημέρες",
+    "month": "μήνας",
+    "months": "μήνες",
+    "year": "έτος",
+    "years": "έτη",
+    "ended": "έληξε",
+    "ongoing": "σε εξέλιξη"
+  },
+  "pagination": {
+    "page": "Σελίδα",
+    "of": "από",
+    "showing": "Εμφάνιση",
+    "to": "έως",
+    "results": "αποτελέσματα",
+    "showingRange": "Εμφάνιση {{start}} έως {{end}} από {{total}} αποτελέσματα",
+    "itemsPerPage": "Στοιχεία ανά σελίδα",
+    "previous": "Προηγούμενο",
+    "next": "Επόμενο",
+    "first": "Πρώτο",
+    "last": "Τελευταίο"
+  },
+  "patients": {
+    "form": {
+      "createTitle": "Δημιουργία Νέου Ασθενούς",
+      "editTitle": "Επεξεργασία Ασθενούς",
+      "saveFirstMessage": "Αποθηκεύστε πρώτα τις πληροφορίες του ασθενούς, και μετά μπορείτε να προσθέσετε φωτογραφία",
+      "sections": {
+        "basicInformation": "Βασικές Πληροφορίες",
+        "medicalInformation": "Ιατρικές Πληροφορίες",
+        "contactInformation": "Πληροφορίες Επικοινωνίας"
+      },
+      "selfRecord": {
+        "label": "Αυτός είναι ο δικός μου ιατρικός φάκελος",
+        "description": "Επιλέξτε το εάν δημιουργείτε φάκελο για τον εαυτό σας"
+      },
+      "firstName": {
+        "label": "Όνομα",
+        "placeholder": "Εισάγετε όνομα",
+        "description": "Όνομα ασθενούς"
+      },
+      "lastName": {
+        "label": "Επώνυμο",
+        "placeholder": "Εισάγετε επώνυμο",
+        "description": "Επώνυμο ασθενούς"
+      },
+      "birthDate": {
+        "label": "Ημερομηνία Γέννησης",
+        "placeholder": "Επιλέξτε ημερομηνία γέννησης",
+        "description": "Ημερομηνία γέννησης ασθενούς"
+      },
+      "gender": {
+        "label": "Φύλο",
+        "placeholder": "Επιλέξτε φύλο",
+        "description": "Φύλο ασθενούς",
+        "options": {
+          "select": "Επιλέξτε φύλο",
+          "male": "Άνδρας",
+          "female": "Γυναίκα",
+          "other": "Άλλο",
+          "preferNotToSay": "Προτιμώ να μην απαντήσω"
+        }
+      },
+      "relationship": {
+        "label": "Σχέση με εσάς",
+        "placeholder": "Επιλέξτε σχέση (προαιρετικό)",
+        "description": "Ποια είναι η σχέση αυτού του ατόμου με εσάς;",
+        "options": {
+          "select": "Επιλέξτε σχέση (προαιρετικό)",
+          "self": "Εαυτός",
+          "spouse": "Σύζυγος",
+          "partner": "Σύντροφος",
+          "child": "Παιδί",
+          "son": "Γιος",
+          "daughter": "Κόρη",
+          "parent": "Γονέας",
+          "father": "Πατέρας",
+          "mother": "Μητέρα",
+          "sibling": "Αδελφός/η",
+          "brother": "Αδελφός",
+          "sister": "Αδελφή",
+          "grandparent": "Παππούς/Γιαγιά",
+          "grandchild": "Εγγόνι",
+          "otherFamily": "Άλλο μέλος οικογένειας",
+          "friend": "Φίλος",
+          "other": "Άλλο"
+        }
+      },
+      "address": {
+        "label": "Διεύθυνση",
+        "placeholder": "Εισάγετε διεύθυνση",
+        "description": "Πλήρης διεύθυνση για ιατρικά αρχεία (προαιρετικό)"
+      },
+      "medicalInfoHeading": "Ιατρικές Πληροφορίες",
+      "bloodType": {
+        "label": "Ομάδα Αίματος",
+        "placeholder": "Επιλέξτε ομάδα αίματος",
+        "description": "Σημαντικό για περιπτώσεις ανάγκης"
+      },
+      "height": {
+        "label": "Ύψος",
+        "placeholder": {
+          "imperial": "Εισάγετε ύψος σε ίντσες",
+          "metric": "Εισάγετε ύψος σε εκατοστά"
+        },
+        "description": "Ύψος σε {{unit}}"
+      },
+      "weight": {
+        "label": "Βάρος",
+        "placeholder": {
+          "imperial": "Εισάγετε βάρος σε λίβρες",
+          "metric": "Εισάγετε βάρος σε κιλά"
+        },
+        "description": "Βάρος σε {{unit}}"
+      },
+      "physician": {
+        "label": "Προσωπικός Ιατρός",
+        "placeholder": "Επιλέξτε ιατρό (προαιρετικό)",
+        "description": "Ο βασικός σας ιατρός για συνεχή φροντίδα"
+      },
+      "buttons": {
+        "saving": "Αποθήκευση...",
+        "createPatient": "Δημιουργία Ασθενούς",
+        "updatePatient": "Ενημέρωση Ασθενούς",
+        "saveChanges": "Αποθήκευση Αλλαγών",
+        "cancel": "Ακύρωση"
+      },
+      "messages": {
+        "createSuccess": "Ο/Η {{firstName}} {{lastName}} δημιουργήθηκε επιτυχώς",
+        "updateSuccess": "Ο/Η {{firstName}} {{lastName}} ενημερώθηκε επιτυχώς"
+      }
+    }
+  },
+  "patientSelector": {
+    "title": "Επιλογέας Ασθενούς",
+    "badges": {
+      "self": "Εγώ",
+      "shared": "Κοινόχρηστο"
+    },
+    "labels": {
+      "currentlyViewing": "Προβολή τώρα:",
+      "switchTo": "Αλλαγή σε άλλον ασθενή:",
+      "switching": "Αλλαγή ασθενούς...",
+      "patientActions": "Ενέργειες Ασθενούς",
+      "born": "Γεννήθηκε"
+    },
+    "tooltips": {
+      "expand": "Ανάπτυξη επιλογέα ασθενούς",
+      "minimize": "Ελαχιστοποίηση σε μία γραμμή",
+      "switchPatient": "Αλλαγή ασθενούς",
+      "refresh": "Ανανέωση ασθενών",
+      "addNew": "Προσθήκη νέου ασθενούς"
+    },
+    "buttons": {
+      "retry": "Επανάληψη",
+      "addNew": "Προσθήκη Νέου Ασθενούς",
+      "editPatient": "Επεξεργασία Ασθενούς",
+      "sharePatient": "Κοινή χρήση Ασθενούς",
+      "deletePatient": "Διαγραφή Ασθενούς",
+      "removeAccess": "Αφαίρεση Πρόσβασης"
+    },
+    "placeholders": {
+      "loading": "Φόρτωση...",
+      "select": "Επιλέξτε ασθενή για μετάβαση..."
+    },
+    "stats": {
+      "owned": "Δικοί μου",
+      "shared": "Κοινόχρηστοι",
+      "total": "Σύνολο"
+    },
+    "errors": {
+      "loadFailed": "Αποτυχία φόρτωσης ασθενών",
+      "noPatients": "Δεν βρέθηκαν ασθενείς"
+    },
+    "messages": {
+      "noAccess": "Δεν έχετε πρόσβαση σε κανέναν ασθενή ακόμα. Δημιουργήστε έναν νέο ασθενή για να ξεκινήσετε."
+    },
+    "modals": {
+      "createTitle": "Δημιουργία Νέου Ασθενούς",
+      "editTitle": "Επεξεργασία Ασθενούς"
+    }
+  },
+  "symptoms": {
+    "title": "Συμπτώματα",
+    "noPatientSelected": "Δεν έχει επιλεγεί ασθενής",
+    "selectPatientPrompt": "Παρακαλώ επιλέξτε ή δημιουργήστε έναν ασθενή για την παρακολούθηση συμπτωμάτων.",
+    "addSymptom": "Προσθήκη Συμπτώματος",
+    "addSymptomTitle": "Προσθήκη Νέου Συμπτώματος",
+    "editSymptomTitle": "Επεξεργασία Συμπτώματος",
+    "logEpisode": "Καταγραφή Επεισοδίου",
+    "logEpisodeTitle": "Καταγραφή Επεισοδίου",
+    "editEpisode": "Επεξεργασία Επεισοδίου",
+    "editEpisodeTitle": "Επεξεργασία Επεισοδίου",
+    "confirmDeleteSymptom": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το σύμπτωμα και όλες τις εμφανίσεις του;",
+    "chronic": "Χρόνιο",
+    "category": "Κατηγορία",
+    "first": "Πρώτο",
+    "last": "Τελευταίο",
+    "episode": "επεισόδιο",
+    "episodes": "επεισόδια",
+    "commonTriggers": "Κοινοί Παράγοντες Ενεργοποίησης",
+    "moreCount": "+{{count}} επιπλέον",
+    "noRecords": "Δεν έχουν καταγραφεί συμπτώματα ακόμα",
+    "noRecordsPrompt": "Κάντε κλικ στο \"Προσθήκη Συμπτώματος\" για να ξεκινήσετε την παρακολούθηση",
+    "occurrence": {
+      "additionalNotes": {
+        "label": "Πρόσθετες Σημειώσεις",
+        "placeholder": "Επιπλέον λεπτομέρειες για αυτό το επεισόδιο...",
+        "description": "Οποιαδήποτε άλλη σχετική πληροφορία για αυτή την εμφάνιση"
+      }
+    },
+    "tabs": {
+      "list": "Λίστα",
+      "timeline": "Χρονολόγιο",
+      "calendar": "Ημερολόγιο"
+    },
+    "timeline": {
+      "title": "Χρονολόγιο Συμπτωμάτων",
+      "noEpisodes": "Δεν καταγράφηκαν επεισόδια συμπτωμάτων σε αυτή την περίοδο",
+      "recorded": "καταγράφηκε",
+      "filters": {
+        "allDates": "Όλες οι Ημερομηνίες",
+        "lastWeek": "Τελευταία Εβδομάδα",
+        "lastMonth": "Τελευταίος Μήνας",
+        "last3Months": "Τελευταίο Τρίμηνο",
+        "lastYear": "Τελευταίο Έτος"
+      }
+    },
+    "calendar": {
+      "title": "Ημερολόγιο Συμπτωμάτων",
+      "ongoing": "Σε εξέλιξη",
+      "noEpisodes": "Δεν καταγράφηκαν επεισόδια συμπτωμάτων αυτόν τον μήνα",
+      "episodesOn": "Επεισόδια Συμπτωμάτων στις {{date}}",
+      "noOccurrences": "Δεν βρέθηκαν εμφανίσεις για αυτή την ημερομηνία",
+      "pain": "Πόνος",
+      "viewSymptom": "Προβολή Συμπτώματος",
+      "duration": "Διάρκεια",
+      "location": "Τοποθεσία",
+      "time": "Ώρα",
+      "timeOfDay": "Ώρα της ημέρας",
+      "resolved": "Επιλύθηκε",
+      "occurrenceId": "ID Εμφάνισης",
+      "weekDays": {
+        "sun": "Κυρ",
+        "mon": "Δευ",
+        "tue": "Τρι",
+        "wed": "Τετ",
+        "thu": "Πεμ",
+        "fri": "Παρ",
+        "sat": "Σαβ"
+      }
+    },
+    "viewModal": {
+      "title": "{{name}} - Λεπτομέρειες",
+      "confirmDeleteEpisode": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το επεισόδιο;",
+      "basicInfo": "Βασικές Πληροφορίες",
+      "symptomName": "Όνομα Συμπτώματος",
+      "notSpecified": "Δεν καθορίστηκε",
+      "type": "Τύπος",
+      "acute": "Οξύ",
+      "timeline": "Χρονολόγιο",
+      "noEpisodesLogged": "Δεν έχουν καταγραφεί επεισόδια",
+      "totalEpisodes": "Σύνολο Επεισοδίων",
+      "episodeHistory": "Ιστορικό Επεισοδίων",
+      "logNewEpisode": "Καταγραφή Νέου Επεισοδίου",
+      "noEpisodesYet": "Δεν έχουν καταγραφεί επεισόδια ακόμα",
+      "logFirstEpisode": "Καταγραφή Πρώτου Επεισοδίου",
+      "time": "Ώρα",
+      "impact": "Επίπτωση",
+      "triggers": "Παράγοντες Ενεργοποίησης",
+      "relief": "Ανακούφιση",
+      "generalNotes": "Γενικές Σημειώσεις",
+      "noNotesProvided": "Δεν δόθηκαν σημειώσεις",
+      "attachedDocuments": "Συνημμένα Έγγραφα",
+      "deleteSymptom": "Διαγραφή Συμπτώματος",
+      "editSymptom": "Επεξεργασία Συμπτώματος",
+      "tabs": {
+        "overview": "Επισκόπηση",
+        "episodes": "Επεισόδια ({{count}})",
+        "notes": "Σημειώσεις",
+        "documents": "Έγγραφα"
+      }
+    }
+  },
+  "conditions": {
+    "title": "Ιατρικές Παθήσεις",
+    "loading": "Φόρτωση παθήσεων...",
+    "addNew": "Προσθήκη Νέας Πάθησης",
+    "editTitle": "Επεξεργασία Πάθησης",
+    "addTitle": "Προσθήκη Νέας Πάθησης",
+    "noResults": "Δεν βρέθηκαν ιατρικές παθήσεις",
+    "tryAdjustingFilters": "Δοκιμάστε να προσαρμόσετε την αναζήτηση ή τα φίλτρα σας.",
+    "getStarted": "Κάντε κλικ στο \"Προσθήκη Νέας Πάθησης\" για να ξεκινήσετε.",
+    "table": {
+      "condition": "Πάθηση",
+      "severity": "Σοβαρότητα",
+      "onsetDate": "Ημερομηνία Έναρξης",
+      "endDate": "Ημερομηνία Λήξης",
+      "status": "Κατάσταση",
+      "icd10": "ICD-10",
+      "notes": "Σημειώσεις"
+    },
+    "card": {
+      "onsetDate": "Έναρξη",
+      "endDate": "Λήξη",
+      "duration": "Διάρκεια",
+      "snomedCode": "Κωδικός SNOMED",
+      "codeDescription": "Περιγραφή Κωδικού",
+      "durationEnded": "{{duration}} (έληξε)",
+      "durationOngoing": "{{duration}} (σε εξέλιξη)"
+    },
+    "modal": {
+      "title": "Λεπτομέρειες Πάθησης",
+      "tabs": {
+        "overview": "Επισκόπηση",
+        "clinical": "Κλινικές Λεπτομέρειες",
+        "notes": "Σημειώσεις",
+        "documents": "Έγγραφα"
+      },
+      "sections": {
+        "basicInfo": "Βασικές Πληροφορίες",
+        "timeline": "Χρονοδιάγραμμα",
+        "relatedInfo": "Σχετικές Πληροφορίες",
+        "tags": "Ετικέτες",
+        "medicalCodes": "Ιατρικοί Κώδικες",
+        "clinicalNotes": "Κλινικές Σημειώσεις"
+      },
+      "labels": {
+        "diagnosis": "Διάγνωση",
+        "conditionName": "Όνομα Πάθησης",
+        "severity": "Σοβαρότητα",
+        "onsetDate": "Έναρξη",
+        "endDate": "Λήξη",
+        "duration": "Διάρκεια",
+        "relatedMedication": "Σχετικό Φάρμακο",
+        "practitioner": "Ιατρός",
+        "icd10Code": "Κωδικός ICD-10",
+        "snomedCode": "Κωδικός SNOMED",
+        "codeDescription": "Περιγραφή Κωδικού"
+      },
+      "noMedicationLinked": "Δεν υπάρχει συνδεδεμένο φάρμακο",
+      "noPractitionerAssigned": "Δεν έχει οριστεί ιατρός",
+      "noNotesAvailable": "Δεν υπάρχουν διαθέσιμες κλινικές σημειώσεις"
+    },
+    "form": {
+      "saving": "Αποθήκευση πάθησης...",
+      "createCondition": "Δημιουργία Πάθησης",
+      "updateCondition": "Ενημέρωση Πάθησης",
+      "tabs": {
+        "basicInfo": "Βασικές Πληροφορίες",
+        "clinical": "Κλινικές Λεπτομέρειες",
+        "documents": "Έγγραφα",
+        "notes": "Σημειώσεις"
+      },
+      "fields": {
+        "diagnosis": "Διάγνωση",
+        "conditionName": "Όνομα Πάθησης",
+        "severity": "Σοβαρότητα",
+        "status": "Κατάσταση",
+        "onsetDate": "Ημερομηνία Έναρξης",
+        "endDate": "Ημερομηνία Λήξης",
+        "relatedMedication": "Σχετικό Φάρμακο",
+        "practitioner": "Ιατρός",
+        "tags": "Ετικέτες",
+        "icd10Code": "Κωδικός ICD-10",
+        "snomedCode": "Κωδικός SNOMED",
+        "codeDescription": "Περιγραφή Κωδικού",
+        "clinicalNotes": "Κλινικές Σημειώσεις"
+      },
+      "placeholders": {
+        "diagnosis": "Εισάγετε διάγνωση",
+        "conditionName": "Εισάγετε όνομα πάθησης",
+        "severity": "Επιλέξτε σοβαρότητα",
+        "status": "Επιλέξτε κατάσταση",
+        "onsetDate": "Επιλέξτε ημερομηνία έναρξης",
+        "endDate": "Επιλέξτε ημερομηνία λήξης",
+        "medication": "Επιλέξτε φάρμακο",
+        "practitioner": "Επιλέξτε ιατρό",
+        "tags": "Προσθήκη ετικετών...",
+        "icd10Code": "π.χ., E11.9",
+        "snomedCode": "π.χ., 44054006",
+        "codeDescription": "Περιγραφή του ιατρικού κωδικού",
+        "notes": "Εισάγετε κλινικές σημειώσεις, παρατηρήσεις ή πρόσθετες λεπτομέρειες"
+      },
+      "descriptions": {
+        "diagnosis": "Κύρια διάγνωση ή πάθηση",
+        "conditionName": "Προαιρετικό εναλλακτικό όνομα",
+        "onsetDate": "Πότε ξεκίνησε η πάθηση",
+        "endDate": "Πότε έληξε η πάθηση (εάν ισχύει)",
+        "medication": "Συνδέστε αυτή την πάθηση με ένα φάρμακο",
+        "practitioner": "Σχετιζόμενος πάροχος υγείας",
+        "tags": "Προσθέστε ετικέτες για κατηγοριοποίηση και οργάνωση",
+        "icd10Code": "Κωδικός Διεθνούς Ταξινόμησης Νόσων",
+        "snomedCode": "Κωδικός SNOMED CT",
+        "codeDescription": "Περιγραφή των ιατρικών κωδικών",
+        "notes": "Πρόσθετες πληροφορίες για αυτή την πάθηση"
+      },
+      "severity": {
+        "mild": "Ήπια",
+        "moderate": "Μέτρια",
+        "severe": "Σοβαρή",
+        "critical": "Κρίσιμη"
+      },
+      "status": {
+        "active": "Ενεργό",
+        "inactive": "Ανενεργό",
+        "resolved": "Επιλύθηκε",
+        "chronic": "Χρόνιο"
+      }
+    }
+  },
+  "treatments": {
+    "title": "Θεραπευτικές Αγωγές",
+    "loadingTreatments": "Φόρτωση θεραπειών...",
+    "addTreatment": "+ Προσθήκη Θεραπείας",
+    "noTreatmentsFound": "Δεν βρέθηκαν θεραπείες",
+    "tryAdjustingFilters": "Δοκιμάστε να προσαρμόσετε τα κριτήρια αναζήτησης ή τα φίλτρα σας.",
+    "startAdding": "Ξεκινήστε προσθέτοντας την πρώτη σας θεραπεία.",
+    "addFirstTreatment": "Προσθέστε την Πρώτη σας Θεραπεία",
+    "conditionsLoadingError": "Σφάλμα Φόρτωσης Παθήσεων",
+    "card": {
+      "subtitle": "Ιατρική Θεραπεία",
+      "conditionId": "Πάθηση #{{id}}",
+      "startDate": "Ημερομηνία Έναρξης",
+      "endDate": "Ημερομηνία Λήξης",
+      "amount": "Ποσότητα",
+      "frequency": "Συχνότητα",
+      "description": "Περιγραφή",
+      "notSpecified": "Δεν καθορίστηκε",
+      "relatedCondition": "Σχετική Πάθηση",
+      "viewConditionDetails": "Προβολή λεπτομερειών πάθησης"
+    },
+    "viewModal": {
+      "title": "Λεπτομέρειες Θεραπείας",
+      "tabs": {
+        "overview": "Επισκόπηση",
+        "schedule": "Πρόγραμμα & Δοσολογία",
+        "notes": "Σημειώσεις",
+        "documents": "Έγγραφα"
+      },
+      "basicInformation": "Βασικές Πληροφορίες",
+      "treatmentName": "Όνομα Θεραπείας",
+      "treatmentType": "Τύπος Θεραπείας",
+      "status": "Κατάσταση",
+      "description": "Περιγραφή",
+      "notSpecified": "Δεν καθορίστηκε",
+      "practitioner": "Επαγγελματίας Υγείας",
+      "doctor": "Ιατρός",
+      "practitionerId": "Επαγγελματίας #{{id}}",
+      "specialty": "Ειδικότητα",
+      "practice": "Ιατρείο/Κλινική",
+      "relatedCondition": "Σχετική Πάθηση",
+      "diagnosis": "Διάγνωση",
+      "conditionId": "Πάθηση #{{id}}",
+      "noConditionLinked": "Καμία συνδεδεμένη πάθηση",
+      "severity": "Σοβαρότητα",
+      "conditionStatus": "Κατάσταση Πάθησης",
+      "tags": "Ετικέτες",
+      "schedule": "Πρόγραμμα",
+      "startDate": "Ημερομηνία Έναρξης",
+      "endDate": "Ημερομηνία Λήξης",
+      "dosageFrequency": "Δοσολογία & Συχνότητα",
+      "amountDosage": "Ποσότητα/Δόση",
+      "frequency": "Συχνότητα",
+      "treatmentNotes": "Σημειώσεις Θεραπείας",
+      "noNotesAvailable": "Δεν υπάρχουν διαθέσιμες σημειώσεις",
+      "close": "Κλείσιμο",
+      "edit": "Επεξεργασία"
+    },
+    "form": {
+      "savingTreatment": "Αποθήκευση θεραπείας...",
+      "tabs": {
+        "basicInfo": "Βασικές Πληροφορίες",
+        "scheduleDosage": "Πρόγραμμα & Δοσολογία",
+        "documents": "Έγγραφα",
+        "notes": "Σημειώσεις"
+      },
+      "treatmentName": "Όνομα Θεραπείας",
+      "enterTreatmentName": "Εισάγετε όνομα θεραπείας",
+      "treatmentNameDesc": "Το όνομα της θεραπευτικής αγωγής",
+      "treatmentType": "Τύπος Θεραπείας",
+      "treatmentTypePlaceholder": "π.χ. Φυσικοθεραπεία, Χειρουργική επέμβαση",
+      "treatmentTypeDesc": "Τύπος ή κατηγορία θεραπείας",
+      "status": "Κατάσταση",
+      "selectStatus": "Επιλέξτε κατάσταση",
+      "statusDesc": "Τρέχουσα κατάσταση θεραπείας",
+      "statusPlanned": "Προγραμματισμένη",
+      "statusActive": "Ενεργή",
+      "statusOnHold": "Σε αναμονή",
+      "statusCompleted": "Ολοκληρώθηκε",
+      "statusCancelled": "Ακυρώθηκε",
+      "relatedCondition": "Σχετική Πάθηση",
+      "selectCondition": "Επιλέξτε πάθηση",
+      "relatedConditionDesc": "Συνδέστε αυτή τη θεραπεία με μια πάθηση",
+      "practitioner": "Επαγγελματίας Υγείας",
+      "selectPractitioner": "Επιλέξτε επαγγελματία",
+      "practitionerDesc": "Ο πάροχος υγείας που χορηγεί τη θεραπεία",
+      "description": "Περιγραφή",
+      "descriptionPlaceholder": "Περιγράψτε τη θεραπεία",
+      "descriptionDesc": "Σύντομη περιγραφή της θεραπείας",
+      "tags": "Ετικέτες",
+      "tagsDesc": "Προσθέστε ετικέτες για κατηγοριοποίηση",
+      "tagsPlaceholder": "Προσθήκη ετικετών...",
+      "startDate": "Ημερομηνία Έναρξης",
+      "selectStartDate": "Επιλέξτε ημερομηνία έναρξης",
+      "startDateDesc": "Πότε ξεκινά η θεραπεία",
+      "endDate": "Ημερομηνία Λήξης",
+      "selectEndDate": "Επιλέξτε ημερομηνία λήξης",
+      "endDateDesc": "Πότε λήγει η θεραπεία (αν ισχύει)",
+      "dosageAmount": "Δόση/Ποσότητα",
+      "dosagePlaceholder": "π.χ. 10mg, 1 συνεδρία",
+      "dosageDesc": "Ποσότητα ή δόση ανά θεραπεία",
+      "frequency": "Συχνότητα",
+      "frequencyPlaceholder": "π.χ. Καθημερινά, Δύο φορές την εβδομάδα",
+      "frequencyDesc": "Πόσο συχνά χορηγείται η θεραπεία",
+      "treatmentNotes": "Σημειώσεις Θεραπείας",
+      "notesPlaceholder": "Εισάγετε σημειώσεις, παρατηρήσεις ή πρόσθετες λεπτομέρειες",
+      "notesDesc": "Επιπλέον πληροφορίες για αυτή τη θεραπεία",
+      "cancel": "Ακύρωση",
+      "updateTreatment": "Ενημέρωση Θεραπείας",
+      "createTreatment": "Δημιουργία Θεραπείας"
+    }
+  },
+  "procedures": {
+    "title": "Ιατρικές Πράξεις",
+    "loadingProcedures": "Φόρτωση πράξεων...",
+    "loadingRefresh": "Εάν αυτό καθυστερεί πολύ, ανανεώστε τη σελίδα",
+    "error": "Σφάλμα",
+    "success": "Επιτυχία",
+    "addProcedure": "+ Προσθήκη Πράξης",
+    "noProceduresFound": "Δεν βρέθηκαν ιατρικές πράξεις",
+    "tryAdjustingFilters": "Δοκιμάστε να προσαρμόσετε τα φίλτρα σας.",
+    "startAdding": "Ξεκινήστε προσθέτοντας την πρώτη σας ιατρική πράξη.",
+    "addFirstProcedure": "Προσθέστε την Πρώτη σας Ιατρική Πράξη",
+    "editProcedure": "Επεξεργασία Πράξης",
+    "addNewProcedure": "Προσθήκη Νέας Πράξης",
+    "processing": "Επεξεργασία...",
+    "card": {
+      "procedureDate": "Ημερομηνία Πράξης",
+      "code": "Κωδικός",
+      "setting": "Πλαίσιο",
+      "duration": "Διάρκεια",
+      "durationMinutes": "{{minutes}} λεπτά",
+      "facility": "Εγκατάσταση/Νοσοκομείο",
+      "doctor": "Ιατρός",
+      "practitionerId": "ID Επαγγελματία: {{id}}",
+      "viewPractitioner": "Προβολή λεπτομερειών επαγγελματία",
+      "description": "Περιγραφή",
+      "complications": "Επιπλοκές",
+      "notSpecified": "Δεν καθορίστηκε"
+    },
+    "viewModal": {
+      "title": "Λεπτομέρειες Ιατρικής Πράξης",
+      "tabs": {
+        "overview": "Επισκόπηση",
+        "clinical": "Κλινικές Λεπτομέρειες",
+        "notes": "Σημειώσεις",
+        "documents": "Έγγραφα"
+      },
+      "basicInfo": "Βασικές Πληροφορίες",
+      "procedureName": "Όνομα Πράξης",
+      "procedureType": "Τύπος Πράξης",
+      "procedureCode": "Κωδικός Πράξης",
+      "date": "Ημερομηνία",
+      "status": "Κατάσταση",
+      "setting": "Πλαίσιο",
+      "duration": "Διάρκεια",
+      "durationMinutes": "{{minutes}} λεπτά",
+      "facility": "Εγκατάσταση",
+      "practitioner": "Επαγγελματίας Υγείας",
+      "doctor": "Ιατρός",
+      "practitionerId": "ID Επαγγελματία: {{id}}",
+      "viewPractitioner": "Προβολή λεπτομερειών επαγγελματία",
+      "specialty": "Ειδικότητα",
+      "description": "Περιγραφή",
+      "noDescription": "Δεν υπάρχει διαθέσιμη περιγραφή",
+      "tags": "Ετικέτες",
+      "anesthesiaInfo": "Πληροφορίες Αναισθησίας",
+      "anesthesiaType": "Τύπος Αναισθησίας",
+      "anesthesiaNotes": "Σημειώσεις Αναισθησίας",
+      "noAnesthesiaNotes": "Δεν υπάρχουν σημειώσεις αναισθησίας",
+      "complications": "Επιπλοκές",
+      "noComplications": "Δεν αναφέρθηκαν επιπλοκές",
+      "clinicalNotes": "Κλινικές Σημειώσεις",
+      "noClinicalNotes": "Δεν υπάρχουν κλινικές σημειώσεις",
+      "outcome": "Έκβαση",
+      "notSpecified": "Δεν καθορίστηκε",
+      "close": "Κλείσιμο",
+      "edit": "Επεξεργασία"
+    },
+    "form": {
+      "savingProcedure": "Αποθήκευση ιατρικής πράξης...",
+      "tabs": {
+        "basicInfo": "Βασικές Πληροφορίες",
+        "clinical": "Κλινικές Λεπτομέρειες",
+        "documents": "Έγγραφα",
+        "notes": "Σημειώσεις"
+      },
+      "procedureName": "Όνομα Πράξης",
+      "procedureNamePlaceholder": "Εισάγετε όνομα πράξης",
+      "procedureNameDesc": "Το όνομα της ιατρικής πράξης ή επέμβασης",
+      "procedureType": "Τύπος Πράξης",
+      "procedureTypePlaceholder": "π.χ. Χειρουργική, Διαγνωστική",
+      "procedureTypeDesc": "Τύπος ή κατηγορία",
+      "procedureCode": "Κωδικός Πράξης",
+      "procedureCodePlaceholder": "π.χ. κωδικός CPT/ICD",
+      "procedureCodeDesc": "Ιατρικός κωδικός χρέωσης ή ταξινόμησης",
+      "procedureDate": "Ημερομηνία Πράξης",
+      "procedureDatePlaceholder": "Επιλέξτε ημερομηνία",
+      "procedureDateDesc": "Πότε πραγματοποιήθηκε η πράξη",
+      "status": "Κατάσταση",
+      "statusPlaceholder": "Επιλέξτε κατάσταση",
+      "statusDesc": "Τρέχουσα κατάσταση",
+      "statusScheduled": "Προγραμματισμένη",
+      "statusInProgress": "Σε εξέλιξη",
+      "statusCompleted": "Ολοκληρώθηκε",
+      "statusPostponed": "Αναβλήθηκε",
+      "statusCancelled": "Ακυρώθηκε",
+      "practitioner": "Επαγγελματίας Υγείας",
+      "practitionerPlaceholder": "Επιλέξτε επαγγελματία",
+      "practitionerDesc": "Ο ιατρός που εκτέλεσε την πράξη",
+      "setting": "Πλαίσιο",
+      "settingPlaceholder": "π.χ. Εσωτερικός ασθενής, Εξωτερικός ασθενής",
+      "settingDesc": "Πού πραγματοποιήθηκε η πράξη",
+      "facility": "Εγκατάσταση",
+      "facilityPlaceholder": "π.χ. Όνομα νοσοκομείου",
+      "facilityDesc": "Ιατρική εγκατάσταση",
+      "duration": "Διάρκεια (λεπτά)",
+      "durationPlaceholder": "Εισάγετε διάρκεια",
+      "durationDesc": "Πόσο χρόνο διήρκεσε η πράξη",
+      "description": "Περιγραφή",
+      "descriptionPlaceholder": "Περιγράψτε την πράξη",
+      "descriptionDesc": "Σύντομη περιγραφή",
+      "tags": "Ετικέτες",
+      "tagsDesc": "Προσθέστε ετικέτες για οργάνωση",
+      "tagsPlaceholder": "Προσθήκη ετικετών...",
+      "anesthesiaType": "Τύπος Αναισθησίας",
+      "anesthesiaTypePlaceholder": "π.χ. Γενική, Τοπική, Περιοχική",
+      "anesthesiaTypeDesc": "Ο τύπος αναισθησίας που χρησιμοποιήθηκε",
+      "anesthesiaNotes": "Σημειώσεις Αναισθησίας",
+      "anesthesiaNotesPlaceholder": "Εισάγετε λεπτομέρειες αναισθησίας",
+      "anesthesiaNotesDesc": "Πρόσθετες πληροφορίες αναισθησίας",
+      "complications": "Επιπλοκές",
+      "complicationsPlaceholder": "Καταγράψτε τυχόν επιπλοκές",
+      "complicationsDesc": "Προβλήματα που προέκυψαν",
+      "clinicalNotes": "Κλινικές Σημειώσεις",
+      "clinicalNotesPlaceholder": "Εισάγετε κλινικές σημειώσεις ή παρατηρήσεις",
+      "clinicalNotesDesc": "Επιπλέον πληροφορίες για την πράξη",
+      "outcome": "Έκβαση",
+      "outcomePlaceholder": "Επιλέξτε έκβαση",
+      "outcomeDesc": "Το αποτέλεσμα της πράξης",
+      "outcomeSuccessful": "Επιτυχής",
+      "outcomeAbnormal": "Μη φυσιολογική",
+      "outcomeComplications": "Επιπλοκές",
+      "outcomeInconclusive": "Μη καταληκτική",
+      "outcomePending": "Εκκρεμεί",
+      "cancel": "Ακύρωση",
+      "createProcedure": "Δημιουργία Πράξης",
+      "updateProcedure": "Ενημέρωση Πράξης"
+    },
+    "table": {
+      "procedureName": "Όνομα Πράξης",
+      "type": "Τύπος",
+      "code": "Κωδικός",
+      "date": "Ημερομηνία",
+      "status": "Κατάσταση",
+      "setting": "Πλαίσιο",
+      "facility": "Εγκατάσταση",
+      "practitioner": "Επαγγελματίας",
+      "description": "Περιγραφή"
+    }
+  },
+  "immunizations": {
+    "title": "Εμβολιασμοί",
+    "loadingImmunizations": "Φόρτωση εμβολιασμών...",
+    "error": "Σφάλμα",
+    "success": "Επιτυχία",
+    "addImmunization": "Προσθήκη Νέου Εμβολιασμού",
+    "editImmunization": "Επεξεργασία Εμβολιασμού",
+    "addNewImmunization": "Προσθήκη Νέου Εμβολιασμού",
+    "noImmunizationsFound": "Δεν βρέθηκαν εμβολιασμοί",
+    "tryAdjustingFilters": "Δοκιμάστε να προσαρμόσετε τα κριτήρια αναζήτησης.",
+    "clickToGetStarted": "Κάντε κλικ στο \"Προσθήκη Νέου Εμβολιασμού\" για να ξεκινήσετε.",
+    "table": {
+      "vaccineName": "Όνομα Εμβολίου",
+      "dateAdministered": "Ημερομηνία Χορήγησης",
+      "doseNumber": "Αριθμός Δόσης",
+      "manufacturer": "Κατασκευαστής",
+      "site": "Σημείο",
+      "route": "Οδός",
+      "lotNumber": "Αριθμός Παρτίδας",
+      "expirationDate": "Ημερομηνία Λήξης",
+      "notes": "Σημειώσεις",
+      "tradeName": "Εμπορική Ονομασία",
+      "practitioner": "Επαγγελματίας"
+    },
+    "card": {
+      "dose": "Δόση {{number}}",
+      "dateAdministered": "Ημερομηνία Χορήγησης",
+      "lotNumber": "Αρ. Παρτίδας (Lot)",
+      "ndcNumber": "Κωδικός NDC",
+      "injectionSite": "Σημείο Ένεσης",
+      "route": "Οδός Χορήγησης",
+      "location": "Τοποθεσία",
+      "expirationDate": "Ημερομηνία Λήξης",
+      "practitioner": "Επαγγελματίας",
+      "viewPractitioner": "Λεπτομέρειες επαγγελματία",
+      "practitionerId": "ID: {{id}}",
+      "notSpecified": "Δεν καθορίστηκε"
+    },
+    "viewModal": {
+      "title": "Λεπτομέρειες Εμβολιασμού",
+      "dose": "Δόση {{number}}",
+      "tabs": {
+        "overview": "Επισκόπηση",
+        "administration": "Χορήγηση",
+        "notes": "Σημειώσεις",
+        "documents": "Έγγραφα"
+      },
+      "vaccineInfo": "Πληροφορίες Εμβολίου",
+      "vaccineName": "Όνομα Εμβολίου",
+      "tradeName": "Εμπορική Ονομασία",
+      "manufacturer": "Κατασκευαστής",
+      "doseNumber": "Αριθμός Δόσης",
+      "doseHash": "Δόση #{{number}}",
+      "lotNumber": "Αριθμός Παρτίδας",
+      "ndcNumber": "Κωδικός NDC",
+      "expirationDate": "Ημερομηνία Λήξης",
+      "adminDetails": "Λεπτομέρειες Χορήγησης",
+      "dateAdministered": "Ημερομηνία Χορήγησης",
+      "adminSite": "Σημείο Χορήγησης",
+      "route": "Οδός",
+      "locationFacility": "Τοποθεσία/Εγκατάσταση",
+      "viewPractitioner": "Λεπτομέρειες επαγγελματία",
+      "practitionerId": "ID Επαγγελματία: {{id}}"
+    },
+    "form": {
+      "savingImmunization": "Αποθήκευση εμβολιασμού...",
+      "tabs": {
+        "basicInfo": "Βασικές Πληροφορίες",
+        "administration": "Χορήγηση",
+        "documents": "Έγγραφα",
+        "notes": "Σημειώσεις"
+      },
+      "vaccineName": "Όνομα Εμβολίου",
+      "vaccineNamePlaceholder": "π.χ. Εμβόλιο Γρίπης, COVID-19, Tdap",
+      "vaccineNameDesc": "Κοινό όνομα του εμβολίου",
+      "tradeName": "Επίσημη/Εμπορική Ονομασία",
+      "tradeNamePlaceholder": "π.χ. Flublok TRIV 2025-2026",
+      "tradeNameDesc": "Η πλήρης ονομασία από τα έγγραφα του εμβολίου",
+      "manufacturer": "Κατασκευαστής",
+      "manufacturerPlaceholder": "Εισάγετε κατασκευαστή",
+      "manufacturerDesc": "Ο παρασκευαστής του εμβολίου",
+      "doseNumber": "Αριθμός Δόσης",
+      "doseNumberPlaceholder": "Εισάγετε αριθμό δόσης",
+      "doseNumberDesc": "Ποια δόση είναι στη σειρά",
+      "lotNumber": "Αριθμός Παρτίδας",
+      "lotNumberPlaceholder": "Εισάγετε lot number",
+      "lotNumberDesc": "Ο αριθμός παρτίδας του εμβολίου",
+      "ndcNumber": "Κωδικός NDC",
+      "ndcNumberPlaceholder": "π.χ. 12345-6789-01",
+      "ndcNumberDesc": "Εθνικός Κωδικός Φαρμάκου",
+      "expirationDate": "Ημερομηνία Λήξης",
+      "expirationDatePlaceholder": "Επιλέξτε ημερομηνία λήξης",
+      "expirationDateDesc": "Πότε λήγει το εμβόλιο",
+      "tags": "Ετικέτες",
+      "tagsDesc": "Προσθέστε ετικέτες για οργάνωση",
+      "tagsPlaceholder": "Προσθήκη ετικετών...",
+      "dateAdministered": "Ημερομηνία Χορήγησης",
+      "dateAdministeredPlaceholder": "Επιλέξτε ημερομηνία",
+      "dateAdministeredDesc": "Πότε έγινε ο εμβολιασμός",
+      "adminSite": "Σημείο Χορήγησης",
+      "adminSitePlaceholder": "Επιλέξτε σημείο χορήγησης",
+      "adminSiteDesc": "Σε ποιο μέρος του σώματος έγινε",
+      "siteLeftArm": "Αριστερό Μπράτσο",
+      "siteRightArm": "Δεξί Μπράτσο",
+      "siteLeftThigh": "Αριστερός Μηρός",
+      "siteRightThigh": "Δεξί Μηρός",
+      "siteLeftDeltoid": "Αριστερός Δελτοειδής",
+      "siteRightDeltoid": "Δεξί Δελτοειδής",
+      "siteOral": "Από το στόμα",
+      "siteNasal": "Ρινικά",
+      "adminRoute": "Οδός Χορήγησης",
+      "adminRoutePlaceholder": "Επιλέξτε οδό χορήγησης",
+      "adminRouteDesc": "Μέθοδος χορήγησης",
+      "routeIM": "Ενδομυϊκά (IM)",
+      "routeSC": "Υποδόρια (SC)",
+      "routeID": "Ενδοδερμικά (ID)",
+      "routeOral": "Από το στόμα",
+      "routeNasal": "Ρινικά",
+      "routeIV": "Ενδοφλέβια (IV)",
+      "location": "Τοποθεσία/Εγκατάσταση",
+      "locationPlaceholder": "π.χ. Φαρμακείο, Νοσοκομείο, Κλινική",
+      "locationDesc": "Πού έγινε ο εμβολιασμός",
+      "practitioner": "Επαγγελματίας Υγείας",
+      "practitionerPlaceholder": "Επιλέξτε επαγγελματία",
+      "practitionerDesc": "Ποιος χορήγησε το εμβόλιο",
+      "clinicalNotes": "Κλινικές Σημειώσεις",
+      "clinicalNotesPlaceholder": "Εισάγετε σημειώσεις, αντιδράσεις κ.λπ.",
+      "clinicalNotesDesc": "Επιπλέον πληροφορίες για τον εμβολιασμό",
+      "createImmunization": "Δημιουργία Εμβολιασμού",
+      "updateImmunization": "Ενημέρωση Εμβολιασμού",
+      "siteOther": "Άλλο",
+      "cancel": "Ακύρωση"
+    }
+  },
+  "visits": {
+    "title": "Ιατρικές Επισκέψεις",
+    "loadingVisits": "Φόρτωση επισκέψεων...",
+    "error": "Σφάλμα",
+    "success": "Επιτυχία",
+    "addVisit": "Προσθήκη Νέας Επίσκεψης",
+    "addNewVisit": "Προσθήκη Νέας Επίσκεψης",
+    "editVisit": "Επεξεργασία Επίσκεψης",
+    "noVisitsFound": "Δεν βρέθηκαν ιατρικές επισκέψεις",
+    "tryAdjustingFilters": "Δοκιμάστε να προσαρμόσετε τα φίλτρα σας.",
+    "clickToGetStarted": "Κάντε κλικ στο \"Προσθήκη Νέας Επίσκεψης\" για να ξεκινήσετε.",
+    "table": {
+      "visitDate": "Ημερομηνία Επίσκεψης",
+      "reason": "Αιτία",
+      "visitType": "Τύπος Επίσκεψης",
+      "facility": "Εγκατάσταση",
+      "relatedCondition": "Σχετική Πάθηση",
+      "diagnosis": "Διάγνωση"
+    },
+    "card": {
+      "noPractitionerAssigned": "Δεν ορίστηκε επαγγελματίας",
+      "practitionerId": "ID Επαγγελματία: {{id}}",
+      "chiefComplaint": "Κύριο Σύμπτωμα/Αιτία",
+      "location": "Τοποθεσία",
+      "duration": "Διάρκεια",
+      "durationMinutes": "{{minutes}} λεπτά",
+      "relatedCondition": "Σχετική Πάθηση",
+      "viewPractitioner": "Λεπτομέρειες επαγγελματία",
+      "viewCondition": "Λεπτομέρειες πάθησης",
+      "generalVisit": "Γενική Επίσκεψη",
+      "diagnosisAssessment": "Διάγνωση/Αξιολόγηση",
+      "treatmentPlan": "Θεραπευτικό Πλάνο",
+      "followUpInstructions": "Οδηγίες Επανελέγχου"
+    },
+    "viewModal": {
+      "title": "Επίσκεψη - {{date}}",
+      "generalVisit": "Γενική Επίσκεψη",
+      "noPractitionerAssigned": "Δεν ορίστηκε επαγγελματίας",
+      "practitionerId": "ID Επαγγελματία: {{id}}",
+      "tabs": {
+        "visitInfo": "Πληροφορίες Επίσκεψης",
+        "clinical": "Κλινικά Στοιχεία",
+        "notes": "Σημειώσεις",
+        "documents": "Έγγραφα"
+      },
+      "visitInformation": "Πληροφορίες Επίσκεψης",
+      "reason": "Αιτία",
+      "visitType": "Τύπος Επίσκεψης",
+      "priority": "Προτεραιότητα",
+      "location": "Τοποθεσία",
+      "duration": "Διάρκεια",
+      "durationMinutes": "{{minutes}} λεπτά",
+      "doctor": "Ιατρός",
+      "specialty": "Ειδικότητα",
+      "relatedCondition": "Σχετική Πάθηση",
+      "viewCondition": "Λεπτομέρειες πάθησης",
+      "clinicalInformation": "Κλινικές Πληροφορίες",
+      "chiefComplaint": "Κύρια Ενόχληση (Chief Complaint)",
+      "diagnosis": "Διάγνωση",
+      "treatmentPlan": "Θεραπευτικό Πλάνο",
+      "followUpInstructions": "Οδηγίες Επανελέγχου",
+      "additionalNotes": "Πρόσθετες Σημειώσεις",
+      "noNotesAvailable": "Δεν υπάρχουν διαθέσιμες σημειώσεις",
+      "attachedDocuments": "Συνημμένα Έγγραφα",
+      "editVisit": "Επεξεργασία Επίσκεψης"
+    },
+    "form": {
+      "savingVisit": "Αποθήκευση επίσκεψης...",
+      "tabs": {
+        "visitInfo": "Πληροφορίες",
+        "clinical": "Κλινικά",
+        "documents": "Έγγραφα",
+        "notes": "Σημειώσεις"
+      },
+      "updateVisit": "Ενημέρωση Επίσκεψης",
+      "addVisit": "Προσθήκη Επίσκεψης",
+      "fields": {
+        "reason": {
+          "label": "Αιτία Επίσκεψης",
+          "placeholder": "π.χ. Ετήσιο check-up, Επανέλεγχος, Αξιολόγηση συμπτωμάτων",
+          "description": "Ο κύριος σκοπός της ιατρικής επίσκεψης"
+        },
+        "visitDate": {
+          "label": "Ημερομηνία Επίσκεψης",
+          "placeholder": "Επιλέξτε ημερομηνία",
+          "description": "Πότε πραγματοποιήθηκε η επίσκεψη"
+        },
+        "attendingPractitioner": {
+          "label": "Θεράπων Ιατρός",
+          "placeholder": "Επιλέξτε επαγγελματία (προαιρετικό)",
+          "description": "Ο ιατρός που πραγματοποίησε την επίσκεψη"
+        },
+        "visitType": {
+          "placeholder": "Επιλέξτε τύπο επίσκεψης",
+          "description": "Ο τύπος της ιατρικής επίσκεψης"
+        },
+        "priority": {
+          "placeholder": "Επιλέξτε επίπεδο προτεραιότητας",
+          "description": "Προτεραιότητα της επίσκεψης"
+        },
+        "relatedCondition": {
+          "label": "Σχετική Πάθηση (Προαιρετικό)",
+          "placeholder": "Συνδέστε την επίσκεψη με μια πάθηση",
+          "description": "Συσχετίστε την επίσκεψη με μια συγκεκριμένη πάθηση"
+        },
+        "chiefComplaint": {
+          "placeholder": "Κύρια ενόχληση ή σύμπτωμα",
+          "description": "Το βασικό πρόβλημα υγείας που οδήγησε στην επίσκεψη"
+        },
+        "durationMinutes": {
+          "label": "Διάρκεια (λεπτά)",
+          "placeholder": "Διάρκεια επίσκεψης",
+          "description": "Πόσο χρόνο διήρκεσε η επίσκεψη"
+        },
+        "location": {
+          "placeholder": "Πού πραγματοποιήθηκε η επίσκεψη",
+          "description": "Η τοποθεσία της επίσκεψης"
+        },
+        "diagnosisAssessment": {
+          "label": "Διάγνωση/Αξιολόγηση",
+          "placeholder": "Κλινική εκτίμηση ή διάγνωση...",
+          "description": "Ιατρική διάγνωση ή κλινική αξιολόγηση"
+        },
+        "treatmentPlan": {
+          "placeholder": "Συνιστώμενη θεραπεία ή επόμενα βήματα...",
+          "description": "Συστάσεις θεραπείας και παρεμβάσεις"
+        },
+        "followUpInstructions": {
+          "placeholder": "Οδηγίες επανελέγχου...",
+          "description": "Οδηγίες για συνεχιζόμενη φροντίδα και μελλοντικά ραντεβού"
+        },
+        "additionalNotes": {
+          "label": "Πρόσθετες Σημειώσεις",
+          "placeholder": "Οποιεσδήποτε άλλες σημαντικές λεπτομέρειες...",
+          "description": "Πρόσθετες παρατηρήσεις ή λεπτομέρειες"
+        }
+      },
+      "visitTypeOptions": {
+        "annualCheckup": "Ετήσιο Check-up",
+        "followUp": "Επανέλεγχος (Follow-up)",
+        "consultation": "Γνωμάτευση / Διαβούλευση",
+        "emergency": "Επείγον",
+        "preventiveCare": "Προληπτική Φροντίδα",
+        "routineVisit": "Επίσκεψη Ρουτίνας",
+        "specialistReferral": "Παραπομπή σε Ειδικό"
+      },
+      "priorityOptions": {
+        "routine": "Ρουτίνα",
+        "urgent": "Επείγον",
+        "emergency": "Έκτακτη Ανάγκη"
+      },
+      "locationOptions": {
+        "doctorsOffice": "Ιατρείο",
+        "hospital": "Νοσοκομείο",
+        "clinic": "Κλινική",
+        "telehealth": "Τηλεϊατρική / Εικονική",
+        "urgentCare": "Πρωτοβάθμια Φροντίδα",
+        "emergencyRoom": "Τμήμα Επειγόντων",
+        "homeVisit": "Κατ' οίκον επίσκεψη"
+      }
+    }
+  },
+  "familyHistory": {
+    "title": "Οικογενειακό Ιστορικό",
+    "loadingFamilyHistory": "Φόρτωση οικογενειακού ιστορικού...",
+    "pageTitle": "Οικογενειακό Ιατρικό Ιστορικό",
+    "conditionCountAcrossMembers": "{{conditionCount}} παθήσεις σε {{memberCount}} μέλη της οικογένειας",
+    "memberCountRecorded": "Καταγράφηκαν {{count}} μέλη της οικογένειας",
+    "sharedConditionCountAcrossMembers": "{{conditionCount}} παθήσεις σε {{memberCount}} κοινόχρηστα μέλη",
+    "sharedMemberCount": "{{filteredCount}} από {{totalCount}} μέλη οικογένειας μοιράστηκαν μαζί σας",
+    "addFamilyMember": "Προσθήκη Μέλους Οικογένειας",
+    "sharingMode": "Λειτουργία Κοινής Χρήσης",
+    "endSharingMode": "Τερματισμός Κοινής Χρήσης",
+    "manageInvitations": "Διαχείριση Προσκλήσεων",
+    "shareSelected": "Κοινή Χρήση Επιλεγμένων ({{count}})",
+    "sharingModeActive": "Ενεργή Λειτουργία Κοινής Χρήσης",
+    "clickToSelectForSharing": "Κάντε κλικ στις κάρτες μελών για να τις επιλέξετε. Επιλέχθηκαν: {{count}}.",
+    "sharedMembersCannotBeSelected": "Τα ήδη κοινόχρηστα μέλη δεν μπορούν να επιλεγούν ξανά.",
+    "sharedTableName": "Κοινόχρηστο Οικογενειακό Ιστορικό",
+    "tabs": {
+      "myFamily": "Η Οικογένειά μου",
+      "sharedWithMe": "Μοιράστηκαν μαζί μου"
+    },
+    "emptyState": {
+      "noFamilyMembers": "Δεν υπάρχουν ακόμα μέλη οικογένειας",
+      "startBuilding": "Ξεκινήστε να χτίζετε το οικογενειακό σας ιστορικό προσθέτοντας το πρώτο μέλος.",
+      "addFirstMember": "Προσθέστε το Πρώτο Μέλος της Οικογένειας"
+    },
+    "table": {
+      "familyMember": "Μέλος Οικογένειας",
+      "relationship": "Συγγένεια",
+      "condition": "Πάθηση",
+      "type": "Τύπος",
+      "diagnosisAge": "Ηλικία Διάγνωσης",
+      "sharedBy": "Κοινή χρήση από",
+      "noConditions": "Καμία πάθηση",
+      "yearsOld": "{{age}} ετών",
+      "unknown": "Άγνωστο"
+    },
+    "card": {
+      "subtitle": "Μέλος Οικογένειας",
+      "notSelectable": "Μη επιλέξιμο",
+      "shared": "Σε κοινή χρήση",
+      "selected": "Επιλεγμένο",
+      "age": "Ηλικία",
+      "years": "έτη",
+      "deceased": "Απεβίωσε",
+      "gender": "Φύλο",
+      "birthYear": "Έτος Γέννησης",
+      "deathYear": "Έτος Θανάτου",
+      "sharedBy": "Κοινή χρήση από",
+      "conditionCount": "{{count}} Παθήσεις",
+      "medicalConditions": "Ιατρικές Παθήσεις",
+      "addCondition": "Προσθήκη Πάθησης",
+      "noConditionsRecorded": "Δεν καταγράφηκαν ιατρικές παθήσεις",
+      "diagnosedAtAge": "Διαγνώστηκε στην ηλικία των {{age}}",
+      "cannotEditSharedMember": "Δεν είναι δυνατή η επεξεργασία κοινόχρηστου μέλους"
+    },
+    "viewModal": {
+      "title": "{{name}} - Οικογενειακό Ιατρικό Ιστορικό",
+      "relationship": "Συγγένεια",
+      "sharedAt": "Κοινή χρήση στις",
+      "sharingNote": "Σημείωση Κοινής Χρήσης",
+      "cannotEditShared": "Δεν είναι δυνατή η επεξεργασία κοινόχρηστου ιστορικού",
+      "editMember": "Επεξεργασία μέλους",
+      "cannotAddConditionsShared": "Δεν είναι δυνατή η προσθήκη παθήσεων σε κοινόχρηστο μέλος",
+      "addCondition": "Προσθήκη ιατρικής πάθησης",
+      "cannotEditConditionsShared": "Δεν είναι δυνατή η επεξεργασία παθήσεων κοινόχρηστου μέλους",
+      "editCondition": "Επεξεργασία πάθησης",
+      "cannotDeleteConditionsShared": "Δεν είναι δυνατή η διαγραφή παθήσεων κοινόχρηστου μέλους",
+      "deleteCondition": "Διαγραφή πάθησης",
+      "editFamilyMember": "Επεξεργασία Μέλους Οικογένειας"
+    },
+    "notifications": {
+      "cannotEdit": "Αδυναμία Επεξεργασίας",
+      "cannotEditShared": "Δεν μπορείτε να επεξεργαστείτε κοινόχρηστα αρχεία οικογενειακού ιστορικού",
+      "cannotDelete": "Αδυναμία Διαγραφής",
+      "cannotDeleteShared": "Δεν μπορείτε να διαγράψετε κοινόχρηστα αρχεία οικογενειακού ιστορικού"
+    },
+    "confirmations": {
+      "deleteMember": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το μέλος της οικογένειας;",
+      "deleteCondition": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτή την πάθηση;"
+    },
+    "errors": {
+      "updatedButFailedRefresh": "Το μέλος ενημερώθηκε επιτυχώς, αλλά η λίστα δεν ανανεώθηκε. Παρακαλούμε επαναφορτώστε τη σελίδα.",
+      "createdButFailedRefresh": "Το μέλος δημιουργήθηκε επιτυχώς, αλλά η λίστα δεν ανανεώθηκε. Παρακαλούμε επαναφορτώστε τη σελίδα.",
+      "failedToDeleteCondition": "Αποτυχία διαγραφής πάθησης",
+      "familyMemberNotAvailable": "Οι πληροφορίες του μέλους δεν είναι διαθέσιμες",
+      "failedToSaveCondition": "Αποτυχία αποθήκευσης πάθησης"
+    },
+    "form": {
+      "addMemberTitle": "Προσθήκη Μέλους Οικογένειας",
+      "editMemberTitle": "Επεξεργασία Μέλους Οικογένειας",
+      "addConditionForMember": "Προσθήκη Πάθησης για {{name}}",
+      "editConditionForMember": "Επεξεργασία Πάθησης για {{name}}",
+      "member": {
+        "name": {
+          "label": "Πλήρες Όνομα",
+          "placeholder": "Εισάγετε όνομα μέλους",
+          "description": "Το ονοματεπώνυμο του μέλους της οικογένειας"
+        },
+        "relationship": {
+          "label": "Συγγένεια",
+          "placeholder": "Επιλέξτε συγγένεια",
+          "description": "Η σχέση συγγένειας με εσάς"
+        },
+        "gender": {
+          "label": "Φύλο",
+          "placeholder": "Επιλέξτε φύλο",
+          "description": "Το φύλο του μέλους της οικογένειας"
+        },
+        "birthYear": {
+          "label": "Έτος Γέννησης",
+          "placeholder": "π.χ. 1965",
+          "description": "Το έτος γέννησης του μέλους"
+        },
+        "deceased": {
+          "label": "Απεβίωσε",
+          "description": "Επιλέξτε εάν το μέλος της οικογένειας έχει αποβιώσει"
+        },
+        "deathYear": {
+          "label": "Έτος Θανάτου",
+          "placeholder": "π.χ. 2020",
+          "description": "Το έτος που απεβίωσε το μέλος"
+        },
+        "notes": {
+          "placeholder": "Πρόσθετες πληροφορίες για το μέλος...",
+          "description": "Οποιεσδήποτε επιπλέον σημειώσεις ή σημαντικές πληροφορίες"
+        },
+        "relationshipOptions": {
+          "father": "Πατέρας",
+          "mother": "Μητέρα",
+          "brother": "Αδελφός",
+          "sister": "Αδελφή",
+          "paternalGrandfather": "Παππούς (από πατέρα)",
+          "paternalGrandmother": "Γιαγιά (από πατέρα)",
+          "maternalGrandfather": "Παππούς (από μητέρα)",
+          "maternalGrandmother": "Γιαγιά (από μητέρα)",
+          "uncle": "Θείος",
+          "aunt": "Θεία",
+          "cousin": "Ξάδελφος/η",
+          "other": "Άλλο"
+        },
+        "genderOptions": {
+          "male": "Άνδρας",
+          "female": "Γυναίκα"
+        }
+      },
+      "condition": {
+        "conditionName": {
+          "label": "Όνομα Πάθησης",
+          "placeholder": "π.χ. Διαβήτης, Καρδιοπάθεια, Καρκίνος",
+          "description": "Το όνομα της ιατρικής πάθησης"
+        },
+        "conditionType": {
+          "label": "Τύπος Πάθησης",
+          "placeholder": "Επιλέξτε τύπο πάθησης",
+          "description": "Κατηγορία της ιατρικής πάθησης"
+        },
+        "severity": {
+          "label": "Σοβαρότητα",
+          "placeholder": "Επιλέξτε επίπεδο σοβαρότητας",
+          "description": "Πόσο σοβαρή ήταν/είναι η πάθηση"
+        },
+        "diagnosisAge": {
+          "label": "Ηλικία Διάγνωσης",
+          "placeholder": "π.χ. 45",
+          "description": "Ηλικία κατά τη διάγνωση"
+        },
+        "status": {
+          "label": "Κατάσταση",
+          "placeholder": "Επιλέξτε κατάσταση",
+          "description": "Τρέχουσα κατάσταση της πάθησης"
+        },
+        "icd10Code": {
+          "label": "Κωδικός ICD-10",
+          "placeholder": "π.χ. E11.9",
+          "description": "Κωδικός ιατρικής διάγνωσης (αν είναι γνωστός)"
+        },
+        "notes": {
+          "placeholder": "Πρόσθετες λεπτομέρειες για την πάθηση...",
+          "description": "Λεπτομέρειες θεραπείας, εκβάσεις ή άλλες πληροφορίες"
+        },
+        "typeOptions": {
+          "cardiovascular": "Καρδιαγγειακά - Καρδιά & αγγεία",
+          "diabetes": "Διαβήτης - Διαταραχές σακχάρου",
+          "cancer": "Καρκίνος - Κακοήθεις παθήσεις",
+          "mentalHealth": "Ψυχική Υγεία - Ψυχολογικές καταστάσεις",
+          "neurological": "Νευρολογικά - Εγκέφαλος & νευρικό σύστημα",
+          "autoimmune": "Αυτοάνοσα - Διαταραχές ανοσοποιητικού",
+          "genetic": "Γενετικά - Κληρονομικές παθήσεις",
+          "respiratory": "Αναπνευστικά - Πνεύμονες & αναπνοή",
+          "endocrine": "Ενδοκρινολογικά - Ορμονικές διαταραχές",
+          "other": "Άλλο - Διευκρινίστε στις σημειώσεις"
+        },
+        "severityOptions": {
+          "mild": "💛 Ήπια - Μικρή επίδραση",
+          "moderate": "⚡ Μέτρια - Αισθητή επίδραση",
+          "severe": "⚠️ Σοβαρή - Σημαντική επίδραση",
+          "critical": "🚨 Κρίσιμη - Απειλητική για τη ζωή"
+        },
+        "statusOptions": {
+          "active": "Ενεργή - Συνεχιζόμενη πάθηση",
+          "resolved": "Θεραπεύτηκε - Δεν υφίσταται πλέον",
+          "chronic": "Χρόνια - Μακροχρόνια πάθηση"
+        }
+      }
+    }
+  },
+  "practitioners": {
+    "title": "Επαγγελματίες Υγείας",
+    "loading": "Φόρτωση επαγγελματιών υγείας...",
+    "errors": {
+      "loadFailed": "Αποτυχία φόρτωσης επαγγελματιών υγείας. Παρακαλώ δοκιμάστε ξανά.",
+      "generic": "Παρουσιάστηκε σφάλμα. Παρακαλώ δοκιμάστε ξανά."
+    },
+    "actions": {
+      "addNew": "Προσθήκη Νέου Επαγγελματία"
+    },
+    "empty": {
+      "title": "Δεν βρέθηκαν επαγγελματίες υγείας",
+      "filtered": "Δοκιμάστε να προσαρμόσετε την αναζήτηση ή τα κριτήρια φίλτρων.",
+      "noData": "Κάντε κλικ στο \"Προσθήκη Νέου Επαγγελματία\" για να ξεκινήσετε."
+    },
+    "table": {
+      "name": "Όνομα",
+      "specialty": "Ειδικότητα",
+      "practice": "Ιατρείο/Κλινική",
+      "phone": "Τηλέφωνο",
+      "email": "Email",
+      "rating": "Αξιολόγηση"
+    },
+    "card": {
+      "subtitle": "Επαγγελματίας Υγείας",
+      "practice": "Ιατρείο/Κλινική",
+      "phone": "Τηλέφωνο",
+      "email": "Email",
+      "website": "Ιστότοπος",
+      "visitWebsite": "Επίσκεψη στον Ιστότοπο",
+      "rating": "Αξιολόγηση"
+    },
+    "viewModal": {
+      "title": "Λεπτομέρειες Επαγγελματία",
+      "subtitle": "Επαγγελματίας Υγείας",
+      "practiceInfo": "ΠΛΗΡΟΦΟΡΙΕΣ ΙΑΤΡΕΙΟΥ",
+      "practice": "Ιατρείο/Κλινική",
+      "specialty": "Ειδικότητα",
+      "phone": "Τηλέφωνο",
+      "email": "Email",
+      "contactRating": "ΕΠΙΚΟΙΝΩΝΙΑ & ΑΞΙΟΛΟΓΗΣΗ",
+      "website": "Ιστότοπος",
+      "visitWebsite": "Επίσκεψη στον Ιστότοπο",
+      "rating": "Αξιολόγηση",
+      "editButton": "Επεξεργασία Επαγγελματία"
+    },
+    "form": {
+      "addTitle": "Προσθήκη Νέου Επαγγελματία",
+      "editTitle": "Επεξεργασία Επαγγελματία"
+    }
+  },
+  "pharmacies": {
+    "title": "Φαρμακεία",
+    "loading": "Φόρτωση φαρμακείων...",
+    "errors": {
+      "loadFailed": "Αποτυχία φόρτωσης φαρμακείων. Παρακαλώ δοκιμάστε ξανά."
+    },
+    "actions": {
+      "addNew": "Προσθήκη Νέου Φαρμακείου"
+    },
+    "empty": {
+      "title": "Δεν βρέθηκαν φαρμακεία",
+      "filtered": "Δοκιμάστε να προσαρμόσετε την αναζήτηση ή τα κριτήρια φίλτρων.",
+      "noData": "Κάντε κλικ στο \"Προσθήκη Νέου Φαρμακείου\" για να ξεκινήσετε."
+    },
+    "card": {
+      "address": "Διεύθυνση",
+      "city": "Πόλη",
+      "stateProvince": "Περιφέρεια / Νομός",
+      "postalCode": "Ταχυδρομικός Κώδικας",
+      "country": "Χώρα",
+      "storeNumber": "Αριθμός Καταστήματος",
+      "phone": "Τηλέφωνο",
+      "website": "Ιστότοπος",
+      "specialtyServices": "Εξειδικεύσεις"
+    },
+    "viewModal": {
+      "title": "Λεπτομέρειες Φαρμακείου",
+      "subtitle": "Φαρμακείο",
+      "location": "ΤΟΠΟΘΕΣΙΑ",
+      "address": "Διεύθυνση",
+      "city": "Πόλη",
+      "stateProvince": "Περιφέρεια / Νομός",
+      "postalCode": "Ταχυδρομικός Κώδικας",
+      "country": "Χώρα",
+      "storeNumber": "Αρ. Καταστήματος",
+      "contact": "ΠΛΗΡΟΦΟΡΙΕΣ ΕΠΙΚΟΙΝΩΝΙΑΣ",
+      "phone": "Τηλέφωνο",
+      "website": "Ιστότοπος",
+      "specialtyServices": "Εξειδικεύσεις",
+      "editButton": "Επεξεργασία Φαρμακείου"
+    },
+    "form": {
+      "addTitle": "Προσθήκη Νέου Φαρμακείου",
+      "editTitle": "Επεξεργασία Φαρμακείου"
+    }
+  },
+  "emergencyContacts": {
+    "title": "Επαφές Έκτακτης Ανάγκης",
+    "description": "Διαχείριση πληροφοριών επαφών έκτακτης ανάγκης",
+    "actions": {
+      "addNew": "Προσθήκη Επαφής Έκτακτης Ανάγκης"
+    },
+    "page": {
+      "loading": "Φόρτωση επαφών έκτακτης ανάγκης...",
+      "noContacts": "Δεν βρέθηκαν επαφές έκτακτης ανάγκης",
+      "noContactsDescription": "Είναι σημαντικό να έχετε διαθέσιμες επαφές έκτακτης ανάγκης σε περίπτωση ιατρικού περιστατικού.",
+      "filterDescription": "Δοκιμάστε να προσαρμόσετε την αναζήτηση ή τα κριτήρια φίλτρων.",
+      "tableName": "Επαφές Έκτακτης Ανάγκης"
+    },
+    "form": {
+      "addTitle": "Προσθήκη Επαφής Έκτακτης Ανάγκης",
+      "editTitle": "Επεξεργασία Επαφής Έκτακτης Ανάγκης"
+    },
+    "card": {
+      "primary": "ΚΥΡΙΑ",
+      "active": "Ενεργή",
+      "inactive": "Ανενεργή",
+      "relationship": "Σχέση:",
+      "phone": "Τηλέφωνο:",
+      "secondaryPhone": "Δευτερεύον Τηλέφωνο:",
+      "email": "Email:",
+      "address": "Διεύθυνση:",
+      "notes": "📝 Σημειώσεις"
+    },
+    "viewModal": {
+      "title": "Λεπτομέρειες Επαφής Έκτακτης Ανάγκης",
+      "icon": "🚨",
+      "contactInfo": "📞 Πληροφορίες Επικοινωνίας",
+      "primaryPhone": "Κύριο Τηλέφωνο",
+      "secondaryPhone": "Δευτερεύον Τηλέφωνο",
+      "emailAddress": "Διεύθυνση Email",
+      "address": "Διεύθυνση",
+      "notes": "📝 Σημειώσεις",
+      "noNotes": "Δεν υπάρχουν διαθέσιμες σημειώσεις",
+      "editContact": "Επεξεργασία Επαφής"
+    },
+    "table": {
+      "name": "Όνομα",
+      "relationship": "Σχέση",
+      "phone": "Τηλέφωνο",
+      "email": "Email",
+      "primary": "Κύρια",
+      "status": "Κατάσταση"
+    }
+  },
+  "insurance": {
+    "title": "Ασφάλεια",
+    "description": "Διαχειριστείτε τις πληροφορίες ασφάλισης και τις ψηφιακές σας κάρτες",
+    "actions": {
+      "addNew": "+ Προσθήκη Νέας Ασφάλειας"
+    },
+    "form": {
+      "addTitle": "Προσθήκη Νέας Ασφάλειας",
+      "editTitle": "Επεξεργασία Ασφάλειας",
+      "saving": "Αποθήκευση ασφάλειας...",
+      "tabs": {
+        "basicInfo": "Βασικές Πληροφορίες",
+        "member": "Μέλος",
+        "coverage": "Κάλυψη",
+        "contact": "Επικοινωνία",
+        "documents": "Έγγραφα",
+        "notes": "Σημειώσεις"
+      },
+      "coveragePeriodStatus": "Περίοδος Κάλυψης & Κατάσταση",
+      "updateInsurance": "Ενημέρωση Ασφάλειας",
+      "addInsurance": "Προσθήκη Ασφάλειας"
+    },
+    "card": {
+      "primary": "Κύρια",
+      "deductible": "Απαλλαγή",
+      "pcpCopay": "Συμμετοχή PCP",
+      "specialistCopay": "Συμμετοχή Ειδικού",
+      "annualMax": "Ετήσιο Μέγιστο",
+      "preventive": "Προληπτική",
+      "basic": "Βασική",
+      "examCopay": "Συμμετοχή Εξέτασης",
+      "frameAllowance": "Επίδομα Σκελετού",
+      "bin": "BIN",
+      "pcn": "PCN",
+      "member": "Μέλος",
+      "memberId": "ID Μέλους",
+      "group": "Ομάδα",
+      "plan": "Πρόγραμμα",
+      "effective": "Έναρξη",
+      "expires": "Λήξη",
+      "holder": "Κάτοχος"
+    },
+    "viewModal": {
+      "title": "Λεπτομέρειες Ασφάλειας",
+      "insuranceLabel": "Ασφάλεια",
+      "tabs": {
+        "overview": "Επισκόπηση",
+        "coverage": "Κάλυψη",
+        "contact": "Επικοινωνία",
+        "documents": "Έγγραφα"
+      },
+      "memberInfo": "Πληροφορίες Μέλους",
+      "memberName": "Όνομα Μέλους",
+      "policyHolder": "Κάτοχος Ασφαλιστηρίου",
+      "sameAsMember": "Το ίδιο πρόσωπο με το μέλος",
+      "relationship": "Σχέση",
+      "self": "Ιδίου",
+      "groupNumber": "Αριθμός Ομάδας",
+      "employerGroup": "Εργοδότης/Χορηγός Ομάδας",
+      "coveragePeriod": "Περίοδος Κάλυψης",
+      "effectiveDate": "Ημερομηνία Έναρξης",
+      "expirationDate": "Ημερομηνία Λήξης",
+      "ongoing": "Σε ισχύ",
+      "notes": "Σημειώσεις",
+      "coverageDetails": "Λεπτομέρειες Κάλυψης",
+      "deductible": "Απαλλαγή",
+      "outOfPocketMax": "Μέγιστη Ιδία Επιβάρυνση",
+      "copay": "Συμμετοχή",
+      "coinsurance": "Συνασφάλιση",
+      "prescriptionCoverage": "Κάλυψη Συνταγογράφησης",
+      "visionCoverage": "Οφθαλμολογική Κάλυψη",
+      "dentalCoverage": "Οδοντιατρική Κάλυψη",
+      "mentalHealthCoverage": "Κάλυψη Ψυχικής Υγείας",
+      "additionalDetails": "Πρόσθετες Λεπτομέρειες Κάλυψης",
+      "contactInfo": "Πληροφορίες Επικοινωνίας",
+      "customerServicePhone": "Τηλέφωνο Εξυπηρέτησης Πελατών",
+      "claimsPhone": "Τηλέφωνο Απαιτήσεων",
+      "website": "Ιστότοπος",
+      "email": "Email",
+      "claimsAddress": "Διεύθυνση Απαιτήσεων",
+      "pharmacyNetworkInfo": "Πληροφορίες Δικτύου Φαρμακείων",
+      "attachedDocuments": "Συνημμένα Έγγραφα",
+      "printCard": "Εκτύπωση Κάρτας"
+    }
+  },
+  "tagManagement": {
+    "title": "Διαχείριση Ετικετών",
+    "icon": "🏷️",
+    "loading": "Φόρτωση ετικετών...",
+    "allTags": "Όλες οι Ετικέτες",
+    "searchPlaceholder": "Αναζήτηση ετικετών...",
+    "createTag": "Δημιουργία Ετικέτας",
+    "noTags": "Δεν βρέθηκαν ετικέτες",
+    "noTagsSearch": "Καμία ετικέτα δεν ταιριάζει με την αναζήτησή σας.",
+    "noTagsDescription": "Ξεκινήστε να χρησιμοποιείτε ετικέτες στα ιατρικά σας αρχεία για να τις δείτε εδώ.",
+    "table": {
+      "tagName": "Όνομα Ετικέτας",
+      "usageCount": "Συχνότητα Χρήσης",
+      "usedIn": "Χρησιμοποιείται σε",
+      "actions": "Ενέργειες"
+    },
+    "menu": {
+      "rename": "Μετονομασία Ετικέτας",
+      "replace": "Αντικατάσταση με...",
+      "delete": "Διαγραφή Ετικέτας"
+    },
+    "createModal": {
+      "title": "Δημιουργία Νέας Ετικέτας",
+      "label": "Όνομα Ετικέτας",
+      "placeholder": "Εισάγετε όνομα ετικέτας...",
+      "submit": "Δημιουργία Ετικέτας"
+    },
+    "editModal": {
+      "title": "Μετονομασία Ετικέτας",
+      "label": "Νέο Όνομα Ετικέτας",
+      "placeholder": "Εισάγετε νέο όνομα...",
+      "description": "Αυτό θα μετονομάσει την ετικέτα σε όλα τα {{count}} αρχεία.",
+      "submit": "Μετονομασία Ετικέτας"
+    },
+    "deleteModal": {
+      "title": "Διαγραφή Ετικέτας",
+      "message": "Είστε σίγουροι ότι θέλετε να διαγράψετε την ετικέτα \"{{tag}}\";",
+      "description": "Αυτό θα αφαιρέσει την ετικέτα από όλα τα {{count}} αρχεία. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.",
+      "submit": "Διαγραφή Ετικέτας"
+    },
+    "replaceModal": {
+      "title": "Αντικατάσταση Ετικέτας",
+      "label": "Αντικατάσταση με",
+      "placeholder": "Εισάγετε το όνομα της νέας ετικέτας...",
+      "description": "Αυτό θα αντικαταστήσει την ετικέτα \"{{oldTag}}\" με την \"{{newTag}}\" σε όλα τα {{count}} αρχεία.",
+      "submit": "Αντικατάσταση Ετικέτας"
+    },
+    "success": {
+      "created": "Η ετικέτα \"{{tag}}\" δημιουργήθηκε επιτυχώς",
+      "renamed": "Η ετικέτα \"{{oldTag}}\" μετονομάστηκε επιτυχώς σε \"{{newTag}}\"",
+      "deleted": "Η ετικέτα \"{{tag}}\" διαγράφηκε επιτυχώς",
+      "replaced": "Η ετικέτα \"{{oldTag}}\" αντικαταστάθηκε επιτυχώς από την \"{{newTag}}\""
+    },
+    "errors": {
+      "loadFailed": "Αποτυχία φόρτωσης ετικετών",
+      "createFailed": "Αποτυχία δημιουργίας ετικέτας",
+      "renameFailed": "Αποτυχία μετονομασίας ετικέτας",
+      "deleteFailed": "Αποτυχία διαγραφής ετικέτας",
+      "replaceFailed": "Αποτυχία αντικατάστασης ετικέτας"
+    }
+  },
+  "reportBuilder": {
+    "title": "Δημιουργία Προσαρμοσμένης Αναφοράς",
+    "icon": "📊",
+    "loading": "Φόρτωση δημιουργού αναφορών...",
+    "configuration": {
+      "title": "Ρύθμιση Αναφοράς",
+      "description": "Επιλέξτε τα ιατρικά αρχεία που θέλετε να συμπεριλάβετε στην αναφορά σας"
+    },
+    "buttons": {
+      "settings": "Ρυθμίσεις",
+      "generateReport": "Δημιουργία Αναφοράς ({{count}} αρχεία)",
+      "selectAll": "Επιλογή Όλων",
+      "clearSelections": "Καθαρισμός Επιλογών",
+      "addRecords": "Προσθήκη Ιατρικών Αρχείων"
+    },
+    "progress": {
+      "recordsSelected": "Επιλεγμένα Αρχεία"
+    },
+    "noData": {
+      "title": "Δεν υπάρχουν διαθέσιμα ιατρικά δεδομένα",
+      "description": "Προσθέστε μερικά ιατρικά αρχεία πρώτα για να χρησιμοποιήσετε τον δημιουργό αναφορών."
+    },
+    "categories": {
+      "medications": "Φάρμακα",
+      "conditions": "Παθήσεις",
+      "procedures": "Επεμβάσεις",
+      "lab_results": "Εργαστηριακά Αποτελέσματα",
+      "immunizations": "Εμβολιασμοί",
+      "allergies": "Αλλεργίες",
+      "treatments": "Θεραπείες",
+      "encounters": "Επισκέψεις",
+      "vitals": "Ζωτικά Σημεία",
+      "practitioners": "Επαγγελματίες Υγείας",
+      "pharmacies": "Φαρμακεία",
+      "emergency_contacts": "Επαφές Έκτακτης Ανάγκης",
+      "family_history": "Οικογενειακό Ιστορικό",
+      "symptoms": "Συμπτώματα",
+      "injuries": "Τραυματισμοί",
+      "insurance": "Ασφάλεια"
+    },
+    "settingsModal": {
+      "title": "Ρυθμίσεις Αναφοράς",
+      "reportTitle": {
+        "label": "Τίτλος Αναφοράς"
+      },
+      "includePatientInfo": {
+        "label": "Συμπερίληψη Πληροφοριών Ασθενούς",
+        "description": "Προσθήκη δημογραφικών στοιχείων και στοιχείων επικοινωνίας"
+      },
+      "includeProfilePicture": {
+        "label": "Συμπερίληψη Φωτογραφίας Προφίλ",
+        "description": "Προσθήκη της φωτογραφίας του ασθενούς στην κεφαλίδα"
+      },
+      "includeSummary": {
+        "label": "Συμπερίληψη Συνοπτικών Στατιστικών",
+        "description": "Προσθήκη ενότητας επισκόπησης και στατιστικών"
+      }
+    },
+    "notifications": {
+      "templateLoaded": "Το πρότυπο φορτώθηκε",
+      "templateLoadedMessage": "Το πρότυπο \"{{name}}\" έχει φορτωθεί."
+    }
+  },
+  "exportPage": {
+    "title": "Εξαγωγή Ιατρικών Αρχείων",
+    "icon": "📤",
+    "description": "Κατεβάστε τα ιατρικά σας δεδομένα σε διάφορες μορφές για δημιουργία αντιγράφων ασφαλείας ή για κοινή χρήση με παρόχους υγείας",
+    "loading": "Φόρτωση επιλογών εξαγωγής...",
+    "availableData": {
+      "title": "Διαθέσιμα Δεδομένα",
+      "moreItems": "+{{count}} επιπλέον"
+    },
+    "scopes": {
+      "all": "Όλα τα Αρχεία",
+      "medications": "Φάρμακα",
+      "lab_results": "Εργαστηριακά Αποτελέσματα",
+      "allergies": "Αλλεργίες",
+      "conditions": "Ιατρικές Παθήσεις",
+      "immunizations": "Εμβολιασμοί",
+      "procedures": "Επεμβάσεις",
+      "treatments": "Θεραπείες",
+      "encounters": "Επισκέψεις",
+      "vitals": "Ζωτικά Σημεία",
+      "emergency_contacts": "Επαφές Έκτακτης Ανάγκης",
+      "practitioners": "Επαγγελματίες Υγείας",
+      "pharmacies": "Φαρμακεία",
+      "symptoms": "Συμπτώματα",
+      "injuries": "Τραυματισμοί",
+      "family_history": "Οικογενειακό Ιστορικό",
+      "insurance": "Ασφάλεια"
+    },
+    "exportMode": {
+      "title": "Λειτουργία Εξαγωγής",
+      "singleExport": "Μεμονωμένη Εξαγωγή",
+      "bulkExport": "Μαζική Εξαγωγή",
+      "singleDescription": "Εξαγωγή ενός μόνο τύπου δεδομένων στην επιλεγμένη μορφή",
+      "bulkDescription": "Εξαγωγή πολλαπλών τύπων δεδομένων μαζί σε αρχείο ZIP"
+    },
+    "configuration": {
+      "title": "Ρύθμιση Εξαγωγής",
+      "format": {
+        "label": "Μορφή Εξαγωγής",
+        "placeholder": "Επιλέξτε μορφή"
+      },
+      "dataToExport": {
+        "label": "Δεδομένα προς Εξαγωγή",
+        "placeholder": "Επιλέξτε τύπο δεδομένων"
+      },
+      "bulkSelection": {
+        "label": "Επιλέξτε Τύπους Δεδομένων για Μαζική Εξαγωγή"
+      },
+      "dateRange": {
+        "startDate": "Ημερομηνία Έναρξης (Προαιρετικά)",
+        "endDate": "Ημερομηνία Λήξης (Προαιρετικά)"
+      },
+      "includeFiles": "Συμπερίληψη συνημμένων αρχείων (δημιουργεί αρχείο ZIP)",
+      "includePatientInfo": {
+        "label": "Συμπερίληψη πληροφοριών ασθενούς (όνομα, δημογραφικά στοιχεία, κ.λπ.)",
+        "description": "Αποεπιλέξτε για να εξαιρέσετε προσωπικά στοιχεία για λόγους ιδιωτικότητας"
+      }
+    },
+    "buttons": {
+      "exporting": "Εξαγωγή σε εξέλιξη...",
+      "creatingZip": "Δημιουργία ZIP...",
+      "exportAs": "Εξαγωγή {{scope}} ως {{format}}",
+      "bulkExport": "Μαζική Εξαγωγή {{count}} τύπων σε ZIP",
+      "refreshPage": "Ανανέωση Σελίδας",
+      "retry": "Δοκιμάστε ξανά",
+      "goToDashboard": "Μετάβαση στον Πίνακα Ελέγχου"
+    },
+    "information": {
+      "title": "Πληροφορίες Εξαγωγής",
+      "json": {
+        "title": "Μορφή JSON:",
+        "description": "Μορφή δομημένων δεδομένων αναγνώσιμη από μηχανές, ιδανική για εισαγωγή σε άλλα συστήματα ή εφαρμογές."
+      },
+      "csv": {
+        "title": "Μορφή CSV:",
+        "description": "Τιμές διαχωρισμένες με κόμμα, κατάλληλες για εφαρμογές υπολογιστικών φύλλων όπως το Excel ή το Google Sheets."
+      },
+      "pdf": {
+        "title": "Μορφή PDF:",
+        "description": "Μορφή εγγράφου αναγνώσιμη από ανθρώπους, ιδανική για εκτύπωση ή κοινή χρήση με παρόχους υγείας."
+      },
+      "bulk": {
+        "title": "Μαζική Εξαγωγή:",
+        "description": "Δημιουργεί ένα αρχείο ZIP που περιέχει πολλαπλούς τύπους δεδομένων για πλήρες αντίγραφο ασφαλείας."
+      },
+      "fileAttachments": {
+        "title": "Συνημμένα Αρχεία:",
+        "description": "Όταν είναι διαθέσιμα για εξαγωγές PDF, τα αρχεία εργαστηριακών αποτελεσμάτων μπορούν να συμπεριληφθούν σε ένα αρχείο ZIP."
+      }
+    },
+    "errors": {
+      "sessionExpired": "Η συνεδρία σας έληξε. Παρακαλώ ανανεώστε τη σελίδα ή συνδεθείτε ξανά.",
+      "noActivePatient": "Δεν έχει επιλεγεί προφίλ ασθενούς. Παρακαλώ επιλέξτε έναν ασθενή για να χρησιμοποιήσετε την εξαγωγή.",
+      "loadFailed": "Αποτυχία φόρτωσης δεδομένων εξαγωγής: {{message}}",
+      "validationFailed": "{{errors}}",
+      "exportFailed": "Η εξαγωγή απέτυχε: {{message}}",
+      "bulkExportFailed": "Η μαζική εξαγωγή απέτυχε: {{message}}",
+      "noDataType": "Παρακαλώ επιλέξτε τουλάχιστον έναν τύπο δεδομένων για μαζική εξαγωγή",
+      "invalidSettings": "Παρακαλώ ελέγξτε τις ρυθμίσεις εξαγωγής. Βεβαιωθείτε ότι επιλέξατε έγκυρο τύπο και μορφή.",
+      "noDataFound": "Δεν βρέθηκαν δεδομένα για τα επιλεγμένα κριτήρια.",
+      "bulkInvalidSettings": "Ελέγξτε τις ρυθμίσεις μαζικής εξαγωγής.",
+      "bulkNoDataFound": "Δεν βρέθηκαν δεδομένα για τη μαζική εξαγωγή."
+    },
+    "success": {
+      "exportComplete": "Η εξαγωγή ολοκληρώθηκε! Το αρχείο {{format}} έχει ληφθεί.",
+      "bulkExportComplete": "Η μαζική εξαγωγή ολοκληρώθηκε! Το αρχείο ZIP που περιέχει {{count}} τύπους δεδομένων έχει ληφθεί."
+    }
+  },
+  "labResults": {
+    "title": "Εργαστηριακά Αποτελέσματα",
+    "addNew": "+ Προσθήκη Νέου Αποτελέσματος",
+    "quickPdfImport": "Γρήγορη Εισαγωγή PDF",
+    "quickImportModalTitle": "Γρήγορη Εισαγωγή PDF - Βήμα {{step}} από 2",
+    "quickFormInstructions": "Εισάγετε ένα όνομα για αυτό το αποτέλεσμα και μετά θα μπορέσετε να ανεβάσετε και να αναλύσετε το PDF σας.",
+    "testNameLabel": "Όνομα Εργαστηριακής Εξέτασης",
+    "testNamePlaceholder": "π.χ. Ενδοκρινολογικές Εξετάσεις Αίματος κ.λπ.",
+    "testNameDescription": "Αυτό είναι το μόνο υποχρεωτικό πεδίο - μπορείτε να προσθέσετε λεπτομέρειες αργότερα",
+    "testNameRequired": "Το όνομα της εξέτασης είναι υποχρεωτικό",
+    "testNameTooShort": "Το όνομα πρέπει να είναι τουλάχιστον {{minLength}} χαρακτήρες",
+    "testNameTooLong": "Το όνομα δεν μπορεί να υπερβαίνει τους {{maxLength}} χαρακτήρες",
+    "patientIdRequired": "Το ID ασθενούς απαιτείται. Παρακαλώ επιλέξτε ασθενή.",
+    "createAndContinue": "Δημιουργία & Μεταφόρτωση PDF",
+    "creatingLabResult": "Δημιουργία εργαστηριακού αποτελέσματος...",
+    "createFailed": "Αποτυχία δημιουργίας αποτελέσματος",
+    "createFailedTryAgain": "Η δημιουργία απέτυχε. Δοκιμάστε ξανά.",
+    "networkError": "Σφάλμα δικτύου. Ελέγξτε τη σύνδεσή σας.",
+    "timeoutError": "Η αίτηση έληξε. Δοκιμάστε ξανά.",
+    "labResultCreated": "Το αποτέλεσμα \"{{testName}}\" δημιουργήθηκε. Τώρα μπορείτε να αναλύσετε το PDF.",
+    "labResultDeleted": "Το εργαστηριακό αποτέλεσμα διαγράφηκε",
+    "deleteFailed": "Αποτυχία διαγραφής αποτελέσματος",
+    "errorOccurred": "Παρουσιάστηκε σφάλμα",
+    "quickImportSuccess": "Το αποτέλεσμα και τα στοιχεία της εξέτασης εισήχθησαν επιτυχώς",
+    "unsavedDataWarning": "Μη αποθηκευμένα δεδομένα ανάλυσης",
+    "unsavedDataMessage": "Έχετε {{count}} αναλυμένα στοιχεία εξέτασης που δεν έχουν προστεθεί ακόμα. Αν κλείσετε τώρα, θα χαθούν.",
+    "unsavedDataInstructions": "Κάντε κλικ στο \"Προσθήκη Στοιχείων\" στην καρτέλα Προεπισκόπηση για να αποθηκεύσετε τα δεδομένα.",
+    "continueEditing": "Συνέχεια Επεξεργασίας",
+    "discardParsedData": "Απόρριψη Δεδομένων",
+    "emptyLabResultWarning": "Το αποτέλεσμα δημιουργήθηκε αλλά είναι κενό",
+    "emptyLabResultMessage": "Δημιουργήσατε ένα εργαστηριακό αποτέλεσμα χωρίς στοιχεία. Θέλετε να το διαγράψετε;",
+    "deleteEmptyLabResult": "Διαγραφή Αποτελέσματος",
+    "keepEmptyLabResult": "Διατήρηση Αποτελέσματος",
+    "stepperLabels": {
+      "labResultInfo": "Πληροφορίες Αποτελέσματος",
+      "enterTestName": "Εισάγετε όνομα εξέτασης",
+      "uploadParse": "Μεταφόρτωση & Ανάλυση",
+      "importFromPdf": "Εισαγωγή από PDF"
+    },
+    "modal": {
+      "title": "Λεπτομέρειες Εργαστηριακού Αποτελέσματος",
+      "tabs": {
+        "overview": "Επισκόπηση",
+        "testComponents": "Στοιχεία Εξέτασης",
+        "relatedConditions": "Σχετικές Παθήσεις",
+        "tags": "Ετικέτες",
+        "files": "Αρχεία"
+      },
+      "sections": {
+        "testInfo": "Πληροφορίες Εξέτασης",
+        "testResults": "Αποτελέσματα Εξέτασης",
+        "orderingPractitioner": "Θεράπων Ιατρός",
+        "notes": "Σημειώσεις",
+        "tags": "Ετικέτες",
+        "associatedFiles": "Σχετικά Αρχεία"
+      },
+      "labels": {
+        "testCode": "Κωδικός Εξέτασης",
+        "category": "Κατηγορία",
+        "testType": "Τύπος Εξέτασης",
+        "facility": "Εργαστήριο/Κέντρο",
+        "labResult": "Εργαστηριακό Αποτέλεσμα",
+        "orderedDate": "Ημερομηνία Παραγγελίας",
+        "completedDate": "Ημερομηνία Ολοκλήρωσης",
+        "doctor": "Ιατρός",
+        "specialty": "Ειδικότητα"
+      },
+      "noNotes": "Δεν υπάρχουν διαθέσιμες σημειώσεις",
+      "editLabResult": "Επεξεργασία Αποτελέσματος"
+    },
+    "error": "Σφάλμα",
+    "success": "Επιτυχία",
+    "loading": "Φόρτωση εργαστηριακών αποτελεσμάτων...",
+    "loadingHint": "Εάν αυτό καθυστερεί πολύ, ανανεώστε τη σελίδα",
+    "addTitle": "Προσθήκη Νέου Εργαστηριακού Αποτελέσματος",
+    "editTitle": "Επεξεργασία Εργαστηριακού Αποτελέσματος",
+    "noResults": "Δεν βρέθηκαν εργαστηριακά αποτελέσματα",
+    "tryAdjustingFilters": "Δοκιμάστε να προσαρμόσετε την αναζήτηση ή τα κριτήρια των φίλτρων.",
+    "startAdding": "Ξεκινήστε προσθέτοντας το πρώτο σας εργαστηριακό αποτέλεσμα.",
+    "addFirst": "Προσθέστε το πρώτο σας εργαστηριακό αποτέλεσμα",
+    "table": {
+      "testName": "Όνομα Εξέτασης",
+      "category": "Κατηγορία",
+      "type": "Τύπος",
+      "facility": "Εργαστήριο/Κέντρο",
+      "orderingPractitioner": "Θεράπων Ιατρός",
+      "orderedDate": "Ημερομηνία Παραγγελίας",
+      "completedDate": "Ημερομηνία Ολοκλήρωσης",
+      "files": "Αρχεία"
+    },
+    "card": {
+      "testCode": "Κωδικός Εξέτασης",
+      "type": "Τύπος",
+      "facility": "Εργαστήριο/Κέντρο",
+      "ordered": "Παραγγέλθηκε",
+      "completed": "Ολοκληρώθηκε",
+      "result": "Αποτέλεσμα",
+      "doctor": "Ιατρός",
+      "notSpecified": "Δεν καθορίστηκε",
+      "notCompleted": "Δεν ολοκληρώθηκε",
+      "pending": "Σε εκκρεμότητα",
+      "viewPractitioner": "Προβολή στοιχείων ιατρού"
+    },
+    "form": {
+      "manageFiles": "Διαχείριση Αρχείων",
+      "addFilesOptional": "Προσθήκη Αρχείων (Προαιρετικά)"
+    }
+  },
+  "testComponents": {
+    "title": "Στοιχεία Εξέτασης",
+    "testCount": "{{count}} εξέταση",
+    "testCount_plural": "{{count}} εξετάσεις",
+    "addTests": "Προσθήκη Εξετάσεων",
+    "addTestComponents": "Προσθήκη Στοιχείων Εξέτασης",
+    "refreshComponents": "Ανανέωση στοιχείων",
+    "errorLoading": "Σφάλμα κατά τη φόρτωση των στοιχείων εξέτασης",
+    "noComponents": "Δεν υπάρχουν στοιχεία εξέτασης",
+    "noComponentsDescription": "Αυτό το εργαστηριακό αποτέλεσμα δεν έχει ακόμη μεμονωμένα στοιχεία εξέτασης.",
+    "tabs": {
+      "testResults": "Αποτελέσματα Εξετάσεων",
+      "statistics": "Στατιστικά"
+    },
+    "emptyState": {
+      "description": "Τα πρότυπα παρέχουν κοινά εργαστηριακά πάνελ (Γενική αίματος, Μεταβολικό προφίλ κ.λπ.) όπου μπορείτε να εισάγετε τιμές και εύρη. Η μαζική εισαγωγή σάς επιτρέπει να κάνετε αντιγραφή/επικόλληση αποτελεσμάτων από εργαστηριακές εκθέσεις για αυτόματη ανάλυση."
+    },
+    "notifications": {
+      "componentDeleted": "Το στοιχείο διαγράφηκε",
+      "hasBeenDeleted": "Το στοιχείο {{name}} έχει διαγραφεί"
+    },
+    "editModal": {
+      "title": "Επεξεργασία Στοιχείου Εξέτασης",
+      "updating": "Ενημέρωση στοιχείου εξέτασης...",
+      "editing": "Επεξεργασία",
+      "notDetermined": "Δεν προσδιορίστηκε",
+      "fields": {
+        "testName": "Όνομα Εξέτασης",
+        "abbreviation": "Συντομογραφία",
+        "testCode": "Κωδικός Εξέτασης",
+        "value": "Τιμή",
+        "unit": "Μονάδα",
+        "referenceRange": "Εύρος Αναφοράς",
+        "minimum": "Ελάχιστο",
+        "maximum": "Μέγιστο",
+        "rangeText": "Κείμενο Εύρους (εναλλακτικό)",
+        "status": "Κατάσταση (Αυτόματος υπολογισμός)",
+        "category": "Κατηγορία"
+      },
+      "placeholders": {
+        "testName": "π.χ., Αιμοσφαιρίνη",
+        "abbreviation": "π.χ., HGB",
+        "testCode": "π.χ., 718-7",
+        "value": "Εισάγετε τιμή εξέτασης",
+        "unit": "π.χ., g/dL",
+        "minValue": "Ελάχιστη τιμή",
+        "maxValue": "Μέγιστη τιμή",
+        "rangeText": "π.χ., 'Αρνητικό' ή 'Άνδρες: 13.5-17.5, Γυναίκες: 12.0-15.5'",
+        "category": "Επιλογή κατηγορίας",
+        "notes": "Πρόσθετες σημειώσεις σχετικά με αυτό το αποτέλεσμα εξέτασης"
+      }
+    },
+    "categories": {
+      "chemistry": "Βιοχημεία Αίματος & Μεταβολισμός",
+      "hematology": "Κύτταρα Αίματος & Μετρήσεις",
+      "lipids": "Χοληστερόλη & Λιπίδια",
+      "endocrinology": "Ορμόνες & Θυρεοειδής",
+      "immunology": "Ανοσοποιητικό Σύστημα & Αντισώματα",
+      "microbiology": "Λοιμώξεις & Καλλιέργειες",
+      "toxicology": "Έλεγχος Φαρμάκων & Τοξινών",
+      "genetics": "Γενετικές Εξετάσεις",
+      "molecular": "Μοριακές Εξετάσεις & DNA",
+      "pathology": "Ανάλυση Ιστών & Βιοψία",
+      "other": "Άλλες Εξετάσεις"
+    }
+  },
+  "settings": {
+    "title": "Ρυθμίσεις",
+    "subtitle": "Διαχειριστείτε τις προτιμήσεις και τις ρυθμίσεις της εφαρμογής σας",
+    "tabs": {
+      "general": "Γενικά",
+      "notifications": "Ειδοποιήσεις"
+    },
+    "sections": {
+      "security": "Ασφάλεια",
+      "accountManagement": "Διαχείριση Λογαριασμού",
+      "systemInfo": "Πληροφορίες Συστήματος",
+      "preferences": "Προτιμήσεις Εφαρμογής",
+      "documentStorage": "Αποθήκευση Εγγράφων"
+    },
+    "security": {
+      "password": {
+        "title": "Κωδικός Πρόσβασης",
+        "description": "Αλλάξτε τον κωδικό πρόσβασης του λογαριασμού σας για να διατηρήσετε την ασφάλεια",
+        "button": "Αλλαγή Κωδικού"
+      }
+    },
+    "account": {
+      "deleteAccount": {
+        "title": "Διαγραφή Λογαριασμού",
+        "description": "Μόνιμη διαγραφή του λογαριασμού σας και όλων των σχετικών ιατρικών δεδομένων. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.",
+        "button": "Διαγραφή Λογαριασμού"
+      }
+    },
+    "system": {
+      "version": {
+        "title": "Έκδοση Εφαρμογής",
+        "loading": "Φόρτωση πληροφοριών έκδοσης...",
+        "unavailable": "Πληροφορίες έκδοσης μη διαθέσιμες",
+        "unknownApp": "Άγνωστη Εφαρμογή",
+        "unknownVersion": "Άγνωστη Έκδοση"
+      }
+    },
+    "preferences": {
+      "unitSystem": {
+        "title": "Σύστημα Μονάδων",
+        "description": "Επιλέξτε αν θα εμφανίζονται οι μετρήσεις σε Αγγλοσαξονικό (λίβρες, πόδια, °F) ή Μετρικό (κιλά, εκατοστά, °C) σύστημα",
+        "imperial": "Αγγλοσαξονικό (lbs, feet, °F)",
+        "metric": "Μετρικό (kg, cm, °C)"
+      },
+      "dateFormat": {
+        "title": "Μορφή Ημερομηνίας",
+        "description": "Επιλέξτε πώς θα εμφανίζονται οι ημερομηνίες σε όλη την εφαρμογή",
+        "mdy": "MM/DD/YYYY (ΗΠΑ)",
+        "dmy": "DD/MM/YYYY (Ευρωπαϊκό)",
+        "ymd": "YYYY-MM-DD (ISO)"
+      },
+      "sessionTimeout": {
+        "title": "Λήξη Συνεδρίας",
+        "description": "Ορίστε τη διάρκεια αδράνειας πριν λήξει η συνεδρία σας (σε λεπτά)",
+        "range": "λεπτά (5-1440)"
+      }
+    },
+    "documents": {
+      "description": "Ρυθμίστε τον τρόπο αποθήκευσης και διαχείρισης των ιατρικών σας εγγράφων",
+      "cleanup": {
+        "title": "Εκκαθάριση Αρχείων",
+        "description": "Εκκαθάριση αρχείων που δεν είναι πλέον συγχρονισμένα και επίλυση προβλημάτων αποθήκευσης εγγράφων. Αυτό θα επαναφέρει αποτυχημένες μεταφορτώσεις και θα διορθώσει ζητήματα συγχρονισμού.",
+        "button": "Εκκαθάριση Αρχείων",
+        "cleaning": "Εκκαθάριση..."
+      }
+    },
+    "actions": {
+      "unsavedChanges": "Έχετε μη αποθηκευμένες αλλαγές",
+      "reset": "Επαναφορά Αλλαγών",
+      "save": "Αποθήκευση Όλων των Αλλαγών",
+      "saving": "Αποθήκευση..."
+    }
+  },
+  "patientInfo": {
+    "title": "Πληροφορίες Ασθενούς",
+    "loading": "Φόρτωση πληροφοριών ασθενούς...",
+    "personalInfo": "Προσωπικά Στοιχεία",
+    "editProfile": "Επεξεργασία Προφίλ",
+    "error": "Σφάλμα",
+    "welcome": {
+      "title": "Καλώς ήρθατε στο MediKeep!",
+      "message": "Ο λογαριασμός σας δημιουργήθηκε επιτυχώς. Παρακαλούμε συμπληρώστε το προφίλ ασθενούς παρακάτω για να ξεκινήσετε τη διαχείριση των ιατρικών σας αρχείων."
+    },
+    "fields": {
+      "firstName": "Όνομα",
+      "lastName": "Επώνυμο",
+      "birthDate": "Ημερομηνία Γέννησης",
+      "gender": "Φύλο",
+      "relationship": "Σχέση με εσάς",
+      "address": "Διεύθυνση",
+      "bloodType": "Ομάδα Αίματος",
+      "height": "Ύψος",
+      "weight": "Βάρος",
+      "physician": "Κύριος Ιατρός",
+      "patientId": "ID Ασθενούς"
+    },
+    "gender": {
+      "male": "Άνδρας",
+      "female": "Γυναίκα"
+    },
+    "notProvided": "Δεν δόθηκε",
+    "notSpecified": "Δεν καθορίστηκε",
+    "notAssigned": "Δεν ανατέθηκε",
+    "noProfile": "Δεν βρέθηκε προφίλ ασθενούς",
+    "createPrompt": "Παρακαλούμε δημιουργήστε το προφίλ ασθενούς σας για να ξεκινήσετε.",
+    "createProfile": "Δημιουργία Προφίλ",
+    "editTitle": "Επεξεργασία Πληροφοριών Ασθενούς",
+    "createTitle": "Δημιουργία Προφίλ Ασθενούς"
+  },
+  "allergies": {
+    "addNew": "Προσθήκη Νέας Αλλεργίας",
+    "messages": {
+      "loading": "Φόρτωση αλλεργιών..."
+    }
+  }
+}
