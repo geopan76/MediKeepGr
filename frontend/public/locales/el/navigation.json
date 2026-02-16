@@ -1,0 +1,172 @@
+{
+  "menu": {
+    "dashboard": "Πίνακας Ελέγχου",
+    "backToDashboard": "Επιστροφή στον Πίνακα Ελέγχου",
+    "patients": "Ασθενείς",
+    "medicalRecords": "Ιατρικά Αρχεία",
+    "settings": "Ρυθμίσεις",
+    "reports": "Αναφορές",
+    "administration": "Διαχείριση",
+    "logout": "Αποσύνδεση",
+    "profile": "Προφίλ",
+    "help": "Βοήθεια"
+  },
+  "pages": {
+    "dashboard": "Πίνακας Ελέγχου",
+    "patientList": "Λίστα Ασθενών",
+    "patientDetails": "Λεπτομέρειες Ασθενούς",
+    "medicalHistory": "Ιατρικό Ιστορικό",
+    "settings": "Ρυθμίσεις",
+    "userProfile": "Προφίλ Χρήστη",
+    "preferences": "Προτιμήσεις",
+    "reports": "Αναφορές",
+    "help": "Βοήθεια & Υποστήριξη"
+  },
+  "sections": {
+    "overview": "Επισκόπηση",
+    "personalInfo": "Προσωπικές Πληροφορίες",
+    "medicalInfo": "Ιατρικές Πληροφορίες",
+    "documents": "Έγγραφα",
+    "timeline": "Χρονοδιάγραμμα",
+    "familyHistory": "Ιστορικό Οικογένειας",
+    "emergencyContacts": "Επαφές Έκτακτης Ανάγκης",
+    "insurance": "Ασφάλιση",
+    "preferences": "Προτιμήσεις"
+  },
+  "medicalRecords": {
+    "allergies": "Αλλεργίες",
+    "conditions": "Παθήσεις",
+    "medications": "Φάρμακα",
+    "labResults": "Αποτελέσματα Εργαστηρίου",
+    "immunizations": "Εμβολιασμοί",
+    "procedures": "Διαδικασίες",
+    "visits": "Επισκέψεις",
+    "treatments": "Θεραπείες",
+    "symptoms": "Συμπτώματα",
+    "injuries": "Τραυματισμοί",
+    "practitioners": "Επαγγελματίες Υγείας",
+    "pharmacies": "Φαρμακεία",
+    "medicalEquipment": "Ιατρικός Εξοπλισμός"
+  },
+  "dashboard": {
+    "title": "Πίνακας Ελέγχου MediKeep",
+    "subtitle": "Διαχειριστείτε τις ιατρικές σας πληροφορίες με ασφάλεια",
+    "hello": "Γειά σου",
+    "loading": "Φόρτωση ιατρικού πίνακα ελέγχου...",
+    "sections": {
+      "coreMedical": "Βασικές Ιατρικές Πληροφορίες",
+      "treatments": "Θεραπείες και Διαδικασίες",
+      "healthMonitoring": "Παρακολούθηση Υγείας",
+      "prevention": "Πρόληψη & Ιστορικό",
+      "additionalResources": "Επιπλέον Πόροι",
+      "recentActivity": "Πρόσφατη Δραστηριότητα"
+    },
+    "stats": {
+      "totalRecords": "Συνολικά Αρχεία",
+      "activeMedications": "Ενεργά Φάρμακα",
+      "labResults": "Αποτελέσματα Εργαστηρίου",
+      "procedures": "Διαδικασίες"
+    },
+    "modules": {
+      "patientInfo": "Πληροφορίες Ασθενούς",
+      "medications": "Φάρμακα",
+      "labResults": "Αποτελέσματα Εργαστηρίου",
+      "treatments": "Θεραπείες",
+      "procedures": "Διαδικασίες",
+      "vitalSigns": "Ζωτικά Σημεία",
+      "symptoms": "Συμπτώματα",
+      "conditions": "Παθήσεις",
+      "allergies": "Αλλεργίες",
+      "injuries": "Τραυματισμοί",
+      "immunizations": "Εμβολιασμοί",
+      "visitHistory": "Ιστορικό Επισκέψεων",
+      "familyHistory": "Ιστορικό Οικογένειας",
+      "insurance": "Ασφάλιση",
+      "emergencyContacts": "Επαφές Έκτακτης Ανάγκης",
+      "exportRecords": "Εξαγωγή Αρχείων",
+      "practitioners": "Επαγγελματίες Υγείας",
+      "pharmacies": "Φαρμακεία",
+      "medicalEquipment": "Ιατρικός Εξοπλισμός",
+      "adminDashboard": "Πίνακας Διαχείρισης"
+    },
+    "activity": {
+      "noActivity": "Δεν υπάρχει πρόσφατη δραστηριότητα",
+      "noActivityDescription": "Οι δραστηριότητες του ιατρικού σας αρχείου θα εμφανιστούν εδώ",
+      "lastUpdated": "Τελευταία ενημέρωση"
+    },
+    "search": {
+      "placeholder": "Αναζητήστε ιατρικά αρχεία..."
+    }
+  },
+  "invitations": {
+    "title": "Προσκλήσεις",
+    "lastUpdated": "Τελευταία ενημέρωση",
+    "from": "Από",
+    "viewAll": "Δείτε όλες τις {{count}} προσκλήσεις",
+    "noPending": "Δεδομένες προσκλήσεις",
+    "noPendingDescription": "Νέες προσκλήσεις κοινοποίησης θα εμφανιστούν εδώ",
+    "manageAll": "Διαχείριση Όλων των Προσκλήσεων",
+    "sharePatient": "Μοιραστείτε Ασθενή",
+    "confirmTitle": "Επιβεβαίωση Αποδοχής Πρόσκλησης",
+    "confirmQuestion": "Είστε σίγουροι ότι θέλετε να αποδεχτείτε αυτή την πρόσκληση;",
+    "confirmDescription": "Με την αποδοχή, θα αποκτήσετε πρόσβαση για να δείτε τις κοινοποιημένες ιατρικές πληροφορίες.",
+    "acceptButton": "Αποδοχή Πρόσκλησης",
+    "types": {
+      "familyHistory": "Ιστορικό Οικογένειας",
+      "patientRecord": "Ιατρικό Αρχείο Ασθενούς"
+    }
+  },
+  "activity": {
+    "actions": {
+      "created": "Δημιουργήθηκε",
+      "updated": "Ενημερώθηκε",
+      "deleted": "Διαγράφηκε",
+      "added": "Προστέθηκε",
+      "modified": "Τροποποιήθηκε",
+      "removed": "Αφαιρέθηκε",
+      "completed": "Ολοκληρώθηκε",
+      "cancelled": "Ακυρώθηκε",
+      "scheduled": "Προγραμματισμένο",
+      "viewed": "Είδε"
+    }
+  },
+  "sidebarNav": {
+    "sections": {
+      "medicalRecords": "Ιατρικά Αρχεία",
+      "careAndTreatment": "Φροντίδα & Θεραπεία",
+      "misc": "Διάφορα",
+      "tools": "Εργαλεία",
+      "administration": "Διαχείριση"
+    },
+    "items": {
+      "patientInfo": "Πληροφορίες Ασθενούς",
+      "medications": "Φάρμακα",
+      "labResults": "Αποτελέσματα Εργαστηρίου",
+      "conditions": "Παθήσεις",
+      "allergies": "Αλλεργίες",
+      "vitalSigns": "Ζωτικά Σημεία",
+      "symptoms": "Συμπτώματα",
+      "injuries": "Τραυματισμοί",
+      "treatments": "Θεραπείες",
+      "procedures": "Διαδικασίες",
+      "immunizations": "Εμβολιασμοί",
+      "visitHistory": "Ιστορικό Επισκέψεων",
+      "familyHistory": "Ιστορικό Οικογένειας",
+      "practitioners": "Επαγγελματίες Υγείας",
+      "pharmacies": "Φαρμακεία",
+      "insurance": "Ασφάλιση",
+      "medicalEquipment": "Ιατρικός Εξοπλισμός",
+      "emergencyContacts": "Επαφές Έκτακτης Ανάγκης",
+      "tagManagement": "Διαχείριση Ετικετών",
+      "customReports": "Προσαρμοσμένες Αναφορές",
+      "exportRecords": "Εξαγωγή Αρχείων",
+      "settings": "Ρυθμίσεις",
+      "adminDashboard": "Πίνακας Διαχείρισης",
+      "dataModels": "Μοντέλα Δεδομένων",
+      "backupManagement": "Διαχείριση Αντιγράφων Ασφαλείας",
+      "systemHealth": "Υγεία Συστήματος",
+      "language": "Γλώσσα",
+      "theme": "Θέμα"
+    }
+  }
+}
