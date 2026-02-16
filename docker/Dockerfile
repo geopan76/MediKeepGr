@@ -58,6 +58,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     logrotate \
     tesseract-ocr \
     tesseract-ocr-eng \
+    tesseract-ocr-ell \
     poppler-utils \
     && rm -rf /var/lib/apt/lists/* \
     && apt-get clean
