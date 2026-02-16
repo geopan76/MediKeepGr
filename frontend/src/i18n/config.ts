@@ -9,7 +9,7 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    fallbackLng: 'en',
+    fallbackLng: 'el',
     debug: isDevelopment(),
 
     // Only load the primary language code (e.g., 'en' not 'en-US')
