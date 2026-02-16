@@ -482,6 +482,7 @@ class PDFTextExtractionService:
             # Run OCR
             page_text = pytesseract.image_to_string(
                 processed_image,
+                lang='ell+eng',
                 config='--psm 6'  # Assume uniform block of text
             )
 
