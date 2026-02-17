@@ -28,10 +28,10 @@ services:
 
   # Combined Frontend + Backend Application Service
   medikeep-app:
-    # image: ghcr.io/afairgiant/medikeep:latest
-    build:
-      context: ..
-      dockerfile: docker/Dockerfile
+    image: ghcr.io/geopan76/medikeepgr:latest
+    # build:
+    #   context: ..
+    #   dockerfile: docker/Dockerfile
     container_name: medikeep-app
     ports:
       - ${APP_PORT:-8005}:8000 # Single port serves both React app and FastAPI
