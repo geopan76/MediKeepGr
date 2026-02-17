@@ -4,7 +4,7 @@ from typing import Optional
 from pydantic import BaseModel, field_validator, ValidationInfo, ConfigDict
 
 # Supported languages - single source of truth
-SUPPORTED_LANGUAGES = ["en", "fr", "de", "es", "it", "pt"]
+SUPPORTED_LANGUAGES = ["el", 'en', "fr", "de", "es", "it", "pt"]
 
 # Supported date formats - single source of truth
 # mdy = MM/DD/YYYY (US), dmy = DD/MM/YYYY (European), ymd = YYYY-MM-DD (ISO)
@@ -16,8 +16,8 @@ class UserPreferencesBase(BaseModel):
 
     unit_system: str
     session_timeout_minutes: Optional[int] = 30
-    language: Optional[str] = "en"
-    date_format: Optional[str] = "mdy"
+    language: Optional[str] = "el"
+    date_format: Optional[str] = "dmy"
     paperless_enabled: Optional[bool] = False
     paperless_url: Optional[str] = None
     paperless_api_token: Optional[str] = None
