@@ -28,7 +28,7 @@ services:
 
   # Combined Frontend + Backend Application Service
   medikeep-app:
-    image: ghcr.io/geopan76/medikeepgr:latest
+    image: ghcr.io/geopan76/medikeepgr/medikeepgr:latest
     # build:
     #   context: ..
     #   dockerfile: docker/Dockerfile
