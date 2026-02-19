@@ -9,7 +9,7 @@ import { PAPERLESS_SETTING_DEFAULTS } from '../constants/paperlessSettings';
 import i18n from '../i18n';
 
 // Supported languages - must match backend validation
-const SUPPORTED_LANGUAGES = ['en', 'fr', 'de', 'es', 'it', 'pt'];
+const SUPPORTED_LANGUAGES = ['el', 'en', 'fr', 'de', 'es', 'it', 'pt'];
 
 /**
  * User Preferences Context
@@ -55,7 +55,7 @@ export const UserPreferencesProvider = ({ children }) => {
 
         // Set default preferences on error
         const defaultPrefs = {
-          unit_system: 'imperial',
+          unit_system: 'metric',
           session_timeout_minutes: 30,
           date_format: 'mdy',
           ...PAPERLESS_SETTING_DEFAULTS,
@@ -206,11 +206,11 @@ export const UserPreferencesProvider = ({ children }) => {
     updateLocalPreferences, // Local state update only (for backwards compatibility)
     refreshPreferences,
     // Convenience getters for unit system
-    unitSystem: preferences?.unit_system || 'imperial',
+    unitSystem: preferences?.unit_system || 'metric',
     isMetric: preferences?.unit_system === 'metric',
     isImperial: preferences?.unit_system === 'imperial',
     // Convenience getters for date format
-    dateFormat: preferences?.date_format || 'mdy',
+    dateFormat: preferences?.date_format || 'dmy',
     isUSDateFormat: preferences?.date_format === 'mdy' || !preferences?.date_format,
     isEuropeanDateFormat: preferences?.date_format === 'dmy',
     isISODateFormat: preferences?.date_format === 'ymd',
