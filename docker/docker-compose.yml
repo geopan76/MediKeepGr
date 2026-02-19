@@ -85,7 +85,7 @@ services:
     image: adminer
     container_name: adminer
     ports:
-      - "8080:8080"  # Expose Adminer on port 8080
+      - "8088:8080"  # Expose Adminer on port 8080
     networks:
       - medikeep-network
       
