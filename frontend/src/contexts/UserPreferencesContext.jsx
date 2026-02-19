@@ -132,11 +132,11 @@ export const UserPreferencesProvider = ({ children }) => {
         const currentLanguage = i18n.language;
         const savedLanguage = preferences.language;
 
-        // Only save if user has no language preference yet (still on default 'en')
+        // Only save if user has no language preference yet (still on default 'el')
         // and their browser/system language is different AND supported
         if (
-          savedLanguage === 'en' &&
-          currentLanguage !== 'en' &&
+          savedLanguage === 'el' &&
+          currentLanguage !== 'el' &&
           SUPPORTED_LANGUAGES.includes(currentLanguage)
         ) {
           try {
@@ -154,7 +154,7 @@ export const UserPreferencesProvider = ({ children }) => {
               component: 'UserPreferencesContext',
             });
           }
-        } else if (savedLanguage === 'en' && currentLanguage !== 'en') {
+        } else if (savedLanguage === 'el' && currentLanguage !== 'el') {
           // Log when browser language is not supported
           frontendLogger.logInfo('Browser language not supported, keeping default', {
             browserLanguage: currentLanguage,
