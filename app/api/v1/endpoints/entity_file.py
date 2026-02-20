@@ -5,6 +5,7 @@ Supports lab-results, insurance, visits, procedures, and future entity types.
 
 import os
 from typing import Dict, List, Optional
+from urllib.parse import quote
 
 from fastapi import APIRouter, Depends, File, Form, HTTPException, Request, UploadFile, status
 from fastapi.responses import FileResponse
@@ -52,6 +53,29 @@ file_service = GenericEntityFileService()
 
 # Initialize logger
 logger = get_logger(__name__, "app")
+
+# --- ADDED THIS HELPER AT THE TOP ---
+def get_safe_disposition(filename: str, mode: str = "inline") -> str:
+    """
+    URL-encodes Greek characters so they are safe for HTTP headers.
+    Prevents the 'latin-1' 500 Internal Server Error.
+    """
+    encoded_name = quote(filename)
+    return f"{mode}; filename=\"{encoded_name}\"; filename*=UTF-8''{encoded_name}"
+# ----------------------------------
+
+# def get_encoded_content_disposition(filename: str, disposition_type: str = "inline") -> str:
+#    """
+#    Creates a UTF-8 safe Content-Disposition header value.
+#    This prevents 'latin-1' 500 errors with Greek characters.
+#    """
+#    # URL-encode the filename (converts Greek to %xx format)
+#    # This is 100% ASCII safe for the HTTP protocol
+#    encoded_filename = quote(filename)
+#    
+#    # We use the encoded version for both the standard 'filename' 
+#    # and the modern 'filename*' parameter.
+#    return f"{disposition_type}; filename=\"{encoded_filename}\"; filename*=UTF-8''{encoded_filename}"
 
 
 def get_entity_by_type_and_id(db: Session, entity_type: str, entity_id: int):
@@ -766,12 +790,7 @@ async def download_file(
 ):
     """
     Download a file by its ID from both local and paperless storage.
-
-    Args:
-        file_id: ID of the file to download
-
-    Returns:
-        File response for download
+    Supports Greek filenames via safe header encoding.
     """
     try:
         # Get file record first to check authorization
@@ -792,10 +811,13 @@ async def download_file(
             db, file_id, current_user.id
         )
 
-        # Handle different return types (local path vs paperless content)
         if isinstance(file_info, bytes):
             # Paperless file - fix filename if content was converted
             corrected_filename = fix_filename_for_paperless_content(filename, file_info)
+            
+            # GENERATE ENCODED DISPOSITION FOR GREEK SUPPORT
+            disposition = get_safe_disposition(corrected_filename, "attachment")
+
             log_debug(
                 logger,
                 "Processing Paperless download",
@@ -805,39 +827,25 @@ async def download_file(
                 file_id=file_id
             )
 
-            # Paperless file - return as StreamingResponse with proper binary handling
             from fastapi.responses import Response
             import mimetypes
 
-            # Ensure proper content type - use corrected filename for guessing
+            # Ensure proper content type
             if not content_type or content_type == 'application/octet-stream':
-                # Try to guess content type from corrected filename
                 guessed_type, _ = mimetypes.guess_type(corrected_filename)
                 if guessed_type:
                     content_type = guessed_type
-                    log_debug(
-                        logger,
-                        "Guessed content type from filename",
-                        file_name=corrected_filename,
-                        content_type=content_type,
-                        file_id=file_id
-                    )
 
-            # Override content type for PDF files to ensure proper handling
-            if corrected_filename.endswith('.pdf'):
+            # Override content type for PDF files
+            if corrected_filename.lower().endswith('.pdf'):
                 content_type = 'application/pdf'
-                log_debug(
-                    logger,
-                    "Forced content type for PDF file",
-                    file_id=file_id,
-                    file_name=corrected_filename
-                )
 
-            # Set proper headers for binary content
+            # Set proper headers using the safe disposition
             headers = {
-                "Content-Disposition": f"attachment; filename={corrected_filename}",
+                "Content-Disposition": disposition,
                 "Content-Length": str(len(file_info)),
                 "Cache-Control": "no-cache",
+                "X-Content-Type-Options": "nosniff",
             }
 
             return Response(
@@ -847,18 +855,35 @@ async def download_file(
             )
         else:
             # Local file - return as FileResponse
+            # GENERATE ENCODED DISPOSITION FOR GREEK SUPPORT
+            disposition = get_safe_disposition(filename, "attachment")
+            
+            # IMPORTANT: We pass 'headers' and OMIT the 'filename' argument 
+            # to prevent the server from crashing on Greek characters.
             return FileResponse(
-                path=file_info, filename=filename, media_type=content_type
+                path=file_info, 
+                media_type=content_type,
+                headers={
+                    "Content-Disposition": disposition,
+                    "X-Content-Type-Options": "nosniff"
+                }
             )
 
     except HTTPException:
         raise
     except Exception as e:
+        log_endpoint_error(
+            logger,
+            request,
+            f"Failed to download file {file_id}",
+            e,
+            user_id=current_user.id,
+            file_id=file_id
+        )
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail=f"Failed to download file: {str(e)}",
         )
-
 
 @router.get("/files/{file_id}/view")
 async def view_file(
@@ -921,74 +946,47 @@ async def view_file(
         )
 
         # Handle different return types (local path vs paperless content)
+        # --- REPLACED BLOCK START ---
         if isinstance(file_info, bytes):
-            # Paperless file - fix filename if content was converted
+            # Paperless file
             corrected_filename = fix_filename_for_paperless_content(filename, file_info)
-            log_debug(
-                logger,
-                "Processing Paperless file view",
-                original_file_name=filename,
-                corrected_file_name=corrected_filename,
-                content_size=len(file_info),
-                file_id=file_id
-            )
-
-            # Paperless file - return as StreamingResponse with proper binary handling
-            from fastapi.responses import Response
-            import mimetypes
-
-            # Ensure proper content type - use corrected filename for guessing
-            if not content_type or content_type == 'application/octet-stream':
-                # Try to guess content type from corrected filename
-                guessed_type, _ = mimetypes.guess_type(corrected_filename)
-                if guessed_type:
-                    content_type = guessed_type
-                    log_debug(
-                        logger,
-                        "Guessed content type for view",
-                        file_name=corrected_filename,
-                        content_type=content_type,
-                        file_id=file_id
-                    )
-
-            # Override content type for PDF files to ensure proper handling
-            if corrected_filename.endswith('.pdf'):
-                content_type = 'application/pdf'
-                log_debug(
-                    logger,
-                    "Forced content type for PDF view",
-                    file_id=file_id,
-                    file_name=corrected_filename
-                )
-
-            # Set secure headers for inline file viewing with proper binary handling
-            headers = {
-                "Content-Disposition": f"inline; filename={corrected_filename}",
-                "Content-Length": str(len(file_info)),
-                "X-Content-Type-Options": "nosniff",  # Prevent MIME sniffing
-                "X-Frame-Options": "SAMEORIGIN",     # Prevent embedding in frames from other domains
-                "Cache-Control": "no-cache",
-            }
             
+            # Use our helper for Greek support
+            disposition = get_safe_disposition(corrected_filename, "inline")
+
+            # Setup Content Type
+            if not content_type or content_type == 'application/octet-stream':
+                guessed_type, _ = mimetypes.guess_type(corrected_filename)
+                content_type = guessed_type or 'application/octet-stream'
+            if corrected_filename.lower().endswith('.pdf'):
+                content_type = 'application/pdf'
+
             return Response(
                 content=file_info,
-                media_type=content_type or 'application/octet-stream',
-                headers=headers,
+                media_type=content_type,
+                headers={
+                    "Content-Disposition": disposition,
+                    "Content-Length": str(len(file_info)),
+                    "X-Content-Type-Options": "nosniff",
+                    "X-Frame-Options": "SAMEORIGIN",
+                    "Cache-Control": "no-cache",
+                },
             )
         else:
-            # Local file - return as FileResponse with inline disposition and security headers
-            headers = {
-                "Content-Disposition": f"inline; filename={filename}",
-                "X-Content-Type-Options": "nosniff",  # Prevent MIME sniffing
-                "X-Frame-Options": "SAMEORIGIN",     # Prevent embedding in frames from other domains
-            }
+            # Local file
+            disposition = get_safe_disposition(filename, "inline")
             
             return FileResponse(
                 path=file_info, 
-                filename=filename, 
                 media_type=content_type,
-                headers=headers
+                headers={
+                    "Content-Disposition": disposition,
+                    "X-Content-Type-Options": "nosniff",
+                    "X-Frame-Options": "SAMEORIGIN",
+                }
             )
+        # --- REPLACED BLOCK END ---
+
 
     except HTTPException:
         raise
