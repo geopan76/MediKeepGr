@@ -17,7 +17,7 @@ class TestUserPreferencesLanguage:
     def test_default_language_is_english(
         self, client: TestClient, db_session: Session
     ):
-        """Test that new users get English as default language."""
+        """Test that new users get Greek as default language."""
         # Create a test user
         user_data = create_random_user(db_session)
         headers = create_user_authentication_headers(client=client, username=user_data["username"], password=user_data["password"])
@@ -27,7 +27,7 @@ class TestUserPreferencesLanguage:
 
         assert response.status_code == 200
         data = response.json()
-        assert data["language"] == "en"
+        assert data["language"] == "el"
 
     def test_update_language_to_french(
         self, client: TestClient, db_session: Session
@@ -207,7 +207,7 @@ class TestUserPreferencesLanguage:
         self, client: TestClient, db_session: Session
     ):
         """Test that all supported languages can be set successfully."""
-        supported_languages = ["en", "fr", "de", "es", "it", "pt", "ru"]
+        supported_languages = ["el", "en", "fr", "de", "es", "it", "pt", "ru"]
 
         for lang in supported_languages:
             # Create a new test user for each language
@@ -264,11 +264,11 @@ class TestLanguageValidation:
             UserPreferencesUpdate(language="xx")
 
     def test_language_defaults_to_en(self):
-        """Test that language defaults to 'en' when not specified."""
+        """Test that language defaults to 'el' when not specified."""
         from app.schemas.user_preferences import UserPreferencesBase
 
         prefs = UserPreferencesBase(unit_system="imperial")
-        assert prefs.language == "en"
+        assert prefs.language == "el"
 
     def test_language_normalization_to_lowercase(self):
         """Test that language codes are normalized to lowercase."""
