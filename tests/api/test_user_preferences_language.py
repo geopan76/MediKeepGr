@@ -199,8 +199,8 @@ class TestUserPreferencesLanguage:
 
         assert response.status_code == 200
         data = response.json()
-        # Language should still be default (en)
-        assert data["language"] == "en"
+        # Language should still be default (el)
+        assert data["language"] == "el"
         assert data["unit_system"] == "metric"
 
     def test_supported_languages_list(
@@ -333,7 +333,7 @@ class TestLanguageCRUD:
         prefs = user_preferences.get_or_create_by_user_id(
             db_session, user_id=user_obj.id
         )
-        assert prefs.language == "en"
+        assert prefs.language == "el"
 
         # Update to German
         updated_prefs = user_preferences.update_by_user_id(
