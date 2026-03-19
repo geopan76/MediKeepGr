@@ -17,7 +17,7 @@ class TestUserPreferencesLanguage:
     def test_default_language_is_english(
         self, client: TestClient, db_session: Session
     ):
-        """Test that new users get Greek as default language."""
+        """Test that new users get English as default language."""
         # Create a test user
         user_data = create_random_user(db_session)
         headers = create_user_authentication_headers(client=client, username=user_data["username"], password=user_data["password"])
@@ -27,7 +27,7 @@ class TestUserPreferencesLanguage:
 
         assert response.status_code == 200
         data = response.json()
-        assert data["language"] == "el"
+        assert data["language"] == "en"
 
     def test_update_language_to_french(
         self, client: TestClient, db_session: Session
@@ -200,7 +200,7 @@ class TestUserPreferencesLanguage:
         assert response.status_code == 200
         data = response.json()
         # Language should still be default (el)
-        assert data["language"] == "el"
+        assert data["language"] == "en"
         assert data["unit_system"] == "metric"
 
     def test_supported_languages_list(
@@ -333,7 +333,7 @@ class TestLanguageCRUD:
         prefs = user_preferences.get_or_create_by_user_id(
             db_session, user_id=user_obj.id
         )
-        assert prefs.language == "el"
+        assert prefs.language == "en"
 
         # Update to German
         updated_prefs = user_preferences.update_by_user_id(
