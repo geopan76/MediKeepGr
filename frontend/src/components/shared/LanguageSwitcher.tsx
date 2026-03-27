@@ -19,6 +19,7 @@ interface Language {
 // Available languages - defined outside component to avoid recreation
 const LANGUAGES: Language[] = [
   { value: 'en', label: 'English', shortLabel: 'EN' },
+  { value: 'el', label: 'Ελληνικά', shortLabel: 'EL' },
   { value: 'fr', label: 'Français', shortLabel: 'FR' },
   { value: 'de', label: 'Deutsch', shortLabel: 'DE' },
   { value: 'es', label: 'Español', shortLabel: 'ES' },
