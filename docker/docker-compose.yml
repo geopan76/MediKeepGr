@@ -30,7 +30,7 @@ services:
 
   # Combined Frontend + Backend Application Service
   medikeep-app:
-    image: ghcr.io/afairgiant/medikeep:latest
+    image: ghcr.io/geopan76/MediKeepGr:latest
     # build:
     #   context: ..
     #   dockerfile: docker/Dockerfile
@@ -47,7 +47,7 @@ services:
       DEBUG: ${DEBUG:-false}
       ENABLE_API_DOCS: ${ENABLE_API_DOCS:-false}
       LOG_LEVEL: ${LOG_LEVEL:-INFO}
-      TZ: ${TZ:-America/New_York}
+      TZ: ${TZ:-Europe/Athens}
       # SSL Configuration - set ENABLE_SSL=true in .env to enable HTTPS
       ENABLE_SSL: ${ENABLE_SSL:-false}
       # SSO Configuration (Optional) - SSO is disabled by default
