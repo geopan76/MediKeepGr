@@ -1,90 +1,90 @@
 {
   "upload": {
-    "failed": "Failed to upload file. Please try again.",
-    "connectionError": "Connection error. Please check your network and try again.",
-    "fileTooLarge": "File size exceeds the maximum limit.",
-    "invalidFileType": "File type not supported.",
-    "fileProcessingFailed": "Failed to process file. Please try a different file.",
-    "duplicateFile": "This file has already been uploaded.",
-    "batchUploadFailed": "Some files failed to upload. Please check individual file errors.",
-    "partialUploadSuccess": "Upload completed with some errors. Please review failed files.",
-    "allUploadsFailed": "All file uploads failed. Please check your connection and try again."
+    "failed": "Η μεταφόρτωση του αρχείου απέτυχε. Παρακαλώ δοκιμάστε ξανά.",
+    "connectionError": "Σφάλμα σύνδεσης. Παρακαλώ ελέγξτε το δίκτυό σας και δοκιμάστε ξανά.",
+    "fileTooLarge": "Το μέγεθος του αρχείου υπερβαίνει το μέγιστο όριο.",
+    "invalidFileType": "Ο τύπος αρχείου δεν υποστηρίζεται.",
+    "fileProcessingFailed": "Αποτυχία επεξεργασίας αρχείου. Παρακαλώ δοκιμάστε ένα διαφορετικό αρχείο.",
+    "duplicateFile": "Αυτό το αρχείο έχει ήδη μεταφορτωθεί.",
+    "batchUploadFailed": "Ορισμένα αρχεία απέτυχαν να μεταφορτωθούν. Παρακαλώ ελέγξτε τα σφάλματα των μεμονωμένων αρχείων.",
+    "partialUploadSuccess": "Η μεταφόρτωση ολοκληρώθηκε με ορισμένα σφάλματα. Παρακαλώ ελέγξτε τα αρχεία που απέτυχαν.",
+    "allUploadsFailed": "Όλες οι μεταφορτώσεις αρχείων απέτυχαν. Ελέγξτε τη σύνδεσή σας και δοκιμάστε ξανά."
   },
   "paperless": {
-    "unavailable": "Document management service is currently unavailable.",
-    "notEnabled": "Paperless integration is not enabled. Please enable it in Settings.",
-    "configIncomplete": "Paperless configuration is incomplete. Please check your settings.",
-    "uploadFailed": "Failed to upload to Paperless document management system.",
-    "connectionFailed": "Unable to connect to Paperless service. Please check configuration.",
-    "authFailed": "Authentication failed with Paperless service. Please check credentials.",
-    "duplicateDocument": "This document already exists in Paperless. Identical documents cannot be uploaded twice.",
-    "taskFailed": "Document upload to Paperless failed. Please try again or contact support.",
-    "taskTimeout": "Document processing timed out. The document may still be processing in Paperless."
+    "unavailable": "Η υπηρεσία διαχείρισης εγγράφων δεν είναι διαθέσιμη προς το παρόν.",
+    "notEnabled": "Η σύνδεση με το Paperless δεν είναι ενεργοποιημένη. Ενεργοποιήστε την στις Ρυθμίσεις.",
+    "configIncomplete": "Η διαμόρφωση του Paperless είναι ημιτελής. Παρακαλώ ελέγξτε τις ρυθμίσεις σας.",
+    "uploadFailed": "Αποτυχία μεταφόρτωσης στο σύστημα διαχείρισης εγγράφων Paperless.",
+    "connectionFailed": "Αδυναμία σύνδεσης με την υπηρεσία Paperless. Παρακαλώ ελέγξτε τη διαμόρφωση.",
+    "authFailed": "Η αυθεντικοποίηση στην υπηρεσία Paperless απέτυχε. Παρακαλώ ελέγξτε τα διαπιστευτήρια.",
+    "duplicateDocument": "Αυτό το έγγραφο υπάρχει ήδη στο Paperless. Δεν είναι δυνατή η διπλή μεταφόρτωση πανομοιότυπων εγγράφων.",
+    "taskFailed": "Η μεταφόρτωση εγγράφου στο Paperless απέτυχε. Παρακαλώ δοκιμάστε ξανά ή επικοινωνήστε με την υποστήριξη.",
+    "taskTimeout": "Η επεξεργασία του εγγράφου έληξε (timeout). Το έγγραφο ενδέχεται να βρίσκεται ακόμα υπό επεξεργασία στο Paperless."
   },
   "form": {
-    "submissionFailed": "Failed to save form. Please check your input and try again.",
-    "requiredFieldMissing": "Please fill in all required fields.",
-    "invalidDate": "Please enter a valid date.",
-    "invalidEmail": "Please enter a valid email address.",
-    "invalidPhone": "Please enter a valid phone number.",
-    "invalidPhoneDigits": "Please enter a valid phone number",
-    "invalidWebsiteUrl": "Please enter a valid website URL",
-    "patientNotSelected": "Please select a patient.",
-    "entityNotFound": "The requested item could not be found.",
-    "medicationNotSelected": "Please select a medication",
-    "conditionNotSelected": "Please select a condition",
-    "mustBeValidNumber": "Must be a valid number"
+    "submissionFailed": "Αποτυχία αποθήκευσης της φόρμας. Παρακαλώ ελέγξτε τα στοιχεία σας και δοκιμάστε ξανά.",
+    "requiredFieldMissing": "Παρακαλώ συμπληρώστε όλα τα υποχρεωτικά πεδία.",
+    "invalidDate": "Παρακαλώ εισάγετε μια έγκυρη ημερομηνία.",
+    "invalidEmail": "Παρακαλώ εισάγετε μια έγκυρη διεύθυνση email.",
+    "invalidPhone": "Παρακαλώ εισάγετε έναν έγκυρο αριθμό τηλεφώνου.",
+    "invalidPhoneDigits": "Παρακαλώ εισάγετε έναν έγκυρο αριθμό τηλεφώνου",
+    "invalidWebsiteUrl": "Παρακαλώ εισάγετε μια έγκυρη διεύθυνση URL",
+    "patientNotSelected": "Παρακαλώ επιλέξτε έναν ασθενή.",
+    "entityNotFound": "Το στοιχείο που ζητήθηκε δεν βρέθηκε.",
+    "medicationNotSelected": "Παρακαλώ επιλέξτε ένα φάρμακο",
+    "conditionNotSelected": "Παρακαλώ επιλέξτε μια πάθηση",
+    "mustBeValidNumber": "Πρέπει να είναι έγκυρος αριθμός"
   },
   "patientForm": {
-    "error": "Error",
-    "firstNameRequired": "First name is required",
-    "lastNameRequired": "Last name is required",
-    "birthDateRequired": "Birth date is required",
-    "birthDateFuture": "Birth date cannot be in the future",
-    "createFailed": "Creation Failed: {{message}}",
-    "updateFailed": "Update Failed: {{message}}"
+    "error": "Σφάλμα",
+    "firstNameRequired": "Το όνομα είναι υποχρεωτικό",
+    "lastNameRequired": "Το επώνυμο είναι υποχρεωτικό",
+    "birthDateRequired": "Η ημερομηνία γέννησης είναι υποχρεωτική",
+    "birthDateFuture": "Η ημερομηνία γέννησης δεν μπορεί να είναι στο μέλλον",
+    "createFailed": "Η δημιουργία απέτυχε: {{message}}",
+    "updateFailed": "Η ενημέρωση απέτυχε: {{message}}"
   },
   "file": {
-    "deleteFailed": "Failed to delete file. Please try again.",
-    "downloadFailed": "Failed to download file. Please try again.",
-    "viewFailed": "Failed to open file for viewing. Please try again.",
-    "notFound": "File not found."
+    "deleteFailed": "Αποτυχία διαγραφής αρχείου. Παρακαλώ δοκιμάστε ξανά.",
+    "downloadFailed": "Αποτυχία λήψης αρχείου. Παρακαλώ δοκιμάστε ξανά.",
+    "viewFailed": "Αποτυχία ανοίγματος αρχείου για προβολή. Παρακαλώ δοκιμάστε ξανά.",
+    "notFound": "Το αρχείο δεν βρέθηκε."
   },
   "network": {
-    "unavailable": "Network unavailable. Please check your connection.",
-    "timeout": "Request timed out. Please try again.",
-    "serverError": "Server error occurred. Please try again later.",
-    "connectionError": "Connection error. Please check your network and try again."
+    "unavailable": "Το δίκτυο δεν είναι διαθέσιμο. Παρακαλώ ελέγξτε τη σύνδεσή σας.",
+    "timeout": "Το αίτημα έληξε (timeout). Παρακαλώ δοκιμάστε ξανά.",
+    "serverError": "Παρουσιάστηκε σφάλμα στον διακομιστή. Παρακαλώ δοκιμάστε αργότερα.",
+    "connectionError": "Σφάλμα σύνδεσης. Παρακαλώ ελέγξτε το δίκτυό σας και δοκιμάστε ξανά."
   },
   "general": {
-    "unknownError": "An unexpected error occurred. Please try again.",
-    "permissionDenied": "You do not have permission to perform this action.",
-    "sessionExpired": "Your session has expired. Please log in again.",
-    "rateLimitExceeded": "Too many requests. Please wait a moment and try again.",
-    "maintenanceMode": "The system is currently under maintenance. Please try again later.",
-    "storageFull": "Storage limit reached. Please free up space and try again.",
-    "validationError": "Please check your input and try again."
+    "unknownError": "Παρουσιάστηκε ένα απρόσμενο σφάλμα. Παρακαλώ δοκιμάστε ξανά.",
+    "permissionDenied": "Δεν έχετε άδεια να εκτελέσετε αυτή την ενέργεια.",
+    "sessionExpired": "Η συνεδρία σας έληξε. Παρακαλώ συνδεθείτε ξανά.",
+    "rateLimitExceeded": "Πάρα πολλά αιτήματα. Παρακαλώ περιμένετε λίγο και δοκιμάστε ξανά.",
+    "maintenanceMode": "Το σύστημα βρίσκεται υπό συντήρηση. Παρακαλώ δοκιμάστε αργότερα.",
+    "storageFull": "Το όριο αποθηκευτικού χώρου εξαντλήθηκε. Απελευθερώστε χώρο και δοκιμάστε ξανά.",
+    "validationError": "Παρακαλώ ελέγξτε τα στοιχεία σας και δοκιμάστε ξανά."
   },
   "success": {
-    "uploadSuccess": "File uploaded successfully!",
-    "uploadMultipleSuccess": "All files uploaded successfully!",
-    "formSaved": "Form saved successfully!",
-    "fileDeleted": "File deleted successfully.",
-    "paperlessSyncSuccess": "Successfully synced with Paperless document management.",
-    "batchUploadSuccess": "All files uploaded successfully!"
+    "uploadSuccess": "Το αρχείο μεταφορτώθηκε επιτυχώς!",
+    "uploadMultipleSuccess": "Όλα τα αρχεία μεταφορτώθηκαν επιτυχώς!",
+    "formSaved": "Η φόρμα αποθηκεύτηκε επιτυχώς!",
+    "fileDeleted": "Το αρχείο διαγράφηκε επιτυχώς.",
+    "paperlessSyncSuccess": "Επιτυχής συγχρονισμός με τη διαχείριση εγγράφων Paperless.",
+    "batchUploadSuccess": "Όλα τα αρχεία μεταφορτώθηκαν επιτυχώς!"
   },
   "warnings": {
-    "partialSuccess": "Operation completed with some warnings.",
-    "slowConnection": "Upload is taking longer than usual due to slow connection.",
-    "largeFileWarning": "Large file detected. Upload may take several minutes.",
-    "duplicateWarning": "This file appears to be a duplicate."
+    "partialSuccess": "Η λειτουργία ολοκληρώθηκε με ορισμένες προειδοποιήσεις.",
+    "slowConnection": "Η μεταφόρτωση καθυστερεί περισσότερο από το συνηθισμένο λόγω αργής σύνδεσης.",
+    "largeFileWarning": "Εντοπίστηκε μεγάλο αρχείο. Η μεταφόρτωση ενδέχεται να διαρκέσει αρκετά λεπτά.",
+    "duplicateWarning": "Αυτό το αρχείο φαίνεται να είναι διπλότυπο."
   },
   "relationships": {
-    "addConditionFailed": "Failed to add condition relationship",
-    "addMedicationFailed": "Failed to add medication relationship",
-    "addFailed": "Failed to add relationship",
-    "updateFailed": "Failed to update relationship",
-    "deleteFailed": "Failed to delete relationship",
-    "fetchFailed": "Failed to load relationships"
+    "addConditionFailed": "Αποτυχία προσθήκης συσχέτισης πάθησης",
+    "addMedicationFailed": "Αποτυχία προσθήκης συσχέτισης φαρμάκου",
+    "addFailed": "Αποτυχία προσθήκης συσχέτισης",
+    "updateFailed": "Αποτυχία ενημέρωσης συσχέτισης",
+    "deleteFailed": "Αποτυχία διαγραφής συσχετίσεως",
+    "fetchFailed": "Αποτυχία φόρτωσης συσχετίσεων"
   }
 }
