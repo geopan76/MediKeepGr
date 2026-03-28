@@ -1,33 +1,33 @@
 {
-  "title": "Notification Settings",
-  "description": "Configure how you receive notifications for important events",
-  "loading": "Loading notification settings...",
-  "error": "Failed to load notification settings",
+  "title": "Ρυθμίσεις Ειδοποιήσεων",
+  "description": "Διαμορφώστε τον τρόπο με τον οποίο λαμβάνετε ειδοποιήσεις για σημαντικά συμβάντα",
+  "loading": "Φόρτωση ρυθμίσεων ειδοποιήσεων...",
+  "error": "Αποτυχία φόρτωσης ρυθμίσεων ειδοποιήσεων",
 
   "channels": {
-    "title": "Notification Channels",
-    "description": "Add and manage your notification delivery channels",
-    "add": "Add Channel",
-    "edit": "Edit Channel",
-    "delete": "Delete Channel",
-    "test": "Test",
-    "testing": "Testing...",
-    "testSuccess": "Test notification sent successfully!",
-    "testFailed": "Test notification failed",
-    "noChannels": "No notification channels configured",
-    "noChannelsHint": "Add a channel to start receiving notifications",
-    "verified": "Verified",
-    "enabled": "Enabled",
-    "disabled": "Disabled",
-    "lastUsed": "Last used",
-    "notificationsSent": "{{count}} notifications sent",
-    "confirmDelete": "Are you sure you want to delete this channel?",
-    "deleteSuccess": "Channel deleted successfully",
-    "deleteFailed": "Failed to delete channel",
-    "createSuccess": "Channel created successfully",
-    "createFailed": "Failed to create channel",
-    "updateSuccess": "Channel updated successfully",
-    "updateFailed": "Failed to update channel",
+    "title": "Κανάλια Ειδοποιήσεων",
+    "description": "Προσθέστε και διαχειριστείτε τα κανάλια παράδοσης των ειδοποιήσεών σας",
+    "add": "Προσθήκη Καναλιού",
+    "edit": "Επεξεργασία Καναλιού",
+    "delete": "Διαγραφή Καναλιού",
+    "test": "Δοκιμή",
+    "testing": "Δοκιμή σε εξέλιξη...",
+    "testSuccess": "Η δοκιμαστική ειδοποίηση στάλθηκε επιτυχώς!",
+    "testFailed": "Η δοκιμαστική ειδοποίηση απέτυχε",
+    "noChannels": "Δεν έχουν ρυθμιστεί κανάλια ειδοποιήσεων",
+    "noChannelsHint": "Προσθέστε ένα κανάλι για να ξεκινήσετε να λαμβάνετε ειδοποιήσεις",
+    "verified": "Επαληθευμένο",
+    "enabled": "Ενεργοποιημένο",
+    "disabled": "Απενεργοποιημένο",
+    "lastUsed": "Τελευταία χρήση",
+    "notificationsSent": "στάλθηκαν {{count}} ειδοποιήσεις",
+    "confirmDelete": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το κανάλι;",
+    "deleteSuccess": "Το κανάλι διαγράφηκε επιτυχώς",
+    "deleteFailed": "Αποτυχία διαγραφής καναλιού",
+    "createSuccess": "Το κανάλι δημιουργήθηκε επιτυχώς",
+    "createFailed": "Αποτυχία δημιουργίας καναλιού",
+    "updateSuccess": "Το κανάλι ενημερώθηκε επιτυχώς",
+    "updateFailed": "Αποτυχία ενημέρωσης καναλιού",
     "types": {
       "discord": "Discord",
       "email": "Email",
@@ -35,381 +35,381 @@
       "webhook": "Webhook"
     },
     "form": {
-      "title": "Channel Details",
+      "title": "Στοιχεία Καναλιού",
       "name": {
-        "label": "Channel Name",
-        "placeholder": "e.g., My Discord Server",
-        "description": "A friendly name to identify this channel"
+        "label": "Όνομα Καναλιού",
+        "placeholder": "π.χ. Ο Discord Server μου",
+        "description": "Ένα αναγνωρίσιμο όνομα για αυτό το κανάλι"
       },
       "type": {
-        "label": "Channel Type",
-        "placeholder": "Select channel type",
-        "description": "The service to send notifications through"
+        "label": "Τύπος Καναλιού",
+        "placeholder": "Επιλέξτε τύπο καναλιού",
+        "description": "Η υπηρεσία μέσω της οποίας θα αποστέλλονται οι ειδοποιήσεις"
       },
       "enabled": {
-        "label": "Enable Channel",
-        "description": "Receive notifications through this channel"
+        "label": "Ενεργοποίηση Καναλιού",
+        "description": "Λήψη ειδοποιήσεων μέσω αυτού του καναλιού"
       },
-      "configSection": "Channel Configuration"
+      "configSection": "Διαμόρφωση Καναλιού"
     },
     "discord": {
       "webhookUrl": {
         "label": "Webhook URL",
         "placeholder": "https://discord.com/api/webhooks/...",
-        "description": "Create a webhook in your Discord server settings"
+        "description": "Δημιουργήστε ένα webhook στις ρυθμίσεις του Discord server σας"
       },
       "username": {
-        "label": "Bot Username (Optional)",
+        "label": "Όνομα Bot (Προαιρετικό)",
         "placeholder": "MediKeep",
-        "description": "Custom name for the notification bot"
+        "description": "Προσαρμοσμένο όνομα για το bot ειδοποιήσεων"
       },
       "avatarUrl": {
-        "label": "Avatar URL (Optional)",
+        "label": "URL Avatar (Προαιρετικό)",
         "placeholder": "https://example.com/avatar.png",
-        "description": "Custom avatar for the notification bot"
+        "description": "Προσαρμοσμένο avatar για το bot ειδοποιήσεων"
       }
     },
     "email": {
       "smtpHost": {
-        "label": "SMTP Server",
+        "label": "Διακομιστής SMTP",
         "placeholder": "smtp.gmail.com",
-        "description": "Your email provider's SMTP server"
+        "description": "Ο διακομιστής SMTP του παρόχου email σας"
       },
       "smtpPort": {
-        "label": "SMTP Port",
+        "label": "Θύρα SMTP",
         "placeholder": "587",
-        "description": "Usually 587 (TLS) or 465 (SSL)"
+        "description": "Συνήθως 587 (TLS) ή 465 (SSL)"
       },
       "smtpUser": {
-        "label": "SMTP Username",
+        "label": "Όνομα Χρήστη SMTP",
         "placeholder": "your-email@gmail.com",
-        "description": "Your email address or username"
+        "description": "Η διεύθυνση email ή το όνομα χρήστη σας"
       },
       "smtpPassword": {
-        "label": "SMTP Password",
-        "placeholder": "App password or email password",
-        "description": "For Gmail, use an App Password"
+        "label": "Κωδικός Πρόσβασης SMTP",
+        "placeholder": "Κωδικός εφαρμογής ή κωδικός email",
+        "description": "Για το Gmail, χρησιμοποιήστε έναν 'Κωδικό Πρόσβασης Εφαρμογής'"
       },
       "fromEmail": {
-        "label": "From Email",
+        "label": "Email Αποστολέα",
         "placeholder": "notifications@example.com",
-        "description": "The sender email address"
+        "description": "Η διεύθυνση email του αποστολέα"
       },
       "toEmail": {
-        "label": "To Email",
+        "label": "Email Παραλήπτη",
         "placeholder": "your-email@example.com",
-        "description": "Where to send notifications"
+        "description": "Πού θα αποστέλλονται οι ειδοποιήσεις"
       },
       "useTls": {
-        "label": "Use TLS",
-        "description": "Enable TLS encryption (recommended)"
+        "label": "Χρήση TLS",
+        "description": "Ενεργοποίηση κρυπτογράφησης TLS (συνιστάται)"
       }
     },
     "gotify": {
       "serverUrl": {
-        "label": "Server URL",
+        "label": "URL Διακομιστή",
         "placeholder": "https://gotify.example.com",
-        "description": "Your Gotify server URL"
+        "description": "Το URL του Gotify server σας"
       },
       "appToken": {
         "label": "App Token",
-        "placeholder": "Application token from Gotify",
-        "description": "Create an application in Gotify to get a token"
+        "placeholder": "Token εφαρμογής από το Gotify",
+        "description": "Δημιουργήστε μια εφαρμογή στο Gotify για να λάβετε token"
       },
       "priority": {
-        "label": "Priority",
+        "label": "Προτεραιότητα",
         "placeholder": "5",
-        "description": "Message priority (1-10, default 5)"
+        "description": "Προτεραιότητα μηνύματος (1-10, προεπιλογή 5)"
       }
     },
     "webhook": {
       "url": {
         "label": "Webhook URL",
         "placeholder": "https://api.example.com/webhook",
-        "description": "URL to receive notification payloads"
+        "description": "URL για τη λήψη των δεδομένων ειδοποίησης"
       },
       "method": {
-        "label": "HTTP Method",
-        "description": "HTTP method for the webhook request"
+        "label": "Μέθοδος HTTP",
+        "description": "Η μέθοδος HTTP για το αίτημα του webhook"
       },
       "headers": {
-        "label": "Custom Headers (Optional)",
+        "label": "Προσαρμοσμένες Κεφαλίδες (Προαιρετικό)",
         "placeholder": "{\"Authorization\": \"Bearer token\"}",
-        "description": "JSON object with custom headers"
+        "description": "Αντικείμενο JSON με προσαρμοσμένες κεφαλίδες"
       },
       "authToken": {
-        "label": "Auth Token (Optional)",
-        "placeholder": "Bearer token or API key",
-        "description": "Authorization token for the webhook"
+        "label": "Token Εξουσιοδότησης (Προαιρετικό)",
+        "placeholder": "Bearer token ή API key",
+        "description": "Token εξουσιοδότησης για το webhook"
       }
     }
   },
 
   "preferences": {
-    "title": "Event Notifications",
-    "description": "Choose which events trigger notifications on each channel",
-    "loading": "Loading preferences...",
-    "noChannels": "Add a notification channel first to configure event preferences",
-    "saveSuccess": "Preference saved",
-    "saveFailed": "Failed to save preference",
-    "eventHeader": "Event",
-    "comingSoon": "Coming Soon",
+    "title": "Ειδοποιήσεις Συμβάντων",
+    "description": "Επιλέξτε ποια συμβάντα θα ενεργοποιούν ειδοποιήσεις σε κάθε κανάλι",
+    "loading": "Φόρτωση προτιμήσεων...",
+    "noChannels": "Προσθέστε πρώτα ένα κανάλι ειδοποιήσεων για να διαμορφώσετε τις προτιμήσεις συμβάντων",
+    "saveSuccess": "Η προτίμηση αποθηκεύτηκε",
+    "saveFailed": "Αποτυχία αποθήκευσης προτίμησης",
+    "eventHeader": "Συμβάν",
+    "comingSoon": "Σύντομα Διαθέσιμο",
     "categories": {
-      "system": "System Events",
-      "medical": "Medical Events",
-      "collaboration": "Sharing & Collaboration",
-      "sharing": "Sharing & Invitations",
-      "security": "Security Alerts",
-      "other": "Other Events"
+      "system": "Συμβάντα Συστήματος",
+      "medical": "Ιατρικά Συμβάντα",
+      "collaboration": "Διαμοιρασμός & Συνεργασία",
+      "sharing": "Κοινή Χρήση & Προσκλήσεις",
+      "security": "Ειδοποιήσεις Ασφαλείας",
+      "other": "Άλλα Συμβάντα"
     }
   },
 
   "events": {
     "test_notification": {
-      "name": "Test Notification",
-      "description": "Manual test notification"
+      "name": "Δοκιμαστική Ειδοποίηση",
+      "description": "Χειροκίνητη δοκιμαστική ειδοποίηση"
     },
     "backup_completed": {
-      "name": "Backup Completed",
-      "description": "When a backup completes successfully"
+      "name": "Το Αντίγραφο Ασφαλείας Ολοκληρώθηκε",
+      "description": "Όταν ένα αντίγραφο ασφαλείας ολοκληρώνεται με επιτυχία"
     },
     "backup_failed": {
-      "name": "Backup Failed",
-      "description": "When a backup fails"
+      "name": "Αποτυχία Αντιγράφου Ασφαλείας",
+      "description": "Όταν η δημιουργία αντιγράφου ασφαλείας αποτυγχάνει"
     },
     "lab_result_available": {
-      "name": "Lab Results Available",
-      "description": "When new lab results are added"
+      "name": "Διαθέσιμα Εργαστηριακά Αποτελέσματα",
+      "description": "Όταν προστίθενται νέα εργαστηριακά αποτελέσματα"
     },
     "lab_result_abnormal": {
-      "name": "Abnormal Lab Results",
-      "description": "When lab results are outside normal range"
+      "name": "Μη Φυσιολογικά Αποτελέσματα",
+      "description": "Όταν τα αποτελέσματα είναι εκτός των φυσιολογικών ορίων"
     },
     "immunization_due": {
-      "name": "Immunization Due",
-      "description": "When an immunization is coming due"
+      "name": "Προγραμματισμένος Εμβολιασμός",
+      "description": "Όταν πλησιάζει η ημερομηνία ενός εμβολιασμού"
     },
     "immunization_overdue": {
-      "name": "Immunization Overdue",
-      "description": "When an immunization is past due"
+      "name": "Εκπρόθεσμος Εμβολιασμός",
+      "description": "Όταν έχει παρέλθει η ημερομηνία ενός εμβολιασμού"
     },
     "invitation_received": {
-      "name": "Invitation Received",
-      "description": "When someone shares records with you"
+      "name": "Λήψη Πρόσκλησης",
+      "description": "Όταν κάποιος μοιράζεται αρχεία μαζί σας"
     },
     "invitation_accepted": {
-      "name": "Invitation Accepted",
-      "description": "When your sharing invitation is accepted"
+      "name": "Αποδοχή Πρόσκλησης",
+      "description": "Όταν η πρόσκληση κοινής χρήσης που στείλατε γίνεται αποδεκτή"
     },
     "share_revoked": {
-      "name": "Share Revoked",
-      "description": "When access to shared records is revoked"
+      "name": "Ανάκληση Κοινής Χρήσης",
+      "description": "Όταν ανακαλείται η πρόσβαση σε κοινόχρηστα αρχεία"
     },
     "login_from_new_device": {
-      "name": "New Device Login",
-      "description": "When your account is accessed from a new device"
+      "name": "Σύνδεση από Νέα Συσκευή",
+      "description": "Όταν πραγματοποιείται πρόσβαση στον λογαριασμό σας από νέα συσκευή"
     },
     "password_changed": {
-      "name": "Password Changed",
-      "description": "When your password is changed"
+      "name": "Αλλαγή Κωδικού Πρόσβασης",
+      "description": "Όταν αλλάζει ο κωδικός πρόσβασής σας"
     }
   },
 
   "history": {
-    "title": "Notification History",
-    "description": "Recent notifications sent through your channels",
-    "loading": "Loading history...",
-    "noHistory": "No notifications sent yet",
-    "noHistoryHint": "Notifications will appear here once sent",
-    "showMore": "Show More",
-    "showLess": "Show Less",
-    "page": "Page {{current}} of {{total}}",
+    "title": "Ιστορικό Ειδοποιήσεων",
+    "description": "Πρόσφατες ειδοποιήσεις που στάλθηκαν μέσω των καναλιών σας",
+    "loading": "Φόρτωση ιστορικού...",
+    "noHistory": "Δεν έχουν σταλεί ειδοποιήσεις ακόμα",
+    "noHistoryHint": "Οι ειδοποιήσεις θα εμφανίζονται εδώ μόλις σταλούν",
+    "showMore": "Περισσότερα",
+    "showLess": "Λιγότερα",
+    "page": "Σελίδα {{current}} από {{total}}",
     "status": {
-      "sent": "Sent",
-      "failed": "Failed",
-      "pending": "Pending"
+      "sent": "Απεστάλη",
+      "failed": "Απέτυχε",
+      "pending": "Εκκρεμεί"
     },
     "fields": {
-      "event": "Event",
-      "channel": "Channel",
-      "time": "Time",
-      "status": "Status",
-      "error": "Error"
+      "event": "Συμβάν",
+      "channel": "Κανάλι",
+      "time": "Ώρα",
+      "status": "Κατάσταση",
+      "error": "Σφάλμα"
     }
   },
 
   "validation": {
-    "nameRequired": "Channel name is required",
-    "nameTooLong": "Name cannot exceed 100 characters",
-    "typeRequired": "Channel type is required",
-    "webhookUrlRequired": "Webhook URL is required",
-    "webhookUrlInvalid": "Invalid webhook URL format",
-    "smtpHostRequired": "SMTP server is required",
-    "smtpPortRequired": "SMTP port is required",
-    "smtpPortInvalid": "Port must be between 1 and 65535",
-    "smtpUserRequired": "SMTP username is required",
-    "smtpPasswordRequired": "SMTP password is required",
-    "fromEmailRequired": "From email is required",
-    "fromEmailInvalid": "Invalid email format",
-    "toEmailRequired": "To email is required",
-    "toEmailInvalid": "Invalid email format",
-    "serverUrlRequired": "Server URL is required",
-    "serverUrlInvalid": "Invalid URL format",
-    "appTokenRequired": "App token is required",
-    "urlRequired": "Webhook URL is required",
-    "urlInvalid": "Invalid URL format",
-    "headersInvalid": "Headers must be valid JSON"
+    "nameRequired": "Το όνομα καναλιού είναι υποχρεωτικό",
+    "nameTooLong": "Το όνομα δεν μπορεί να υπερβαίνει τους 100 χαρακτήρες",
+    "typeRequired": "Ο τύπος καναλιού είναι υποχρεωτικός",
+    "webhookUrlRequired": "Το Webhook URL είναι υποχρεωτικό",
+    "webhookUrlInvalid": "Μη έγκυρη μορφή Webhook URL",
+    "smtpHostRequired": "Ο διακομιστής SMTP είναι υποχρεωτικός",
+    "smtpPortRequired": "Η θύρα SMTP είναι υποχρεωτική",
+    "smtpPortInvalid": "Η θύρα πρέπει να είναι μεταξύ 1 και 65535",
+    "smtpUserRequired": "Το όνομα χρήστη SMTP είναι υποχρεωτικό",
+    "smtpPasswordRequired": "Ο κωδικός SMTP είναι υποχρεωτικός",
+    "fromEmailRequired": "Το email αποστολέα είναι υποχρεωτικό",
+    "fromEmailInvalid": "Μη έγκυρη μορφή email",
+    "toEmailRequired": "Το email παραλήπτη είναι υποχρεωτικό",
+    "toEmailInvalid": "Μη έγκυρη μορφή email",
+    "serverUrlRequired": "Το URL διακομιστή είναι υποχρεωτικό",
+    "serverUrlInvalid": "Μη έγκυρη μορφή URL",
+    "appTokenRequired": "Το app token είναι υποχρεωτικό",
+    "urlRequired": "Το Webhook URL είναι υποχρεωτικό",
+    "urlInvalid": "Μη έγκυρη μορφή URL",
+    "headersInvalid": "Οι κεφαλίδες πρέπει να είναι έγκυρο JSON"
   },
 
   "toasts": {
     "auth": {
-      "sessionExpired": "Session expired due to inactivity",
-      "sessionExpiredLogin": "Session expired. Please log in again.",
-      "loginSuccess": "Login successful!",
-      "loginFailed": "Login failed",
-      "logoutSuccess": "Logged out successfully",
-      "ssoFailed": "Failed to start SSO login",
-      "accessDeniedAdmin": "Access denied: Administrator privileges required",
-      "accessDeniedRole": "Access denied: {{role}} role required",
-      "accessDeniedRoles": "Access denied: One of these roles required: {{roles}}",
-      "loginRequired": "Please log in to access this page",
-      "userCreatedSuccess": "User account created successfully!",
-      "userCreatedWithLinkSuccess": "User created and linked to existing patient successfully!",
-      "accountCreatedSuccess": "Account created successfully! Logging you in..."
+      "sessionExpired": "Η συνεδρία έληξε λόγω αδράνειας",
+      "sessionExpiredLogin": "Η συνεδρία έληξε. Παρακαλούμε συνδεθείτε ξανά.",
+      "loginSuccess": "Επιτυχής σύνδεση!",
+      "loginFailed": "Αποτυχία σύνδεσης",
+      "logoutSuccess": "Αποσυνδεθήκατε επιτυχώς",
+      "ssoFailed": "Αποτυχία έναρξης σύνδεσης SSO",
+      "accessDeniedAdmin": "Δεν επιτρέπεται η πρόσβαση: Απαιτούνται προνόμια διαχειριστή",
+      "accessDeniedRole": "Δεν επιτρέπεται η πρόσβαση: Απαιτείται ο ρόλος {{role}}",
+      "accessDeniedRoles": "Δεν επιτρέπεται η πρόσβαση: Απαιτείται ένας από τους ρόλους: {{roles}}",
+      "loginRequired": "Παρακαλούμε συνδεθείτε για πρόσβαση σε αυτή τη σελίδα",
+      "userCreatedSuccess": "Ο λογαριασμός χρήστη δημιουργήθηκε επιτυχώς!",
+      "userCreatedWithLinkSuccess": "Ο χρήστης δημιουργήθηκε και συνδέθηκε επιτυχώς με υπάρχοντα ασθενή!",
+      "accountCreatedSuccess": "Ο λογαριασμός δημιουργήθηκε επιτυχώς! Γίνεται σύνδεση..."
     },
     "patient": {
-      "nowViewing": "Now viewing {{name}}",
-      "switchFailed": "Switch Failed: {{message}}",
-      "deleteOwnOnly": "You can only delete patients that you own",
-      "deletedSwitched": "Deleted {{name}} successfully. Switched to {{fallbackName}}.",
-      "deletedNoOthers": "Deleted {{name}} successfully. No other patients available.",
-      "deletedSuccess": "Deleted {{name}} successfully",
-      "deleteFailed": "Delete Failed: {{message}}",
-      "removeOwnOnly": "You cannot remove access to patients that you own",
-      "removedAccess": "Removed access to {{name}}",
-      "removeAccessFailed": "Remove Access Failed: {{message}}",
-      "updatedSuccess": "Updated {{name}} successfully",
-      "createdSuccess": "Created {{name}} successfully"
+      "nowViewing": "Τώρα βλέπετε: {{name}}",
+      "switchFailed": "Αποτυχία αλλαγής: {{message}}",
+      "deleteOwnOnly": "Μπορείτε να διαγράψετε μόνο ασθενείς που σας ανήκουν",
+      "deletedSwitched": "Ο ασθενής {{name}} διαγράφηκε επιτυχώς. Μετάβαση στον {{fallbackName}}.",
+      "deletedNoOthers": "Ο ασθενής {{name}} διαγράφηκε επιτυχώς. Δεν υπάρχουν άλλοι διαθέσιμοι ασθενείς.",
+      "deletedSuccess": "Ο ασθενής {{name}} διαγράφηκε επιτυχώς",
+      "deleteFailed": "Αποτυχία διαγραφής: {{message}}",
+      "removeOwnOnly": "Δεν μπορείτε να αφαιρέσετε την πρόσβαση σε ασθενείς που σας ανήκουν",
+      "removedAccess": "Αφαιρέθηκε η πρόσβαση στον {{name}}",
+      "removeAccessFailed": "Αποτυχία αφαίρεσης πρόσβασης: {{message}}",
+      "updatedSuccess": "Επιτυχής ενημέρωση του {{name}}",
+      "createdSuccess": "Επιτυχής δημιουργία του {{name}}"
     },
     "sharing": {
-      "invalidJson": "Invalid JSON format in {{fieldName}}. Please check your syntax.",
-      "invitationCancelled": "Invitation cancelled successfully",
-      "cancelFailed": "Failed to cancel invitation: {{message}}",
-      "invitationSent": "Invitation sent successfully to {{recipient}}",
-      "invitationFailed": "Invitation Failed: {{message}}",
-      "shareUpdated": "Patient share updated successfully",
-      "updateFailed": "Update Failed: {{message}}",
-      "accessRevoked": "Access revoked for user {{userId}}",
-      "revokeFailed": "Revoke Failed: {{message}}"
+      "invalidJson": "Μη έγκυρη μορφή JSON στο πεδίο {{fieldName}}. Παρακαλούμε ελέγξτε τη σύνταξη.",
+      "invitationCancelled": "Η πρόσκληση ακυρώθηκε επιτυχώς",
+      "cancelFailed": "Αποτυχία ακύρωσης πρόσκλησης: {{message}}",
+      "invitationSent": "Η πρόσκληση στάλθηκε επιτυχώς στον {{recipient}}",
+      "invitationFailed": "Αποτυχία πρόσκλησης: {{message}}",
+      "shareUpdated": "Η κοινή χρήση του ασθενούς ενημερώθηκε επιτυχώς",
+      "updateFailed": "Αποτυχία ενημέρωσης: {{message}}",
+      "accessRevoked": "Η πρόσβαση ανακλήθηκε για τον χρήστη {{userId}}",
+      "revokeFailed": "Αποτυχία ανάκλησης: {{message}}"
     },
     "vitals": {
-      "formErrors": "Please correct the form errors",
-      "savedSuccess": "Vitals {{action}} successfully!",
-      "saveFailed": "Failed to {{action}} vitals",
-      "deleteSuccess": "Vitals record deleted successfully",
-      "deleteFailed": "Failed to delete vitals record"
+      "formErrors": "Παρακαλούμε διορθώστε τα σφάλματα στη φόρμα",
+      "savedSuccess": "Τα ζωτικά σημεία {{action}} επιτυχώς!",
+      "saveFailed": "Αποτυχία ενέργειας {{action}} στα ζωτικά σημεία",
+      "deleteSuccess": "Η καταγραφή ζωτικών σημείων διαγράφηκε επιτυχώς",
+      "deleteFailed": "Αποτυχία διαγραφής καταγραφής ζωτικών σημείων"
     },
     "settings": {
-      "sessionTimeoutUpdated": "Session timeout updated to {{minutes}} minutes. Your session has been refreshed.",
-      "cleanupComplete": "Cleanup completed: {{cleaned}} files cleaned, {{deleted}} files deleted",
-      "noOutOfSync": "No out-of-sync files found to clean up",
-      "cleanupFailed": "Failed to cleanup files. Please try again later."
+      "sessionTimeoutUpdated": "Το όριο λήξης συνεδρίας ενημερώθηκε σε {{minutes}} λεπτά. Η συνεδρία σας ανανεώθηκε.",
+      "cleanupComplete": "Η εκκαθάριση ολοκληρώθηκε: {{cleaned}} αρχεία καθαρίστηκαν, {{deleted}} αρχεία διαγράφηκαν",
+      "noOutOfSync": "Δεν βρέθηκαν αρχεία εκτός συγχρονισμού για εκκαθάριση",
+      "cleanupFailed": "Αποτυχία εκκαθάρισης αρχείων. Παρακαλούμε δοκιμάστε ξανά αργότερα."
     },
     "files": {
-      "downloadFailed": "File download failed"
+      "downloadFailed": "Αποτυχία λήψης αρχείου"
     },
     "tagSearch": {
-      "loadFailed": "Failed to load popular tags",
-      "noTagsSelected": "Please select at least one tag to search",
-      "noTagsSelectedTitle": "No tags selected",
-      "searchFailed": "Failed to search records by tags"
+      "loadFailed": "Αποτυχία φόρτωσης δημοφιλών ετικετών",
+      "noTagsSelected": "Παρακαλούμε επιλέξτε τουλάχιστον μία ετικέτα για αναζήτηση",
+      "noTagsSelectedTitle": "Δεν επιλέχθηκαν ετικέτες",
+      "searchFailed": "Αποτυχία αναζήτησης αρχείων βάσει ετικετών"
     },
     "invitations": {
-      "respondFailed": "Failed to respond to invitation",
-      "cancelled": "Invitation Cancelled",
-      "cancelledMessage": "The invitation has been cancelled.",
-      "cancelFailed": "Failed to cancel invitation",
-      "accessRevoked": "Access Revoked",
-      "accessRevokedMessage": "Access has been revoked.",
-      "revokeFailed": "Failed to revoke access",
-      "alreadyRevoked": "Already Revoked",
-      "alreadyRevokedMessage": "This invitation has already been revoked."
+      "respondFailed": "Αποτυχία απάντησης στην πρόσκληση",
+      "cancelled": "Η πρόσκληση ακυρώθηκε",
+      "cancelledMessage": "Η πρόσκληση έχει ακυρωθεί.",
+      "cancelFailed": "Αποτυχία ακύρωσης πρόσκλησης",
+      "accessRevoked": "Η πρόσβαση ανακλήθηκε",
+      "accessRevokedMessage": "Η πρόσβαση έχει ανακληθεί.",
+      "revokeFailed": "Αποτυχία ανάκλησης πρόσβασης",
+      "alreadyRevoked": "Έχει ήδη ανακληθεί",
+      "alreadyRevokedMessage": "Αυτή η πρόσκληση έχει ήδη ανακληθεί."
     },
     "photo": {
-      "pleaseWait": "Please Wait",
-      "photoBeingUploaded": "A photo is currently being uploaded. Please wait for it to complete.",
-      "uploadSuccess": "Photo uploaded successfully",
-      "uploadFailed": "Upload Failed",
-      "deleteFailed": "Delete Failed"
+      "pleaseWait": "Παρακαλούμε περιμένετε",
+      "photoBeingUploaded": "Μια φωτογραφία ανεβαίνει αυτή τη στιγμή. Παρακαλούμε περιμένετε την ολοκλήρωση.",
+      "uploadSuccess": "Η φωτογραφία ανέβηκε επιτυχώς",
+      "uploadFailed": "Αποτυχία μεταφόρτωσης",
+      "deleteFailed": "Αποτυχία διαγραφής"
     },
     "reports": {
-      "noRecordsSelected": "No Records Selected",
-      "noRecordsMessage": "Please select at least one record from the categories below to generate a report.",
-      "validationError": "Validation Error",
-      "templateNameRequired": "Template name is required",
-      "templateSaved": "Template saved successfully",
-      "templateSaveFailed": "Failed to save template",
-      "templateDeleted": "Template deleted successfully",
-      "templateDeleteFailed": "Failed to delete template",
-      "templateLoaded": "Template \"{{name}}\" loaded"
+      "noRecordsSelected": "Δεν επιλέχθηκαν αρχεία",
+      "noRecordsMessage": "Παρακαλούμε επιλέξτε τουλάχιστον ένα αρχείο από τις παρακάτω κατηγορίες για τη δημιουργία αναφοράς.",
+      "validationError": "Σφάλμα επικύρωσης",
+      "templateNameRequired": "Το όνομα του προτύπου είναι υποχρεωτικό",
+      "templateSaved": "Το πρότυπο αποθηκεύτηκε επιτυχώς",
+      "templateSaveFailed": "Αποτυχία αποθήκευσης προτύπου",
+      "templateDeleted": "Το πρότυπο διαγράφηκε επιτυχώς",
+      "templateDeleteFailed": "Αποτυχία διαγραφής προτύπου",
+      "templateLoaded": "Το πρότυπο \"{{name}}\" φορτώθηκε"
     },
     "labResults": {
-      "parseWarning": "Some Lines Could Not Be Parsed",
-      "noTextToParse": "No Text to Parse",
-      "noTextMessage": "Please paste lab results text in the input area.",
-      "textParsed": "Text Parsed",
-      "parsedCount": "Found {{count}} test components. Review them in the Preview tab.",
-      "addedSuccess": "Success!",
-      "addedMessage": "Added {{count}} test components to the lab result.",
-      "addFailed": "Failed to add test components",
-      "deletedSuccess": "Component deleted",
-      "deletedMessage": "{{name}} has been deleted",
-      "updateFailed": "Failed to update component",
-      "templateApplied": "Template Applied",
-      "templateAppliedMessage": "Added {{count}} components from \"{{name}}\" template.",
-      "trendExportSuccess": "Chart exported successfully",
-      "trendExportFailed": "Failed to export chart"
+      "parseWarning": "Ορισμένες γραμμές δεν μπόρεσαν να αναλυθούν",
+      "noTextToParse": "Δεν υπάρχει κείμενο προς ανάλυση",
+      "noTextMessage": "Παρακαλούμε επικολλήστε το κείμενο των εργαστηριακών αποτελεσμάτων στην περιοχή εισαγωγής.",
+      "textParsed": "Το κείμενο αναλύθηκε",
+      "parsedCount": "Βρέθηκαν {{count}} στοιχεία εξετάσεων. Ελέγξτε τα στην καρτέλα Προεπισκόπηση.",
+      "addedSuccess": "Επιτυχία!",
+      "addedMessage": "Προστέθηκαν {{count}} στοιχεία εξετάσεων στο εργαστηριακό αποτέλεσμα.",
+      "addFailed": "Αποτυχία προσθήκης στοιχείων εξετάσεων",
+      "deletedSuccess": "Το στοιχείο διαγράφηκε",
+      "deletedMessage": "Το στοιχείο {{name}} έχει διαγραφεί",
+      "updateFailed": "Αποτυχία ενημέρωσης στοιχείου",
+      "templateApplied": "Το πρότυπο εφαρμόστηκε",
+      "templateAppliedMessage": "Προστέθηκαν {{count}} στοιχεία από το πρότυπο \"{{name}}\".",
+      "trendExportSuccess": "Το γράφημα εξήχθη επιτυχώς",
+      "trendExportFailed": "Αποτυχία εξαγωγής γραφήματος"
     },
     "documents": {
-      "uploadFailed": "Upload Failed",
-      "deleteFailed": "Delete Failed",
-      "linkSuccess": "Document linked successfully",
-      "linkFailed": "Failed to link document",
-      "unlinkSuccess": "Document unlinked successfully",
-      "unlinkFailed": "Failed to unlink document"
+      "uploadFailed": "Αποτυχία μεταφόρτωσης",
+      "deleteFailed": "Αποτυχία διαγραφής",
+      "linkSuccess": "Το έγγραφο συνδέθηκε επιτυχώς",
+      "linkFailed": "Αποτυχία σύνδεσης εγγράφου",
+      "unlinkSuccess": "Το έγγραφο αποσυνδέθηκε επιτυχώς",
+      "unlinkFailed": "Αποτυχία αποσύνδεσης εγγράφου"
     },
     "familySharing": {
-      "loadFailed": "Failed to load sharing information",
-      "invitationSent": "Invitation sent successfully!",
-      "invitationFailed": "Failed to send invitation",
-      "accessRevoked": "Access revoked",
-      "revokeFailed": "Failed to revoke access"
+      "loadFailed": "Αποτυχία φόρτωσης πληροφοριών κοινής χρήσης",
+      "invitationSent": "Η πρόσκληση στάλθηκε επιτυχώς!",
+      "invitationFailed": "Αποτυχία αποστολής πρόσκλησης",
+      "accessRevoked": "Η πρόσβαση ανακλήθηκε",
+      "revokeFailed": "Αποτυχία ανάκλησης πρόσβασης"
     },
     "upload": {
-      "failed": "Upload Failed",
-      "completedWithErrors": "Upload Completed with Errors",
-      "partialSuccess": "{{completed}}/{{total}} files uploaded successfully. {{failed}} failed.",
-      "documentAdded": "Document Added to Paperless",
-      "fileUploadedSuccess": "\"{{fileName}}\" uploaded to Paperless successfully!",
-      "backgroundProcessing": "\"{{fileName}}\" is being processed in the background. You will be notified when complete.",
-      "duplicateDocument": "Duplicate Document",
-      "paperlessUploadFailed": "Paperless Upload Failed",
-      "fileUploadFailed": "File Upload Failed"
+      "failed": "Αποτυχία μεταφόρτωσης",
+      "completedWithErrors": "Η μεταφόρτωση ολοκληρώθηκε με σφάλματα",
+      "partialSuccess": "{{completed}}/{{total}} αρχεία ανέβηκαν επιτυχώς. {{failed}} απέτυχαν.",
+      "documentAdded": "Το έγγραφο προστέθηκε στο Paperless",
+      "fileUploadedSuccess": "Το αρχείο \"{{fileName}}\" ανέβηκε στο Paperless επιτυχώς!",
+      "backgroundProcessing": "Το αρχείο \"{{fileName}}\" επεξεργάζεται στο παρασκήνιο. Θα ειδοποιηθείτε όταν ολοκληρωθεί.",
+      "duplicateDocument": "Διπλότυπο Έγγραφο",
+      "paperlessUploadFailed": "Αποτυχία μεταφόρτωσης στο Paperless",
+      "fileUploadFailed": "Αποτυχία μεταφόρτωσης αρχείου"
     },
     "generic": {
-      "operationFailed": "Operation Failed",
-      "saveFailed": "Save Failed",
-      "deleteFailed": "Delete Failed",
-      "downloadFailed": "Download Failed",
-      "success": "Success!",
-      "warning": "Warning",
-      "error": "Error",
-      "operationSuccess": "{{operation}} completed successfully!",
-      "allOperationsSuccess": "All {{total}} {{operation}}s completed successfully!",
-      "operationPartial": "{{success}}/{{total}} {{operation}}s completed successfully. {{failed}} failed.",
-      "operationPartialTitle": "{{operation}} Completed with Errors",
-      "allOperationsFailed": "All {{operation}}s failed. Please try again.",
-      "operationFailedTitle": "{{operation}} Failed"
+      "operationFailed": "Η λειτουργία απέτυχε",
+      "saveFailed": "Αποτυχία αποθήκευσης",
+      "deleteFailed": "Αποτυχία διαγραφής",
+      "downloadFailed": "Αποτυχία λήψης",
+      "success": "Επιτυχία!",
+      "warning": "Προειδοποίηση",
+      "error": "Σφάλμα",
+      "operationSuccess": "Η ενέργεια {{operation}} ολοκληρώθηκε επιτυχώς!",
+      "allOperationsSuccess": "Και οι {{total}} ενέργειες {{operation}} ολοκληρώθηκαν επιτυχώς!",
+      "operationPartial": "{{success}}/{{total}} ενέργειες {{operation}} ολοκληρώθηκαν επιτυχώς. {{failed}} απέτυχαν.",
+      "operationPartialTitle": "Η ενέργεια {{operation}} ολοκληρώθηκε με σφάλματα",
+      "allOperationsFailed": "Όλες οι ενέργειες {{operation}} απέτυχαν. Παρακαλούμε δοκιμάστε ξανά.",
+      "operationFailedTitle": "Η ενέργεια {{operation}} απέτυχε"
     }
   }
 }
