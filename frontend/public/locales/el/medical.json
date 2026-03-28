@@ -1,427 +1,427 @@
 {
   "allergies": {
-    "title": "Allergies",
-    "addNew": "Add New Allergy",
-    "addTitle": "Add New Allergy",
-    "editTitle": "Edit Allergy",
+    "title": "Αλλεργίες",
+    "addNew": "Προσθήκη Νέας Αλλεργίας",
+    "addTitle": "Προσθήκη Νέας Αλλεργίας",
+    "editTitle": "Επεξεργασία Αλλεργίας",
     "tabs": {
-      "basicInfo": "Basic Info",
-      "reactionDetails": "Reaction Details",
-      "documents": "Documents",
-      "notes": "Notes"
+      "basicInfo": "Βασικές Πληροφορίες",
+      "reactionDetails": "Λεπτομέρειες Αντίδρασης",
+      "documents": "Έγγραφα",
+      "notes": "Σημειώσεις"
     },
     "messages": {
-      "loading": "Loading allergies...",
-      "saving": "Saving allergy..."
+      "loading": "Φόρτωση αλλεργιών...",
+      "saving": "Αποθήκευση αλλεργίας..."
     },
     "emptyState": {
-      "title": "No allergies found",
-      "noData": "Click \"Add New Allergy\" to get started.",
-      "filtered": "Try adjusting your search or filter criteria."
+      "title": "Δεν βρέθηκαν αλλεργίες",
+      "noData": "Κάντε κλικ στο \"Προσθήκη Νέας Αλλεργίας\" για να ξεκινήσετε.",
+      "filtered": "Δοκιμάστε να προσαρμόσετε την αναζήτηση ή τα κριτήρια φίλτρων."
     },
     "allergen": {
-      "label": "Allergen",
-      "placeholder": "Enter allergen name",
-      "description": "Name of the allergen"
+      "label": "Αλλεργιογόνο",
+      "placeholder": "Εισαγάγετε το όνομα του αλλεργιογόνου",
+      "description": "Όνομα του αλλεργιογόνου"
     },
     "allergyType": {
-      "label": "Allergy Type",
-      "placeholder": "Select allergy type",
-      "description": "Category of allergy",
+      "label": "Τύπος Αλλεργίας",
+      "placeholder": "Επιλέξτε τύπο αλλεργίας",
+      "description": "Κατηγορία αλλεργίας",
       "options": {
-        "food": "Food",
-        "medication": "Medication",
-        "environmental": "Environmental",
-        "insect": "Insect",
-        "other": "Other"
+        "food": "Τροφική",
+        "medication": "Φαρμακευτική",
+        "environmental": "Περιβαλλοντική",
+        "insect": "Έντομο",
+        "other": "Άλλο"
       }
     },
     "severity": {
-      "description": "Severity of allergic reaction",
-      "placeholder": "Select severity level"
+      "description": "Σοβαρότητα αλλεργικής αντίδρασης",
+      "placeholder": "Επιλέξτε επίπεδο σοβαρότητας"
     },
     "status": {
-      "description": "Current allergy status"
+      "description": "Τρέχουσα κατάσταση αλλεργίας"
     },
     "onsetDate": {
-      "label": "Onset Date",
-      "placeholder": "Select onset date",
-      "description": "When allergy was first identified"
+      "label": "Ημερομηνία Έναρξης",
+      "placeholder": "Επιλέξτε ημερομηνία έναρξης",
+      "description": "Πότε αναγνωρίστηκε πρώτη φορά η αλλεργία"
     },
     "relatedMedication": {
-      "label": "Related Medication",
-      "placeholder": "Select medication",
-      "description": "Medication that causes this allergy"
+      "label": "Σχετική Φαρμακευτική Αγωγή",
+      "placeholder": "Επιλέξτε φάρμακο",
+      "description": "Φάρμακο που προκαλεί αυτή την αλλεργία"
     },
     "reactionType": {
-      "label": "Reaction Type",
-      "placeholder": "Select reaction type",
-      "description": "Type of allergic reaction",
+      "label": "Τύπος Αντίδρασης",
+      "placeholder": "Επιλέξτε τύπο αντίδρασης",
+      "description": "Τύπος αλλεργικής αντίδρασης",
       "options": {
-        "skin": "Skin Reaction",
-        "respiratory": "Respiratory",
-        "gastrointestinal": "Gastrointestinal",
-        "anaphylaxis": "Anaphylaxis",
-        "other": "Other"
+        "skin": "Δερματική Αντίδραση",
+        "respiratory": "Αναπνευστική",
+        "gastrointestinal": "Γαστρεντερολογική",
+        "anaphylaxis": "Αναφυλαξία",
+        "other": "Άλλο"
       }
     },
     "reaction": {
-      "label": "Reaction Description",
-      "placeholder": "Describe the allergic reaction",
-      "description": "Symptoms and details of the reaction"
+      "label": "Περιγραφή Αντίδρασης",
+      "placeholder": "Περιγράψτε την αλλεργική αντίδραση",
+      "description": "Συμπτώματα και λεπτομέρειες της αντίδρασης"
     }
   },
   "conditions": {
-    "title": "Conditions",
+    "title": "Παθήσεις",
     "diagnosis": {
-      "label": "Diagnosis",
-      "placeholder": "e.g., Hypertension, Diabetes Type 2, Asthma",
-      "description": "Medical condition or diagnosis name"
+      "label": "Διάγνωση",
+      "placeholder": "π.χ. Υπέρταση, Διαβήτης Τύπου 2, Άσθμα",
+      "description": "Όνομα ιατρικής πάθησης ή διάγνωσης"
     },
     "relatedMedication": {
-      "label": "Related Medication",
-      "placeholder": "Select medication (optional)",
-      "description": "Link this condition to a specific medication"
+      "label": "Σχετική Φαρμακευτική Αγωγή",
+      "placeholder": "Επιλέξτε φάρμακο (προαιρετικό)",
+      "description": "Σύνδεση αυτής της πάθησης με συγκεκριμένο φάρμακο"
     },
     "icd10Code": {
-      "label": "ICD-10 Code",
-      "placeholder": "e.g., I10, E11.9",
-      "description": "International Classification of Diseases code"
+      "label": "Κωδικός ICD-10",
+      "placeholder": "π.χ. I10, E11.9",
+      "description": "Διεθνής κωδικός ταξινόμησης νόσων"
     },
     "snomedCode": {
-      "label": "SNOMED Code",
-      "placeholder": "e.g., 38341003",
-      "description": "SNOMED CT clinical terminology code"
+      "label": "Κωδικός SNOMED",
+      "placeholder": "π.χ. 38341003",
+      "description": "Κωδικός κλινικής ορολογίας SNOMED CT"
     },
     "codeDescription": {
-      "label": "Code Description",
-      "placeholder": "Description of the medical code",
-      "description": "Human-readable description of the code"
+      "label": "Περιγραφή Κωδικού",
+      "placeholder": "Περιγραφή του ιατρικού κωδικού",
+      "description": "Περιγραφή του κωδικού σε απλή γλώσσα"
     },
     "status": {
-      "description": "Current status of this condition"
+      "description": "Τρέχουσα κατάσταση αυτής της πάθησης"
     },
     "severity": {
-      "placeholder": "Select severity level",
-      "description": "How severe the condition is"
+      "placeholder": "Επιλέξτε επίπεδο σοβαρότητας",
+      "description": "Πόσο σοβαρή είναι η πάθηση"
     },
     "onsetDate": {
-      "placeholder": "Select onset date",
-      "description": "When the condition first appeared"
+      "placeholder": "Επιλέξτε ημερομηνία έναρξης",
+      "description": "Πότε εμφανίστηκε για πρώτη φορά η πάθηση"
     },
     "endDate": {
-      "placeholder": "Select end date",
-      "description": "When the condition was resolved (if applicable)"
+      "placeholder": "Επιλέξτε ημερομηνία λήξης",
+      "description": "Πότε υποχώρησε η πάθηση (εάν ισχύει)"
     },
     "notes": {
-      "description": "Additional details about the condition, treatment history, or observations"
+      "description": "Πρόσθετες λεπτομέρειες σχετικά με την πάθηση, το ιστορικό θεραπείας ή παρατηρήσεις"
     }
   },
   "medications": {
-    "title": "Medications",
+    "title": "Φάρμακα",
     "tabs": {
-      "basicInfo": "Basic Info",
-      "details": "Details",
-      "documents": "Documents",
-      "notes": "Notes",
-      "conditions": "Conditions"
+      "basicInfo": "Βασικές Πληροφορίες",
+      "details": "Λεπτομέρειες",
+      "documents": "Έγγραφα",
+      "notes": "Σημειώσεις",
+      "conditions": "Παθήσεις"
     },
     "form": {
-      "saving": "Saving medication...",
-      "updateMedication": "Update Medication",
-      "addMedication": "Add Medication",
-"attachedDocuments": "Attached Documents"
+      "saving": "Αποθήκευση φαρμάκου...",
+      "updateMedication": "Ενημέρωση Φαρμάκου",
+      "addMedication": "Προσθήκη Φαρμάκου",
+      "attachedDocuments": "Συνημμένα Έγγραφα"
     },
     "medicationName": {
-      "label": "Medication Name",
-      "placeholder": "e.g., Lisinopril, Metformin",
-      "description": "Generic or brand name of the medication (min. 2 characters)"
+      "label": "Όνομα Φαρμάκου",
+      "placeholder": "π.χ. Lisinopril, Metformin",
+      "description": "Γενόσημο ή εμπορικό όνομα του φαρμάκου (τουλ. 2 χαρακτήρες)"
     },
     "alternativeName": {
-      "label": "Alternative Name",
-      "placeholder": "e.g., brand name or generic name",
-      "description": "Optional alternative or brand name (2-100 characters)"
+      "label": "Εναλλακτικό Όνομα",
+      "placeholder": "π.χ. εμπορική ονομασία ή γενόσημο",
+      "description": "Προαιρετικό εναλλακτικό ή εμπορικό όνομα (2-100 χαρακτήρες)"
     },
     "medicationType": {
-      "label": "Medication Type",
-      "placeholder": "Select Type",
-      "description": "Category of medication"
+      "label": "Τύπος Φαρμάκου",
+      "placeholder": "Επιλέξτε Τύπο",
+      "description": "Κατηγορία φαρμάκου"
     },
     "dosage": {
-      "label": "Dosage",
-      "placeholder": "e.g., 10mg, 1 tablet",
-      "description": "Strength and amount per dose"
+      "label": "Δοσολογία",
+      "placeholder": "π.χ. 10mg, 1 δισκίο",
+      "description": "Ισχύς και ποσότητα ανά δόση"
     },
     "frequency": {
-      "label": "Frequency",
-      "placeholder": "e.g., Once daily, Twice daily",
-      "description": "How often the medication is taken"
+      "label": "Συχνότητα",
+      "placeholder": "π.χ. Μία φορά την ημέρα, Δύο φορές την ημέρα",
+      "description": "Πόσο συχνά λαμβάνεται το φάρμακο"
     },
     "route": {
-      "label": "Route",
-      "placeholder": "Select Route",
-      "description": "How the medication is administered",
+      "label": "Οδός Χορήγησης",
+      "placeholder": "Επιλέξτε Οδό",
+      "description": "Πώς χορηγείται το φάρμακο",
       "options": {
-        "oral": "Oral",
-        "injection": "Injection",
-        "topical": "Topical",
-        "intravenous": "Intravenous",
-        "intramuscular": "Intramuscular",
-        "subcutaneous": "Subcutaneous",
-        "inhalation": "Inhalation",
-        "nasal": "Nasal",
-        "rectal": "Rectal",
-        "sublingual": "Sublingual"
+        "oral": "Από του στόματος",
+        "injection": "Ένεση",
+        "topical": "Τοπική",
+        "intravenous": "Ενδοφλέβια",
+        "intramuscular": "Ενδομυϊκή",
+        "subcutaneous": "Υποδόρια",
+        "inhalation": "Εισπνοή",
+        "nasal": "Ρινική",
+        "rectal": "Πρωκτική",
+        "sublingual": "Υπογλώσσια"
       }
     },
     "indication": {
-      "label": "Indication",
-      "placeholder": "e.g., High blood pressure, As needed for pain, Diabetes management",
-      "description": "What is this medication for? Describe the reason or condition being treated"
+      "label": "Ένδειξη",
+      "placeholder": "π.χ. Υψηλή αρτηριακή πίεση, Όποτε χρειάζεται για πόνο",
+      "description": "Για ποιο λόγο είναι αυτό το φάρμακο; Περιγράψτε την αιτία ή την πάθηση"
     },
     "prescribingProvider": {
-      "label": "Prescribing Provider",
-      "placeholder": "Select Provider",
-      "description": "Doctor who prescribed this medication"
+      "label": "Συνταγογραφών Ιατρός",
+      "placeholder": "Επιλέξτε Ιατρό",
+      "description": "Ο γιατρός που συνταγογράφησε αυτό το φάρμακο"
     },
     "pharmacy": {
-      "label": "Pharmacy",
-      "placeholder": "Select Pharmacy",
-      "description": "Pharmacy where medication is filled"
+      "label": "Φαρμακείο",
+      "placeholder": "Επιλέξτε Φαρμακείο",
+      "description": "Φαρμακείο από όπου προμηθεύεστε το φάρμακο"
     },
     "sideEffects": {
-      "label": "Side Effects",
-      "placeholder": "List any known or experienced side effects...",
-      "description": "Known or experienced side effects of this medication"
+      "label": "Παρενέργειες",
+      "placeholder": "Αναφέρετε τυχόν γνωστές ή βιωμένες παρενέργειες...",
+      "description": "Γνωστές ή βιωμένες παρενέργειες αυτού του φαρμάκου"
     }
   },
   "labResults": {
-    "title": "Lab Results",
+    "title": "Εργαστηριακά Αποτελέσματα",
     "status": {
-      "ordered": "Ordered - Test has been requested",
-      "inProgress": "In Progress - Sample being processed",
-      "completed": "Completed - Results available",
-      "cancelled": "Cancelled - Test was cancelled"
+      "ordered": "Παραγγέλθηκε - Η εξέταση έχει ζητηθεί",
+      "inProgress": "Σε Εξέλιξη - Το δείγμα επεξεργάζεται",
+      "completed": "Ολοκληρώθηκε - Τα αποτελέσματα είναι διαθέσιμα",
+      "cancelled": "Ακυρώθηκε - Η εξέταση ακυρώθηκε"
     },
     "category": {
-      "bloodWork": "Blood Work",
-      "imaging": "Imaging (X-ray, MRI, CT)",
-      "pathology": "Pathology",
-      "microbiology": "Microbiology",
-      "chemistry": "Chemistry",
-      "hematology": "Hematology",
-      "hepatology": "Hepatology",
-      "immunology": "Immunology",
-      "genetics": "Genetics",
-      "cardiology": "Cardiology",
-      "pulmonology": "Pulmonology",
-      "hearing": "Hearing",
-      "stomatology": "Stomatology",
-      "other": "Other"
+      "bloodWork": "Εξετάσεις Αίματος",
+      "imaging": "Απεικόνιση (Ακτινογραφία, MRI, CT)",
+      "pathology": "Παθολογοανατομία",
+      "microbiology": "Μικροβιολογία",
+      "chemistry": "Βιοχημεία",
+      "hematology": "Αιματολογία",
+      "hepatology": "Ηπατολογία",
+      "immunology": "Ανοσολογία",
+      "genetics": "Γενετική",
+      "cardiology": "Καρδιολογία",
+      "pulmonology": "Πνευμονολογία",
+      "hearing": "Ακοή",
+      "stomatology": "Στοματολογία",
+      "other": "Άλλο"
     },
     "testType": {
-      "routine": "Routine - Standard processing",
-      "urgent": "Urgent - Expedited processing",
-      "emergency": "Emergency - Critical priority",
-      "followUp": "Follow-up - Repeat testing",
-      "screening": "Screening - Preventive testing",
-      "label": "Test Type",
-      "placeholder": "Select urgency level",
-      "description": "Priority or urgency of the test"
+      "routine": "Ρουτίνα - Τυπική επεξεργασία",
+      "urgent": "Επείγον - Ταχεία επεξεργασία",
+      "emergency": "Κατεπείγον - Κρίσιμη προτεραιότητα",
+      "followUp": "Επανέλεγχος - Επανάληψη εξέτασης",
+      "screening": "Προληπτικός έλεγχος - Screening",
+      "label": "Τύπος Εξέτασης",
+      "placeholder": "Επιλέξτε επίπεδο επείγοντος",
+      "description": "Προτεραιότητα ή επείγον της εξέτασης"
     },
     "result": {
-      "normal": "Normal - Within reference range",
-      "abnormal": "Abnormal - Outside reference range",
-      "critical": "Critical - Requires immediate attention",
-      "high": "High - Above normal range",
-      "low": "Low - Below normal range",
-      "borderline": "Borderline - Near threshold",
-      "inconclusive": "Inconclusive - Needs repeat"
+      "normal": "Φυσιολογικό - Εντός ορίων αναφοράς",
+      "abnormal": "Μη φυσιολογικό - Εκτός ορίων αναφοράς",
+      "critical": "Κρίσιμο - Απαιτεί άμεση προσοχή",
+      "high": "Υψηλό - Πάνω από το φυσιολογικό εύρος",
+      "low": "Χαμηλό - Κάτω από το φυσιολογικό εύρος",
+      "borderline": "Οριακό - Κοντά στο όριο",
+      "inconclusive": "Μη κατατοπιστικό - Χρειάζεται επανάληψη"
     },
     "form": {
-      "testDetails": "Test Details",
-      "statusIndicator": "Status Indicator:",
-      "resultIndicator": "Result Indicator:",
-      "relatedConditions": "Related Conditions",
-      "linkConditionsTitle": "Link Medical Conditions",
-      "linkConditionsDescription": "Associate this lab result with relevant medical conditions for better tracking and organization.",
-      "testComponents": "Test Components (Optional)",
-      "testComponentsDescription": "Optionally add individual test values. You can also add more later.",
-      "addTestComponent": "Add Test Components",
-      "hideTestComponents": "Hide Test Components",
-      "addAnotherTest": "Add Another Test",
-      "componentCreationWarning": "Lab result saved but test components could not be added. You can add them from the view page.",
-      "relationshipCreationWarning": "Lab result saved but some relationships could not be created. You can add them from the edit page."
+      "testDetails": "Λεπτομέρειες Εξέτασης",
+      "statusIndicator": "Ένδειξη Κατάστασης:",
+      "resultIndicator": "Ένδειξη Αποτελέσματος:",
+      "relatedConditions": "Σχετικές Παθήσεις",
+      "linkConditionsTitle": "Σύνδεση Ιατρικών Παθήσεων",
+      "linkConditionsDescription": "Συσχετίστε αυτό το εργαστηριακό αποτέλεσμα με σχετικές ιατρικές παθήσεις για καλύτερη παρακολούθηση.",
+      "testComponents": "Στοιχεία Εξέτασης (Προαιρετικά)",
+      "testComponentsDescription": "Προαιρετικά προσθέστε μεμονωμένες τιμές εξέτασης. Μπορείτε να προσθέσετε περισσότερες αργότερα.",
+      "addTestComponent": "Προσθήκη Στοιχείων Εξέτασης",
+      "hideTestComponents": "Απόκρυψη Στοιχείων Εξέτασης",
+      "addAnotherTest": "Προσθήκη Άλλης Εξέτασης",
+      "componentCreationWarning": "Το αποτέλεσμα αποθηκεύτηκε αλλά δεν ήταν δυνατή η προσθήκη των στοιχείων. Μπορείτε να τα προσθέσετε από τη σελίδα προβολής.",
+      "relationshipCreationWarning": "Το αποτέλεσμα αποθηκεύτηκε αλλά ορισμένες συσχετίσεις δεν δημιουργήθηκαν. Μπορείτε να τις προσθέσετε από τη σελίδα επεξεργασίας."
     },
     "testName": {
-      "label": "Test Name",
-      "placeholder": "e.g., Complete Blood Count (CBC)",
-      "description": "Name or description of the laboratory test"
+      "label": "Όνομα Εξέτασης",
+      "placeholder": "π.χ. Γενική Αίματος (CBC)",
+      "description": "Όνομα ή περιγραφή της εργαστηριακής εξέτασης"
     },
     "testCode": {
-      "label": "Test Code",
-      "placeholder": "e.g., CBC, 85025",
-      "description": "Lab code or LOINC"
+      "label": "Κωδικός Εξέτασης",
+      "placeholder": "π.χ. CBC, 85025",
+      "description": "Εργαστηριακός κωδικός ή LOINC"
     },
     "testCategory": {
-      "label": "Test Category",
-      "placeholder": "Select category",
-      "description": "Type of laboratory test"
+      "label": "Κατηγορία Εξέτασης",
+      "placeholder": "Επιλέξτε κατηγορία",
+      "description": "Τύπος εργαστηριακής εξέτασης"
     },
     "testTypeField": {
-      "label": "Test Type",
-      "placeholder": "Select urgency level",
-      "description": "Priority or urgency of the test"
+      "label": "Τύπος Εξέτασης",
+      "placeholder": "Επιλέξτε επίπεδο επείγοντος",
+      "description": "Προτεραιότητα ή επείγον της εξέτασης"
     },
     "testingFacility": {
-      "label": "Testing Facility",
-      "placeholder": "e.g., Main Hospital Laboratory",
-      "description": "Where the test is/was performed"
+      "label": "Εργαστήριο/Κλινική",
+      "placeholder": "π.χ. Εργαστήριο Γενικού Νοσοκομείου",
+      "description": "Πού πραγματοποιείται/πραγματοποιήθηκε η εξέταση"
     },
     "orderingPractitioner": {
-      "label": "Ordering Practitioner",
-      "placeholder": "Select practitioner",
-      "description": "Doctor who ordered the test"
+      "label": "Ιατρός Παραγγελίας",
+      "placeholder": "Επιλέξτε ιατρό",
+      "description": "Ο γιατρός που ζήτησε την εξέταση"
     },
     "testStatus": {
-      "label": "Test Status",
-      "placeholder": "Select status",
-      "description": "Current status of the lab test"
+      "label": "Κατάσταση Εξέτασης",
+      "placeholder": "Επιλέξτε κατάσταση",
+      "description": "Τρέχουσα κατάσταση της εργαστηριακής εξέτασης"
     },
     "labResult": {
-      "label": "Lab Result",
-      "placeholder": "Select result (if available)",
-      "description": "Test result classification"
+      "label": "Εργαστηριακό Αποτέλεσμα",
+      "placeholder": "Επιλέξτε αποτέλεσμα (εάν είναι διαθέσιμο)",
+      "description": "Ταξινόμηση αποτελέσματος εξέτασης"
     },
     "orderedDate": {
-      "label": "Ordered Date",
-      "placeholder": "When test was ordered",
-      "description": "Date the test was requested"
+      "label": "Ημερομηνία Παραγγελίας",
+      "placeholder": "Πότε παραγγέλθηκε η εξέταση",
+      "description": "Ημερομηνία που ζητήθηκε η εξέταση"
     },
     "completedDate": {
-      "label": "Completed Date",
-      "placeholder": "When results were available",
-      "description": "Date the results were finalized"
+      "label": "Ημερομηνία Ολοκλήρωσης",
+      "placeholder": "Πότε έγιναν διαθέσιμα τα αποτελέσματα",
+      "description": "Ημερομηνία οριστικοποίησης των αποτελεσμάτων"
     },
     "additionalNotes": {
-      "label": "Additional Notes",
-      "placeholder": "Any additional information about the test, special instructions, or observations...",
-      "description": "Clinical notes or special instructions"
+      "label": "Πρόσθετες Σημειώσεις",
+      "placeholder": "Τυχόν πρόσθετες πληροφορίες για την εξέταση, ειδικές οδηγίες ή παρατηρήσεις...",
+      "description": "Κλινικές σημειώσεις ή ειδικές οδηγίες"
     },
     "qualitative": {
-      "resultType": "Result Type",
-      "quantitative": "Quantitative",
-      "qualitativeLabel": "Qualitative",
+      "resultType": "Τύπος Αποτελέσματος",
+      "quantitative": "Ποσοτικό",
+      "qualitativeLabel": "Ποιοτικό",
       "values": {
-        "positive": "Positive",
-        "negative": "Negative",
-        "detected": "Detected",
-        "undetected": "Undetected"
+        "positive": "Θετικό",
+        "negative": "Αρνητικό",
+        "detected": "Ανιχνεύθηκε",
+        "undetected": "Δεν ανιχνεύθηκε"
       },
-      "expectedResult": "Expected Result",
-      "selectResult": "Select result",
+      "expectedResult": "Αναμενόμενο Αποτέλεσμα",
+      "selectResult": "Επιλέξτε αποτέλεσμα",
       "templates": {
-        "infectiousDisease": "Infectious Disease Panel",
-        "autoimmune": "Autoimmune Panel",
-        "viralSerology": "Viral Serology Panel"
+        "infectiousDisease": "Πάνελ Λοιμωδών Νοσημάτων",
+        "autoimmune": "Αυτοάνοσο Πάνελ",
+        "viralSerology": "Πάνελ Ιολογικής Ορολογίας"
       },
       "trends": {
-        "worsening": "Worsening",
-        "improving": "Improving"
+        "worsening": "Επιδείνωση",
+        "improving": "Βελτίωση"
       }
     },
     "tabs": {
-      "basicInfo": "Basic Info",
-      "resultsStatus": "Results & Status",
-      "testComponents": "Test Components",
-      "documents": "Documents",
-      "addFiles": "Add Files",
-      "relationships": "Relationships",
-      "notes": "Notes"
+      "basicInfo": "Βασικές Πληροφορίες",
+      "resultsStatus": "Αποτελέσματα & Κατάσταση",
+      "testComponents": "Στοιχεία Εξέτασης",
+      "documents": "Έγγραφα",
+      "addFiles": "Προσθήκη Αρχείων",
+      "relationships": "Συσχετίσεις",
+      "notes": "Σημειώσεις"
     },
     "messages": {
-      "saving": "Saving lab result...",
-      "testComponentsEditInfo": "Test components can be managed from the view page after saving.",
-      "relationshipsCreateInfo": "Relationships can be added after saving the lab result.",
-      "relationshipsSaveFirst": "Save the lab result first to create relationship links."
+      "saving": "Αποθήκευση αποτελέσματος...",
+      "testComponentsEditInfo": "Η διαχείριση των στοιχείων μπορεί να γίνει από τη σελίδα προβολής μετά την αποθήκευση.",
+      "relationshipsCreateInfo": "Οι συσχετίσεις μπορούν να προστεθούν μετά την αποθήκευση.",
+      "relationshipsSaveFirst": "Αποθηκεύστε πρώτα το αποτέλεσμα για να δημιουργήσετε συνδέσμους συσχέτισης."
     }
   },
   "immunizations": {
-    "title": "Immunizations",
+    "title": "Εμβολιασμοί",
     "vaccineName": {
-      "label": "Vaccine Name",
-      "placeholder": "e.g., COVID-19 mRNA, Influenza, MMR",
-      "description": "Name of the administered vaccine"
+      "label": "Όνομα Εμβολίου",
+      "placeholder": "π.χ. COVID-19 mRNA, Γρίπης, MMR",
+      "description": "Όνομα του χορηγηθέντος εμβολίου"
     },
     "dateAdministered": {
-      "label": "Date Administered",
-      "placeholder": "Select administration date",
-      "description": "When the vaccine was given"
+      "label": "Ημερομηνία Χορήγησης",
+      "placeholder": "Επιλέξτε ημερομηνία χορήγησης",
+      "description": "Πότε έγινε το εμβόλιο"
     },
     "doseNumber": {
-      "label": "Dose Number",
+      "label": "Αριθμός Δόσης",
       "placeholder": "1, 2, 3...",
-      "description": "Which dose in series"
+      "description": "Ποια δόση στη σειρά"
     },
     "lotNumber": {
-      "label": "Lot Number",
-      "placeholder": "Vaccine batch/lot number",
-      "description": "Batch identifier for tracking"
+      "label": "Αριθμός Παρτίδας (Lot)",
+      "placeholder": "Αριθμός παρτίδας εμβολίου",
+      "description": "Αναγνωριστικό παρτίδας για ιχνηλασιμότητα"
     },
     "ndcNumber": {
-      "label": "NDC Number",
-      "placeholder": "e.g., 12345-6789-01",
-      "description": "National Drug Code for the vaccine"
+      "label": "Κωδικός NDC",
+      "placeholder": "π.χ. 12345-6789-01",
+      "description": "Εθνικός Κωδικός Φαρμάκου για το εμβόλιο"
     },
     "manufacturer": {
-      "label": "Manufacturer",
-      "placeholder": "Select manufacturer",
-      "description": "Vaccine manufacturer"
+      "label": "Κατασκευαστής",
+      "placeholder": "Επιλέξτε κατασκευαστή",
+      "description": "Κατασκευαστής του εμβολίου"
     },
     "site": {
-      "label": "Injection Site",
-      "placeholder": "Select injection site",
-      "description": "Location where vaccine was given"
+      "label": "Σημείο Ένεσης",
+      "placeholder": "Επιλέξτε σημείο ένεσης",
+      "description": "Τοποθεσία όπου έγινε το εμβόλιο"
     },
     "route": {
-      "label": "Administration Route",
-      "placeholder": "Select route",
-      "description": "Method of administration"
+      "label": "Οδός Χορήγησης",
+      "placeholder": "Επιλέξτε οδό",
+      "description": "Μέθοδος χορήγησης"
     },
     "expirationDate": {
-      "label": "Vaccine Expiration Date",
-      "placeholder": "Select expiration date",
-      "description": "Expiration date of the vaccine vial/dose used"
+      "label": "Ημερομηνία Λήξης Εμβολίου",
+      "placeholder": "Επιλέξτε ημερομηνία λήξης",
+      "description": "Ημερομηνία λήξης του φιαλιδίου/δόσης που χρησιμοποιήθηκε"
     },
     "location": {
-      "label": "Location",
-      "placeholder": "e.g., CVS Pharmacy, Hospital, Clinic, Health Department",
-      "description": "Where the vaccine was administered"
+      "label": "Τοποθεσία",
+      "placeholder": "π.χ. Φαρμακείο, Νοσοκομείο, Κλινική",
+      "description": "Πού χορηγήθηκε το εμβόλιο"
     },
     "additionalNotes": {
-      "label": "Additional Notes",
-      "placeholder": "Any reactions, side effects, or additional observations...",
-      "description": "Record any adverse reactions or important notes"
+      "label": "Πρόσθετες Σημειώσεις",
+      "placeholder": "Τυχόν αντιδράσεις, παρενέργειες ή άλλες παρατηρήσεις...",
+      "description": "Καταγραφή τυχόν ανεπιθύμητων ενεργειών ή σημαντικών σημειώσεων"
     },
     "siteOptions": {
-      "leftArm": "Left Arm",
-      "rightArm": "Right Arm",
-      "leftDeltoid": "Left Deltoid",
-      "rightDeltoid": "Right Deltoid",
-      "leftThigh": "Left Thigh",
-      "rightThigh": "Right Thigh",
-      "leftGluteal": "Left Gluteal",
-      "rightGluteal": "Right Gluteal",
-      "abdomen": "Abdomen",
-      "other": "Other"
+      "leftArm": "Αριστερό Μπράτσο",
+      "rightArm": "Δεξί Μπράτσο",
+      "leftDeltoid": "Αριστερός Δελτοειδής",
+      "rightDeltoid": "Δεξίος Δελτοειδής",
+      "leftThigh": "Αριστερός Μηρός",
+      "rightThigh": "Δεξίος Μηρός",
+      "leftGluteal": "Αριστερός Γλουτιαίος",
+      "rightGluteal": "Δεξίος Γλουτιαίος",
+      "abdomen": "Κοιλιακή Χώρα",
+      "other": "Άλλο"
     },
     "routeOptions": {
-      "intramuscular": "Intramuscular (IM)",
-      "subcutaneous": "Subcutaneous (SC)",
-      "intradermal": "Intradermal (ID)",
-      "oral": "Oral",
-      "nasal": "Nasal",
-      "other": "Other"
+      "intramuscular": "Ενδομυϊκά (IM)",
+      "subcutaneous": "Υποδόρια (SC)",
+      "intradermal": "Ενδοδερμικά (ID)",
+      "oral": "Από του στόματος",
+      "nasal": "Ρινικά",
+      "other": "Άλλο"
     },
     "manufacturerOptions": {
       "pfizerBioNTech": "Pfizer-BioNTech",
@@ -431,7 +431,7 @@
       "merck": "Merck",
       "glaxoSmithKline": "GlaxoSmithKline",
       "sanofi": "Sanofi",
-      "other": "Other",
+      "other": "Άλλο",
       "pfizer": "Pfizer-BioNTech",
       "jj": "Johnson & Johnson",
       "astrazeneca": "AstraZeneca",
@@ -439,899 +439,899 @@
       "novartis": "Novartis"
     },
     "notes": {
-      "label": "Notes",
-      "placeholder": "Additional notes about this immunization...",
-      "description": "Any relevant details about the immunization"
+      "label": "Σημειώσεις",
+      "placeholder": "Πρόσθετες σημειώσεις για αυτόν τον εμβολιασμό...",
+      "description": "Οποιεσδήποτε σχετικές λεπτομέρειες"
     }
   },
   "procedures": {
-    "title": "Procedures",
+    "title": "Επεμβάσεις / Διαδικασίες",
     "procedureName": {
-      "label": "Procedure Name",
-      "placeholder": "e.g., Appendectomy, MRI Scan, Colonoscopy",
-      "description": "Name of the medical procedure"
+      "label": "Όνομα Διαδικασίας",
+      "placeholder": "π.χ. Σκωληκοειδεκτομή, Μαγνητική Τομογραφία",
+      "description": "Όνομα της ιατρικής διαδικασίας ή επέμβασης"
     },
     "procedureType": {
-      "label": "Procedure Type",
-      "placeholder": "Select type",
-      "description": "Category of procedure",
+      "label": "Τύπος Διαδικασίας",
+      "placeholder": "Επιλέξτε τύπο",
+      "description": "Κατηγορία διαδικασίας",
       "options": {
-        "surgical": "Surgical - Invasive procedure",
-        "diagnostic": "Diagnostic - Testing/Imaging",
-        "therapeutic": "Therapeutic - Treatment",
-        "preventive": "Preventive - Prevention care",
-        "emergency": "Emergency - Urgent care"
+        "surgical": "Χειρουργική - Επεμβατική διαδικασία",
+        "diagnostic": "Διαγνωστική - Εξέταση/Απεικόνιση",
+        "therapeutic": "Θεραπευτική - Θεραπεία",
+        "preventive": "Προληπτική - Φροντίδα πρόληψης",
+        "emergency": "Επείγουσα - Επείγουσα φροντίδα"
       }
     },
     "procedureCode": {
-      "label": "Procedure Code",
-      "placeholder": "e.g., CPT-12345, ICD-10-PCS",
-      "description": "Medical coding (CPT, ICD-10-PCS, etc.)"
+      "label": "Κωδικός Διαδικασίας",
+      "placeholder": "π.χ. CPT-12345, ICD-10-PCS",
+      "description": "Ιατρική κωδικοποίηση (CPT, ICD-10-PCS, κ.λπ.)"
     },
     "procedureSetting": {
-      "label": "Procedure Setting",
-      "placeholder": "Select setting",
-      "description": "Where the procedure takes place",
+      "label": "Πλαίσιο Διαδικασίας",
+      "placeholder": "Επιλέξτε πλαίσιο",
+      "description": "Πού πραγματοποιείται η διαδικασία",
       "options": {
-        "outpatient": "Outpatient - Same day discharge",
-        "inpatient": "Inpatient - Hospital stay required",
-        "office": "Office - Doctor office/clinic",
-        "emergency": "Emergency - ER/urgent care",
-        "home": "Home - At patient home"
+        "outpatient": "Εξωτερικός ασθενής - Εξιτήριο την ίδια μέρα",
+        "inpatient": "Εσωτερικός ασθενής - Απαιτείται νοσηλεία",
+        "office": "Ιατρείο - Ιατρείο/Κλινική",
+        "emergency": "Επείγοντα - Τμήμα επειγόντων",
+        "home": "Κατ' οίκον - Στο σπίτι του ασθενούς"
       }
     },
     "procedureDate": {
-      "label": "Procedure Date",
-      "placeholder": "Select procedure date",
-      "description": "When the procedure is/was performed"
+      "label": "Ημερομηνία Διαδικασίας",
+      "placeholder": "Επιλέξτε ημερομηνία",
+      "description": "Πότε πραγματοποιείται/πραγματοποιήθηκε η διαδικασία"
     },
     "procedureDuration": {
-      "label": "Duration (minutes)",
-      "placeholder": "e.g., 30, 120",
-      "description": "How long the procedure took/will take"
+      "label": "Διάρκεια (λεπτά)",
+      "placeholder": "π.χ. 30, 120",
+      "description": "Πόσο χρόνο διήρκεσε/θα διαρκέσει η διαδικασία"
     },
     "performingPractitioner": {
-      "label": "Performing Practitioner",
-      "placeholder": "Select practitioner",
-      "description": "Doctor performing the procedure"
+      "label": "Ιατρός Εκτέλεσης",
+      "placeholder": "Επιλέξτε ιατρό",
+      "description": "Ο γιατρός που εκτελεί τη διαδικασία"
     },
     "complications": {
-      "label": "Complications",
-      "placeholder": "Any complications that occurred during the procedure...",
-      "description": "Document any complications, adverse events, or unexpected outcomes"
+      "label": "Επιπλοκές",
+      "placeholder": "Τυχόν επιπλοκές που παρουσιάστηκαν κατά τη διαδικασία...",
+      "description": "Καταγραφή επιπλοκών, ανεπιθύμητων συμβάντων ή απρόσμενων αποτελεσμάτων"
     },
     "clinicalNotes": {
-      "label": "Clinical Notes",
-      "placeholder": "Additional notes about the procedure...",
-      "description": "Any additional clinical notes or observations"
+      "label": "Κλινικές Σημειώσεις",
+      "placeholder": "Πρόσθετες σημειώσεις για τη διαδικασία...",
+      "description": "Τυχόν επιπλέον κλινικές παρατηρήσεις"
     },
     "anesthesiaType": {
-      "label": "Anesthesia Type",
-      "placeholder": "Select anesthesia type",
-      "description": "Type of anesthesia used",
+      "label": "Τύπος Αναισθησίας",
+      "placeholder": "Επιλέξτε τύπο αναισθησίας",
+      "description": "Τύπος αναισθησίας που χρησιμοποιήθηκε",
       "options": {
-        "general": "General - Complete unconsciousness",
-        "local": "Local - Numbing specific area",
-        "regional": "Regional - Numbing larger area",
-        "sedation": "Sedation - Relaxed but conscious",
-        "none": "None - No anesthesia required"
+        "general": "Γενική - Πλήρης απώλεια αισθήσεων",
+        "local": "Τοπική - Νάρκωση συγκεκριμένης περιοχής",
+        "regional": "Περιοχική - Νάρκωση ευρύτερης περιοχής",
+        "sedation": "Μέθη - Χαλαρός αλλά με αισθήσεις",
+        "none": "Καμία - Δεν απαιτείται αναισθησία"
       }
     },
     "anesthesiaNotes": {
-      "label": "Anesthesia Notes",
-      "placeholder": "Anesthesia-related notes...",
-      "description": "Any notes about anesthesia administration"
+      "label": "Σημειώσεις Αναισθησίας",
+      "placeholder": "Σημειώσεις σχετικά με την αναισθησία...",
+      "description": "Τυχόν σημειώσεις για τη χορήγηση αναισθησίας"
     },
     "description": {
-      "label": "Description",
-      "placeholder": "Describe the procedure in detail...",
-      "description": "Detailed description of what the procedure involves"
+      "label": "Περιγραφή",
+      "placeholder": "Περιγράψτε τη διαδικασία λεπτομερώς...",
+      "description": "Λεπτομερής περιγραφή του τι περιλαμβάνει η διαδικασία"
     },
     "status": {
-      "description": "Current status of the procedure"
+      "description": "Τρέχουσα κατάσταση της διαδικασίας"
     },
     "facility": {
-      "label": "Facility",
-      "placeholder": "e.g., General Hospital, Outpatient Center",
-      "description": "Where the procedure was or will be performed"
+      "label": "Εγκατάσταση/Νοσοκομείο",
+      "placeholder": "π.χ. Γενικό Νοσοκομείο, Κέντρο Εξωτερικών Ασθενών",
+      "description": "Πού πραγματοποιήθηκε ή θα πραγματοποιηθεί η διαδικασία"
     },
     "practitioner": {
-      "label": "Performing Practitioner",
-      "placeholder": "Select practitioner",
-      "description": "Doctor or specialist performing the procedure"
+      "label": "Ιατρός Εκτέλεσης",
+      "placeholder": "Επιλέξτε ιατρό",
+      "description": "Ο γιατρός ή ο ειδικός που εκτελεί τη διαδικασία"
     },
     "notes": {
-      "label": "Notes",
-      "placeholder": "Additional notes about the procedure...",
-      "description": "Any relevant observations, pre/post-op instructions, or details"
+      "label": "Σημειώσεις",
+      "placeholder": "Πρόσθετες σημειώσεις για τη διαδικασία...",
+      "description": "Οποιεσδήποτε σχετικές παρατηρήσεις ή οδηγίες"
     },
     "outcome": {
-      "label": "Outcome",
-      "placeholder": "Select outcome",
-      "description": "Result or outcome of the procedure",
+      "label": "Έκβαση",
+      "placeholder": "Επιλέξτε έκβαση",
+      "description": "Αποτέλεσμα ή έκβαση της διαδικασίας",
       "options": {
-        "successful": "Successful",
-        "abnormal": "Abnormal",
-        "complications": "Complications",
-        "inconclusive": "Inconclusive",
-        "pending": "Pending"
+        "successful": "Επιτυχής",
+        "abnormal": "Μη φυσιολογική",
+        "complications": "Επιπλοκές",
+        "inconclusive": "Μη κατατοπιστική",
+        "pending": "Σε εκκρεμότητα"
       }
     }
   },
   "visits": {
-    "title": "Visits",
+    "title": "Επισκέψεις",
     "reason": {
-      "label": "Reason for Visit",
-      "placeholder": "e.g., Annual Checkup, Follow-up, Symptoms Review",
-      "description": "Primary purpose of this medical visit"
+      "label": "Λόγος Επίσκεψης",
+      "placeholder": "π.χ. Ετήσιο Checkup, Επανέλεγχος, Αξιολόγηση Συμπτωμάτων",
+      "description": "Κύριος σκοπός αυτής της ιατρικής επίσκεψης"
     },
     "visitDate": {
-      "label": "Visit Date",
-      "placeholder": "Select visit date",
-      "description": "When the visit occurred"
+      "label": "Ημερομηνία Επίσκεψης",
+      "placeholder": "Επιλέξτε ημερομηνία",
+      "description": "Πότε πραγματοποιήθηκε η επίσκεψη"
     },
     "attendingPractitioner": {
-      "label": "Attending Practitioner",
-      "placeholder": "Select practitioner (optional)",
-      "description": "Doctor who conducted the visit"
+      "label": "Θεράπων Ιατρός",
+      "placeholder": "Επιλέξτε ιατρό (προαιρετικό)",
+      "description": "Ο γιατρός που πραγματοποίησε την επίσκεψη"
     },
     "visitType": {
-      "label": "Visit Type",
-      "placeholder": "Select visit type",
-      "description": "Type of medical visit",
+      "label": "Τύπος Επίσκεψης",
+      "placeholder": "Επιλέξτε τύπο επίσκεψης",
+      "description": "Τύπος ιατρικής επίσκεψης",
       "options": {
-        "annualCheckup": "Annual Checkup",
-        "followUp": "Follow-up",
-        "consultation": "Consultation",
-        "emergency": "Emergency",
-        "preventiveCare": "Preventive Care",
-        "routineVisit": "Routine Visit",
-        "specialistReferral": "Specialist Referral"
+        "annualCheckup": "Ετήσιο Checkup",
+        "followUp": "Επανέλεγχος",
+        "consultation": "Συμβουλευτική",
+        "emergency": "Επείγον",
+        "preventiveCare": "Προληπτική Φροντίδα",
+        "routineVisit": "Επίσκεψη Ρουτίνας",
+        "specialistReferral": "Παραπομπή σε Ειδικό"
       }
     },
     "priority": {
-      "label": "Priority",
-      "placeholder": "Select priority level",
-      "description": "Priority level of the visit",
+      "label": "Προτεραιότητα",
+      "placeholder": "Επιλέξτε επίπεδο προτεραιότητας",
+      "description": "Επίπεδο προτεραιότητας της επίσκεψης",
       "options": {
-        "routine": "Routine",
-        "urgent": "Urgent",
-        "emergency": "Emergency"
+        "routine": "Ρουτίνα",
+        "urgent": "Επείγον",
+        "emergency": "Κατεπείγον"
       }
     },
     "relatedCondition": {
-      "label": "Related Condition (Optional)",
-      "placeholder": "Select a condition this visit is related to",
-      "description": "Link this visit to a specific condition if applicable"
+      "label": "Σχετική Πάθηση (Προαιρετικό)",
+      "placeholder": "Επιλέξτε μια πάθηση με την οποία σχετίζεται η επίσκεψη",
+      "description": "Σύνδεση της επίσκεψης με μια συγκεκριμένη πάθηση"
     },
     "chiefComplaint": {
-      "label": "Chief Complaint",
-      "placeholder": "Primary concern or symptom reported",
-      "description": "Main health concern or symptom that prompted the visit"
+      "label": "Κύριο Ενόχλημα",
+      "placeholder": "Κύρια ανησυχία ή σύμπτωμα που αναφέρθηκε",
+      "description": "Το κύριο πρόβλημα υγείας που οδήγησε στην επίσκεψη"
     },
     "durationMinutes": {
-      "label": "Duration (minutes)",
-      "placeholder": "Visit duration",
-      "description": "How long the visit lasted"
+      "label": "Διάρκεια (λεπτά)",
+      "placeholder": "Διάρκεια επίσκεψης",
+      "description": "Πόση ώρα διήρκεσε η επίσκεψη"
     },
     "location": {
-      "label": "Location",
-      "placeholder": "Where the visit occurred",
-      "description": "Where the visit took place"
+      "label": "Τοποθεσία",
+      "placeholder": "Πού πραγματοποιήθηκε η επίσκεψη",
+      "description": "Ο χώρος όπου έλαβε χώρα η επίσκεψη"
     },
     "locationOptions": {
-      "office": "Doctor's Office",
-      "hospital": "Hospital",
-      "clinic": "Clinic",
-      "telehealth": "Telehealth/Virtual",
-      "urgentCare": "Urgent Care",
-      "emergencyRoom": "Emergency Room",
-      "home": "Home Visit"
+      "office": "Ιατρείο",
+      "hospital": "Νοσοκομείο",
+      "clinic": "Κλινική",
+      "telehealth": "Τηλεϊατρική/Ψηφιακή",
+      "urgentCare": "Κέντρο Επειγόντων",
+      "emergencyRoom": "Τμήμα Επειγόντων Περιστατικών",
+      "home": "Κατ' οίκον Επίσκεψη"
     },
     "dividers": {
-      "clinical": "Clinical Information"
+      "clinical": "Κλινικές Πληροφορίες"
     },
     "diagnosisAssessment": {
-      "label": "Diagnosis/Assessment",
-      "placeholder": "Clinical assessment or diagnosis from the visit...",
-      "description": "Medical diagnosis or clinical assessment"
+      "label": "Διάγνωση/Αξιολόγηση",
+      "placeholder": "Κλινική αξιολόγηση ή διάγνωση από την επίσκεψη...",
+      "description": "Ιατρική διάγνωση ή κλινική αξιολόγηση"
     },
     "treatmentPlan": {
-      "label": "Treatment Plan",
-      "placeholder": "Recommended treatment or next steps...",
-      "description": "Treatment recommendations and prescribed interventions"
+      "label": "Πλάνο Θεραπείας",
+      "placeholder": "Προτεινόμενη θεραπεία ή επόμενα βήματα...",
+      "description": "Συστάσεις θεραπείας και παρεμβάσεις"
     },
     "followUpInstructions": {
-      "label": "Follow-up Instructions",
-      "placeholder": "Follow-up care instructions...",
-      "description": "Instructions for ongoing care and follow-up appointments"
+      "label": "Οδηγίες Επανελέγχου",
+      "placeholder": "Οδηγίες για φροντίδα μετά την επίσκεψη...",
+      "description": "Οδηγίες για συνεχή φροντίδα και επόμενα ραντεβού"
     },
     "additionalNotes": {
-      "label": "Additional Notes",
-      "placeholder": "Any other important details about the visit...",
-      "description": "Any additional observations, notes, or important details"
+      "label": "Πρόσθετες Σημειώσεις",
+      "placeholder": "Οποιεσδήποτε άλλες σημαντικές λεπτομέρειες...",
+      "description": "Πρόσθετες παρατηρήσεις ή σημαντικές πληροφορίες"
     },
     "form": {
       "fields": {
         "reason": {
-          "label": "Reason for Visit",
-          "placeholder": "e.g., Annual Checkup, Follow-up, Symptoms Review",
-          "description": "Primary purpose of this medical visit"
+          "label": "Λόγος Επίσκεψης",
+          "placeholder": "π.χ. Ετήσιο Checkup, Επανέλεγχος",
+          "description": "Κύριος σκοπός αυτής της ιατρικής επίσκεψης"
         },
         "visitDate": {
-          "label": "Visit Date",
-          "placeholder": "Select visit date",
-          "description": "When the visit occurred"
+          "label": "Ημερομηνία Επίσκεψης",
+          "placeholder": "Επιλέξτε ημερομηνία",
+          "description": "Πότε πραγματοποιήθηκε η επίσκεψη"
         },
         "attendingPractitioner": {
-          "label": "Attending Practitioner",
-          "placeholder": "Select practitioner (optional)",
-          "description": "Doctor who conducted the visit"
+          "label": "Θεράπων Ιατρός",
+          "placeholder": "Επιλέξτε ιατρό (προαιρετικό)",
+          "description": "Ο γιατρός που πραγματοποίησε την επίσκεψη"
         },
         "visitType": {
-          "placeholder": "Select visit type",
-          "description": "Type of medical visit"
+          "placeholder": "Επιλέξτε τύπο επίσκεψης",
+          "description": "Τύπος ιατρικής επίσκεψης"
         },
         "priority": {
-          "placeholder": "Select priority level",
-          "description": "Priority level of the visit"
+          "placeholder": "Επιλέξτε επίπεδο προτεραιότητας",
+          "description": "Επίπεδο προτεραιότητας της επίσκεψης"
         },
         "relatedCondition": {
-          "label": "Related Condition (Optional)",
-          "placeholder": "Select a condition this visit is related to",
-          "description": "Link this visit to a specific condition if applicable"
+          "label": "Σχετική Πάθηση (Προαιρετικό)",
+          "placeholder": "Επιλέξτε μια πάθηση",
+          "description": "Σύνδεση της επίσκεψης με μια συγκεκριμένη πάθηση"
         },
         "chiefComplaint": {
-          "placeholder": "Primary concern or symptom reported",
-          "description": "Main health concern or symptom that prompted the visit"
+          "placeholder": "Κύρια ανησυχία ή σύμπτωμα που αναφέρθηκε",
+          "description": "Το κύριο πρόβλημα υγείας που οδήγησε στην επίσκεψη"
         },
         "durationMinutes": {
-          "label": "Duration (minutes)",
-          "placeholder": "Visit duration",
-          "description": "How long the visit lasted"
+          "label": "Διάρκεια (λεπτά)",
+          "placeholder": "Διάρκεια επίσκεψης",
+          "description": "Πόση ώρα διήρκεσε η επίσκεψη"
         },
         "location": {
-          "placeholder": "Where the visit occurred",
-          "description": "Where the visit took place"
+          "placeholder": "Πού πραγματοποιήθηκε η επίσκεψη",
+          "description": "Ο χώρος όπου έλαβε χώρα η επίσκεψη"
         },
         "diagnosisAssessment": {
-          "label": "Diagnosis/Assessment",
-          "placeholder": "Clinical assessment or diagnosis from the visit...",
-          "description": "Medical diagnosis or clinical assessment"
+          "label": "Διάγνωση/Αξιολόγηση",
+          "placeholder": "Κλινική αξιολόγηση ή διάγνωση...",
+          "description": "Ιατρική διάγνωση ή κλινική αξιολόγηση"
         },
         "treatmentPlan": {
-          "placeholder": "Recommended treatment or next steps...",
-          "description": "Treatment recommendations and prescribed interventions"
+          "placeholder": "Προτεινόμενη θεραπεία ή επόμενα βήματα...",
+          "description": "Συστάσεις θεραπείας και παρεμβάσεις"
         },
         "followUpInstructions": {
-          "placeholder": "Follow-up care instructions...",
-          "description": "Instructions for ongoing care and follow-up appointments"
+          "placeholder": "Οδηγίες για φροντίδα μετά την επίσκεψη...",
+          "description": "Οδηγίες για συνεχή φροντίδα και επόμενα ραντεβού"
         },
         "additionalNotes": {
-          "placeholder": "Any other important details about the visit...",
-          "description": "Any additional observations, notes, or important details"
+          "placeholder": "Οποιεσδήποτε άλλες σημαντικές λεπτομέρειες...",
+          "description": "Πρόσθετες παρατηρήσεις ή σημαντικές πληροφορίες"
         }
       },
       "visitTypeOptions": {
-        "annualCheckup": "Annual Checkup",
-        "followUp": "Follow-up",
-        "consultation": "Consultation",
-        "emergency": "Emergency",
-        "preventiveCare": "Preventive Care",
-        "routineVisit": "Routine Visit",
-        "specialistReferral": "Specialist Referral"
+        "annualCheckup": "Ετήσιο Checkup",
+        "followUp": "Επανέλεγχος",
+        "consultation": "Συμβουλευτική",
+        "emergency": "Επείγον",
+        "preventiveCare": "Προληπτική Φροντίδα",
+        "routineVisit": "Επίσκεψη Ρουτίνας",
+        "specialistReferral": "Παραπομπή σε Ειδικό"
       },
       "priorityOptions": {
-        "routine": "Routine",
-        "urgent": "Urgent"
+        "routine": "Ρουτίνα",
+        "urgent": "Επείγον"
       },
       "locationOptions": {
-        "doctorsOffice": "Doctor's Office",
-        "hospital": "Hospital",
-        "clinic": "Clinic",
-        "telehealth": "Telehealth/Virtual",
-        "urgentCare": "Urgent Care",
-        "emergencyRoom": "Emergency Room",
-        "homeVisit": "Home Visit"
+        "doctorsOffice": "Ιατρείο",
+        "hospital": "Νοσοκομείο",
+        "clinic": "Κλινική",
+        "telehealth": "Τηλεϊατρική/Ψηφιακή",
+        "urgentCare": "Κέντρο Επειγόντων",
+        "emergencyRoom": "Τμήμα Επειγόντων",
+        "homeVisit": "Κατ' οίκον Επίσκεψη"
       },
       "dividers": {
-        "clinicalInformation": "Clinical Information"
+        "clinicalInformation": "Κλινικές Πληροφορίες"
       }
     },
     "table": {
-      "visitType": "Visit Type"
+      "visitType": "Τύπος Επίσκεψης"
     },
     "viewModal": {
-      "priority": "Priority",
-      "chiefComplaint": "Chief Complaint",
-      "location": "Location",
-      "treatmentPlan": "Treatment Plan",
-      "followUpInstructions": "Follow-up Instructions"
+      "priority": "Προτεραιότητα",
+      "chiefComplaint": "Κύριο Ενόχλημα",
+      "location": "Τοποθεσία",
+      "treatmentPlan": "Πλάνο Θεραπείας",
+      "followUpInstructions": "Οδηγίες Επανελέγχου"
     }
   },
   "treatments": {
-    "title": "Treatments",
+    "title": "Θεραπείες",
     "treatmentName": {
-      "label": "Treatment Name",
-      "placeholder": "e.g., Physical Therapy for Lower Back Pain",
-      "description": "Specific name or description of the treatment"
+      "label": "Όνομα Θεραπείας",
+      "placeholder": "π.χ. Φυσικοθεραπεία για πόνο στη μέση",
+      "description": "Συγκεκριμένο όνομα ή περιγραφή της θεραπείας"
     },
     "treatmentType": {
-      "label": "Treatment Type",
-      "placeholder": "Select type",
-      "description": "Category of treatment",
+      "label": "Τύπος Θεραπείας",
+      "placeholder": "Επιλέξτε τύπο",
+      "description": "Κατηγορία θεραπείας",
       "options": {
-        "surgery": "Surgery - Surgical procedure",
-        "medication": "Medication - Drug therapy",
-        "physicalTherapy": "Physical Therapy - Rehabilitation",
-        "chemotherapy": "Chemotherapy - Cancer treatment",
-        "radiation": "Radiation - Radiation therapy",
-        "immunotherapy": "Immunotherapy - Immune system treatment",
-        "occupationalTherapy": "Occupational Therapy - Functional improvement",
-        "speechTherapy": "Speech Therapy - Communication improvement",
-        "behavioralTherapy": "Behavioral Therapy - Mental health treatment",
-        "dialysis": "Dialysis - Kidney function support",
-        "other": "Other - Specify in description"
+        "surgery": "Χειρουργείο - Χειρουργική διαδικασία",
+        "medication": "Φαρμακευτική αγωγή",
+        "physicalTherapy": "Φυσικοθεραπεία - Αποκατάσταση",
+        "chemotherapy": "Χημειοθεραπεία - Θεραπεία καρκίνου",
+        "radiation": "Ακτινοβολία - Ακτινοθεραπεία",
+        "immunotherapy": "Ανοσοθεραπεία",
+        "occupationalTherapy": "Εργοθεραπεία",
+        "speechTherapy": "Λογοθεραπεία",
+        "behavioralTherapy": "Συμπεριφορική Θεραπεία",
+        "dialysis": "Αιμοκάθαρση",
+        "other": "Άλλο - Προσδιορίστε στην περιγραφή"
       }
     },
     "treatmentStatus": {
-      "label": "Treatment Status",
-      "placeholder": "Select status",
-      "description": "Current stage in treatment workflow",
+      "label": "Κατάσταση Θεραπείας",
+      "placeholder": "Επιλέξτε κατάσταση",
+      "description": "Τρέχον στάδιο στη ροή της θεραπείας",
       "options": {
-        "planned": "Planned - Treatment scheduled for future",
-        "active": "Active - Currently undergoing treatment",
-        "onHold": "On Hold - Temporarily paused",
-        "completed": "Completed - Treatment finished successfully",
-        "cancelled": "Cancelled - Treatment discontinued"
+        "planned": "Προγραμματισμένη - Για το μέλλον",
+        "active": "Ενεργή - Σε εξέλιξη",
+        "onHold": "Σε αναμονή - Προσωρινή παύση",
+        "completed": "Ολοκληρώθηκε - Η θεραπεία τελείωσε επιτυχώς",
+        "cancelled": "Ακυρώθηκε - Διακοπή θεραπείας"
       }
     },
     "amount": {
-      "label": "Amount",
-      "placeholder": "e.g., 500mg, 2 tablets, 30 minutes",
-      "description": "Amount or intensity per session"
+      "label": "Ποσότητα",
+      "placeholder": "π.χ. 500mg, 2 δισκία, 30 λεπτά",
+      "description": "Ποσότητα ή ένταση ανά συνεδρία"
     },
     "frequencyOptions": {
-      "onceDaily": "Once daily",
-      "twiceDaily": "Twice daily (BID)",
-      "threeTimes": "Three times daily (TID)",
-      "fourTimes": "Four times daily (QID)",
-      "weekly": "Weekly",
-      "biWeekly": "Bi-weekly (every 2 weeks)",
-      "monthly": "Monthly",
-      "asNeeded": "As needed (PRN)",
-      "oneTime": "One time only",
-      "continuous": "Continuous/ongoing"
+      "onceDaily": "Μία φορά την ημέρα",
+      "twiceDaily": "Δύο φορές την ημέρα (BID)",
+      "threeTimes": "Τρεις φορές την ημέρα (TID)",
+      "fourTimes": "Τέσσερις φορές την ημέρα (QID)",
+      "weekly": "Εβδομαδιαία",
+      "biWeekly": "Ανά δύο εβδομάδες",
+      "monthly": "Μηνιαία",
+      "asNeeded": "Όποτε χρειάζεται (PRN)",
+      "oneTime": "Μία φορά μόνο",
+      "continuous": "Συνεχής/Σε εξέλιξη"
     },
     "relatedCondition": {
-      "label": "Related Condition",
-      "placeholder": "Select condition (optional)",
-      "description": "Link this treatment to a specific medical condition"
+      "label": "Σχετική Πάθηση",
+      "placeholder": "Επιλέξτε πάθηση (προαιρετικό)",
+      "description": "Σύνδεση αυτής της θεραπείας με συγκεκριμένη ιατρική πάθηση"
     },
     "practitioner": {
-      "label": "Practitioner",
-      "placeholder": "Select practitioner (optional)",
-      "description": "Assign a practitioner to this treatment"
+      "label": "Ιατρός",
+      "placeholder": "Επιλέξτε ιατρό (προαιρετικό)",
+      "description": "Ανάθεση ιατρού σε αυτή τη θεραπεία"
     },
     "startDate": {
-      "label": "Start Date",
-      "placeholder": "Select start date",
-      "description": "When treatment begins/began"
+      "label": "Ημερομηνία Έναρξης",
+      "placeholder": "Επιλέξτε ημερομηνία έναρξης",
+      "description": "Πότε ξεκινά/ξεκίνησε η θεραπεία"
     },
     "endDate": {
-      "label": "End Date",
-      "placeholder": "Select end date (if known)",
-      "description": "Expected or actual completion date"
+      "label": "Ημερομηνία Λήξης",
+      "placeholder": "Επιλέξτε ημερομηνία λήξης (αν είναι γνωστή)",
+      "description": "Αναμενόμενη ή πραγματική ημερομηνία ολοκλήρωσης"
     },
     "frequency": {
-      "label": "Frequency",
-      "placeholder": "Select frequency",
-      "description": "How often treatment occurs"
+      "label": "Συχνότητα",
+      "placeholder": "Επιλέξτε συχνότητα",
+      "description": "Πόσο συχνά πραγματοποιείται η θεραπεία"
     },
     "treatmentDescription": {
-      "label": "Treatment Description",
-      "placeholder": "Detailed description of the treatment plan...",
-      "description": "Comprehensive details about the treatment approach"
+      "label": "Περιγραφή Θεραπείας",
+      "placeholder": "Λεπτομερής περιγραφή του πλάνου θεραπείας...",
+      "description": "Ολοκληρωμένες λεπτομέρειες σχετικά με την προσέγγιση της θεραπείας"
     },
     "notes": {
-      "label": "Additional Notes",
-      "placeholder": "Progress notes, side effects, adjustments, outcomes...",
-      "description": "Progress updates, observations, or important notes"
+      "label": "Πρόσθετες Σημειώσεις",
+      "placeholder": "Σημειώσεις προόδου, παρενέργειες, προσαρμογές, εκβάσεις...",
+      "description": "Ενημερώσεις προόδου, παρατηρήσεις ή σημαντικές σημειώσεις"
     },
     "mode": {
-      "label": "Treatment Mode",
-      "description": "Choose how to track this treatment",
-      "simple": "Simple",
-      "simpleOption": "Simple",
-      "advanced": "Treatment Plan",
-      "advancedOption": "Treatment Plan",
-      "simpleDescription": "Basic tracking with schedule and dosage",
-      "advancedDescription": "Medication-centric plan with per-medication overrides"
+      "label": "Λειτουργία Θεραπείας",
+      "description": "Επιλέξτε πώς θα παρακολουθείτε αυτή τη θεραπεία",
+      "simple": "Απλή",
+      "simpleOption": "Απλή",
+      "advanced": "Πλάνο Θεραπείας",
+      "advancedOption": "Πλάνο Θεραπείας",
+      "simpleDescription": "Βασική παρακολούθηση με πρόγραμμα και δοσολογία",
+      "advancedDescription": "Πλάνο με επίκεντρο τα φάρμακα και ειδικές ρυθμίσεις ανά φάρμακο"
     },
     "advancedOverview": {
-      "title": "Treatment Plan Overview",
-      "medicationsCount": "{{count}} medication(s)",
-      "visitsCount": "{{count}} visit(s)",
-      "labsCount": "{{count}} lab(s)",
-      "equipmentCount": "{{count}} equipment"
+      "title": "Επισκόπηση Πλάνου Θεραπείας",
+      "medicationsCount": "{{count}} φάρμακο(-α)",
+      "visitsCount": "{{count}} επίσκεψη(-εις)",
+      "labsCount": "{{count}} εξέταση(-εις)",
+      "equipmentCount": "{{count}} εξοπλισμός"
     },
     "medications": {
-      "effectiveValue": "Effective",
-      "overridden": "Treatment-specific",
-      "default": "(from medication)",
-      "specificPrescriber": "Treatment Prescriber",
-      "specificPharmacy": "Treatment Pharmacy",
-      "specificStartDate": "Treatment Start Date",
-      "specificEndDate": "Treatment End Date",
-      "noMedicationsLinked": "No medications linked to this treatment",
-      "linkDescription": "Link medications to track what is prescribed for this treatment plan.",
-      "specificDosage": "Specific Dosage",
-      "specificFrequency": "Specific Frequency",
-      "duration": "Duration",
-      "timingInstructions": "Timing Instructions",
-      "relevanceNote": "Relevance Note"
+      "effectiveValue": "Αποτελεσματικό",
+      "overridden": "Ειδικό για τη θεραπεία",
+      "default": "(από το φάρμακο)",
+      "specificPrescriber": "Ιατρός Θεραπείας",
+      "specificPharmacy": "Φαρμακείο Θεραπείας",
+      "specificStartDate": "Ημερομηνία Έναρξης Θεραπείας",
+      "specificEndDate": "Ημερομηνία Λήξης Θεραπείας",
+      "noMedicationsLinked": "Δεν υπάρχουν συνδεδεμένα φάρμακα",
+      "linkDescription": "Συνδέστε φάρμακα για να παρακολουθείτε τι έχει συνταγογραφηθεί για αυτό το πλάνο θεραπείας.",
+      "specificDosage": "Ειδική Δοσολογία",
+      "specificFrequency": "Ειδική Συχνότητα",
+      "duration": "Διάρκεια",
+      "timingInstructions": "Οδηγίες Χρονισμού",
+      "relevanceNote": "Σημείωση Σχετικότητας"
     },
     "tabs": {
-      "overview": "Overview",
-      "medications": "Medications",
-      "visits": "Visits",
-      "labs": "Labs",
-      "equipment": "Equipment",
-      "scheduleAndDosage": "Schedule & Dosage",
-      "documents": "Documents",
-      "notes": "Notes",
-      "relationships": "Relationships"
+      "overview": "Επισκόπηση",
+      "medications": "Φάρμακα",
+      "visits": "Επισκέψεις",
+      "labs": "Εξετάσεις",
+      "equipment": "Εξοπλισμός",
+      "scheduleAndDosage": "Πρόγραμμα & Δοσολογία",
+      "documents": "Έγγραφα",
+      "notes": "Σημειώσεις",
+      "relationships": "Συσχετίσεις"
     },
     "performingPractitioner": {
-      "label": "Performing Practitioner",
-      "placeholder": "Select practitioner (optional)",
-      "description": "Assign a practitioner to this treatment"
+      "label": "Ιατρός Εκτέλεσης",
+      "placeholder": "Επιλέξτε ιατρό (προαιρετικό)",
+      "description": "Ανάθεση ιατρού σε αυτή τη θεραπεία"
     }
   },
   "familyMembers": {
-    "title": "Family Members",
+    "title": "Μέλη Οικογένειας",
     "relationshipOptions": {
-      "father": "Father",
-      "mother": "Mother",
-      "brother": "Brother",
-      "sister": "Sister",
-      "paternalGrandfather": "Paternal Grandfather",
-      "paternalGrandmother": "Paternal Grandmother",
-      "maternalGrandfather": "Maternal Grandfather",
-      "maternalGrandmother": "Maternal Grandmother",
-      "uncle": "Uncle",
-      "aunt": "Aunt",
-      "cousin": "Cousin",
-      "other": "Other"
+      "father": "Πατέρας",
+      "mother": "Μητέρα",
+      "brother": "Αδελφός",
+      "sister": "Αδελφή",
+      "paternalGrandfather": "Παππούς (από τον πατέρα)",
+      "paternalGrandmother": "Γιαγιά (από τον πατέρα)",
+      "maternalGrandfather": "Παππούς (από τη μητέρα)",
+      "maternalGrandmother": "Γιαγιά (από τη μητέρα)",
+      "uncle": "Θείος",
+      "aunt": "Θεία",
+      "cousin": "Ξάδελφος/η",
+      "other": "Άλλο"
     },
     "genderOptions": {
-      "male": "Male",
-      "female": "Female",
-      "other": "Other"
+      "male": "Άνδρας",
+      "female": "Γυναίκα",
+      "other": "Άλλο"
     },
     "birthYear": {
-      "label": "Birth Year",
-      "placeholder": "e.g., 1965",
-      "description": "Year family member was born"
+      "label": "Έτος Γέννησης",
+      "placeholder": "π.χ. 1965",
+      "description": "Έτος γέννησης του μέλους της οικογένειας"
     },
     "isDeceased": {
-      "label": "Deceased",
-      "description": "Check if family member is deceased"
+      "label": "Θανών/ούσα",
+      "description": "Επιλέξτε εάν το μέλος της οικογένειας έχει αποβιώσει"
     },
     "deathYear": {
-      "label": "Death Year",
-      "placeholder": "e.g., 2020",
-      "description": "Year family member passed away"
+      "label": "Έτος Θανάτου",
+      "placeholder": "π.χ. 2020",
+      "description": "Έτος που απεβίωσε το μέλος της οικογένειας"
     }
   },
   "familyConditions": {
-    "title": "Family Conditions",
+    "title": "Οικογενειακό Ιστορικό Παθήσεων",
     "conditionName": {
-      "label": "Condition Name",
-      "placeholder": "e.g., Diabetes, Heart Disease, Cancer",
-      "description": "Name of the medical condition"
+      "label": "Όνομα Πάθησης",
+      "placeholder": "π.χ. Διαβήτης, Καρδιοπάθεια, Καρκίνος",
+      "description": "Όνομα της ιατρικής πάθησης"
     },
     "conditionTypeOptions": {
-      "cardiovascular": "Cardiovascular - Heart & blood vessels",
-      "diabetes": "Diabetes - Blood sugar disorders",
-      "cancer": "Cancer - Malignant conditions",
-      "mentalHealth": "Mental Health - Psychological conditions",
-      "neurological": "Neurological - Brain & nervous system",
-      "autoimmune": "Autoimmune - Immune system disorders",
-      "genetic": "Genetic - Hereditary conditions",
-      "respiratory": "Respiratory - Lung & breathing conditions",
-      "endocrine": "Endocrine - Hormone disorders",
-      "other": "Other - Specify in notes"
+      "cardiovascular": "Καρδιαγγειακά - Καρδιά & αγγεία",
+      "diabetes": "Διαβήτης - Διαταραχές σακχάρου",
+      "cancer": "Καρκίνος - Κακοήθεις παθήσεις",
+      "mentalHealth": "Ψυχική Υγεία - Ψυχολογικές καταστάσεις",
+      "neurological": "Νευρολογικά - Εγκέφαλος & νευρικό σύστημα",
+      "autoimmune": "Αυτοάνοσα - Διαταραχές ανοσοποιητικού",
+      "genetic": "Γενετικά - Κληρονομικές παθήσεις",
+      "respiratory": "Αναπνευστικά - Πνεύμονες & αναπνοή",
+      "endocrine": "Ενδοκρινολογικά - Ορμονικές διαταραχές",
+      "other": "Άλλο - Προσδιορίστε στις σημειώσεις"
     },
     "diagnosisAge": {
-      "label": "Diagnosis Age",
-      "placeholder": "e.g., 45",
-      "description": "Age at diagnosis"
+      "label": "Ηλικία Διάγνωσης",
+      "placeholder": "π.χ. 45",
+      "description": "Ηλικία κατά τη διάγνωση"
     }
   },
   "symptoms": {
-    "title": "Symptoms",
+    "title": "Συμπτώματα",
     "parent": {
       "symptomName": {
-        "label": "Symptom Name",
-        "placeholder": "e.g., Migraine Headache, Chronic Back Pain",
-        "description": "Name of the symptom you want to track"
+        "label": "Όνομα Συμπτώματος",
+        "placeholder": "π.χ. Ημικρανία, Χρόνιος πόνος στη μέση",
+        "description": "Όνομα του συμπτώματος που θέλετε να παρακολουθήσετε"
       },
       "category": {
-        "label": "Category",
-        "placeholder": "e.g., Pain, Digestive, Respiratory",
-        "description": "Optional category to organize symptoms"
+        "label": "Κατηγορία",
+        "placeholder": "π.χ. Πόνος, Πεπτικό, Αναπνευστικό",
+        "description": "Προαιρετική κατηγορία για οργάνωση των συμπτωμάτων"
       },
       "firstOccurrenceDate": {
-        "label": "First Occurrence Date",
-        "placeholder": "When did you first experience this",
-        "description": "When you first noticed this symptom"
+        "label": "Ημερομηνία Πρώτης Εμφάνισης",
+        "placeholder": "Πότε το βιώσατε πρώτη φορά",
+        "description": "Πότε παρατηρήσατε αυτό το σύμπτωμα για πρώτη φορά"
       },
       "isChronic": {
-        "label": "Chronic Condition",
-        "description": "Check if this is an ongoing/long-term symptom"
+        "label": "Χρόνια Κατάσταση",
+        "description": "Επιλέξτε αν πρόκειται για συνεχιζόμενο/μακροχρόνιο σύμπτωμα"
       },
       "typicalTriggers": {
-        "label": "Common Triggers",
-        "placeholder": "Add common triggers (stress, weather, foods, etc.)",
-        "description": "What typically triggers this symptom"
+        "label": "Συνηθισμένοι Παράγοντες Πρόκλησης",
+        "placeholder": "Προσθέστε παράγοντες (στρες, καιρός, τροφές κ.λπ.)",
+        "description": "Τι προκαλεί συνήθως αυτό το σύμπτωμα"
       },
       "status": {
-        "label": "Overall Status",
-        "placeholder": "Select status",
-        "description": "Current overall status of this symptom"
+        "label": "Συνολική Κατάσταση",
+        "placeholder": "Επιλέξτε κατάσταση",
+        "description": "Τρέχουσα συνολική κατάσταση αυτού του συμπτώματος"
       },
       "statusOptions": {
-        "active": "Active - Currently experiencing",
-        "resolved": "Resolved - No longer experiencing",
-        "recurring": "Recurring - Comes and goes"
+        "active": "Ενεργό - Το βιώνω αυτή τη στιγμή",
+        "resolved": "Επιλύθηκε - Δεν το βιώνω πλέον",
+        "recurring": "Υποτροπιάζον - Έρχεται και φεύγει"
       },
       "resolvedDate": {
-        "label": "Resolved Date",
-        "placeholder": "When was this symptom resolved",
-        "description": "The date when this symptom was fully resolved"
+        "label": "Ημερομηνία Επίλυσης",
+        "placeholder": "Πότε υποχώρησε το σύμπτωμα",
+        "description": "Η ημερομηνία κατά την οποία το σύμπτωμα επιλύθηκε πλήρως"
       },
       "generalNotes": {
-        "label": "General Notes",
-        "placeholder": "Overall notes about this symptom...",
-        "description": "General information about patterns, history, or observations"
+        "label": "Γενικές Σημειώσεις",
+        "placeholder": "Συνολικές σημειώσεις για αυτό το σύμπτωμα...",
+        "description": "Γενικές πληροφορίες για μοτίβα, ιστορικό ή παρατηρήσεις"
       }
     },
     "occurrence": {
       "occurrenceDate": {
-        "label": "Occurrence Date",
-        "placeholder": "When did this episode occur",
-        "description": "Date of this specific episode"
+        "label": "Ημερομηνία Επεισοδίου",
+        "placeholder": "Πότε συνέβη αυτό το επεισόδιο",
+        "description": "Ημερομηνία του συγκεκριμένου επεισοδίου"
       },
       "timeOfDay": {
-        "label": "Time of Day",
-        "placeholder": "Select time of day",
-        "description": "When during the day did this occur"
+        "label": "Ώρα της Ημέρας",
+        "placeholder": "Επιλέξτε ώρα",
+        "description": "Πότε μέσα στη μέρα συνέβη αυτό"
       },
       "painScale": {
-        "label": "Pain Scale (0-10)",
-        "placeholder": "0 = No pain, 10 = Worst pain",
-        "description": "Rate pain level from 0 (none) to 10 (worst possible)"
+        "label": "Κλίμακα Πόνου (0-10)",
+        "placeholder": "0 = Καθόλου πόνος, 10 = Χειρότερος πόνος",
+        "description": "Βαθμολογήστε το επίπεδο πόνου από 0 έως 10"
       },
       "duration": {
-        "label": "Duration",
-        "placeholder": "e.g., 2 hours, 30 minutes, all day",
-        "description": "How long did this episode last"
+        "label": "Διάρκεια",
+        "placeholder": "π.χ. 2 ώρες, 30 λεπτά, όλη μέρα",
+        "description": "Πόση ώρα διήρκεσε αυτό το επεισόδιο"
       },
       "location": {
-        "label": "Location",
-        "placeholder": "e.g., Left temple, Lower back, Entire body",
-        "description": "Where on your body did you feel this"
+        "label": "Τοποθεσία",
+        "placeholder": "π.χ. Αριστερός κρόταφος, Μέση, Όλο το σώμα",
+        "description": "Σε ποιο σημείο του σώματος το νιώσατε"
       },
       "impactLevel": {
-        "label": "Impact on Daily Life",
-        "placeholder": "Select impact level",
-        "description": "How much did this affect your daily activities"
+        "label": "Επίπτωση στην Καθημερινότητα",
+        "placeholder": "Επιλέξτε επίπεδο επίπτωσης",
+        "description": "Πόσο επηρέασε τις καθημερινές σας δραστηριότητες"
       },
       "impactLevelOptions": {
-        "noImpact": "No Impact - Able to function normally",
-        "mild": "Mild - Slight difficulty with activities",
-        "moderate": "Moderate - Some activities limited",
-        "severe": "Severe - Most activities difficult",
-        "debilitating": "Debilitating - Unable to function"
+        "noImpact": "Καμία Επίπτωση - Κανονική λειτουργία",
+        "mild": "Ήπια - Μικρή δυσκολία στις δραστηριότητες",
+        "moderate": "Μέτρια - Περιορισμός ορισμένων δραστηριοτήτων",
+        "severe": "Σοβαρή - Δυσκολία στις περισσότερες δραστηριότητες",
+        "debilitating": "Εξουθενωτική - Αδυναμία λειτουργίας"
       },
       "triggers": {
-        "label": "Triggers",
-        "placeholder": "What triggered this episode (stress, food, weather, etc.)",
-        "description": "Factors that may have caused or worsened this episode"
+        "label": "Παράγοντες Πρόκλησης",
+        "placeholder": "Τι προκάλεσε αυτό το επεισόδιο (στρες, φαγητό κ.λπ.)",
+        "description": "Παράγοντες που μπορεί να προκάλεσαν ή να επιδείνωσαν το επεισόδιο"
       },
       "reliefMethods": {
-        "label": "Relief Methods",
-        "placeholder": "What helped (medication, rest, ice, etc.)",
-        "description": "Things that provided relief for this episode"
+        "label": "Μέθοδοι Ανακούφισης",
+        "placeholder": "Τι βοήθησε (φάρμακα, ξεκούραση, πάγος κ.λπ.)",
+        "description": "Πράγματα που πρόσφεραν ανακούφιση"
       },
       "associatedSymptoms": {
-        "label": "Associated Symptoms",
-        "placeholder": "Other symptoms (nausea, dizziness, etc.)",
-        "description": "Other symptoms that occurred with this episode"
+        "label": "Συνδεόμενα Συμπτώματα",
+        "placeholder": "Άλλα συμπτώματα (ναυτία, ζάλη κ.λπ.)",
+        "description": "Άλλα συμπτώματα που συνέβησαν μαζί με αυτό το επεισόδιο"
       },
       "resolvedDate": {
-        "label": "Resolved Date",
-        "placeholder": "When did this episode resolve",
-        "description": "Leave blank if still experiencing this episode"
+        "label": "Ημερομηνία Επίλυσης",
+        "placeholder": "Πότε υποχώρησε το επεισόδιο",
+        "description": "Αφήστε κενό εάν το βιώνετε ακόμα"
       },
       "resolvedTime": {
-        "label": "Resolved Time",
-        "placeholder": "Time when episode resolved",
-        "description": "The time when this episode resolved"
+        "label": "Ώρα Επίλυσης",
+        "placeholder": "Ώρα που υποχώρησε το επεισόδιο",
+        "description": "Η ώρα που το επεισόδιο σταμάτησε"
       },
       "resolutionNotes": {
-        "label": "Resolution Notes",
-        "placeholder": "How was this episode resolved...",
-        "description": "Details about how this episode ended or was treated"
+        "label": "Σημειώσεις Επίλυσης",
+        "placeholder": "Πώς υποχώρησε αυτό το επεισόδιο...",
+        "description": "Λεπτομέρειες για το πώς τελείωσε ή αντιμετωπίστηκε το επεισόδιο"
       },
       "additionalNotes": {
-        "label": "Additional Notes",
-        "placeholder": "Additional details about this episode...",
-        "description": "Any other relevant information about this occurrence"
+        "label": "Πρόσθετες Σημειώσεις",
+        "placeholder": "Πρόσθετες λεπτομέρειες για αυτό το επεισόδιο...",
+        "description": "Οποιαδήποτε άλλη σχετική πληροφορία"
       },
       "severity": {
-        "placeholder": "Select severity level",
-        "description": "How severe the symptom is during this occurrence"
+        "placeholder": "Επιλέξτε επίπεδο σοβαρότητας",
+        "description": "Πόσο σοβαρό είναι το σύμπτωμα κατά τη διάρκεια αυτού του επεισοδίου"
       }
     },
     "tabs": {
-      "basicInfo": "Basic Info",
-      "details": "Details",
-      "documents": "Documents",
-      "addFiles": "Add Files",
-      "notes": "Notes"
+      "basicInfo": "Βασικές Πληροφορίες",
+      "details": "Λεπτομέρειες",
+      "documents": "Έγγραφα",
+      "addFiles": "Προσθήκη Αρχείων",
+      "notes": "Σημειώσεις"
     },
     "messages": {
-      "saving": "Saving symptom..."
+      "saving": "Αποθήκευση συμπτώματος..."
     }
   },
   "familyHistory": {
     "form": {
       "member": {
         "name": {
-          "label": "Full Name",
-          "placeholder": "Enter family member name",
-          "description": "Full name of the family member"
+          "label": "Ονοματεπώνυμο",
+          "placeholder": "Εισαγάγετε το όνομα του μέλους",
+          "description": "Πλήρες όνομα του μέλους της οικογένειας"
         },
         "relationship": {
-          "label": "Relationship",
-          "placeholder": "Select relationship",
-          "description": "Relationship to you"
+          "label": "Σχέση",
+          "placeholder": "Επιλέξτε σχέση",
+          "description": "Σχέση συγγένειας με εσάς"
         },
         "gender": {
-          "label": "Gender",
-          "placeholder": "Select gender",
-          "description": "Gender of family member"
+          "label": "Φύλο",
+          "placeholder": "Επιλέξτε φύλο",
+          "description": "Φύλο του μέλους της οικογένειας"
         },
         "birthYear": {
-          "label": "Birth Year",
-          "placeholder": "e.g., 1965",
-          "description": "Year family member was born"
+          "label": "Έτος Γέννησης",
+          "placeholder": "π.χ. 1965",
+          "description": "Έτος γέννησης του μέλους"
         },
         "deceased": {
-          "label": "Deceased",
-          "description": "Check if family member is deceased"
+          "label": "Θανών/ούσα",
+          "description": "Επιλέξτε εάν το μέλος έχει αποβιώσει"
         },
         "deathYear": {
-          "label": "Death Year",
-          "placeholder": "e.g., 2020",
-          "description": "Year family member passed away"
+          "label": "Έτος Θανάτου",
+          "placeholder": "π.χ. 2020",
+          "description": "Έτος που απεβίωσε το μέλος"
         },
         "notes": {
-          "placeholder": "Additional information about family member...",
-          "description": "Any additional notes or important information",
-          "label": "Notes"
+          "placeholder": "Πρόσθετες πληροφορίες...",
+          "description": "Τυχόν επιπλέον σημειώσεις ή σημαντικές πληροφορίες",
+          "label": "Σημειώσεις"
         },
         "relationshipOptions": {
-          "father": "Father",
-          "mother": "Mother",
-          "brother": "Brother",
-          "sister": "Sister",
-          "paternalGrandfather": "Paternal Grandfather",
-          "paternalGrandmother": "Paternal Grandmother",
-          "maternalGrandfather": "Maternal Grandfather",
-          "maternalGrandmother": "Maternal Grandmother",
-          "uncle": "Uncle",
-          "aunt": "Aunt",
-          "cousin": "Cousin",
-          "other": "Other",
-          "son": "Son",
-          "daughter": "Daughter",
-          "grandfather_paternal": "Grandfather (Paternal)",
-          "grandmother_paternal": "Grandmother (Paternal)",
-          "grandfather_maternal": "Grandfather (Maternal)",
-          "grandmother_maternal": "Grandmother (Maternal)",
-          "uncle_paternal": "Uncle (Paternal)",
-          "aunt_paternal": "Aunt (Paternal)",
-          "uncle_maternal": "Uncle (Maternal)",
-          "aunt_maternal": "Aunt (Maternal)",
-          "nephew": "Nephew",
-          "niece": "Niece",
-          "grandson": "Grandson",
-          "granddaughter": "Granddaughter"
+          "father": "Πατέρας",
+          "mother": "Μητέρα",
+          "brother": "Αδελφός",
+          "sister": "Αδελφή",
+          "paternalGrandfather": "Παππούς (από πατέρα)",
+          "paternalGrandmother": "Γιαγιά (από πατέρα)",
+          "maternalGrandfather": "Παππούς (από μητέρα)",
+          "maternalGrandmother": "Γιαγιά (από μητέρα)",
+          "uncle": "Θείος",
+          "aunt": "Θεία",
+          "cousin": "Ξάδελφος/η",
+          "other": "Άλλο",
+          "son": "Γιος",
+          "daughter": "Κόρη",
+          "grandfather_paternal": "Παππούς (Πατρικός)",
+          "grandmother_paternal": "Γιαγιά (Πατρική)",
+          "grandfather_maternal": "Παππούς (Μητρικός)",
+          "grandmother_maternal": "Γιαγιά (Μητρική)",
+          "uncle_paternal": "Θείος (Πατρικός)",
+          "aunt_paternal": "Θεία (Πατρική)",
+          "uncle_maternal": "Θείος (Μητρικός)",
+          "aunt_maternal": "Θεία (Μητρική)",
+          "nephew": "Ανιψιός",
+          "niece": "Ανιψιά",
+          "grandson": "Εγγονός",
+          "granddaughter": "Εγγονή"
         },
         "genderOptions": {
-          "male": "Male",
-          "female": "Female",
-          "other": "Other"
+          "male": "Άνδρας",
+          "female": "Γυναίκα",
+          "other": "Άλλο"
         }
       },
       "condition": {
         "conditionName": {
-          "label": "Condition Name",
-          "placeholder": "e.g., Diabetes, Heart Disease, Cancer",
-          "description": "Name of the medical condition"
+          "label": "Όνομα Πάθησης",
+          "placeholder": "π.χ. Διαβήτης, Καρδιοπάθεια",
+          "description": "Όνομα της ιατρικής πάθησης"
         },
         "conditionType": {
-          "label": "Condition Type",
-          "placeholder": "Select condition type",
-          "description": "Category of medical condition"
+          "label": "Τύπος Πάθησης",
+          "placeholder": "Επιλέξτε τύπο πάθησης",
+          "description": "Κατηγορία ιατρικής πάθησης"
         },
         "severity": {
-          "label": "Severity",
-          "placeholder": "Select severity level",
-          "description": "How severe the condition was/is"
+          "label": "Σοβαρότητα",
+          "placeholder": "Επιλέξτε επίπεδο σοβαρότητας",
+          "description": "Πόσο σοβαρή ήταν/είναι η πάθηση"
         },
         "diagnosisAge": {
-          "label": "Diagnosis Age",
-          "placeholder": "e.g., 45",
-          "description": "Age at diagnosis"
+          "label": "Ηλικία Διάγνωσης",
+          "placeholder": "π.χ. 45",
+          "description": "Ηλικία κατά τη διάγνωση"
         },
         "status": {
-          "label": "Status",
-          "placeholder": "Select status",
-          "description": "Current status of the condition"
+          "label": "Κατάσταση",
+          "placeholder": "Επιλέξτε κατάσταση",
+          "description": "Τρέχουσα κατάσταση της πάθησης"
         },
         "icd10Code": {
-          "label": "ICD-10 Code",
-          "placeholder": "e.g., E11.9",
-          "description": "Medical diagnosis code (if known)"
+          "label": "Κωδικός ICD-10",
+          "placeholder": "π.χ. E11.9",
+          "description": "Ιατρικός κωδικός διάγνωσης (αν είναι γνωστός)"
         },
         "notes": {
-          "placeholder": "Additional details about the condition...",
-          "description": "Treatment details, outcomes, or other relevant information",
-          "label": "Notes"
+          "placeholder": "Πρόσθετες λεπτομέρειες για την πάθηση...",
+          "description": "Λεπτομέρειες θεραπείας, εκβάσεις ή άλλες πληροφορίες",
+          "label": "Σημειώσεις"
         },
         "typeOptions": {
-          "cardiovascular": "Cardiovascular - Heart & blood vessels",
-          "diabetes": "Diabetes - Blood sugar disorders",
-          "cancer": "Cancer - Malignant conditions",
-          "mentalHealth": "Mental Health - Psychological conditions",
-          "neurological": "Neurological - Brain & nervous system",
-          "autoimmune": "Autoimmune - Immune system disorders",
-          "genetic": "Genetic - Hereditary conditions",
-          "respiratory": "Respiratory - Lung & breathing conditions",
-          "endocrine": "Endocrine - Hormone disorders",
-          "other": "Other - Specify in notes",
-          "mental_health": "Mental Health - Psychiatric Conditions",
-          "musculoskeletal": "Musculoskeletal - Bones & Muscles",
-          "gastrointestinal": "Gastrointestinal - Digestive System",
-          "kidney": "Kidney - Renal Diseases",
-          "liver": "Liver - Hepatic Diseases",
-          "blood": "Blood - Hematological Disorders"
+          "cardiovascular": "Καρδιαγγειακά - Καρδιά & αγγεία",
+          "diabetes": "Διαβήτης - Διαταραχές σακχάρου",
+          "cancer": "Καρκίνος - Κακοήθεις παθήσεις",
+          "mentalHealth": "Ψυχική Υγεία - Ψυχολογικές καταστάσεις",
+          "neurological": "Νευρολογικά - Εγκέφαλος & νευρικό σύστημα",
+          "autoimmune": "Αυτοάνοσα - Διαταραχές ανοσοποιητικού",
+          "genetic": "Γενετικά - Κληρονομικές παθήσεις",
+          "respiratory": "Αναπνευστικά - Πνεύμονες & αναπνοή",
+          "endocrine": "Ενδοκρινολογικά - Ορμονικές διαταραχές",
+          "other": "Άλλο - Προσδιορίστε στις σημειώσεις",
+          "mental_health": "Ψυχική Υγεία - Ψυχιατρικές Παθήσεις",
+          "musculoskeletal": "Μυοσκελετικά - Οστά & Μύες",
+          "gastrointestinal": "Γαστρεντερολογικά - Πεπτικό Σύστημα",
+          "kidney": "Νεφρά - Νεφρικές Παθήσεις",
+          "liver": "Ήπαρ - Ηπατικές Παθήσεις",
+          "blood": "Αίμα - Αιματολογικές Διαταραχές"
         },
         "severityOptions": {
-          "mild": "💛 Mild - Minor impact",
-          "moderate": "⚡ Moderate - Noticeable impact",
-          "severe": "⚠️ Severe - Significant impact",
-          "critical": "🚨 Critical - Life-threatening",
-          "fatal": "🖤 Fatal - Cause of Death"
+          "mild": "💛 Ήπια - Μικρή επίπτωση",
+          "moderate": "⚡ Μέτρια - Αισθητή επίπτωση",
+          "severe": "⚠️ Σοβαρή - Σημαντική επίπτωση",
+          "critical": "🚨 Κρίσιμη - Απειλητική για τη ζωή",
+          "fatal": "🖤 Θανατηφόρα - Αιτία Θανάτου"
         },
         "statusOptions": {
-          "active": "Active - Ongoing condition",
-          "resolved": "Resolved - No longer present",
-          "chronic": "Chronic - Long-term condition",
-          "managed": "Managed - Under Control with Treatment",
-          "fatal": "Fatal - Cause of Death"
+          "active": "Ενεργή - Σε εξέλιξη",
+          "resolved": "Επιλύθηκε - Δεν υφίσταται πλέον",
+          "chronic": "Χρόνια - Μακροχρόνια πάθηση",
+          "managed": "Ελεγχόμενη - Υπό έλεγχο με θεραπεία",
+          "fatal": "Θανατηφόρα - Αιτία Θανάτου"
         }
       }
     }
   },
   "practitioners": {
-    "title": "Practitioners",
+    "title": "Ιατροί / Επαγγελματίες Υγείας",
     "form": {
       "name": {
-        "label": "Full Name",
-        "placeholder": "Dr. Jane Smith",
-        "description": "Doctor's full name including title"
+        "label": "Ονοματεπώνυμο",
+        "placeholder": "π.χ. Δρ. Ιωάννης Παπαδόπουλος",
+        "description": "Πλήρες όνομα του γιατρού συμπεριλαμβανομένου του τίτλου"
       },
       "specialty": {
-        "label": "Medical Specialty",
-        "placeholder": "Search specialties or type custom...",
-        "description": "Select from list or type a custom specialty"
+        "label": "Ιατρική Ειδικότητα",
+        "placeholder": "Αναζητήστε ειδικότητες ή πληκτρολογήστε...",
+        "description": "Επιλέξτε από τη λίστα ή εισαγάγετε προσαρμοσμένη ειδικότητα"
       },
       "practice": {
-        "label": "Practice/Clinic",
-        "placeholder": "Search or create a practice...",
-        "description": "Select an existing practice or type to create new"
+        "label": "Ιατρείο/Κλινική",
+        "placeholder": "Αναζήτηση ή δημιουργία ιατρείου...",
+        "description": "Επιλέξτε υπάρχον ιατρείο ή πληκτρολογήστε για νέο"
       },
       "phone": {
-        "label": "Phone Number",
-        "placeholder": "+1 555 123-4567",
-        "description": "Primary contact number"
+        "label": "Αριθμός Τηλεφώνου",
+        "placeholder": "+30 210 1234567",
+        "description": "Κύριο τηλέφωνο επικοινωνίας"
       },
       "email": {
-        "label": "Email Address",
+        "label": "Διεύθυνση Email",
         "placeholder": "doctor@example.com",
-        "description": "Professional email address"
+        "description": "Επαγγελματική διεύθυνση email"
       },
       "website": {
-        "label": "Website",
+        "label": "Ιστοσελίδα",
         "placeholder": "https://www.example.com",
-        "description": "Professional website or practice page"
+        "description": "Επαγγελματική ιστοσελίδα ή σελίδα ιατρείου"
       },
       "rating": {
-        "label": "Rating",
-        "description": "Your overall rating of this practitioner (0-5)"
+        "label": "Αξιολόγηση",
+        "description": "Η συνολική σας αξιολόγηση για αυτόν τον ιατρό (0-5)"
       }
     },
     "name": {
-      "label": "Full Name",
-      "placeholder": "Dr. Jane Smith",
-      "description": "Full name of the doctor, including their title"
+      "label": "Ονοματεπώνυμο",
+      "placeholder": "π.χ. Δρ. Μαρία Παππά",
+      "description": "Πλήρες όνομα του γιατρού, συμπεριλαμβανομένου του τίτλου"
     },
     "specialty": {
-      "label": "Medical Specialty",
-      "placeholder": "Search specialties or add one...",
-      "description": "Select from the list or enter an additional specialty"
+      "label": "Ιατρική Ειδικότητα",
+      "placeholder": "Αναζητήστε ειδικότητες...",
+      "description": "Επιλέξτε από τη λίστα ή προσθέστε μια επιπλέον ειδικότητα"
     },
     "practice": {
-      "label": "Practice/Clinic",
-      "placeholder": "Search or create a practice...",
-      "description": "Select an existing practice or type to create new"
+      "label": "Ιατρείο/Κλινική",
+      "placeholder": "Αναζήτηση ή δημιουργία ιατρείου...",
+      "description": "Επιλέξτε υπάρχον ιατρείο ή πληκτρολογήστε για νέο"
     },
     "rating": {
-      "label": "Rating",
-      "description": "Rate the quality of care from this doctor"
+      "label": "Αξιολόγηση",
+      "description": "Αξιολογήστε την ποιότητα φροντίδας από αυτόν τον γιατρό"
     }
   },
   "practices": {
-    "title": "Practices",
+    "title": "Ιατρεία / Κλινικές",
     "form": {
       "name": {
-        "label": "Practice Name",
-        "placeholder": "City General Hospital",
-        "description": "Name of the practice or clinic"
+        "label": "Όνομα Ιατρείου",
+        "placeholder": "Γενικό Νοσοκομείο Πόλης",
+        "description": "Όνομα του ιατρείου ή της κλινικής"
       },
       "phone": {
-        "label": "Practice Phone",
-        "placeholder": "+1 555 123-4567",
-        "description": "Main phone number for the practice"
+        "label": "Τηλέφωνο Ιατρείου",
+        "placeholder": "+30 210 1234567",
+        "description": "Κύριο τηλέφωνο επικοινωνίας του ιατρείου"
       },
       "fax": {
-        "label": "Fax Number",
-        "placeholder": "+1 555 123-4568",
-        "description": "Practice fax number"
+        "label": "Αριθμός Fax",
+        "placeholder": "+30 210 1234568",
+        "description": "Αριθμός fax του ιατρείου"
       },
       "website": {
-        "label": "Practice Website",
+        "label": "Ιστοσελίδα Ιατρείου",
         "placeholder": "https://www.practice.com",
-        "description": "Official practice website"
+        "description": "Επίσημη ιστοσελίδα του ιατρείου"
       },
       "patientPortal": {
-        "label": "Patient Portal URL",
+        "label": "URL Πύλης Ασθενών",
         "placeholder": "https://portal.practice.com",
-        "description": "URL for the patient portal"
+        "description": "Διεύθυνση URL για την πύλη ασθενών"
       },
       "notes": {
-        "label": "Notes",
-        "placeholder": "Additional notes about this practice...",
-        "description": "Any additional information about the practice"
+        "label": "Σημειώσεις",
+        "placeholder": "Πρόσθετες σημειώσεις για αυτό το ιατρείο...",
+        "description": "Οποιαδήποτε επιπλέον πληροφορία"
       },
       "locations": {
-        "label": "Locations",
-        "description": "Office locations for this practice"
+        "label": "Τοποθεσίες",
+        "description": "Τοποθεσίες γραφείων για αυτό το ιατρείο"
       }
     }
   },
   "pharmacies": {
-    "title": "Pharmacies",
+    "title": "Φαρμακεία",
     "form": {
       "brand": {
-        "label": "Pharmacy Brand",
-        "placeholder": "Select pharmacy chain or type",
-        "description": "Major pharmacy chain or independent type",
+        "label": "Αλυσίδα Φαρμακείου",
+        "placeholder": "Επιλέξτε αλυσίδα ή τύπο",
+        "description": "Μεγάλη αλυσίδα φαρμακείων ή ανεξάρτητος τύπος",
         "options": {
           "amazonPharmacy": "Amazon Pharmacy",
           "cvs": "CVS",
@@ -1346,694 +1346,694 @@
           "meijerPharmacy": "Meijer Pharmacy",
           "hebPharmacy": "H-E-B Pharmacy",
           "kaiserPermanente": "Kaiser Permanente",
-          "hospitalPharmacy": "Hospital Pharmacy",
-          "independent": "Independent",
-          "specialtyPharmacy": "Specialty Pharmacy",
-          "compoundingPharmacy": "Compounding Pharmacy",
-          "onlinePharmacy": "Online Pharmacy",
-          "other": "Other"
+          "hospitalPharmacy": "Φαρμακείο Νοσοκομείου",
+          "independent": "Ανεξάρτητο",
+          "specialtyPharmacy": "Εξειδικευμένο Φαρμακείο",
+          "compoundingPharmacy": "Φαρμακείο Γαληνικών Σκευασμάτων",
+          "onlinePharmacy": "Online Φαρμακείο",
+          "other": "Άλλο"
         }
       },
       "name": {
-        "label": "Pharmacy Name",
-        "placeholder": "CVS Pharmacy - Main Street",
-        "description": "Specific name or location identifier"
+        "label": "Όνομα Φαρμακείου",
+        "placeholder": "π.χ. Φαρμακείο - Κεντρική Πλατεία",
+        "description": "Συγκεκριμένο όνομα ή προσδιοριστικό τοποθεσίας"
       },
-      "locationDivider": "Location Information",
+      "locationDivider": "Πληροφορίες Τοποθεσίας",
       "streetAddress": {
-        "label": "Street Address",
-        "placeholder": "123 Main Street",
-        "description": "Physical street address"
+        "label": "Διεύθυνση Οδού",
+        "placeholder": "π.χ. Ερμού 123",
+        "description": "Φυσική διεύθυνση"
       },
       "city": {
-        "label": "City",
-        "placeholder": "San Francisco",
-        "description": "City location"
+        "label": "Πόλη",
+        "placeholder": "Αθήνα",
+        "description": "Πόλη τοποθεσίας"
       },
       "storeNumber": {
-        "label": "Store Number",
-        "placeholder": "e.g., 1234, #5678, Store A",
-        "description": "Internal store identifier"
+        "label": "Αριθμός Καταστήματος",
+        "placeholder": "π.χ. 1234, #5678",
+        "description": "Εσωτερικό αναγνωριστικό καταστήματος"
       },
       "phone": {
-        "label": "Phone Number",
-        "placeholder": "+1 555 123-4567",
-        "description": "Primary pharmacy phone number"
+        "label": "Αριθμός Τηλεφώνου",
+        "placeholder": "+30 210 1234567",
+        "description": "Κύριο τηλέφωνο φαρμακείου"
       },
       "website": {
         "placeholder": "https://www.example.com",
-        "description": "Pharmacy website for online ordering or information"
+        "description": "Ιστοσελίδα φαρμακείου για online παραγγελίες ή πληροφορίες"
       },
       "stateProvince": {
-        "label": "State / Province",
-        "placeholder": "e.g., California, Ontario",
-        "description": "State, province, or region"
+        "label": "Περιφέρεια / Νομός",
+        "placeholder": "π.χ. Αττική",
+        "description": "Περιφέρεια, νομός ή περιοχή"
       },
       "postalCode": {
-        "label": "Postal Code",
-        "placeholder": "e.g., 90210, M5V 2T6",
-        "description": "ZIP or postal code"
+        "label": "Ταχυδρομικός Κώδικας",
+        "placeholder": "π.χ. 10563",
+        "description": "Τ.Κ. ή ταχυδρομικός κώδικας"
       },
       "country": {
-        "label": "Country",
-        "placeholder": "e.g., United States, Canada",
-        "description": "Country where the pharmacy is located"
+        "label": "Χώρα",
+        "placeholder": "π.χ. Ελλάδα",
+        "description": "Χώρα όπου βρίσκεται το φαρμακείο"
       },
       "specialtyServices": {
-        "label": "Specialties",
-        "placeholder": "e.g., Vaccinations, Compounding, Medication Therapy Management",
-        "description": "Special services offered by this pharmacy"
+        "label": "Ειδικότητες / Υπηρεσίες",
+        "placeholder": "π.χ. Εμβολιασμοί, Γαληνικά Σκευάσματα",
+        "description": "Ειδικές υπηρεσίες που προσφέρονται από αυτό το φαρμακείο"
       }
     },
     "pharmacyBrand": {
-      "label": "Pharmacy Brand",
-      "placeholder": "Select the pharmacy chain or type",
-      "description": "Main pharmacy chain or independent type"
+      "label": "Αλυσίδα Φαρμακείου",
+      "placeholder": "Επιλέξτε την αλυσίδα ή τον τύπο",
+      "description": "Κύρια αλυσίδα ή ανεξάρτητο φαρμακείο"
     },
     "pharmacyName": {
-      "label": "Pharmacy Name",
-      "placeholder": "CVS Pharmacy - Main Street",
-      "description": "Specific name or location identifier"
+      "label": "Όνομα Φαρμακείου",
+      "placeholder": "Φαρμακείο - Κεντρική Οδός",
+      "description": "Συγκεκριμένο όνομα ή προσδιοριστικό τοποθεσίας"
     },
     "streetAddress": {
-      "label": "Street Address",
-      "placeholder": "123 Main Street",
-      "description": "Physical address"
+      "label": "Διεύθυνση Οδού",
+      "placeholder": "π.χ. Ερμού 123",
+      "description": "Φυσική διεύθυνση"
     },
     "city": {
-      "label": "City",
-      "placeholder": "New York",
-      "description": "Pharmacy location"
+      "label": "Πόλη",
+      "placeholder": "Θεσσαλονίκη",
+      "description": "Τοποθεσία φαρμακείου"
     },
     "storeNumber": {
-      "label": "Store Number",
-      "placeholder": "e.g., 1234",
-      "description": "Store or license number"
+      "label": "Αριθμός Καταστήματος",
+      "placeholder": "π.χ. 1234",
+      "description": "Αριθμός καταστήματος ή άδειας"
     }
   },
   "emergencyContacts": {
     "tabs": {
-      "contactInfo": "Contact Info",
-      "details": "Details",
-      "notes": "Notes"
+      "contactInfo": "Στοιχεία Επικοινωνίας",
+      "details": "Λεπτομέρειες",
+      "notes": "Σημειώσεις"
     },
     "messages": {
-      "saving": "Saving emergency contact..."
+      "saving": "Αποθήκευση επαφής έκτακτης ανάγκης..."
     },
-    "title": "Emergency Contacts",
+    "title": "Επαφές Έκτακτης Ανάγκης",
     "form": {
       "name": {
-        "label": "Full Name",
-        "placeholder": "e.g., John Smith",
-        "description": "Full name of the emergency contact"
+        "label": "Ονοματεπώνυμο",
+        "placeholder": "π.χ. Γιάννης Παπαδόπουλος",
+        "description": "Πλήρες όνομα της επαφής έκτακτης ανάγκης"
       },
       "relationship": {
-        "label": "Relationship",
-        "placeholder": "Select relationship",
-        "description": "Relationship to patient",
+        "label": "Σχέση",
+        "placeholder": "Επιλέξτε σχέση",
+        "description": "Σχέση με τον ασθενή",
         "options": {
-          "spouse": "Spouse",
-          "partner": "Partner",
-          "parent": "Parent",
-          "mother": "Mother",
-          "father": "Father",
-          "child": "Child",
-          "son": "Son",
-          "daughter": "Daughter",
-          "sibling": "Sibling",
-          "brother": "Brother",
-          "sister": "Sister",
-          "grandparent": "Grandparent",
-          "grandmother": "Grandmother",
-          "grandfather": "Grandfather",
-          "grandchild": "Grandchild",
-          "grandson": "Grandson",
-          "granddaughter": "Granddaughter",
-          "aunt": "Aunt",
-          "uncle": "Uncle",
-          "cousin": "Cousin",
-          "friend": "Friend",
-          "neighbor": "Neighbor",
-          "caregiver": "Caregiver",
-          "guardian": "Guardian",
-          "other": "Other"
+          "spouse": "Σύζυγος",
+          "partner": "Σύντροφος",
+          "parent": "Γονέας",
+          "mother": "Μητέρα",
+          "father": "Πατέρας",
+          "child": "Παιδί",
+          "son": "Γιος",
+          "daughter": "Κόρη",
+          "sibling": "Αδελφός/ή",
+          "brother": "Αδελφός",
+          "sister": "Αδελφή",
+          "grandparent": "Παππούς/Γιαγιά",
+          "grandmother": "Γιαγιά",
+          "grandfather": "Παππούς",
+          "grandchild": "Εγγόνι",
+          "grandson": "Εγγονός",
+          "granddaughter": "Εγγονή",
+          "aunt": "Θεία",
+          "uncle": "Θείος",
+          "cousin": "Ξάδελφος/η",
+          "friend": "Φίλος/η",
+          "neighbor": "Γείτονας",
+          "caregiver": "Φροντιστής",
+          "guardian": "Κηδεμόνας",
+          "other": "Άλλο"
         }
       },
       "primaryPhone": {
-        "label": "Primary Phone",
-        "placeholder": "e.g., +1 555 123-4567",
-        "description": "Primary phone number"
+        "label": "Κύριο Τηλέφωνο",
+        "placeholder": "π.χ. +30 691 2345678",
+        "description": "Κύριος αριθμός τηλεφώνου"
       },
       "secondaryPhone": {
-        "label": "Secondary Phone",
-        "placeholder": "e.g., +1 555 987-6543",
-        "description": "Optional secondary phone number"
+        "label": "Δευτερεύον Τηλέφωνο",
+        "placeholder": "π.χ. +30 210 1234567",
+        "description": "Προαιρετικός δευτερεύων αριθμός τηλεφώνου"
       },
       "email": {
-        "label": "Email Address",
-        "placeholder": "e.g., john.smith@email.com",
-        "description": "Optional email address"
+        "label": "Διεύθυνση Email",
+        "placeholder": "π.χ. john.smith@email.com",
+        "description": "Προαιρετική διεύθυνση email"
       },
       "address": {
-        "label": "Address",
-        "placeholder": "e.g., 123 Main St, City, State 12345",
-        "description": "Contact's address (optional)"
+        "label": "Διεύθυνση",
+        "placeholder": "π.χ. Ερμού 123, Αθήνα 10563",
+        "description": "Διεύθυνση επαφής (προαιρετικά)"
       },
       "isPrimary": {
-        "label": "Primary Emergency Contact",
-        "description": "This person will be contacted first in emergencies"
+        "label": "Κύρια Επαφή Έκτακτης Ανάγκης",
+        "description": "Αυτό το άτομο θα ειδοποιηθεί πρώτο σε περίπτωση ανάγκης"
       },
       "isActive": {
-        "label": "Active Contact",
-        "description": "This contact is currently available"
+        "label": "Ενεργή Επαφή",
+        "description": "Αυτή η επαφή είναι επί του παρόντος διαθέσιμη"
       },
       "notes": {
-        "placeholder": "Additional information (e.g., 'Available weekdays only', 'Speaks Spanish')",
-        "description": "Any additional notes about this contact"
+        "placeholder": "Πρόσθετες πληροφορίες (π.χ. 'Διαθέσιμος μόνο καθημερινές')",
+        "description": "Τυχόν επιπλέον σημειώσεις για αυτή την επαφή"
       }
     },
     "primaryPhone": {
-      "label": "Primary Phone",
-      "placeholder": "e.g., (555) 123-4567",
-      "description": "Primary phone number"
+      "label": "Κύριο Τηλέφωνο",
+      "placeholder": "π.χ. 210 1234567",
+      "description": "Κύριος αριθμός τηλεφώνου"
     },
     "secondaryPhone": {
-      "label": "Secondary Phone",
-      "placeholder": "e.g., (555) 123-4567",
-      "description": "Optional secondary phone number"
+      "label": "Δευτερεύον Τηλέφωνο",
+      "placeholder": "π.χ. 210 1234567",
+      "description": "Προαιρετικός δευτερεύων αριθμός τηλεφώνου"
     },
     "isPrimary": {
-      "label": "Primary Emergency Contact",
-      "description": "This person will be contacted first in case of emergency"
+      "label": "Κύρια Επαφή Έκτακτης Ανάγκης",
+      "description": "Αυτό το άτομο θα ειδοποιηθεί πρώτο σε περίπτωση έκτακτης ανάγκης"
     },
     "isActive": {
-      "label": "Active Contact",
-      "description": "This contact is currently available"
+      "label": "Ενεργή Επαφή",
+      "description": "Αυτή η επαφή είναι επί του παρόντος διαθέσιμη"
     },
-    "notesPlaceholder": "Additional information (e.g., 'Available weekdays only', 'Speaks Spanish')"
+    "notesPlaceholder": "Πρόσθετες πληροφορίες (π.χ. 'Διαθέσιμος μόνο καθημερινές', 'Μιλάει Αγγλικά')"
   },
   "insurance": {
-    "title": "Insurance",
+    "title": "Ασφάλεια",
     "form": {
       "dividers": {
-        "basicInfo": "Basic Insurance Information",
-        "memberInfo": "Member Information",
-        "coveragePeriodStatus": "Coverage Period & Status",
-        "contactInfo": "Contact Information",
-        "coverageDetails": "Coverage Details",
-        "additionalInfo": "Additional Information"
+        "basicInfo": "Βασικές Πληροφορίες Ασφάλισης",
+        "memberInfo": "Πληροφορίες Μέλους",
+        "coveragePeriodStatus": "Περίοδος Κάλυψης & Κατάσταση",
+        "contactInfo": "Στοιχεία Επικοινωνίας",
+        "coverageDetails": "Λεπτομέρειες Κάλυψης",
+        "additionalInfo": "Πρόσθετες Πληροφορίες"
       },
       "insuranceType": {
-        "label": "Insurance Type",
-        "placeholder": "Select insurance type",
-        "description": "Type of insurance coverage",
+        "label": "Τύπος Ασφάλειας",
+        "placeholder": "Επιλέξτε τύπο ασφάλειας",
+        "description": "Τύπος ασφαλιστικής κάλυψης",
         "options": {
-          "medical": "🏥 Medical Insurance",
-          "dental": "🦷 Dental Insurance",
-          "vision": "👁️ Vision Insurance",
-          "prescription": "💊 Prescription Insurance"
+          "medical": "🏥 Νοσοκομειακή/Ιατρική Ασφάλεια",
+          "dental": "🦷 Οδοντιατρική Ασφάλεια",
+          "vision": "👁️ Οφθαλμολογική Ασφάλεια",
+          "prescription": "💊 Ασφάλεια Φαρμάκων"
         }
       },
       "companyName": {
-        "label": "Insurance Company",
-        "placeholder": "e.g., Blue Cross Blue Shield",
-        "description": "Name of the insurance company"
+        "label": "Ασφαλιστική Εταιρεία",
+        "placeholder": "π.χ. Εθνική Ασφαλιστική",
+        "description": "Όνομα της ασφαλιστικής εταιρείας"
       },
       "planName": {
-        "label": "Plan Name",
-        "placeholder": "e.g., PPO Gold Plus",
-        "description": "Name of the specific insurance plan"
+        "label": "Όνομα Προγράμματος",
+        "placeholder": "π.χ. PPO Gold Plus",
+        "description": "Όνομα του συγκεκριμένου ασφαλιστικού προγράμματος"
       },
       "employerGroup": {
-        "label": "Employer/Group Sponsor",
-        "placeholder": "e.g., ABC Corporation, Self-Employed",
-        "description": "Company or organization providing the insurance (if applicable)"
+        "label": "Εργοδότης/Ομαδικός Χορηγός",
+        "placeholder": "π.χ. Εταιρεία ΑΕ, Αυτοαπασχολούμενος",
+        "description": "Εταιρεία ή οργανισμός που παρέχει την ασφάλιση (εάν ισχύει)"
       },
       "memberName": {
-        "label": "Member Name",
-        "placeholder": "e.g., John Doe",
-        "description": "Name as it appears on the insurance card"
+        "label": "Όνομα Μέλους",
+        "placeholder": "π.χ. Ιωάννης Παπαδόπουλος",
+        "description": "Το όνομα όπως αναγράφεται στην ασφαλιστική κάρτα"
       },
       "memberId": {
-        "label": "Member ID",
-        "placeholder": "e.g., ABC123456789",
-        "description": "Member ID number from insurance card"
+        "label": "Αριθμός Μέλους (ID)",
+        "placeholder": "π.χ. ABC123456789",
+        "description": "Ο αριθμός μέλους από την ασφαλιστική κάρτα"
       },
       "policyHolderName": {
-        "label": "Policy Holder Name",
-        "placeholder": "e.g., Jane Doe (leave blank if same as member)",
-        "description": "Name of policy holder (if different from member)"
+        "label": "Όνομα Συμβαλλόμενου (Λήπτη)",
+        "placeholder": "π.χ. Μαρία Παππά (κενό αν είναι το ίδιο με το μέλος)",
+        "description": "Όνομα του κατόχου του συμβολαίου (αν διαφέρει από το μέλος)"
       },
       "relationshipToHolder": {
-        "label": "Relationship to Holder",
-        "placeholder": "Select relationship",
-        "description": "Your relationship to the policy holder",
+        "label": "Σχέση με τον Συμβαλλόμενο",
+        "placeholder": "Επιλέξτε σχέση",
+        "description": "Η σχέση σας με τον κάτοχο του συμβολαίου",
         "options": {
-          "self": "Self",
-          "spouse": "Spouse",
-          "child": "Child",
-          "dependent": "Dependent",
-          "other": "Other"
+          "self": "Ο ίδιος",
+          "spouse": "Σύζυγος",
+          "child": "Παιδί",
+          "dependent": "Εξαρτώμενο μέλος",
+          "other": "Άλλο"
         }
       },
       "groupNumber": {
-        "label": "Group Number",
-        "placeholder": "e.g., GRP123",
-        "description": "Group number (if applicable)"
+        "label": "Αριθμός Συμβολαίου/Group",
+        "placeholder": "π.χ. GRP123",
+        "description": "Αριθμός ομαδικού συμβολαίου (εάν ισχύει)"
       },
       "effectiveDate": {
-        "label": "Effective Date",
-        "placeholder": "Select effective date",
-        "description": "Date when coverage begins"
+        "label": "Ημερομηνία Έναρξης",
+        "placeholder": "Επιλέξτε ημερομηνία έναρξης",
+        "description": "Ημερομηνία έναρξης της κάλυψης"
       },
       "expirationDate": {
-        "label": "Expiration Date",
-        "placeholder": "Select expiration date",
-        "description": "Date when coverage ends (if known)"
+        "label": "Ημερομηνία Λήξης",
+        "placeholder": "Επιλέξτε ημερομηνία λήξης",
+        "description": "Ημερομηνία λήξης της κάλυψης (αν είναι γνωστή)"
       },
       "status": {
-        "placeholder": "Select status",
-        "description": "Current status of the insurance",
+        "placeholder": "Επιλέξτε κατάσταση",
+        "description": "Τρέχουσα κατάσταση της ασφάλισης",
         "options": {
-          "active": "Active",
-          "inactive": "Inactive",
-          "expired": "Expired",
-          "pending": "Pending"
+          "active": "Ενεργή",
+          "inactive": "Ανενεργή",
+          "expired": "Ληγμένη",
+          "pending": "Σε εκκρεμότητα"
         }
       },
       "isPrimary": {
-        "label": "Primary Insurance",
-        "description": "Check if this is your primary insurance (for medical only)"
+        "label": "Κύρια Ασφάλεια",
+        "description": "Επιλέξτε αν αυτή είναι η κύρια ασφάλειά σας (μόνο για ιατρική)"
       },
       "customerServicePhone": {
-        "label": "Customer Service Phone",
-        "placeholder": "e.g., 1-800-123-4567",
-        "description": "Customer service phone number"
+        "label": "Τηλέφωνο Εξυπηρέτησης Πελατών",
+        "placeholder": "π.χ. 210-1234567",
+        "description": "Τηλέφωνο εξυπηρέτησης πελατών"
       },
       "preauthPhone": {
-        "label": "Pre-authorization Phone",
-        "description": "Phone number for pre-authorizations"
+        "label": "Τηλέφωνο Προέγκρισης",
+        "description": "Αριθμός τηλεφώνου για προεγκρίσεις"
       },
       "providerServicesPhone": {
-        "label": "Provider Services Phone",
-        "description": "Phone number for provider services"
+        "label": "Τηλέφωνο Υπηρεσιών Παρόχων",
+        "description": "Αριθμός τηλεφώνου για υπηρεσίες παρόχων"
       },
       "websiteUrl": {
-        "label": "Website URL",
-        "placeholder": "e.g., https://member.insurance.com",
-        "description": "Member portal or website URL"
+        "label": "Διεύθυνση Ιστοσελίδας URL",
+        "placeholder": "π.χ. https://member.insurance.com",
+        "description": "URL πύλης μελών ή ιστοσελίδας"
       },
       "claimsAddress": {
-        "label": "Claims Address",
-        "placeholder": "Enter claims mailing address...",
-        "description": "Address for submitting claims"
+        "label": "Διεύθυνση Απαιτήσεων",
+        "placeholder": "Εισαγάγετε τη διεύθυνση αποστολής απαιτήσεων...",
+        "description": "Διεύθυνση για την υποβολή αξιώσεων/απαιτήσεων"
       },
       "primaryCarePhysician": {
-        "label": "Primary Care Physician",
-        "placeholder": "e.g., Dr. Smith",
-        "description": "Name of your primary care physician"
+        "label": "Προσωπικός/Οικογενειακός Ιατρός",
+        "placeholder": "π.χ. Δρ. Παπαδόπουλος",
+        "description": "Το όνομα του προσωπικού σας ιατρού"
       },
       "deductibleIndividual": {
-        "label": "Individual Deductible",
-        "placeholder": "e.g., 1000",
-        "description": "Annual deductible amount for individual"
+        "label": "Ατομικό Απαλλασσόμενο Ποσό (Deductible)",
+        "placeholder": "π.χ. 1000",
+        "description": "Ετήσιο ποσό συμμετοχής για το άτομο"
       },
       "deductibleFamily": {
-        "label": "Family Deductible",
-        "placeholder": "e.g., 2000",
-        "description": "Annual deductible amount for family"
+        "label": "Οικογενειακό Απαλλασσόμενο Ποσό",
+        "placeholder": "π.χ. 2000",
+        "description": "Ετήσιο ποσό συμμετοχής για την οικογένεια"
       },
       "copayPrimaryCare": {
-        "label": "Primary Care Copay",
-        "placeholder": "e.g., 25",
-        "description": "Copay amount for primary care visits"
+        "label": "Συμμετοχή (Copay) Πρωτοβάθμιας Φροντίδας",
+        "placeholder": "π.χ. 25",
+        "description": "Ποσό συμμετοχής για επισκέψεις σε παθολόγο/γενικό ιατρό"
       },
       "copaySpecialist": {
-        "label": "Specialist Copay",
-        "placeholder": "e.g., 50",
-        "description": "Copay amount for specialist visits"
+        "label": "Συμμετοχή (Copay) Ειδικού",
+        "placeholder": "π.χ. 50",
+        "description": "Ποσό συμμετοχής για επισκέψεις σε ειδικούς ιατρούς"
       },
       "copayEmergencyRoom": {
-        "label": "Emergency Room Copay",
-        "placeholder": "e.g., 200",
-        "description": "Copay amount for emergency room visits"
+        "label": "Συμμετοχή Επειγόντων Περιστατικών",
+        "placeholder": "π.χ. 200",
+        "description": "Ποσό συμμετοχής για επισκέψεις στα επείγοντα"
       },
       "copayUrgentCare": {
-        "label": "Urgent Care Copay",
-        "placeholder": "e.g., 75",
-        "description": "Copay amount for urgent care visits"
+        "label": "Συμμετοχή Άμεσης Φροντίδας",
+        "placeholder": "π.χ. 75",
+        "description": "Ποσό συμμετοχής για κέντρα άμεσης φροντίδας"
       },
       "planType": {
-        "label": "Plan Type",
-        "placeholder": "Select plan type",
-        "description": "Type of medical insurance plan",
+        "label": "Τύπος Προγράμματος",
+        "placeholder": "Επιλέξτε τύπο προγράμματος",
+        "description": "Τύπος ιατρικού ασφαλιστικού προγράμματος",
         "options": {
-          "ppo": "PPO (Preferred Provider Organization)",
-          "hmo": "HMO (Health Maintenance Organization)",
-          "epo": "EPO (Exclusive Provider Organization)",
-          "pos": "POS (Point of Service)",
-          "hdhp": "HDHP (High Deductible Health Plan)",
-          "indemnity": "Indemnity (Fee-for-Service)",
-          "other": "Other"
+          "ppo": "PPO (Προτιμώμενος Οργανισμός Παρόχων)",
+          "hmo": "HMO (Οργανισμός Συντήρησης Υγείας)",
+          "epo": "EPO (Αποκλειστικός Οργανισμός Παρόχων)",
+          "pos": "POS (Σημείο Παροχής Υπηρεσιών)",
+          "hdhp": "HDHP (Πρόγραμμα Υψηλού Απαλλασσόμενου Ποσού)",
+          "indemnity": "Indemnity (Αποζημίωση)",
+          "other": "Άλλο"
         }
       },
       "dentalPlanType": {
-        "label": "Dental Plan Type",
-        "placeholder": "Select dental plan type",
-        "description": "Type of dental insurance plan",
+        "label": "Τύπος Οδοντιατρικού Προγράμματος",
+        "placeholder": "Επιλέξτε τύπο",
+        "description": "Τύπος οδοντιατρικής ασφάλισης",
         "options": {
-          "dppo": "DPPO (Dental Preferred Provider Organization)",
-          "dhmo": "DHMO (Dental Health Maintenance Organization)",
-          "discount": "Discount Plan"
+          "dppo": "DPPO",
+          "dhmo": "DHMO",
+          "discount": "Εκπτωτικό Πρόγραμμα"
         }
       },
       "annualMaximum": {
-        "label": "Annual Maximum Benefit",
-        "placeholder": "e.g., 1500",
-        "description": "Maximum annual benefit amount"
+        "label": "Ετήσιο Μέγιστο Όφελος",
+        "placeholder": "π.χ. 1500",
+        "description": "Μέγιστο ποσό παροχών ανά έτος"
       },
       "preventiveCoverage": {
-        "label": "Preventive Coverage %",
-        "placeholder": "e.g., 100",
-        "description": "Coverage percentage for preventive care"
+        "label": "% Κάλυψης Πρόληψης",
+        "placeholder": "π.χ. 100",
+        "description": "Ποσοστό κάλυψης για προληπτική φροντίδα"
       },
       "basicCoverage": {
-        "label": "Basic Coverage %",
-        "placeholder": "e.g., 80",
-        "description": "Coverage percentage for basic procedures"
+        "label": "% Βασικής Κάλυψης",
+        "placeholder": "π.χ. 80",
+        "description": "Ποσοστό κάλυψης για βασικές διαδικασίες"
       },
       "majorCoverage": {
-        "label": "Major Coverage %",
-        "placeholder": "e.g., 50",
-        "description": "Coverage percentage for major procedures"
+        "label": "% Σοβαρής Κάλυψης",
+        "placeholder": "π.χ. 50",
+        "description": "Ποσοστό κάλυψης για σοβαρές επεμβάσεις"
       },
       "visionPlanType": {
-        "label": "Vision Plan Type",
-        "placeholder": "Select vision plan type",
-        "description": "Type of vision insurance plan",
+        "label": "Τύπος Οφθαλμολογικού Προγράμματος",
+        "placeholder": "Επιλέξτε τύπο",
+        "description": "Τύπος οφθαλμολογικής ασφάλισης",
         "options": {
           "visionPpo": "Vision PPO",
           "visionHmo": "Vision HMO",
-          "visionDiscount": "Vision Discount Plan"
+          "visionDiscount": "Εκπτωτικό Πρόγραμμα"
         }
       },
       "examCopay": {
-        "label": "Exam Copay",
-        "placeholder": "e.g., 10",
-        "description": "Copay amount for eye exams"
+        "label": "Συμμετοχή Εξέτασης",
+        "placeholder": "π.χ. 10",
+        "description": "Ποσό συμμετοχής για οφθαλμολογικές εξετάσεις"
       },
       "frameAllowance": {
-        "label": "Frame Allowance",
-        "placeholder": "e.g., 150",
-        "description": "Annual allowance for frames"
+        "label": "Επίδομα Σκελετού",
+        "placeholder": "π.χ. 150",
+        "description": "Ετήσιο επίδομα για σκελετό γυαλιών"
       },
       "lensCoverage": {
-        "label": "Lens Coverage",
-        "placeholder": "e.g., 100% covered",
-        "description": "Coverage details for lenses"
+        "label": "Κάλυψη Φακών",
+        "placeholder": "π.χ. 100% κάλυψη",
+        "description": "Λεπτομέρειες κάλυψης για φακούς"
       },
       "contactAllowance": {
-        "label": "Contact Lens Allowance",
-        "description": "Annual allowance for contact lenses",
-        "placeholder": "e.g., 150"
+        "label": "Επίδομα Φακών Επαφής",
+        "description": "Ετήσιο επίδομα για φακούς επαφής",
+        "placeholder": "π.χ. 150"
       },
       "prescriptionPlanType": {
-        "label": "Prescription Plan Type",
-        "placeholder": "Select prescription plan type",
-        "description": "Type of prescription drug plan",
+        "label": "Τύπος Προγράμματος Φαρμάκων",
+        "placeholder": "Επιλέξτε τύπο",
+        "description": "Τύπος κάλυψης για συνταγογραφούμενα φάρμακα",
         "options": {
-          "formulary": "Formulary-Based Plan",
-          "tieredCopay": "Tiered Copay Plan",
+          "formulary": "Πρόγραμμα βάσει Συνταγολογίου",
+          "tieredCopay": "Πρόγραμμα Κλιμακωτής Συμμετοχής",
           "medicarePartD": "Medicare Part D",
-          "integrated": "Integrated with Medical"
+          "integrated": "Ενσωματωμένο στην Ιατρική Ασφάλεια"
         }
       },
       "binNumber": {
-        "label": "BIN Number",
-        "placeholder": "e.g., 123456",
-        "description": "Bank Identification Number for pharmacy"
+        "label": "Αριθμός BIN",
+        "placeholder": "π.χ. 123456",
+        "description": "Αριθμός Αναγνώρισης Τράπεζας για το φαρμακείο"
       },
       "pcnNumber": {
-        "label": "PCN Number",
-        "placeholder": "e.g., ABC123",
-        "description": "Processor Control Number"
+        "label": "Αριθμός PCN",
+        "placeholder": "π.χ. ABC123",
+        "description": "Αριθμός Ελέγχου Επεξεργαστή"
       },
       "rxgroup": {
         "label": "RX Group",
-        "placeholder": "e.g., RXGRP123",
-        "description": "Prescription group number"
+        "placeholder": "π.χ. RXGRP123",
+        "description": "Αριθμός φαρμακευτικού γκρουπ"
       },
       "copayGeneric": {
-        "label": "Generic Copay",
-        "description": "Copay amount for generic medications",
-        "placeholder": "e.g., 10"
+        "label": "Συμμετοχή Γενόσημων",
+        "description": "Ποσό συμμετοχής για γενόσημα φάρμακα",
+        "placeholder": "π.χ. 10"
       },
       "copayBrand": {
-        "label": "Brand Name Copay",
-        "placeholder": "e.g., 30",
-        "description": "Copay amount for brand name medications"
+        "label": "Συμμετοχή Πρωτότυπων (Brand)",
+        "placeholder": "π.χ. 30",
+        "description": "Ποσό συμμετοχής για φάρμακα εμπορικής ονομασίας"
       },
       "copaySpecialty": {
-        "label": "Specialty Copay",
-        "description": "Copay amount for specialty medications",
-        "placeholder": "e.g., 50"
+        "label": "Συμμετοχή Εξειδικευμένων Φαρμάκων",
+        "description": "Ποσό συμμετοχής για ειδικά/εξειδικευμένα φάρμακα",
+        "placeholder": "π.χ. 50"
       },
       "pharmacyNetworkInfo": {
-        "label": "Pharmacy Network Info",
-        "placeholder": "Enter pharmacy network details...",
-        "description": "Information about preferred pharmacy networks"
+        "label": "Πληροφορίες Δικτύου Φαρμακείων",
+        "placeholder": "Εισαγάγετε λεπτομέρειες δικτύου...",
+        "description": "Πληροφορίες σχετικά με τα συμβεβλημένα φαρμακεία"
       },
       "notes": {
-        "placeholder": "Additional information about this insurance...",
-        "description": "Any additional details or notes"
+        "placeholder": "Πρόσθετες πληροφορίες για αυτή την ασφάλεια...",
+        "description": "Τυχόν επιπλέον λεπτομέρειες ή σημειώσεις"
       }
     },
     "dividers": {
-      "basic": "Basic Insurance Information",
-      "member": "Member Information",
-      "coverage": "Coverage Period and Status",
-      "contact": "Insurance Contact Information",
-      "coverageDetails": "Coverage Details",
-      "notes": "Additional Information"
+      "basic": "Βασικές Πληροφορίες Ασφάλισης",
+      "member": "Πληροφορίες Μέλους",
+      "coverage": "Περίοδος Κάλυψης και Κατάσταση",
+      "contact": "Στοιχεία Επικοινωνίας Ασφαλιστικής",
+      "coverageDetails": "Λεπτομέρειες Κάλυψης",
+      "notes": "Πρόσθετες Πληροφορίες"
     },
     "insuranceTypeOptions": {
-      "medical": "Medical Insurance",
-      "dental": "Dental Insurance",
-      "vision": "Vision Insurance",
-      "prescription": "Prescription Insurance"
+      "medical": "Ιατρική Ασφάλεια",
+      "dental": "Οδοντιατρική Ασφάλεια",
+      "vision": "Οφθαλμολογική Ασφάλεια",
+      "prescription": "Ασφάλεια Φαρμάκων"
     },
     "companyName": {
-      "label": "Insurance Company",
-      "placeholder": "e.g., Blue Cross Blue Shield",
-      "description": "Name of the insurance company"
+      "label": "Ασφαλιστική Εταιρεία",
+      "placeholder": "π.χ. Εθνική Ασφαλιστική",
+      "description": "Όνομα της ασφαλιστικής εταιρείας"
     },
     "planName": {
-      "label": "Plan Name",
-      "placeholder": "e.g., Health Basic Plus",
-      "description": "Specific plan name"
+      "label": "Όνομα Προγράμματος",
+      "placeholder": "π.χ. Health Basic Plus",
+      "description": "Συγκεκριμένο όνομα προγράμματος"
     },
     "memberId": {
-      "label": "Member ID",
-      "placeholder": "e.g., ABC123456789",
-      "description": "Member identification number on insurance card"
+      "label": "Αριθμός Μέλους (ID)",
+      "placeholder": "π.χ. ABC123456789",
+      "description": "Αριθμός αναγνώρισης μέλους στην κάρτα"
     },
     "groupNumber": {
-      "label": "Group Number",
-      "placeholder": "e.g., GRP123",
-      "description": "Group number (if applicable)"
+      "label": "Αριθμός Συμβολαίου (Group)",
+      "placeholder": "π.χ. GRP123",
+      "description": "Αριθμός γκρουπ (εάν ισχύει)"
     },
     "isPrimary": {
-      "label": "Primary Insurance",
-      "description": "Check if this is your primary insurance (medical only)"
+      "label": "Κύρια Ασφάλεια",
+      "description": "Επιλέξτε αν αυτή είναι η κύρια ασφάλειά σας (μόνο ιατρική)"
     },
     "deductibleIndividual": {
-      "label": "Individual Deductible",
-      "placeholder": "e.g., 1000",
-      "description": "Annual individual deductible amount"
+      "label": "Ατομικό Απαλλασσόμενο Ποσό",
+      "placeholder": "π.χ. 1000",
+      "description": "Ετήσιο ατομικό ποσό συμμετοχής"
     },
     "copayPrimaryCare": {
-      "label": "Primary Care Copay",
-      "placeholder": "e.g., 25",
-      "description": "Copay for primary care visits"
+      "label": "Συμμετοχή Πρωτοβάθμιας Φροντίδας",
+      "placeholder": "π.χ. 25",
+      "description": "Συμμετοχή για επισκέψεις σε παθολόγο"
     },
     "planTypeOptions": {
-      "ppo": "PPO (Preferred Provider Organization)",
-      "hmo": "HMO (Health Maintenance Organization)",
-      "epo": "EPO (Exclusive Provider Organization)",
-      "pos": "POS (Point of Service)",
-      "hdhp": "HDHP (High Deductible Health Plan)",
-      "indemnity": "Indemnity (Fee for Service)",
-      "other": "Other"
+      "ppo": "PPO",
+      "hmo": "HMO",
+      "epo": "EPO",
+      "pos": "POS",
+      "hdhp": "HDHP",
+      "indemnity": "Indemnity (Αποζημίωση)",
+      "other": "Άλλο"
     }
   },
   "injuries": {
-    "title": "Injuries",
-    "addNew": "Add New Injury",
-    "addTitle": "Add New Injury",
-    "editTitle": "Edit Injury",
-    "cardSubtitle": "Physical Injury",
-    "viewPractitioner": "View practitioner details",
+    "title": "Τραυματισμοί",
+    "addNew": "Προσθήκη Νέου Τραυματισμού",
+    "addTitle": "Προσθήκη Νέου Τραυματισμού",
+    "editTitle": "Επεξεργασία Τραυματισμού",
+    "cardSubtitle": "Σωματικός Τραυματισμός",
+    "viewPractitioner": "Προβολή στοιχείων ιατρού",
     "tabs": {
-      "overview": "Overview",
-      "basicInfo": "Basic Info",
-      "treatment": "Treatment",
-      "recovery": "Recovery",
-      "documents": "Documents",
-      "notes": "Notes"
+      "overview": "Επισκόπηση",
+      "basicInfo": "Βασικές Πληροφορίες",
+      "treatment": "Θεραπεία",
+      "recovery": "Ανάρρωση",
+      "documents": "Έγγραφα",
+      "notes": "Σημειώσεις"
     },
     "viewModal": {
-      "injuryDetails": "Injury Details",
-      "additionalInfo": "Additional Info"
+      "injuryDetails": "Λεπτομέρειες Τραυματισμού",
+      "additionalInfo": "Πρόσθετες Πληροφορίες"
     },
     "messages": {
-      "loading": "Loading injuries...",
-      "saving": "Saving injury...",
-      "createTypeFailed": "Failed to create injury type"
+      "loading": "Φόρτωση τραυματισμών...",
+      "saving": "Αποθήκευση τραυματισμού...",
+      "createTypeFailed": "Αποτυχία δημιουργίας τύπου τραυματισμού"
     },
     "emptyState": {
-      "title": "No injuries found",
-      "noData": "Click \"Add New Injury\" to get started.",
-      "filtered": "Try adjusting your search or filter criteria."
+      "title": "Δεν βρέθηκαν τραυματισμοί",
+      "noData": "Κάντε κλικ στο \"Προσθήκη Νέου Τραυματισμού\" για να ξεκινήσετε.",
+      "filtered": "Δοκιμάστε να προσαρμόσετε την αναζήτηση ή τα κριτήρια φίλτρων."
     },
     "injuryName": {
-      "label": "Injury Name",
-      "placeholder": "e.g., Right ankle sprain",
-      "description": "A descriptive name for this injury"
+      "label": "Όνομα Τραυματισμού",
+      "placeholder": "π.χ. Διάστρεμμα δεξιού αστραγάλου",
+      "description": "Ένα περιγραφικό όνομα για αυτόν τον τραυματισμό"
     },
     "injuryType": {
-      "label": "Injury Type",
-      "placeholder": "Select or create type",
-      "description": "Category of injury (e.g., Sprain, Fracture)",
-      "system": "System",
-      "createNew": "Create \"{{name}}\"",
-      "noResults": "No matching types found",
-      "noTypes": "No types available"
+      "label": "Τύπος Τραυματισμού",
+      "placeholder": "Επιλέξτε ή δημιουργήστε τύπο",
+      "description": "Κατηγορία τραυματισμού (π.χ. Διάστρεμμα, Κάταγμα)",
+      "system": "Σύστημα",
+      "createNew": "Δημιουργία \"{{name}}\"",
+      "noResults": "Δεν βρέθηκαν τύποι που να ταιριάζουν",
+      "noTypes": "Δεν υπάρχουν διαθέσιμοι τύποι"
     },
     "bodyPart": {
-      "label": "Body Part",
-      "placeholder": "e.g., Ankle, Wrist, Knee",
-      "description": "The affected body part or area"
+      "label": "Μέρος του Σώματος",
+      "placeholder": "π.χ. Αστράγαλος, Καρπός, Γόνατο",
+      "description": "Το επηρεαζόμενο μέρος ή περιοχή του σώματος"
     },
     "laterality": {
-      "label": "Side",
-      "placeholder": "Select side",
-      "description": "Which side of the body is affected",
+      "label": "Πλευρά",
+      "placeholder": "Επιλέξτε πλευρά",
+      "description": "Ποια πλευρά του σώματος επηρεάζεται",
       "options": {
-        "left": "Left",
-        "right": "Right",
-        "bilateral": "Both Sides",
-        "notApplicable": "Not Applicable"
+        "left": "Αριστερά",
+        "right": "Δεξιά",
+        "bilateral": "Και οι δύο πλευρές",
+        "notApplicable": "Δεν εφαρμόζεται"
       }
     },
     "dateOfInjury": {
-      "label": "Date of Injury",
-      "placeholder": "When the injury occurred",
-      "description": "The date when the injury happened"
+      "label": "Ημερομηνία Τραυματισμού",
+      "placeholder": "Πότε συνέβη ο τραυματισμός",
+      "description": "Η ημερομηνία που συνέβη το περιστατικό"
     },
     "mechanism": {
-      "label": "How It Happened",
-      "placeholder": "e.g., Fell while hiking",
-      "description": "Describe how the injury occurred"
+      "label": "Πώς Συνέβη",
+      "placeholder": "π.χ. Έπεσα κατά την πεζοπορία",
+      "description": "Περιγράψτε πώς προκλήθηκε ο τραυματισμός"
     },
     "severity": {
-      "label": "Severity",
-      "placeholder": "Select severity",
-      "description": "How severe is this injury"
+      "label": "Σοβαρότητα",
+      "placeholder": "Επιλέξτε σοβαρότητα",
+      "description": "Πόσο σοβαρός είναι αυτός ο τραυματισμός"
     },
     "status": {
-      "label": "Status",
-      "description": "Current status of this injury",
+      "label": "Κατάσταση",
+      "description": "Τρέχουσα κατάσταση αυτού του τραυματισμού",
       "options": {
-        "active": "Active - Currently being treated",
-        "healing": "Healing - In recovery",
-        "resolved": "Resolved - Fully healed",
-        "chronic": "Chronic - Long-term effects"
+        "active": "Ενεργός - Υπό θεραπεία",
+        "healing": "Επούλωση - Σε ανάρρωση",
+        "resolved": "Επιλύθηκε - Πλήρης ανάρρωση",
+        "chronic": "Χρόνιος - Μακροχρόνιες επιπτώσεις"
       }
     },
     "treatmentReceived": {
-      "label": "Treatment Received",
-      "placeholder": "e.g., RICE protocol, cast applied",
-      "description": "Description of treatment received"
+      "label": "Θεραπεία που Λήφθηκε",
+      "placeholder": "π.χ. Πρωτόκολλο RICE, τοποθέτηση γύψου",
+      "description": "Περιγραφή της θεραπείας που παρασχέθηκε"
     },
     "recoveryNotes": {
-      "label": "Recovery Notes",
-      "placeholder": "Progress updates, milestones, or observations",
-      "description": "Notes about recovery progress"
+      "label": "Σημειώσεις Ανάρρωσης",
+      "placeholder": "Ενημερώσεις προόδου, ορόσημα ή παρατηρήσεις",
+      "description": "Σημειώσεις σχετικά με την πρόοδο της ανάρρωσης"
     },
     "practitioner": {
-      "label": "Treating Practitioner",
-      "placeholder": "Select practitioner",
-      "description": "The healthcare provider treating this injury"
+      "label": "Θεράπων Ιατρός",
+      "placeholder": "Επιλέξτε ιατρό",
+      "description": "Ο πάροχος υγείας που αντιμετωπίζει αυτόν τον τραυματισμό"
     },
     "notes": {
-      "label": "Additional Notes",
-      "placeholder": "Any other relevant information...",
-      "description": "General notes or additional details"
+      "label": "Πρόσθετες Σημειώσεις",
+      "placeholder": "Οποιαδήποτε άλλη σχετική πληροφορία...",
+      "description": "Γενικές σημειώσεις ή επιπλέον λεπτομέρειες"
     },
     "bodyLocation": {
-      "label": "Body Location",
-      "placeholder": "e.g., Left knee, Right shoulder",
-      "description": "Specific body part affected by the injury"
+      "label": "Τοποθεσία στο Σώμα",
+      "placeholder": "π.χ. Αριστερό γόνατο, Δεξιός ώμος",
+      "description": "Συγκεκριμένο μέρος του σώματος που επηρεάστηκε"
     },
     "injuryDate": {
-      "label": "Date of Injury",
-      "placeholder": "Select injury date",
-      "description": "When the injury occurred"
+      "label": "Ημερομηνία Τραυματισμού",
+      "placeholder": "Επιλέξτε ημερομηνία",
+      "description": "Πότε συνέβη ο τραυματισμός"
     },
     "cause": {
-      "label": "Cause / Mechanism",
-      "placeholder": "Describe how the injury occurred...",
-      "description": "How the injury happened (fall, sports, accident, etc.)"
+      "label": "Αιτία / Μηχανισμός",
+      "placeholder": "Περιγράψτε πώς συνέβη ο τραυματισμός...",
+      "description": "Πώς προκλήθηκε (πτώση, αθλητισμός, ατύχημα κ.λπ.)"
     },
     "treatment": {
-      "label": "Treatment Received",
-      "placeholder": "Describe treatment received...",
-      "description": "Medical treatment provided for the injury"
+      "label": "Θεραπεία που Λήφθηκε",
+      "placeholder": "Περιγράψτε τη θεραπεία...",
+      "description": "Ιατρική φροντίδα που παρασχέθηκε για τον τραυματισμό"
     }
   },
   "form": {
-    "invalidPhoneDigits": "Phone number can only contain digits, spaces, dashes, parentheses, periods, and +",
-    "invalidWebsiteUrl": "Please enter a valid website URL"
+    "invalidPhoneDigits": "Ο αριθμός τηλεφώνου μπορεί να περιέχει μόνο ψηφία, κενά, παύλες, παρενθέσεις, τελείες και +",
+    "invalidWebsiteUrl": "Παρακαλώ εισαγάγετε ένα έγκυρο URL ιστοσελίδας"
   },
   "componentCatalog": {
-    "searchPlaceholder": "Search tests...",
-    "filterCategory": "Category",
-    "filterStatus": "Status",
-    "showing": "Showing {{count}} unique tests",
-    "readingCount": "{{count}} readings",
-    "readingCount_one": "{{count}} reading",
-    "refRange": "Ref",
-    "noResults": "No Test Components Found",
-    "tryAdjusting": "Try adjusting your search or filter criteria.",
-    "noData": "Add lab results with test components to see them here.",
-    "fetchError": "Failed to load test catalog",
+    "searchPlaceholder": "Αναζήτηση εξετάσεων...",
+    "filterCategory": "Κατηγορία",
+    "filterStatus": "Κατάσταση",
+    "showing": "Εμφάνιση {{count}} μοναδικών εξετάσεων",
+    "readingCount": "{{count}} μετρήσεις",
+    "readingCount_one": "{{count}} μέτρηση",
+    "refRange": "Αναφ.",
+    "noResults": "Δεν βρέθηκαν στοιχεία εξέτασης",
+    "tryAdjusting": "Δοκιμάστε να προσαρμόσετε την αναζήτηση ή τα κριτήρια φίλτρων.",
+    "noData": "Προσθέστε εργαστηριακά αποτελέσματα με στοιχεία εξέτασης για να τα δείτε εδώ.",
+    "fetchError": "Αποτυχία φόρτωσης καταλόγου εξετάσεων",
     "trend": {
-      "increasing": "Increasing",
-      "decreasing": "Decreasing",
-      "stable": "Stable",
-      "worsening": "Worsening",
-      "improving": "Improving"
+      "increasing": "Αυξανόμενη",
+      "decreasing": "Φθίνουσα",
+      "stable": "Σταθερή",
+      "worsening": "Επιδεινούμενη",
+      "improving": "Βελτιούμενη"
     },
     "sort": {
-      "priority": "Priority",
-      "alphabetical": "A-Z"
+      "priority": "Προτεραιότητα",
+      "alphabetical": "Α-Ω"
     },
     "status": {
-      "normal": "Normal",
-      "high": "High",
-      "low": "Low",
-      "critical": "Critical",
-      "abnormal": "Abnormal",
-      "borderline": "Borderline",
-      "unknown": "Unknown"
+      "normal": "Φυσιολογικό",
+      "high": "Υψηλό",
+      "low": "Χαμηλό",
+      "critical": "Κρίσιμο",
+      "abnormal": "Μη φυσιολογικό",
+      "borderline": "Οριακό",
+      "unknown": "Άγνωστο"
     }
   },
   "equipment": {
     "tabs": {
-      "basicInfo": "Basic Info",
-      "deviceDetails": "Device Details",
-      "serviceDates": "Service & Dates",
-      "notes": "Notes"
+      "basicInfo": "Βασικές Πληροφορίες",
+      "deviceDetails": "Λεπτομέρειες Συσκευής",
+      "serviceDates": "Συντήρηση & Ημερομηνίες",
+      "notes": "Σημειώσεις"
     }
   }
 }
