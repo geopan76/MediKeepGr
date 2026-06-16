@@ -14,10 +14,10 @@ from tests.utils.user import create_random_user, create_user_authentication_head
 class TestUserPreferencesLanguage:
     """Test language preference management."""
 
-    def test_default_language_is_english(
+    def test_default_language_is_greek(
         self, client: TestClient, db_session: Session
     ):
-        """Test that new users get English as default language."""
+        """Test that new users get Greek as default language."""
         # Create a test user
         user_data = create_random_user(db_session)
         headers = create_user_authentication_headers(client=client, username=user_data["username"], password=user_data["password"])
@@ -27,51 +27,32 @@ class TestUserPreferencesLanguage:
 
         assert response.status_code == 200
         data = response.json()
-        assert data["language"] == "en"
+        assert data["language"] == "el"
 
-    def test_update_language_to_french(
+    def test_update_language_to_english(
         self, client: TestClient, db_session: Session
     ):
-        """Test updating user language preference to French."""
+        """Test updating user language preference to English."""
         # Create a test user
         user_data = create_random_user(db_session)
         headers = create_user_authentication_headers(client=client, username=user_data["username"], password=user_data["password"])
 
-        # Update language to French
+        # Update language to English
         response = client.put(
             "/api/v1/users/me/preferences",
             headers=headers,
-            json={"language": "fr"}
+            json={"language": "en"}
         )
 
         assert response.status_code == 200
         data = response.json()
-        assert data["language"] == "fr"
+        assert data["language"] == "en"
 
         # Verify persistence
         response = client.get("/api/v1/users/me/preferences", headers=headers)
         assert response.status_code == 200
         data = response.json()
-        assert data["language"] == "fr"
-
-    def test_update_language_to_german(
-        self, client: TestClient, db_session: Session
-    ):
-        """Test updating user language preference to German."""
-        # Create a test user
-        user_data = create_random_user(db_session)
-        headers = create_user_authentication_headers(client=client, username=user_data["username"], password=user_data["password"])
-
-        # Update language to German
-        response = client.put(
-            "/api/v1/users/me/preferences",
-            headers=headers,
-            json={"language": "de"}
-        )
-
-        assert response.status_code == 200
-        data = response.json()
-        assert data["language"] == "de"
+        assert data["language"] == "en"
 
     def test_reject_unsupported_language(
         self, client: TestClient, db_session: Session
@@ -92,6 +73,21 @@ class TestUserPreferencesLanguage:
         data = response.json()
         # The API uses structured error response
         assert "errors" in data or "detail" in data or "message" in data
+
+    def test_reject_removed_language(
+        self, client: TestClient, db_session: Session
+    ):
+        """Test that previously supported languages are now rejected."""
+        user_data = create_random_user(db_session)
+        headers = create_user_authentication_headers(client=client, username=user_data["username"], password=user_data["password"])
+
+        response = client.put(
+            "/api/v1/users/me/preferences",
+            headers=headers,
+            json={"language": "fr"}
+        )
+
+        assert response.status_code == 422
 
     def test_reject_invalid_language_code(
         self, client: TestClient, db_session: Session
@@ -122,13 +118,13 @@ class TestUserPreferencesLanguage:
         response = client.put(
             "/api/v1/users/me/preferences",
             headers=headers,
-            json={"language": "FR"}
+            json={"language": "EN"}
         )
 
         assert response.status_code == 200
         data = response.json()
         # Should be normalized to lowercase
-        assert data["language"] == "fr"
+        assert data["language"] == "en"
 
     def test_language_persists_across_sessions(
         self, client: TestClient, db_session: Session
@@ -138,11 +134,11 @@ class TestUserPreferencesLanguage:
         user_data = create_random_user(db_session)
         headers = create_user_authentication_headers(client=client, username=user_data["username"], password=user_data["password"])
 
-        # Set language to French
+        # Set language to English
         response = client.put(
             "/api/v1/users/me/preferences",
             headers=headers,
-            json={"language": "fr"}
+            json={"language": "en"}
         )
         assert response.status_code == 200
 
@@ -151,11 +147,11 @@ class TestUserPreferencesLanguage:
             client=client, username=user_data["username"], password=user_data["password"]
         )
 
-        # Verify language is still French
+        # Verify language is still English
         response = client.get("/api/v1/users/me/preferences", headers=new_headers)
         assert response.status_code == 200
         data = response.json()
-        assert data["language"] == "fr"
+        assert data["language"] == "en"
 
     def test_update_multiple_preferences_including_language(
         self, client: TestClient, db_session: Session
@@ -170,7 +166,7 @@ class TestUserPreferencesLanguage:
             "/api/v1/users/me/preferences",
             headers=headers,
             json={
-                "language": "de",
+                "language": "en",
                 "unit_system": "metric",
                 "session_timeout_minutes": 60
             }
@@ -178,7 +174,7 @@ class TestUserPreferencesLanguage:
 
         assert response.status_code == 200
         data = response.json()
-        assert data["language"] == "de"
+        assert data["language"] == "en"
         assert data["unit_system"] == "metric"
         assert data["session_timeout_minutes"] == 60
 
@@ -199,15 +195,15 @@ class TestUserPreferencesLanguage:
 
         assert response.status_code == 200
         data = response.json()
-        # Language should still be default (en)
-        assert data["language"] == "en"
+        # Language should still be default (el)
+        assert data["language"] == "el"
         assert data["unit_system"] == "metric"
 
     def test_supported_languages_list(
         self, client: TestClient, db_session: Session
     ):
         """Test that all supported languages can be set successfully."""
-        supported_languages = ["en", "fr", "de", "es", "it", "pt", "ru"]
+        supported_languages = ["el", "en"]
 
         for lang in supported_languages:
             # Create a new test user for each language
@@ -240,9 +236,9 @@ class TestLanguageValidation:
         # Valid language
         valid_prefs = UserPreferencesBase(
             unit_system="imperial",
-            language="fr"
+            language="en"
         )
-        assert valid_prefs.language == "fr"
+        assert valid_prefs.language == "en"
 
         # Invalid language should raise validation error
         with pytest.raises(ValueError, match="Language must be one of"):
@@ -256,19 +252,19 @@ class TestLanguageValidation:
         from app.schemas.user_preferences import UserPreferencesUpdate
 
         # Valid language
-        valid_update = UserPreferencesUpdate(language="de")
-        assert valid_update.language == "de"
+        valid_update = UserPreferencesUpdate(language="en")
+        assert valid_update.language == "en"
 
         # Invalid language should raise validation error
         with pytest.raises(ValueError, match="Language must be one of"):
             UserPreferencesUpdate(language="xx")
 
-    def test_language_defaults_to_en(self):
-        """Test that language defaults to 'en' when not specified."""
+    def test_language_defaults_to_el(self):
+        """Test that language defaults to 'el' when not specified."""
         from app.schemas.user_preferences import UserPreferencesBase
 
         prefs = UserPreferencesBase(unit_system="imperial")
-        assert prefs.language == "en"
+        assert prefs.language == "el"
 
     def test_language_normalization_to_lowercase(self):
         """Test that language codes are normalized to lowercase."""
@@ -276,9 +272,9 @@ class TestLanguageValidation:
 
         prefs = UserPreferencesBase(
             unit_system="imperial",
-            language="FR"
+            language="EN"
         )
-        assert prefs.language == "fr"
+        assert prefs.language == "en"
 
 
 class TestLanguageCRUD:
@@ -299,15 +295,15 @@ class TestLanguageCRUD:
         )
         user_obj = user_crud.create(db_session, obj_in=user_in)
 
-        # Update language to French
+        # Update language to English
         from app.schemas.user_preferences import UserPreferencesUpdate
         updated_prefs = user_preferences.update_by_user_id(
             db_session,
             user_id=user_obj.id,
-            obj_in=UserPreferencesUpdate(language="fr")
+            obj_in=UserPreferencesUpdate(language="en")
         )
 
-        assert updated_prefs.language == "fr"
+        assert updated_prefs.language == "en"
 
         # Clean up
         db_session.delete(user_obj)
@@ -333,13 +329,13 @@ class TestLanguageCRUD:
         prefs = user_preferences.get_or_create_by_user_id(
             db_session, user_id=user_obj.id
         )
-        assert prefs.language == "en"
+        assert prefs.language == "el"
 
-        # Update to German
+        # Update to English
         updated_prefs = user_preferences.update_by_user_id(
             db_session,
             user_id=user_obj.id,
-            obj_in=UserPreferencesUpdate(language="de")
+            obj_in=UserPreferencesUpdate(language="en")
         )
         db_session.commit()
 
@@ -347,7 +343,7 @@ class TestLanguageCRUD:
         db_session.expire(updated_prefs)
         db_session.refresh(updated_prefs)
 
-        assert updated_prefs.language == "de"
+        assert updated_prefs.language == "en"
 
         # Clean up
         db_session.delete(user_obj)

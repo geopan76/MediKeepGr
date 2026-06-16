@@ -65,14 +65,14 @@ describe('UserPreferencesContext — language sync on load', () => {
   });
 
   test('calls i18n.changeLanguage with backend language when it differs from current', async () => {
-    vi.mocked(userPrefsApi.getUserPreferences).mockResolvedValue(makePrefs({ language: 'fr' }));
+    vi.mocked(userPrefsApi.getUserPreferences).mockResolvedValue(makePrefs({ language: 'el' }));
 
     renderProvider();
 
     await waitFor(() => {
-      expect(screen.getByTestId('lang').textContent).toBe('fr');
+      expect(screen.getByTestId('lang').textContent).toBe('el');
     });
-    expect(i18n.changeLanguage).toHaveBeenCalledWith('fr');
+    expect(i18n.changeLanguage).toHaveBeenCalledWith('el');
   });
 
   test('does not call i18n.changeLanguage when backend language matches current', async () => {
@@ -87,18 +87,18 @@ describe('UserPreferencesContext — language sync on load', () => {
   });
 
   test('logs error and still sets preferences when i18n.changeLanguage throws', async () => {
-    vi.mocked(userPrefsApi.getUserPreferences).mockResolvedValue(makePrefs({ language: 'de' }));
+    vi.mocked(userPrefsApi.getUserPreferences).mockResolvedValue(makePrefs({ language: 'el' }));
     vi.mocked(i18n.changeLanguage).mockRejectedValueOnce(new Error('translation load failed'));
 
     renderProvider();
 
     await waitFor(() => {
-      expect(screen.getByTestId('lang').textContent).toBe('de');
+      expect(screen.getByTestId('lang').textContent).toBe('el');
     });
     expect(frontendLogger.logError).toHaveBeenCalledWith(
       'Failed to apply saved language preference',
       expect.objectContaining({
-        language: 'de',
+        language: 'el',
         error: 'translation load failed',
         component: 'UserPreferencesContext',
       })

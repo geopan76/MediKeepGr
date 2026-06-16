@@ -170,7 +170,7 @@ class TestUserPreferencesAPI:
     ):
         """Test updating language preference."""
         update_data = {
-            "language": "es"
+            "language": "en"
         }
 
         response = client.put(
@@ -181,7 +181,7 @@ class TestUserPreferencesAPI:
 
         assert response.status_code == 200
         data = response.json()
-        assert data["language"] == "es"
+        assert data["language"] == "en"
 
     def test_update_user_preferences_session_timeout(
         self, client: TestClient, user_with_patient, authenticated_headers

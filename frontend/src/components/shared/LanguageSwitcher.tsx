@@ -18,14 +18,8 @@ interface Language {
 
 // Available languages - defined outside component to avoid recreation
 const LANGUAGES: Language[] = [
-  { value: 'el', label: 'Ελληνικά', shortLabel: 'EL' }, // Greek added
+  { value: 'el', label: 'Ελληνικά', shortLabel: 'EL' },
   { value: 'en', label: 'English', shortLabel: 'EN' },
-  { value: 'fr', label: 'Français', shortLabel: 'FR' },
-  { value: 'de', label: 'Deutsch', shortLabel: 'DE' },
-  { value: 'es', label: 'Español', shortLabel: 'ES' },
-  { value: 'it', label: 'Italiano', shortLabel: 'IT' },
-  { value: 'pt', label: 'Português', shortLabel: 'PT' },
-  { value: 'ru', label: 'Русский', shortLabel: 'RU' },
 ];
 
 const SUPPORTED_LANGUAGE_CODES = LANGUAGES.map(l => l.value);
@@ -40,14 +34,14 @@ const normalizeLanguage = (lang: string): string => {
   // Extract primary language code (e.g., 'en-US' -> 'en')
   const primaryLang = lang.split('-')[0].toLowerCase();
 
-  // Return the primary language if supported, otherwise fallback to 'en'
-  return SUPPORTED_LANGUAGE_CODES.includes(primaryLang) ? primaryLang : 'el'; //Fallback to greek
+  // Return the primary language if supported, otherwise fallback to Greek
+  return SUPPORTED_LANGUAGE_CODES.includes(primaryLang) ? primaryLang : 'el';
 };
 
 /**
  * LanguageSwitcher - Component for switching application language
  *
- * Displays available languages (EL/EN/FR/DE/ES)
+ * Displays available languages (EL/EN)
  * Uses local state for immediate UI feedback and syncs with i18next
  */
 const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({

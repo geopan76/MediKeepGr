@@ -30,10 +30,10 @@ services:
 
   # Combined Frontend + Backend Application Service
   medikeep-app:
-    image: ghcr.io/geopan76/medikeepgr/medikeepgr:latest
-    # build:
-    #   context: ..
-    #   dockerfile: docker/Dockerfile
+    # image: ghcr.io/geopan76/medikeepgr/medikeepgr:latest
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
     container_name: medikeep-app
     ports:
       - ${APP_PORT:-8005}:8000 # Single port serves both React app and FastAPI
@@ -43,7 +43,7 @@ services:
       DB_NAME: ${DB_NAME:-medical_records}
       DB_USER: ${DB_USER:-medapp}
       DB_PASSWORD: ${DB_PASSWORD}
-      SECRET_KEY: ${SECRET_KEY:-your-secret-key-here}
+      SECRET_KEY: ${SECRET_KEY:-azafir!1}
       LOG_LEVEL: ${LOG_LEVEL:-INFO}
       TZ: ${TZ:-Europe/Athens}
       # SSL Configuration - set ENABLE_SSL=true in .env to enable HTTPS
@@ -81,7 +81,7 @@ services:
     restart: unless-stopped
     networks:
       - medikeep-network
- 
+
  # Adminer Service
   adminer:
     image: adminer
@@ -90,7 +90,7 @@ services:
       - "8088:8080"  # Expose Adminer on port 8080
     networks:
       - medikeep-network
-      
+
 # Named volumes for data persistence
 volumes:
   postgres_data-prod:

@@ -4,8 +4,8 @@
  * Ensures all translation keys are consistent across language files
  * and that no keys are missing between locales.
  *
- * Covers all 7 supported locales (en, de, es, fr, it, pt, ru)
- * and all 5 namespaces (common, medical, errors, navigation, notifications).
+ * Covers all supported locales (en, el)
+ * and all 6 namespaces (common, medical, errors, navigation, notifications, admin).
  */
 
 import { describe, it, expect } from 'vitest';
@@ -56,8 +56,8 @@ const findMissingKeys = (baseKeys, compareKeys) => {
 };
 
 describe('Translation Key Consistency', () => {
-  const locales = ['en', 'de', 'es', 'fr', 'it', 'pt', 'ru'];
-  const namespaces = ['common', 'medical', 'errors', 'navigation', 'notifications'];
+  const locales = ['en', 'el'];
+  const namespaces = ['common', 'medical', 'errors', 'navigation', 'notifications', 'admin'];
 
   describe('All language files exist', () => {
     locales.forEach(locale => {

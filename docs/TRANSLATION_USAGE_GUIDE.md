@@ -925,9 +925,8 @@ function LanguageSwitcher() {
       value={i18n.language}
       onChange={(value) => i18n.changeLanguage(value)}
       data={[
+        { value: 'el', label: 'Ελληνικά' },
         { value: 'en', label: 'English' },
-        { value: 'de', label: 'Deutsch' },
-        { value: 'fr', label: 'Français' },
       ]}
     />
   );

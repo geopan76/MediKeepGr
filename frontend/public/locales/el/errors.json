@@ -81,6 +81,10 @@
   },
   "relationships": {
     "addConditionFailed": "Αποτυχία προσθήκης συσχέτισης με πάθηση",
-    "addMedicationFailed": "Αποτυχία προσθήκης συσχέτισης με φάρμακο"
+    "addMedicationFailed": "Αποτυχία προσθήκης συσχέτισης με φάρμακο",
+    "addFailed": "Failed to add relationship",
+    "deleteFailed": "Failed to delete relationship",
+    "fetchFailed": "Failed to load relationships",
+    "updateFailed": "Failed to update relationship"
   }
 }

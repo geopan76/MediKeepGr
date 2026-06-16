@@ -1831,7 +1831,9 @@
     "viewModal": {
       "title": "Practitioner Details",
       "subtitle": "Healthcare Practitioner",
+      "practiceInfo": "PRACTICE INFORMATION",
       "practitionerContact": "PRACTITIONER CONTACT",
+      "contactRating": "CONTACT & RATING",
       "practice": "Practice",
       "specialty": "Specialty",
       "phone": "Phone",

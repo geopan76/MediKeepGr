@@ -22,7 +22,7 @@ vi.mock('../../../services/logger', () => ({
 // Mock UserPreferencesContext
 vi.mock('../../../contexts/UserPreferencesContext', () => ({
   useUserPreferences: () => ({
-    updatePreferences: vi.fn().mockResolvedValue({ language: 'fr' }),
+    updatePreferences: vi.fn().mockResolvedValue({ language: 'el' }),
   }),
 }));
 
@@ -94,7 +94,7 @@ describe('LanguageSwitcher', () => {
   });
 
   describe('Supported Languages', () => {
-    it('should define English, French, and German as supported languages', () => {
+    it('should define Greek and English as supported languages', () => {
       // The component internally defines these languages
       // Backend validation ensures only these values are accepted
       // See tests/api/test_user_preferences_language.py for validation tests

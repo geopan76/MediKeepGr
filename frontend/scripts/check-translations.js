@@ -22,7 +22,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const LOCALES_DIR = path.join(__dirname, '..', 'public', 'locales');
-const ALL_LOCALES = ['en', 'de', 'es', 'fr', 'it', 'pt', 'ru'];
+const ALL_LOCALES = ['en', 'el'];
 const ALL_NAMESPACES = ['common', 'medical', 'errors', 'navigation', 'notifications', 'admin'];
 
 // ─── Argument Parsing ────────────────────────────────────────────────
@@ -47,7 +47,7 @@ Translation Key Checker
 Compares locale files against English (en) as the baseline.
 
 Options:
-  --locale <code>       Check only one locale (de, es, fr, it, pt)
+  --locale <code>       Check only one locale (el)
   --namespace <name>    Check only one namespace (common, medical, errors, navigation, notifications)
   --ns <name>           Alias for --namespace
   --json                Output results as JSON

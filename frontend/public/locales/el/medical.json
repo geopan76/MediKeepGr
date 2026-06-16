@@ -123,7 +123,8 @@
       "basicInfo": "Βασικές Πληροφορίες",
       "details": "Λεπτομέρειες",
       "documents": "Έγγραφα",
-      "notes": "Σημειώσεις"
+      "notes": "Σημειώσεις",
+      "conditions": "Conditions"
     },
     "form": {
       "saving": "Αποθήκευση φαρμάκου...",
@@ -183,6 +184,11 @@
       "label": "Φαρμακείο",
       "placeholder": "Επιλέξτε Φαρμακείο",
       "description": "Το φαρμακείο από όπου προμηθεύεστε το φάρμακο"
+    },
+    "sideEffects": {
+      "description": "Known or experienced side effects of this medication",
+      "label": "Side Effects",
+      "placeholder": "List any known or experienced side effects..."
     }
   },
   "labResults": {
@@ -204,7 +210,10 @@
       "genetics": "Γενετικό",
       "cardiology": "Καρδιολογικό",
       "pulmonology": "Πνευμονολογικό",
-      "other": "Άλλο"
+      "other": "Άλλο",
+      "hearing": "Hearing",
+      "hepatology": "Hepatology",
+      "stomatology": "Stomatology"
     },
     "testType": {
       "routine": "Ρουτίνας - Τυπική επεξεργασία",
@@ -231,7 +240,14 @@
       "resultIndicator": "Ένδειξη Αποτελέσματος:",
       "relatedConditions": "Σχετικές Παθήσεις",
       "linkConditionsTitle": "Σύνδεση Ιατρικών Παθήσεων",
-      "linkConditionsDescription": "Συσχετίστε αυτό το εργαστηριακό αποτέλεσμα με σχετικές παθήσεις για καλύτερη παρακολούθηση."
+      "linkConditionsDescription": "Συσχετίστε αυτό το εργαστηριακό αποτέλεσμα με σχετικές παθήσεις για καλύτερη παρακολούθηση.",
+      "addAnotherTest": "Add Another Test",
+      "addTestComponent": "Add Test Components",
+      "componentCreationWarning": "Lab result saved but test components could not be added. You can add them from the view page.",
+      "hideTestComponents": "Hide Test Components",
+      "relationshipCreationWarning": "Lab result saved but some relationships could not be created. You can add them from the edit page.",
+      "testComponents": "Test Components (Optional)",
+      "testComponentsDescription": "Optionally add individual test values. You can also add more later."
     },
     "testName": {
       "label": "Όνομα Εξέτασης",
@@ -287,6 +303,43 @@
       "label": "Πρόσθετες Σημειώσεις",
       "placeholder": "Οποιαδήποτε επιπλέον πληροφορία, ειδικές οδηγίες ή παρατηρήσεις...",
       "description": "Κλινικές σημειώσεις ή ειδικές οδηγίες"
+    },
+    "messages": {
+      "relationshipsCreateInfo": "Relationships can be added after saving the lab result.",
+      "relationshipsSaveFirst": "Save the lab result first to create relationship links.",
+      "saving": "Saving lab result...",
+      "testComponentsEditInfo": "Test components can be managed from the view page after saving."
+    },
+    "qualitative": {
+      "expectedResult": "Expected Result",
+      "qualitativeLabel": "Qualitative",
+      "quantitative": "Quantitative",
+      "resultType": "Result Type",
+      "selectResult": "Select result",
+      "templates": {
+        "autoimmune": "Autoimmune Panel",
+        "infectiousDisease": "Infectious Disease Panel",
+        "viralSerology": "Viral Serology Panel"
+      },
+      "trends": {
+        "improving": "Improving",
+        "worsening": "Worsening"
+      },
+      "values": {
+        "detected": "Detected",
+        "negative": "Negative",
+        "positive": "Positive",
+        "undetected": "Undetected"
+      }
+    },
+    "tabs": {
+      "addFiles": "Add Files",
+      "basicInfo": "Basic Info",
+      "documents": "Documents",
+      "notes": "Notes",
+      "relationships": "Relationships",
+      "resultsStatus": "Results & Status",
+      "testComponents": "Test Components"
     }
   },
   "immunizations": {
@@ -1017,6 +1070,16 @@
         "placeholder": "Επιλέξτε επίπεδο σοβαρότητας",
         "description": "Πόσο σοβαρό είναι το σύμπτωμα κατά τη συγκεκριμένη εμφάνιση"
       }
+    },
+    "messages": {
+      "saving": "Saving symptom..."
+    },
+    "tabs": {
+      "addFiles": "Add Files",
+      "basicInfo": "Basic Info",
+      "details": "Details",
+      "documents": "Documents",
+      "notes": "Notes"
     }
   },
   "familyHistory": {
@@ -1416,7 +1479,15 @@
       "label": "Ενεργή Επαφή",
       "description": "Η επαφή είναι διαθέσιμη για επικοινωνία"
     },
-    "notesPlaceholder": "Πρόσθετες πληροφορίες (π.χ. 'Διαθέσιμος μόνο πρωινά', 'Μιλάει Γαλλικά')"
+    "notesPlaceholder": "Πρόσθετες πληροφορίες (π.χ. 'Διαθέσιμος μόνο πρωινά', 'Μιλάει Γαλλικά')",
+    "messages": {
+      "saving": "Saving emergency contact..."
+    },
+    "tabs": {
+      "contactInfo": "Contact Info",
+      "details": "Details",
+      "notes": "Notes"
+    }
   },
   "insurance": {
     "title": "Ασφάλιση",
@@ -1880,5 +1951,85 @@
   "form": {
     "invalidPhoneDigits": "Ο αριθμός τηλεφώνου μπορεί να περιέχει μόνο ψηφία, κενά, παύλες, παρενθέσεις, τελείες και το σύμβολο +",
     "invalidWebsiteUrl": "Παρακαλούμε εισαγάγετε μια έγκυρη διεύθυνση ιστοσελίδας (URL)"
+  },
+  "componentCatalog": {
+    "fetchError": "Failed to load test catalog",
+    "filterCategory": "Category",
+    "filterStatus": "Status",
+    "noData": "Add lab results with test components to see them here.",
+    "noResults": "No Test Components Found",
+    "readingCount": "{{count}} readings",
+    "readingCount_one": "{{count}} reading",
+    "refRange": "Ref",
+    "searchPlaceholder": "Search tests...",
+    "showing": "Showing {{count}} unique tests",
+    "sort": {
+      "alphabetical": "A-Z",
+      "priority": "Priority"
+    },
+    "status": {
+      "abnormal": "Abnormal",
+      "borderline": "Borderline",
+      "critical": "Critical",
+      "high": "High",
+      "low": "Low",
+      "normal": "Normal",
+      "unknown": "Unknown"
+    },
+    "trend": {
+      "decreasing": "Decreasing",
+      "improving": "Improving",
+      "increasing": "Increasing",
+      "stable": "Stable",
+      "worsening": "Worsening"
+    },
+    "tryAdjusting": "Try adjusting your search or filter criteria."
+  },
+  "equipment": {
+    "tabs": {
+      "basicInfo": "Basic Info",
+      "deviceDetails": "Device Details",
+      "notes": "Notes",
+      "serviceDates": "Service & Dates"
+    }
+  },
+  "practices": {
+    "form": {
+      "fax": {
+        "description": "Practice fax number",
+        "label": "Fax Number",
+        "placeholder": "+1 555 123-4568"
+      },
+      "locations": {
+        "description": "Office locations for this practice",
+        "label": "Locations"
+      },
+      "name": {
+        "description": "Name of the practice or clinic",
+        "label": "Practice Name",
+        "placeholder": "City General Hospital"
+      },
+      "notes": {
+        "description": "Any additional information about the practice",
+        "label": "Notes",
+        "placeholder": "Additional notes about this practice..."
+      },
+      "patientPortal": {
+        "description": "URL for the patient portal",
+        "label": "Patient Portal URL",
+        "placeholder": "https://portal.practice.com"
+      },
+      "phone": {
+        "description": "Main phone number for the practice",
+        "label": "Practice Phone",
+        "placeholder": "+1 555 123-4567"
+      },
+      "website": {
+        "description": "Official practice website",
+        "label": "Practice Website",
+        "placeholder": "https://www.practice.com"
+      }
+    },
+    "title": "Practices"
   }
 }
